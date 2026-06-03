@@ -1,4 +1,17 @@
-const symbols = [
+export type SymbolColor = "red" | "amber" | "green" | "blue";
+
+export type DashboardSymbol = {
+  slug: string;
+  name: string;
+  system: string;
+  color: SymbolColor;
+  meaning: string;
+  canDrive: string;
+  action: string;
+  aliases: string[];
+};
+
+const rows: Array<[string, string, string, SymbolColor, string, string, string, string[]]> = [
   ["check-engine-light", "Check Engine Light", "Engine", "amber", "Engine or emissions fault detected.", "Usually yes, but inspect soon.", "Scan for diagnostic trouble codes and avoid hard acceleration.", ["engine management light", "MIL", "malfunction indicator lamp"]],
   ["oil-pressure-warning", "Oil Pressure Warning", "Engine", "red", "Oil pressure may be too low.", "No. Stop safely.", "Turn off the engine and check oil level before driving again.", ["red oil can", "oil light"]],
   ["battery-warning-light", "Battery Warning Light", "Electrical", "red", "Charging system is not keeping the battery powered.", "Short distance only if necessary.", "Switch off nonessential electrics and get the alternator/battery checked.", ["charging light", "battery symbol"]],
@@ -49,11 +62,20 @@ const symbols = [
   ["regen-braking-limited", "Regenerative Braking Limited", "EV", "amber", "Regenerative braking may be reduced.", "Yes.", "Use friction brakes and check battery temperature/charge.", ["regen light"]],
   ["low-beam-light", "Low Beam Indicator", "Lights", "green", "Low beam headlights are on.", "Yes.", "Normal night or low-visibility lighting.", ["dipped beam"]],
   ["cruise-control-indicator", "Cruise Control Indicator", "Driver Assist", "green", "Cruise control is active or ready.", "Yes.", "Use only when road conditions are suitable.", ["speed control"]]
-].map(([slug, name, system, color, meaning, canDrive, action, aliases]) => ({
-  slug, name, system, color, meaning, canDrive, action, aliases
+];
+
+export const symbols: DashboardSymbol[] = rows.map(([slug, name, system, color, meaning, canDrive, action, aliases]) => ({
+  slug,
+  name,
+  system,
+  color,
+  meaning,
+  canDrive,
+  action,
+  aliases
 }));
 
-const colorLabels = {
+export const colorLabels: Record<"all" | SymbolColor, string> = {
   all: "All colors",
   red: "Red",
   amber: "Amber",
@@ -61,178 +83,10 @@ const colorLabels = {
   blue: "Blue"
 };
 
-let state = {
-  color: "all",
-  system: "all",
-  query: "",
-  selected: null
+export const guideLinks: Record<string, string> = {
+  "check-engine-light": "/symbols/check-engine-light/",
+  "oil-pressure-warning": "/symbols/oil-pressure-warning-light/",
+  "battery-warning-light": "/symbols/battery-warning-light/",
+  "brake-warning-light": "/symbols/brake-warning-light/",
+  "tire-pressure-warning": "/symbols/tire-pressure-warning-light/"
 };
-
-const grid = document.querySelector("#symbolGrid");
-const resultCount = document.querySelector("#resultCount");
-const detailPanel = document.querySelector("#detailPanel");
-const searchInput = document.querySelector("#searchInput");
-const clearSearch = document.querySelector("#clearSearch");
-
-function iconSvg(symbol, large = false) {
-  const color = `var(--${symbol.color})`;
-  const key = symbol.slug;
-  const stroke = color;
-  const common = `fill="none" stroke="${stroke}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"`;
-  const sizeClass = large ? "detail-svg" : "card-svg";
-
-  const shapes = {
-    "check-engine-light": `<path ${common} d="M16 35h8l5-8h19l5 8h8v22H16z"/><path ${common} d="M32 27v-8h14"/><path ${common} d="M61 42h8"/>`,
-    "oil-pressure-warning": `<path ${common} d="M18 45h34l12 9"/><path ${common} d="M25 38l11-12h17l7 12"/><path ${common} d="M52 56c5 1 8 4 11 8"/><circle cx="66" cy="66" r="4" fill="${color}"/>`,
-    "battery-warning-light": `<rect x="14" y="26" width="52" height="34" rx="3" ${common}/><path ${common} d="M66 37h6v12h-6M27 43h12M33 37v12M48 43h12"/>`,
-    "tire-pressure-warning": `<path ${common} d="M20 23c-5 17-4 31 4 44h12M60 23c5 17 4 31-4 44H44"/><path ${common} d="M40 24v23"/><circle cx="40" cy="60" r="3.5" fill="${color}"/>`
-  };
-
-  const fallback = `<circle cx="40" cy="40" r="25" ${common}/><path ${common} d="M40 21v23"/><circle cx="40" cy="57" r="3.5" fill="${color}"/>`;
-  const body = shapes[key] || symbolShape(symbol, common, color);
-  return `<svg class="${sizeClass}" viewBox="0 0 80 80" role="img" aria-label="${symbol.name}">${body || fallback}</svg>`;
-}
-
-function symbolShape(symbol, common, color) {
-  if (symbol.system === "Brake") return `<circle cx="40" cy="40" r="23" ${common}/><path ${common} d="M40 23v20"/><circle cx="40" cy="56" r="3.5" fill="${color}"/><path ${common} d="M13 25c-6 11-6 20 0 30M67 25c6 11 6 20 0 30"/>`;
-  if (symbol.system === "Lights") return `<path ${common} d="M18 28h20c10 0 18 8 18 18H18z"/><path ${common} d="M58 30h12M58 42h12M58 54h12"/>`;
-  if (symbol.system === "Safety") return `<circle cx="40" cy="21" r="8" ${common}/><path ${common} d="M25 62c4-20 26-20 30 0M23 38c10 7 24 7 34 0"/>`;
-  if (symbol.system === "Stability") return `<path ${common} d="M18 29h35l10 13-8 12H22z"/><path ${common} d="M20 66c8-8 17 8 26 0s17 8 28 0"/>`;
-  if (symbol.system === "Driver Assist") return `<path ${common} d="M22 56V30l18-10 18 10v26"/><path ${common} d="M30 58h10M50 58h10M18 42h10M52 42h10"/>`;
-  if (symbol.system === "EV") return `<path ${common} d="M28 15h24l-8 20h14L34 67l6-24H24z"/>`;
-  if (symbol.system === "Exhaust") return `<path ${common} d="M16 47h34l12-14"/><path ${common} d="M20 56h32M60 26c8 7 8 18 0 25"/>`;
-  if (symbol.system === "Drivetrain") return `<circle cx="24" cy="40" r="10" ${common}/><circle cx="56" cy="40" r="10" ${common}/><path ${common} d="M34 40h12M40 28v24"/>`;
-  if (symbol.system === "Body") return `<path ${common} d="M18 52V30l18-12h26v34z"/><path ${common} d="M37 19v33"/>`;
-  if (symbol.system === "Visibility") return `<path ${common} d="M18 49h28l16-19"/><path ${common} d="M18 60h24M54 47l10 10"/>`;
-  if (symbol.system === "Security") return `<path ${common} d="M22 38a17 17 0 1 1 15 17"/><path ${common} d="M37 55v12M37 61h11M48 61v6"/>`;
-  if (symbol.system === "Maintenance") return `<path ${common} d="M24 18l14 14M34 42l22 22M20 62l22-22"/><path ${common} d="M48 18l14 14"/>`;
-  if (symbol.system === "Steering") return `<circle cx="40" cy="35" r="24" ${common}/><path ${common} d="M20 40h40M40 35v25"/><circle cx="40" cy="62" r="3.5" fill="${color}"/>`;
-  if (symbol.system === "Fuel") return `<path ${common} d="M24 18h24v50H24z"/><path ${common} d="M48 28h9l6 8v28"/><path ${common} d="M29 28h14"/>`;
-  if (symbol.system === "Electrical") return `<path ${common} d="M45 12 22 44h18l-5 24 24-35H42z"/>`;
-  return "";
-}
-
-function renderFilters() {
-  const systems = ["all", ...new Set(symbols.map((item) => item.system).sort())];
-  document.querySelector("#colorFilters").innerHTML = Object.keys(colorLabels).map((color) => filterButton("color", color, colorLabels[color])).join("");
-  document.querySelector("#systemFilters").innerHTML = systems.map((system) => filterButton("system", system, system === "all" ? "All systems" : system)).join("");
-}
-
-function filterButton(type, value, label) {
-  const pressed = state[type] === value ? "true" : "false";
-  return `<button class="chip" type="button" data-filter-type="${type}" data-filter-value="${value}" aria-pressed="${pressed}">${label}</button>`;
-}
-
-function filteredSymbols() {
-  const query = state.query.trim().toLowerCase();
-  return symbols.filter((symbol) => {
-    const matchesColor = state.color === "all" || symbol.color === state.color;
-    const matchesSystem = state.system === "all" || symbol.system === state.system;
-    const haystack = [symbol.name, symbol.system, symbol.color, symbol.meaning, symbol.canDrive, symbol.action, ...symbol.aliases].join(" ").toLowerCase();
-    return matchesColor && matchesSystem && (!query || haystack.includes(query));
-  });
-}
-
-function renderGrid() {
-  const items = filteredSymbols();
-  resultCount.textContent = `${items.length} symbols`;
-  grid.innerHTML = items.map((symbol) => `
-    <button class="symbol-card${state.selected === symbol.slug ? " is-selected" : ""}" type="button" data-slug="${symbol.slug}" aria-pressed="${state.selected === symbol.slug ? "true" : "false"}">
-      <span class="symbol-icon">${iconSvg(symbol)}</span>
-      <span>
-        <strong class="symbol-name">${symbol.name}</strong>
-        <span class="symbol-meaning">${symbol.meaning}</span>
-        <span class="meta-row">
-          <span class="pill">${symbol.color}</span>
-          <span class="pill">${symbol.system}</span>
-        </span>
-      </span>
-    </button>
-  `).join("");
-}
-
-function updateSearchControls() {
-  clearSearch.hidden = searchInput.value.length === 0;
-}
-
-function renderDetail(symbol) {
-  detailPanel.innerHTML = `
-    <div class="detail-layout">
-      <button class="detail-close" type="button" data-close-detail aria-label="Close details">×</button>
-      <div class="detail-icon">${iconSvg(symbol, true)}</div>
-      <div>
-        <h2 id="detailTitle">${symbol.name}</h2>
-        <p>${symbol.meaning}</p>
-        <div class="detail-facts">
-          <div class="fact"><span>Color</span><strong>${colorLabels[symbol.color]}</strong></div>
-          <div class="fact"><span>System</span><strong>${symbol.system}</strong></div>
-          <div class="fact"><span>Can you drive?</span><strong>${symbol.canDrive}</strong></div>
-        </div>
-        <h3>What to do first</h3>
-        <p>${symbol.action}</p>
-        <h3>Also searched as</h3>
-        <p>${symbol.aliases.join(", ")}</p>
-      </div>
-    </div>
-  `;
-}
-
-function openDetail(symbol) {
-  state.selected = symbol.slug;
-  renderDetail(symbol);
-  renderGrid();
-  detailPanel.hidden = false;
-  document.body.classList.add("has-modal");
-  detailPanel.querySelector(".detail-close").focus();
-}
-
-function closeDetail() {
-  detailPanel.hidden = true;
-  detailPanel.innerHTML = "";
-  document.body.classList.remove("has-modal");
-}
-
-document.addEventListener("click", (event) => {
-  const filter = event.target.closest("[data-filter-type]");
-  if (filter) {
-    state[filter.dataset.filterType] = filter.dataset.filterValue;
-    renderFilters();
-    renderGrid();
-    return;
-  }
-
-  const card = event.target.closest("[data-slug]");
-  if (card) {
-    const symbol = symbols.find((item) => item.slug === card.dataset.slug);
-    openDetail(symbol);
-    return;
-  }
-
-  if (event.target.closest("[data-close-detail]") || event.target === detailPanel) {
-    closeDetail();
-  }
-});
-
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && !detailPanel.hidden) {
-    closeDetail();
-  }
-});
-
-searchInput.addEventListener("input", (event) => {
-  state.query = event.target.value;
-  updateSearchControls();
-  renderGrid();
-});
-
-clearSearch.addEventListener("click", () => {
-  searchInput.value = "";
-  state.query = "";
-  updateSearchControls();
-  renderGrid();
-  searchInput.focus();
-});
-
-renderFilters();
-renderGrid();
-updateSearchControls();

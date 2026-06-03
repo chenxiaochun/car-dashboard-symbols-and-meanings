@@ -444,6 +444,89 @@ main {
   margin-top: 22px;
 }
 
+.drive-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.drive-card {
+  min-height: 176px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.drive-card strong {
+  display: block;
+  color: var(--ink);
+  font: 900 20px/1.1 ui-sans-serif, system-ui, sans-serif;
+}
+
+.drive-card p {
+  margin-bottom: 0;
+}
+
+.drive-card.urgent {
+  border-top: 6px solid var(--red);
+}
+
+.drive-card.caution {
+  border-top: 6px solid var(--amber);
+}
+
+.drive-card.soon {
+  border-top: 6px solid var(--green);
+}
+
+.drive-card.info {
+  border-top: 6px solid var(--blue);
+}
+
+.combo-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.combo-list article {
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.combo-list h3 {
+  margin-top: 0;
+}
+
+.combo-list p {
+  margin-bottom: 0;
+}
+
+.system-guide {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.system-guide article {
+  min-height: 170px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.system-guide h3 {
+  margin-top: 0;
+}
+
+.system-guide p {
+  margin-bottom: 0;
+}
+
 .guide-grid article,
 .check-list,
 .faq-section details {
@@ -577,10 +660,140 @@ main {
   border-top: 1px solid var(--line);
 }
 
+.article-main {
+  max-width: 980px;
+}
+
+.article-header {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 44px 24px 24px;
+}
+
+.back-link,
+.full-guide-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--road);
+  font: 800 14px/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible,
+.full-guide-link:hover,
+.full-guide-link:focus-visible {
+  color: var(--amber);
+  outline: none;
+}
+
+.article-hero {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.article-icon {
+  display: grid;
+  place-items: center;
+  width: 140px;
+  height: 140px;
+  background: var(--road);
+}
+
+.article-icon svg {
+  width: 104px;
+  height: 104px;
+}
+
+.article-header h1 {
+  margin: 0;
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 0.96;
+}
+
+.article-summary {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font: 19px/1.48 ui-sans-serif, system-ui, sans-serif;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.article-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.article-card span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font: 800 12px/1 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+.article-card strong {
+  color: var(--ink);
+  font: 900 18px/1.2 ui-sans-serif, system-ui, sans-serif;
+}
+
+.article-body {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 24px 56px;
+}
+
+.article-body .content-section {
+  box-shadow: none;
+}
+
+.article-body ul,
+.article-body ol {
+  margin: 14px 0 0;
+  padding-left: 24px;
+  color: var(--muted);
+  font: 16px/1.55 ui-sans-serif, system-ui, sans-serif;
+}
+
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.related-links a {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--road);
+  font: 800 13px/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.related-links a:hover,
+.related-links a:focus-visible {
+  border-color: var(--road);
+  color: var(--amber);
+  outline: none;
+}
+
 @media (max-width: 980px) {
   .site-header,
   .filters,
   .detail-layout,
+  .article-hero,
   .split-section {
     grid-template-columns: 1fr;
   }
@@ -589,7 +802,10 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .guide-grid {
+  .guide-grid,
+  .drive-grid,
+  .combo-list,
+  .system-guide {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -618,7 +834,10 @@ main {
   .search-row,
   .symbol-grid,
   .detail-facts,
-  .guide-grid {
+  .guide-grid,
+  .drive-grid,
+  .combo-list,
+  .system-guide {
     grid-template-columns: 1fr;
   }
 
@@ -644,5 +863,9 @@ main {
 
   .site-footer nav {
     justify-content: flex-start;
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
   }
 }
