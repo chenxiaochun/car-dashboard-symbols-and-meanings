@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Low Washer Fluid Light</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 19h38l-6 25H21z"/>
+    <path d="M18 44h28"/>
+    <path d="M12 53c5-5 10 5 15 0s10 5 15 0s10 5 15 0"/>
+    <path d="M33 17c-3-5-2-9 3-12"/>
+    <path d="M41 19c2-5 6-8 11-9"/>
+    <path d="M48 25c4-3 8-4 12-3"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Dashboard Symbols and Meanings</title>
+    <meta
+      name="description"
+      content="Find car dashboard symbols by color, system, or warning name. Learn what each dashboard light means, whether you can keep driving, and what to check first."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-copy">
+        <p class="eyebrow">Dashboard warning light finder</p>
+        <h1>Car Dashboard Symbols and Meanings</h1>
+        <p class="intro">
+          Match the symbol on your instrument panel, check how urgent it is, and see what to do next.
+        </p>
+      </div>
+      <div class="quick-panel" aria-label="Warning color guide">
+        <div><span class="dot red"></span><strong>Red</strong><small>Stop safely</small></div>
+        <div><span class="dot amber"></span><strong>Amber</strong><small>Inspect soon</small></div>
+        <div><span class="dot green"></span><strong>Green</strong><small>Feature active</small></div>
+        <div><span class="dot blue"></span><strong>Blue</strong><small>Lights on</small></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="finder" aria-label="Dashboard symbol search">
+        <div class="search-row">
+          <label class="search-box">
+            <span>Search symbol</span>
+            <input id="searchInput" type="search" placeholder="Try: oil, tyre, exclamation, engine, squiggly lines">
+          </label>
+          <div class="result-count" id="resultCount"></div>
+        </div>
+
+        <div class="filters" aria-label="Filters">
+          <div>
+            <p>Color</p>
+            <div class="chip-group" id="colorFilters"></div>
+          </div>
+          <div>
+            <p>System</p>
+            <div class="chip-group" id="systemFilters"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="symbol-grid" id="symbolGrid" aria-label="Dashboard symbols"></section>
+
+      <section class="detail-panel" id="detailPanel" aria-live="polite">
+        <div class="empty-detail">
+          <h2>Select a symbol</h2>
+          <p>Open any warning light card to see whether it is safe to drive and what to check first.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

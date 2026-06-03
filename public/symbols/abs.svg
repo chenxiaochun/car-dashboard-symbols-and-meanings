@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">ABS Warning Light</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 15a24 24 0 0 0 0 34"/>
+    <path d="M44 15a24 24 0 0 1 0 34"/>
+    <circle cx="32" cy="32" r="17"/>
+    <path d="M18 36l4-12l4 12"/>
+    <path d="M20 31h4"/>
+    <path d="M30 24v12h5a3 3 0 0 0 0-6h-5h5a3 3 0 0 0 0-6z"/>
+    <path d="M47 25c-6-3-9 5-2 7c7 2 4 10-3 7"/>
+  </g>
+</svg>

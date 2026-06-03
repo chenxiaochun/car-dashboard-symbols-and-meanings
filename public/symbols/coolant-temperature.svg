@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Coolant Temperature Warning Light</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 13a6 6 0 0 1 12 0v22a13 13 0 1 1-12 0z"/>
+    <path d="M37 18v24"/>
+    <path d="M10 52c5-5 10 5 15 0s10 5 15 0s10 5 15 0"/>
+    <path d="M10 43c5-5 10 5 15 0"/>
+  </g>
+</svg>
