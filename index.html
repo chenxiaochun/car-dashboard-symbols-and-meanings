@@ -3,12 +3,63 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Car Dashboard Symbols and Meanings</title>
+    <title>Car Dashboard Symbols and Meanings | Warning Light Finder</title>
     <meta
       name="description"
-      content="Find car dashboard symbols by color, system, or warning name. Learn what each dashboard light means, whether you can keep driving, and what to check first."
+      content="Find car dashboard symbols and meanings by color, system, or warning name. Learn what red, amber, green, and blue dashboard lights mean, whether you can keep driving, and what to check first."
     >
+    <meta property="og:title" content="Car Dashboard Symbols and Meanings">
+    <meta property="og:description" content="Search common dashboard warning lights by symbol, color, and system. Check urgency, driving safety, and first steps.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do car dashboard symbols mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Car dashboard symbols are warning lights and indicator lights that tell you about the condition of your vehicle. Red lights usually mean stop safely, amber or yellow lights mean inspect soon, and green or blue lights usually mean a feature is active."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I keep driving with a dashboard warning light on?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the symbol and color. Red warning lights such as oil pressure, brake, or coolant temperature should be treated as urgent. Amber lights often mean you can drive cautiously but should inspect the vehicle soon."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a red dashboard light mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A red dashboard light usually means a serious warning or unsafe condition. Stop safely when possible, check the owner's manual, and avoid continuing if the warning relates to oil pressure, brakes, battery charging, or engine temperature."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does an amber or yellow dashboard light mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An amber or yellow dashboard light usually means a system needs attention soon. Examples include check engine, ABS, tyre or tire pressure, airbag, traction control, and diesel particulate filter warnings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are dashboard symbols the same on every car?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Many warning light symbols are similar across vehicles, but exact icons, colors, and meanings can vary by make, model, year, and market. Always confirm with the owner's manual for your specific vehicle."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -32,7 +83,10 @@
         <div class="search-row">
           <label class="search-box">
             <span>Search symbol</span>
-            <input id="searchInput" type="search" placeholder="Try: oil, tyre, exclamation, engine, squiggly lines">
+            <span class="search-control">
+              <input id="searchInput" type="search" placeholder="Try: oil, tyre, exclamation, engine, squiggly lines">
+              <button class="clear-search" id="clearSearch" type="button" aria-label="Clear search" hidden>×</button>
+            </span>
           </label>
           <div class="result-count" id="resultCount"></div>
         </div>
@@ -51,8 +105,152 @@
 
       <section class="symbol-grid" id="symbolGrid" aria-label="Dashboard symbols"></section>
 
+      <section class="content-section">
+        <div class="content-intro">
+          <p class="eyebrow">How to read warning lights</p>
+          <h2>Dashboard light colors usually tell you how urgent the problem is</h2>
+          <p>
+            Most dashboard warning symbols use color to show urgency. The exact meaning can vary by vehicle,
+            but color is a useful first clue when you need to decide whether to stop, drive carefully, or simply
+            note that a feature is switched on.
+          </p>
+        </div>
+        <div class="guide-grid">
+          <article>
+            <span class="dot red"></span>
+            <h3>Red dashboard lights</h3>
+            <p>Red usually means a serious warning. Oil pressure, brake, battery charging, and coolant temperature warnings should be treated as urgent.</p>
+          </article>
+          <article>
+            <span class="dot amber"></span>
+            <h3>Amber or yellow dashboard lights</h3>
+            <p>Amber means the vehicle needs attention soon. Common examples include check engine, ABS, tyre pressure, airbag, and traction control warnings.</p>
+          </article>
+          <article>
+            <span class="dot green"></span>
+            <h3>Green dashboard lights</h3>
+            <p>Green usually means a system is active, such as turn signals, low beam headlights, cruise control, or hill descent control.</p>
+          </article>
+          <article>
+            <span class="dot blue"></span>
+            <h3>Blue dashboard lights</h3>
+            <p>Blue is most often used for high beam headlights. It is normally informational, but you should dip the beams for oncoming traffic.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section split-section">
+        <div>
+          <p class="eyebrow">Most urgent symbols</p>
+          <h2>Stop safely for these warning lights</h2>
+          <p>
+            Some symbols can indicate damage or unsafe driving conditions. If a red oil pressure light, brake warning,
+            coolant temperature light, or battery charging light appears while driving, pull over when safe and check
+            the vehicle before continuing.
+          </p>
+        </div>
+        <div class="check-list">
+          <p><strong>Oil pressure:</strong> stop the engine and check oil level. Do not keep driving if the warning remains.</p>
+          <p><strong>Brake warning:</strong> check the parking brake and brake fluid. Stop if the pedal feels soft or braking feels abnormal.</p>
+          <p><strong>Coolant temperature:</strong> let the engine cool before opening the coolant system or continuing.</p>
+          <p><strong>Battery warning:</strong> reduce electrical load and get the charging system checked before the car loses power.</p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="content-intro">
+          <p class="eyebrow">Common dashboard symbols</p>
+          <h2>Popular warning lights covered in this guide</h2>
+          <p>
+            These are the dashboard symbols drivers most often need to identify quickly. Use the finder above
+            to filter by color or vehicle system, then open a symbol for the first checks and driving advice.
+          </p>
+        </div>
+        <div class="symbol-summary-list">
+          <p><strong>Check Engine Light:</strong> engine or emissions fault; scan diagnostic trouble codes if it stays on.</p>
+          <p><strong>Oil Pressure Warning:</strong> low oil pressure risk; stop safely and check oil level.</p>
+          <p><strong>Battery Warning Light:</strong> charging system fault; the alternator or battery may need attention.</p>
+          <p><strong>Brake Warning Light:</strong> parking brake, low brake fluid, or brake system fault.</p>
+          <p><strong>ABS Warning Light:</strong> anti-lock braking may be unavailable, though normal braking may remain.</p>
+          <p><strong>Tire Pressure Warning:</strong> also called TPMS or tyre pressure light; check all tyre/tire pressures.</p>
+          <p><strong>Airbag Warning Light:</strong> SRS or restraint system fault; airbag protection may be reduced.</p>
+          <p><strong>Coolant Temperature Warning:</strong> engine overheating risk; stop and let the engine cool.</p>
+          <p><strong>Low Fuel Warning:</strong> refuel soon to avoid running the tank dry.</p>
+          <p><strong>Seat Belt Reminder:</strong> a seat belt is not fastened or a seat sensor detects weight.</p>
+          <p><strong>Door, Hood, or Trunk Open:</strong> close the door, bonnet/hood, boot/trunk before driving.</p>
+          <p><strong>Washer Fluid Low:</strong> refill windscreen or windshield washer fluid.</p>
+          <p><strong>High Beam, Low Beam, Fog Light, and Turn Signal Indicators:</strong> lighting indicators usually show a feature is active.</p>
+          <p><strong>Power Steering Warning:</strong> steering assistance may be reduced; drive carefully and inspect the system.</p>
+        </div>
+      </section>
+
+      <section class="content-section split-section">
+        <div>
+          <p class="eyebrow">Search terms people use</p>
+          <h2>Common names for the same dashboard symbols</h2>
+          <p>
+            Drivers often search by description because they do not know the official name of the symbol.
+            This guide includes common US and UK wording such as tire and tyre, hood and bonnet, trunk and boot,
+            windshield and windscreen, gas and petrol.
+          </p>
+        </div>
+        <div class="term-cloud" aria-label="Common dashboard warning light searches">
+          <span>red oil can light</span>
+          <span>yellow engine light</span>
+          <span>car with squiggly lines</span>
+          <span>horseshoe exclamation mark</span>
+          <span>battery symbol on dashboard</span>
+          <span>engine management light</span>
+          <span>tyre pressure warning</span>
+          <span>bonnet open light</span>
+          <span>boot open warning</span>
+          <span>blue headlight symbol</span>
+        </div>
+      </section>
+
+      <section class="content-section faq-section" id="faq">
+        <p class="eyebrow">Quick answers</p>
+        <h2>Car dashboard symbols FAQ</h2>
+        <details>
+          <summary>What should I check first when a dashboard light comes on?</summary>
+          <p>First check the color and whether the car feels different. If the light is red, stop safely. If it is amber, read the symbol, check obvious causes such as fuel cap or tyre pressure, and arrange inspection if it stays on.</p>
+        </details>
+        <details>
+          <summary>Is a flashing check engine light worse than a steady one?</summary>
+          <p>Yes. A flashing check engine light can indicate a misfire that may damage the catalytic converter. Reduce speed, avoid hard acceleration, and get the car checked as soon as possible.</p>
+        </details>
+        <details>
+          <summary>Why does the same warning light have different names?</summary>
+          <p>Names vary by country and manufacturer. For example, check engine light is also called engine management light or MIL, while tyre pressure warning may be written as tire pressure warning in US English.</p>
+        </details>
+        <details>
+          <summary>Can I use this guide for any car brand?</summary>
+          <p>Use it as a general dashboard symbol guide. Symbols can vary by make, model, year, and market, so your owner's manual is the final source for the exact meaning on your vehicle.</p>
+        </details>
+      </section>
+
+      <p class="disclaimer">
+        Dashboard symbols vary by make and model. This guide explains common warning light meanings and first checks,
+        but it is not a substitute for your owner's manual or a qualified mechanic's diagnosis.
+      </p>
+
       <section class="detail-panel" id="detailPanel" role="dialog" aria-modal="true" aria-labelledby="detailTitle" hidden></section>
     </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Dashboard Warning Light Finder</strong>
+        <p>Common car dashboard symbols, warning light meanings, urgency levels, and first checks for drivers.</p>
+      </div>
+      <nav aria-label="Footer links">
+        <a href="#symbolGrid">Symbols</a>
+        <a href="#searchInput">Search</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <p class="footer-note">
+        Always confirm dashboard warnings with your owner's manual. © 2026 Car Dashboard Symbols and Meanings.
+      </p>
+    </footer>
 
     <script src="app.js"></script>
   </body>

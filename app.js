@@ -72,6 +72,7 @@ const grid = document.querySelector("#symbolGrid");
 const resultCount = document.querySelector("#resultCount");
 const detailPanel = document.querySelector("#detailPanel");
 const searchInput = document.querySelector("#searchInput");
+const clearSearch = document.querySelector("#clearSearch");
 
 function iconSvg(symbol, large = false) {
   const color = `var(--${symbol.color})`;
@@ -150,6 +151,10 @@ function renderGrid() {
   `).join("");
 }
 
+function updateSearchControls() {
+  clearSearch.hidden = searchInput.value.length === 0;
+}
+
 function renderDetail(symbol) {
   detailPanel.innerHTML = `
     <div class="detail-layout">
@@ -216,8 +221,18 @@ document.addEventListener("keydown", (event) => {
 
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
+  updateSearchControls();
   renderGrid();
+});
+
+clearSearch.addEventListener("click", () => {
+  searchInput.value = "";
+  state.query = "";
+  updateSearchControls();
+  renderGrid();
+  searchInput.focus();
 });
 
 renderFilters();
 renderGrid();
+updateSearchControls();
