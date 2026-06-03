@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SymbolFinder } from "@/components/SymbolFinder";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Car Dashboard Symbols and Meanings | Warning Light Finder"
+  title: "Car Dashboard Symbols and Meanings | Warning Light Finder",
+  alternates: {
+    canonical: "/"
+  }
 };
 
 const faqJsonLd = {
@@ -62,6 +66,7 @@ export default function HomePage() {
           <p className="eyebrow">Dashboard warning light finder</p>
           <h1>Car Dashboard Symbols and Meanings</h1>
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>
+          <p className="updated-note">Last updated: June 3, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>
@@ -94,6 +99,21 @@ function SeoContent() {
           <article><span className="dot amber"></span><h3>Amber or yellow dashboard lights</h3><p>Amber means the vehicle needs attention soon. Common examples include check engine, ABS, tyre pressure, airbag, and traction control warnings.</p></article>
           <article><span className="dot green"></span><h3>Green dashboard lights</h3><p>Green usually means a system is active, such as turn signals, low beam headlights, cruise control, or hill descent control.</p></article>
           <article><span className="dot blue"></span><h3>Blue dashboard lights</h3><p>Blue is most often used for high beam headlights. It is normally informational, but you should dip the beams for oncoming traffic.</p></article>
+        </div>
+      </section>
+
+      <section className="content-section">
+        <div className="content-intro">
+          <p className="eyebrow">Detailed guides</p>
+          <h2>Start with the most common warning lights</h2>
+          <p>These five dashboard warning lights have the clearest standalone search intent and the highest safety value. Each guide explains meaning, urgency, common causes, and what to check first.</p>
+        </div>
+        <div className="detailed-guide-list">
+          <Link href="/symbols/check-engine-light/">Check Engine Light</Link>
+          <Link href="/symbols/oil-pressure-warning-light/">Oil Pressure Warning Light</Link>
+          <Link href="/symbols/battery-warning-light/">Battery Warning Light</Link>
+          <Link href="/symbols/brake-warning-light/">Brake Warning Light</Link>
+          <Link href="/symbols/tire-pressure-warning-light/">Tire Pressure Warning Light</Link>
         </div>
       </section>
 
@@ -167,6 +187,20 @@ function SeoContent() {
         <div><p className="eyebrow">Search terms people use</p><h2>Common names for the same dashboard symbols</h2><p>Drivers often search by description because they do not know the official name of the symbol. This guide includes common US and UK wording such as tire and tyre, hood and bonnet, trunk and boot, windshield and windscreen, gas and petrol.</p></div>
         <div className="term-cloud" aria-label="Common dashboard warning light searches">
           <span>red oil can light</span><span>yellow engine light</span><span>car with squiggly lines</span><span>horseshoe exclamation mark</span><span>battery symbol on dashboard</span><span>engine management light</span><span>tyre pressure warning</span><span>bonnet open light</span><span>boot open warning</span><span>blue headlight symbol</span>
+        </div>
+      </section>
+
+      <section className="content-section split-section">
+        <div>
+          <p className="eyebrow">Editorial note</p>
+          <h2>How this guide should be used</h2>
+          <p>This site is a general reference for common car dashboard symbols and warning light meanings. It is designed to help drivers identify a symbol quickly, understand urgency, and decide what to check first.</p>
+        </div>
+        <div className="check-list">
+          <p><strong>Not brand-specific:</strong> symbols, colors, and wording can vary by make, model, year, and market.</p>
+          <p><strong>Illustrations:</strong> the icons are simplified reference drawings, not copied OEM symbols.</p>
+          <p><strong>Safety:</strong> red warnings and unusual vehicle behavior should be treated conservatively.</p>
+          <p><strong>Final source:</strong> your vehicle owner's manual and a qualified mechanic are the best sources for exact diagnosis.</p>
         </div>
       </section>
 

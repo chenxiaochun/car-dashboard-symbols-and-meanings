@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://car-dashboard-symbols-and-meanings.vercel.app"),
   title: {
     default: "Car Dashboard Symbols and Meanings | Warning Light Finder",
     template: "%s | Car Dashboard Symbols and Meanings"
@@ -10,7 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Car Dashboard Symbols and Meanings",
     description: "Search common dashboard warning lights by symbol, color, and system. Check urgency, driving safety, and first steps.",
+    url: "/",
     type: "website"
+  },
+  alternates: {
+    canonical: "/"
   }
 };
 

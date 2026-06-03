@@ -9,6 +9,8 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
+const baseUrl = "https://car-dashboard-symbols-and-meanings.vercel.app";
+
 export function generateStaticParams() {
   return guides.map((guide) => ({ slug: guide.pageSlug }));
 }
@@ -20,9 +22,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: guide.title,
     description: guide.metaDescription,
+    alternates: {
+      canonical: `/symbols/${guide.pageSlug}/`
+    },
     openGraph: {
       title: guide.title,
       description: guide.metaDescription,
+      url: `/symbols/${guide.pageSlug}/`,
       type: "article"
     }
   };
@@ -36,8 +42,41 @@ export default async function SymbolGuidePage({ params }: PageProps) {
   const symbol = getGuideSymbol(guide);
   if (!symbol) notFound();
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Dashboard Symbols",
+        item: `${baseUrl}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: symbol.name,
+        item: `${baseUrl}/symbols/${guide.pageSlug}/`
+      }
+    ]
+  };
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: guide.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="article-header">
         <Link className="back-link" href="/">Back to dashboard symbols</Link>
         <div className="article-hero">

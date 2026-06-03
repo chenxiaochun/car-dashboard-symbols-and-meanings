@@ -68,6 +68,13 @@ h1 {
   font: 20px/1.45 ui-sans-serif, system-ui, sans-serif;
 }
 
+.updated-note {
+  max-width: 650px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font: 800 13px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+
 .quick-panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -576,6 +583,30 @@ main {
   font: 15px/1.48 ui-sans-serif, system-ui, sans-serif;
 }
 
+.detailed-guide-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.detailed-guide-list a {
+  min-height: 78px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--road);
+  font: 900 15px/1.18 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.detailed-guide-list a:hover,
+.detailed-guide-list a:focus-visible {
+  border-color: var(--road);
+  color: var(--amber);
+  outline: none;
+}
+
 .term-cloud {
   display: flex;
   flex-wrap: wrap;
@@ -805,7 +836,8 @@ main {
   .guide-grid,
   .drive-grid,
   .combo-list,
-  .system-guide {
+  .system-guide,
+  .detailed-guide-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -837,7 +869,8 @@ main {
   .guide-grid,
   .drive-grid,
   .combo-list,
-  .system-guide {
+  .system-guide,
+  .detailed-guide-list {
     grid-template-columns: 1fr;
   }
 
