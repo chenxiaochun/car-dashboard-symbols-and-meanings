@@ -136,7 +136,7 @@ function renderGrid() {
   const items = filteredSymbols();
   resultCount.textContent = `${items.length} symbols`;
   grid.innerHTML = items.map((symbol) => `
-    <button class="symbol-card" type="button" data-slug="${symbol.slug}">
+    <button class="symbol-card${state.selected === symbol.slug ? " is-selected" : ""}" type="button" data-slug="${symbol.slug}" aria-pressed="${state.selected === symbol.slug ? "true" : "false"}">
       <span class="symbol-icon">${iconSvg(symbol)}</span>
       <span>
         <strong class="symbol-name">${symbol.name}</strong>
@@ -153,9 +153,10 @@ function renderGrid() {
 function renderDetail(symbol) {
   detailPanel.innerHTML = `
     <div class="detail-layout">
+      <button class="detail-close" type="button" data-close-detail aria-label="Close details">×</button>
       <div class="detail-icon">${iconSvg(symbol, true)}</div>
       <div>
-        <h2>${symbol.name}</h2>
+        <h2 id="detailTitle">${symbol.name}</h2>
         <p>${symbol.meaning}</p>
         <div class="detail-facts">
           <div class="fact"><span>Color</span><strong>${colorLabels[symbol.color]}</strong></div>
@@ -171,6 +172,21 @@ function renderDetail(symbol) {
   `;
 }
 
+function openDetail(symbol) {
+  state.selected = symbol.slug;
+  renderDetail(symbol);
+  renderGrid();
+  detailPanel.hidden = false;
+  document.body.classList.add("has-modal");
+  detailPanel.querySelector(".detail-close").focus();
+}
+
+function closeDetail() {
+  detailPanel.hidden = true;
+  detailPanel.innerHTML = "";
+  document.body.classList.remove("has-modal");
+}
+
 document.addEventListener("click", (event) => {
   const filter = event.target.closest("[data-filter-type]");
   if (filter) {
@@ -183,9 +199,18 @@ document.addEventListener("click", (event) => {
   const card = event.target.closest("[data-slug]");
   if (card) {
     const symbol = symbols.find((item) => item.slug === card.dataset.slug);
-    state.selected = symbol.slug;
-    renderDetail(symbol);
-    detailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    openDetail(symbol);
+    return;
+  }
+
+  if (event.target.closest("[data-close-detail]") || event.target === detailPanel) {
+    closeDetail();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && !detailPanel.hidden) {
+    closeDetail();
   }
 });
 

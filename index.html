@@ -51,12 +51,7 @@
 
       <section class="symbol-grid" id="symbolGrid" aria-label="Dashboard symbols"></section>
 
-      <section class="detail-panel" id="detailPanel" aria-live="polite">
-        <div class="empty-detail">
-          <h2>Select a symbol</h2>
-          <p>Open any warning light card to see whether it is safe to drive and what to check first.</p>
-        </div>
-      </section>
+      <section class="detail-panel" id="detailPanel" role="dialog" aria-modal="true" aria-labelledby="detailTitle" hidden></section>
     </main>
 
     <script src="app.js"></script>
