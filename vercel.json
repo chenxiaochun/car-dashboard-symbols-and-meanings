@@ -1,5 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "yarn run vercel-build",
-  "outputDirectory": "public"
+  "buildCommand": "yarn build",
+  "outputDirectory": "out",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/symbols/:slug.html",
+      "destination": "/symbols/:slug/",
+      "permanent": true
+    }
+  ]
 }

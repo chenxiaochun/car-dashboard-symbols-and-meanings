@@ -49,6 +49,29 @@ input {
   padding: 52px 24px 28px;
 }
 
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  color: var(--road);
+  text-decoration: none;
+  font: 950 14px/1 ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+.brand-mark img {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 8px 20px rgba(32, 35, 41, 0.16);
+}
+
+.brand-mark:hover,
+.brand-mark:focus-visible {
+  color: var(--amber);
+  outline: none;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--amber);

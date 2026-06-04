@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { SITE_URL } from "@/lib/site";
 import "../styles.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://car-dashboard-symbols-and-meanings.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Car Dashboard Symbols and Meanings | Warning Light Finder",
     template: "%s | Car Dashboard Symbols and Meanings"
@@ -14,10 +15,23 @@ export const metadata: Metadata = {
     title: "Car Dashboard Symbols and Meanings",
     description: "Search common dashboard warning lights by symbol, color, and system. Check urgency, driving safety, and first steps.",
     url: "/",
-    type: "website"
+    type: "website",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 520,
+        height: 120,
+        alt: "Car Dashboard Symbols and Meanings logo"
+      }
+    ]
   },
   alternates: {
     canonical: "/"
+  },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg"
   }
 };
 

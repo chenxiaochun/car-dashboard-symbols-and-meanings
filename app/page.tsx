@@ -2,12 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SymbolFinder } from "@/components/SymbolFinder";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Car Dashboard Symbols and Meanings | Warning Light Finder",
+  title: `${SITE_TITLE} | ${SITE_NAME}`,
   alternates: {
     canonical: "/"
   }
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  alternateName: SITE_TITLE,
+  url: SITE_URL,
+  description: SITE_DESCRIPTION,
+  inLanguage: "en-US"
 };
 
 const faqJsonLd = {
@@ -63,6 +74,10 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="site-header">
         <div className="header-copy">
+          <a className="brand-mark" href="/" aria-label="Car Dashboard Symbols and Meanings home">
+            <img src="/icon.svg" alt="" width="40" height="40" />
+            <span>Dash Light Finder</span>
+          </a>
           <p className="eyebrow">Dashboard warning light finder</p>
           <h1>Car Dashboard Symbols and Meanings</h1>
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>

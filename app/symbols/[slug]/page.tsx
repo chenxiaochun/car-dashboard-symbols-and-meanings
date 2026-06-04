@@ -4,12 +4,11 @@ import { notFound } from "next/navigation";
 import { SymbolIcon } from "@/components/SymbolIcon";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getGuide, getGuideSymbol, guides } from "@/lib/guides";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
-
-const baseUrl = "https://car-dashboard-symbols-and-meanings.vercel.app";
 
 export function generateStaticParams() {
   return guides.map((guide) => ({ slug: guide.pageSlug }));
@@ -29,7 +28,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: guide.title,
       description: guide.metaDescription,
       url: `/symbols/${guide.pageSlug}/`,
+      siteName: SITE_NAME,
       type: "article"
+    },
+    twitter: {
+      card: "summary",
+      title: guide.title,
+      description: guide.metaDescription
     }
   };
 }
@@ -50,13 +55,13 @@ export default async function SymbolGuidePage({ params }: PageProps) {
         "@type": "ListItem",
         position: 1,
         name: "Dashboard Symbols",
-        item: `${baseUrl}/`
+        item: `${SITE_URL}/`
       },
       {
         "@type": "ListItem",
         position: 2,
         name: symbol.name,
-        item: `${baseUrl}/symbols/${guide.pageSlug}/`
+        item: `${SITE_URL}/symbols/${guide.pageSlug}/`
       }
     ]
   };

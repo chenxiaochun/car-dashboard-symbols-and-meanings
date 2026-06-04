@@ -1,21 +1,22 @@
 import type { MetadataRoute } from "next";
 import { guides } from "@/lib/guides";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://car-dashboard-symbols-and-meanings.vercel.app";
+const baseUrl = SITE_URL;
 const lastModified = new Date("2026-06-03");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: baseUrl,
+      url: SITE_URL,
       lastModified,
       changeFrequency: "weekly",
       priority: 1
     },
     ...guides.map((guide) => ({
-      url: `${baseUrl}/symbols/${guide.pageSlug}/`,
+      url: `${SITE_URL}/symbols/${guide.pageSlug}/`,
       lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8
