@@ -288,8 +288,7 @@ main {
 
 .filters {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 12px;
+  gap: 10px;
   margin-top: 10px;
 }
 
@@ -322,11 +321,21 @@ main {
   margin-top: 18px;
 }
 
+.empty-results {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 24px 16px;
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  font: 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+  text-align: center;
+}
+
 .symbol-card {
   display: grid;
   grid-template-columns: 74px minmax(0, 1fr);
   gap: 14px;
-  min-height: 166px;
+  min-height: 186px;
   padding: 14px;
   border: 1px solid var(--line);
   background: rgba(255, 253, 247, 0.88);
@@ -367,8 +376,15 @@ main {
   font: 800 17px/1.16 ui-sans-serif, system-ui, sans-serif;
 }
 
+.symbol-shape-hint {
+  display: block;
+  margin: 6px 0 0;
+  color: var(--amber);
+  font: 700 12px/1.35 ui-sans-serif, system-ui, sans-serif;
+}
+
 .symbol-meaning {
-  margin: 8px 0 12px;
+  margin: 6px 0 12px;
   color: var(--muted);
   font: 14px/1.35 ui-sans-serif, system-ui, sans-serif;
 }
@@ -448,6 +464,23 @@ main {
 .detail-icon svg {
   width: 96px;
   height: 96px;
+}
+
+.detail-icon-caption {
+  margin: 8px 0 0;
+  max-width: 130px;
+  color: var(--muted);
+  text-align: center;
+  font: 700 11px/1.3 ui-sans-serif, system-ui, sans-serif;
+}
+
+.detail-disclaimer {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--amber);
+  background: rgba(255, 248, 230, 0.75);
+  color: var(--road);
+  font: 14px/1.45 ui-sans-serif, system-ui, sans-serif;
 }
 
 .detail-panel h2 {
