@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import "../styles.css";
 
@@ -23,8 +24,20 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        {process.env.NODE_ENV === "development" && (
+          <Script
+            src="//unpkg.com/react-grab/dist/index.global.js"
+            crossOrigin="anonymous"
+            strategy="beforeInteractive"
+          />
+        )}
+      </head>
+      <body id="top">
         {children}
+        <a className="back-to-top" href="#top" aria-label="Back to top">
+          <span aria-hidden="true">↑</span>
+        </a>
         <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-PCCZ38ZV1P"} />
       </body>
     </html>

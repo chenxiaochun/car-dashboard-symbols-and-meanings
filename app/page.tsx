@@ -66,6 +66,14 @@ export default function HomePage() {
           <p className="eyebrow">Dashboard warning light finder</p>
           <h1>Car Dashboard Symbols and Meanings</h1>
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>
+          <nav className="header-jump-links" aria-label="Page sections">
+            <a href="#symbolGrid">Browse symbols</a>
+            <a href="#urgent-symbols">Urgent lights</a>
+            <a href="#driving-advice">Can I drive?</a>
+            <a href="#system-groups">By system</a>
+            <a href="#common-names">Common names</a>
+            <a href="#faq">FAQ</a>
+          </nav>
           <p className="updated-note">Last updated: June 3, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
@@ -117,7 +125,7 @@ function SeoContent() {
         </div>
       </section>
 
-      <section className="content-section split-section">
+      <section className="content-section split-section" id="urgent-symbols">
         <div><p className="eyebrow">Most urgent symbols</p><h2>Stop safely for these warning lights</h2><p>Some symbols can indicate damage or unsafe driving conditions. If a red oil pressure light, brake warning, coolant temperature light, or battery charging light appears while driving, pull over when safe and check the vehicle before continuing.</p></div>
         <div className="check-list">
           <p><strong>Oil pressure:</strong> stop the engine and check oil level. Do not keep driving if the warning remains.</p>
@@ -127,7 +135,7 @@ function SeoContent() {
         </div>
       </section>
 
-      <section className="content-section">
+      <section className="content-section" id="driving-advice">
         <div className="content-intro"><p className="eyebrow">Can I keep driving?</p><h2>Use the warning light to decide your next move</h2><p>A dashboard light does not always mean the car must stop immediately. The safest decision depends on the symbol, the color, whether the light is flashing, and whether the car feels, sounds, or smells unusual.</p></div>
         <div className="drive-grid">
           <article className="drive-card urgent"><strong>Stop safely</strong><p>Red oil pressure, red brake warning, coolant temperature, heavy smoke, burning smell, or loss of braking.</p></article>
@@ -137,7 +145,7 @@ function SeoContent() {
         </div>
       </section>
 
-      <section className="content-section">
+      <section className="content-section" id="system-groups">
         <div className="content-intro"><p className="eyebrow">Warning light combinations</p><h2>When two dashboard lights appear together</h2><p>Multiple lights can point to a shared system fault. These combinations are common starting points, not a diagnosis, but they help you decide how urgently to inspect the car.</p></div>
         <div className="combo-list">
           <article><h3>Check engine + traction control</h3><p>The engine fault may cause traction or stability control to be limited. Scan for engine codes first.</p></article>
@@ -183,7 +191,7 @@ function SeoContent() {
         </div>
       </section>
 
-      <section className="content-section split-section">
+      <section className="content-section split-section" id="common-names">
         <div><p className="eyebrow">Search terms people use</p><h2>Common names for the same dashboard symbols</h2><p>Drivers often search by description because they do not know the official name of the symbol. This guide includes common US and UK wording such as tire and tyre, hood and bonnet, trunk and boot, windshield and windscreen, gas and petrol.</p></div>
         <div className="term-cloud" aria-label="Common dashboard warning light searches">
           <span>red oil can light</span><span>yellow engine light</span><span>car with squiggly lines</span><span>horseshoe exclamation mark</span><span>battery symbol on dashboard</span><span>engine management light</span><span>tyre pressure warning</span><span>bonnet open light</span><span>boot open warning</span><span>blue headlight symbol</span>

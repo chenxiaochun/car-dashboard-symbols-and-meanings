@@ -30,6 +30,10 @@ body.has-modal {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button,
 input {
   font: inherit;
@@ -61,11 +65,58 @@ h1 {
   letter-spacing: 0;
 }
 
+.site-header h1 {
+  max-width: 760px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(38px, 5.6vw, 72px);
+  font-weight: 950;
+  line-height: 0.98;
+  text-wrap: balance;
+  text-transform: uppercase;
+}
+
+.site-header h1::after {
+  content: "";
+  display: block;
+  width: min(220px, 46vw);
+  height: 7px;
+  margin-top: 18px;
+  background: linear-gradient(90deg, var(--amber), var(--red) 48%, var(--road) 48%, var(--road));
+}
+
 .intro {
   max-width: 650px;
   margin: 22px 0 0;
   color: var(--muted);
   font: 20px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+
+.header-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 720px;
+  margin: 24px 0 0;
+}
+
+.header-jump-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 247, 0.72);
+  color: var(--ink);
+  text-decoration: none;
+  font: 800 13px/1 ui-sans-serif, system-ui, sans-serif;
+}
+
+.header-jump-links a:hover,
+.header-jump-links a:focus-visible {
+  border-color: var(--amber);
+  background: white;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 144, 0, 0.16);
 }
 
 .updated-note {
@@ -133,22 +184,22 @@ main {
   position: sticky;
   top: 0;
   z-index: 3;
-  padding: 18px;
+  padding: 12px;
 }
 
 .search-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 18px;
+  gap: 12px;
   align-items: end;
 }
 
 .search-box span,
 .filters p {
   display: block;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--muted);
-  font: 700 12px/1.2 ui-sans-serif, system-ui, sans-serif;
+  font: 700 11px/1.2 ui-sans-serif, system-ui, sans-serif;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -161,13 +212,13 @@ main {
 
 .search-box input {
   width: 100%;
-  min-height: 52px;
-  padding: 0 58px 0 16px;
+  min-height: 44px;
+  padding: 0 50px 0 13px;
   border: 1px solid var(--line);
   background: white;
   color: var(--ink);
   outline: none;
-  font: 17px/1 ui-sans-serif, system-ui, sans-serif;
+  font: 15px/1 ui-sans-serif, system-ui, sans-serif;
 }
 
 .search-box input::-webkit-search-cancel-button {
@@ -181,17 +232,17 @@ main {
 
 .clear-search {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: 5px;
+  right: 5px;
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   border: 1px solid var(--line);
   background: var(--road);
   color: white;
   cursor: pointer;
-  font: 800 24px/1 ui-sans-serif, system-ui, sans-serif;
+  font: 800 20px/1 ui-sans-serif, system-ui, sans-serif;
 }
 
 .clear-search[hidden] {
@@ -206,33 +257,33 @@ main {
 }
 
 .result-count {
-  min-width: 120px;
+  min-width: 104px;
   color: var(--muted);
   text-align: right;
-  font: 700 15px/1.2 ui-sans-serif, system-ui, sans-serif;
+  font: 700 13px/1.2 ui-sans-serif, system-ui, sans-serif;
 }
 
 .filters {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 12px;
+  margin-top: 10px;
 }
 
 .chip-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .chip {
-  min-height: 36px;
-  padding: 0 12px;
+  min-height: 31px;
+  padding: 0 10px;
   border: 1px solid var(--line);
   background: white;
   color: var(--road);
   cursor: pointer;
-  font: 700 13px/1 ui-sans-serif, system-ui, sans-serif;
+  font: 700 12px/1 ui-sans-serif, system-ui, sans-serif;
 }
 
 .chip[aria-pressed="true"] {
@@ -820,6 +871,31 @@ main {
   outline: none;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: var(--road);
+  color: white;
+  box-shadow: 0 14px 36px rgba(32, 35, 41, 0.22);
+  font: 900 24px/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  background: var(--amber);
+  color: var(--road);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 144, 0, 0.2), 0 14px 36px rgba(32, 35, 41, 0.22);
+}
+
 @media (max-width: 980px) {
   .site-header,
   .filters,
@@ -861,6 +937,21 @@ main {
 
   .finder {
     position: static;
+    padding: 14px;
+  }
+
+  .search-box input {
+    min-height: 48px;
+    font-size: 16px;
+  }
+
+  .clear-search {
+    width: 38px;
+    height: 38px;
+  }
+
+  .chip {
+    min-height: 36px;
   }
 
   .search-row,
@@ -900,5 +991,13 @@ main {
 
   .article-grid {
     grid-template-columns: 1fr;
+  }
+
+  .back-to-top {
+    right: 16px;
+    bottom: 18px;
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
   }
 }
