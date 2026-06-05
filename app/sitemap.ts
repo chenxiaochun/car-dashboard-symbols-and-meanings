@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1
     },
+    {
+      url: `${SITE_URL}/disclaimer/`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3
+    },
     ...guides.map((guide) => ({
       url: `${SITE_URL}/symbols/${guide.pageSlug}/`,
       lastModified,
