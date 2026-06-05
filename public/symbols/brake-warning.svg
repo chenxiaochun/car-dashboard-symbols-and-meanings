@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">Brake Warning Light</title>
   <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M20 15a24 24 0 0 0 0 34"/>
-    <path d="M44 15a24 24 0 0 1 0 34"/>
+    <path d="M10 18a22 22 0 0 0 0 28"/>
+    <path d="M54 18a22 22 0 0 1 0 28"/>
     <circle cx="32" cy="32" r="17"/>
-    <path d="M32 20v17"/>
-    <path d="M32 45h.1"/>
+    <path d="M32 21v14"/>
+    <circle cx="32" cy="45" r="2.8" fill="currentColor" stroke="none"/>
   </g>
 </svg>

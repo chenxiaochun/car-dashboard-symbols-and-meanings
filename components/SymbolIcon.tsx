@@ -1,4 +1,5 @@
 import type { DashboardSymbol } from "@/lib/symbols";
+import { getAccurateIconPaths } from "@/lib/dashboard-icon-paths";
 
 type Props = {
   symbol: DashboardSymbol;
@@ -6,6 +7,9 @@ type Props = {
 };
 
 function shape(symbol: DashboardSymbol, stroke: string, color: string) {
+  const accurate = getAccurateIconPaths(symbol.slug, stroke, color);
+  if (accurate) return accurate;
+
   const common = `fill="none" stroke="${stroke}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"`;
   const shapes: Record<string, string> = {
     "check-engine-light": `<path ${common} d="M8 47v-15"/><path ${common} d="M8 39h9"/><path ${common} d="M17 39v-8c0-4 3-7 7-7h8c3 0 5-2 5-5v-2h24"/><path ${common} d="M48 17v2c0 3 2 5 5 5h10c4 0 7 3 7 7v11h-5c-3 0-5 2-5 5v10h-16l-10 9h-12l-10-9H17V39"/><path ${common} d="M63 47h9v17h-9"/>`,

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">Low Fuel Warning Light</title>
   <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M17 14h25v42H17z"/>
-    <path d="M22 20h13v10H22z"/>
-    <path d="M42 23l8 8v18a5 5 0 0 0 10 0V31l-7-7"/>
-    <path d="M53 24v7h7"/>
+    <path d="M16 11h24v43H16z"/>
+    <path d="M21 18h14v10H21z"/>
+    <path d="M40 21h8l7 8v19a5 5 0 0 0-10 0V32"/>
+    <path d="M47 21v8h7"/>
   </g>
 </svg>

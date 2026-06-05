@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">Battery Warning Light</title>
   <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 24h50v28H12z"/>
-    <path d="M20 24v-7h10v7"/>
-    <path d="M44 24v-7h10v7"/>
-    <path d="M21 38h12"/>
-    <path d="M48 32v12"/>
-    <path d="M42 38h12"/>
+    <rect x="11" y="22" width="42" height="26"/>
+    <path d="M19 22v-6h10v6"/>
+    <path d="M39 22v-6h10v6"/>
+    <path d="M21 35h11"/>
+    <path d="M26 30v10"/>
+    <path d="M40 35h11"/>
+    <path d="M46 30v10"/>
   </g>
 </svg>
