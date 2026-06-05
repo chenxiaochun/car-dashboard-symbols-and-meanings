@@ -147,6 +147,241 @@ export const guides: SymbolGuide[] = [
       { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" }
     ]
+  },
+  {
+    pageSlug: "abs-warning-light",
+    symbolSlug: "abs-warning-light",
+    title: "ABS Warning Light Meaning: Can You Still Brake?",
+    metaDescription:
+      "Learn what the ABS warning light means, how it differs from the brake warning light, whether you can keep driving, and what to check first.",
+    eyebrow: "Brake system warning",
+    h1: "ABS Warning Light Meaning",
+    summary:
+      "The ABS warning light means the anti-lock braking system may not work. Normal braking often remains, but emergency stops on slippery roads may be less controlled.",
+    colorText: "Amber or yellow",
+    canDriveText: "Yes, with caution",
+    urgency: "Inspect soon",
+    sections: [
+      {
+        title: "What it means",
+        body: "ABS helps prevent wheel lock-up during hard braking. When the ABS light is on, the system may be disabled, but your regular brakes usually still work. The symbol often shows the letters ABS inside a circle."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Check whether the red brake warning light is also on — that is more urgent.",
+          "Test braking gently in a safe place if you are unsure how the pedal feels.",
+          "Avoid hard emergency stops if you can; increase following distance.",
+          "Have the ABS system scanned for fault codes."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Faulty wheel speed sensor",
+          "ABS module or wiring fault",
+          "Low brake fluid on some vehicles",
+          "Blown fuse or control unit issue",
+          "Recent battery disconnect or voltage problem"
+        ]
+      },
+      {
+        title: "ABS vs brake warning light",
+        body: "ABS alone usually means anti-lock assist may be unavailable. A red brake warning can mean low fluid, parking brake, or a hydraulic fault. If both lights are on, inspect the brake system before continuing."
+      }
+    ],
+    faqs: [
+      {
+        question: "Can I drive without ABS?",
+        answer: "Often yes if normal braking feels fine, but stopping distances on wet or icy roads may increase. Drive cautiously and repair the system soon."
+      },
+      {
+        question: "Will ABS turn off after I restart the car?",
+        answer: "Sometimes a temporary fault clears, but if the light returns, the system should be diagnosed."
+      }
+    ],
+    related: [
+      { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
+      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
+    ]
+  },
+  {
+    pageSlug: "coolant-temperature-warning-light",
+    symbolSlug: "coolant-temperature-warning",
+    title: "Coolant Temperature Warning Light: Overheating Guide",
+    metaDescription:
+      "Learn what the coolant temperature warning light means, whether you can keep driving, what to check first, and how to avoid engine damage from overheating.",
+    eyebrow: "Red engine warning",
+    h1: "Coolant Temperature Warning Light Meaning",
+    summary:
+      "The coolant temperature warning light means the engine may be overheating. Stop safely, let the engine cool, and check coolant level only when it is safe to do so.",
+    colorText: "Red",
+    canDriveText: "No. Stop safely.",
+    urgency: "High",
+    sections: [
+      {
+        title: "What it means",
+        body: "This warning usually shows a thermometer in liquid or a red temperature symbol. It means the engine coolant temperature is higher than normal, which can lead to serious engine damage if ignored."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Pull over safely and turn off the engine.",
+          "Wait at least 15–30 minutes before opening the coolant cap — hot coolant can spray and burn.",
+          "Check for steam, sweet smell, or visible leaks under the car.",
+          "Check coolant level only when the system is cool, if you know how to do so safely."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Low coolant level or leak",
+          "Faulty thermostat",
+          "Cooling fan not running",
+          "Blocked radiator or airflow issue",
+          "Water pump failure"
+        ]
+      },
+      {
+        title: "When it is most serious",
+        body: "Stop immediately if you see steam from under the hood/bonnet, smell coolant, hear boiling, or lose power. Driving an overheating engine can warp the cylinder head or cause costly damage."
+      }
+    ],
+    faqs: [
+      {
+        question: "Can I add water if coolant is low?",
+        answer: "Only when the engine is cool and you use the correct coolant mix recommended in your manual. Plain water is a temporary emergency measure on some vehicles, not a long-term fix."
+      },
+      {
+        question: "Why did the light come on in traffic?",
+        answer: "Low airflow at idle, a weak fan, low coolant, or a stuck thermostat can trigger overheating in stop-and-go driving."
+      }
+    ],
+    related: [
+      { href: "/symbols/oil-pressure-warning-light/", label: "Oil Pressure Warning" },
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
+    ]
+  },
+  {
+    pageSlug: "airbag-warning-light",
+    symbolSlug: "airbag-warning-light",
+    title: "Airbag Warning Light Meaning: SRS and Safety System Fault",
+    metaDescription:
+      "Learn what the airbag or SRS warning light means, whether you can drive, common causes, and why restraint system faults should be inspected soon.",
+    eyebrow: "Safety warning",
+    h1: "Airbag Warning Light Meaning",
+    summary:
+      "The airbag warning light means the supplemental restraint system may not deploy correctly in a crash. The car may still drive, but passenger protection could be reduced.",
+    colorText: "Amber or yellow",
+    canDriveText: "Usually yes",
+    urgency: "Inspect soon",
+    sections: [
+      {
+        title: "What it means",
+        body: "The airbag or SRS light indicates a fault in the airbag, seatbelt pretensioner, crash sensor, or control module. The symbol may show a seated person with an airbag or the words AIR BAG / SRS."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Check whether the light stays on after startup — it should normally go out briefly during self-check.",
+          "Make sure nothing is blocking the seat or seatbelt buckle.",
+          "Avoid placing heavy items on passenger seats that can confuse seat sensors.",
+          "Book a diagnostic check for the restraint system."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Seat occupancy sensor fault",
+          "Loose wiring under seats after seat movement",
+          "Clock spring or steering wheel module issue",
+          "Previous accident repair or disconnected connector",
+          "Control module fault"
+        ]
+      },
+      {
+        title: "Why you should not ignore it",
+        body: "Unlike an engine maintenance light, an airbag fault affects crash protection. The vehicle may still be drivable, but airbags or pretensioners may not work as designed until the fault is repaired."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is it safe to drive with the airbag light on?",
+        answer: "The car may drive normally, but crash protection may be reduced. Have the SRS system inspected as soon as practical."
+      },
+      {
+        question: "Can a weak car battery cause the airbag light?",
+        answer: "Low voltage during startup can sometimes trigger warning lights temporarily. If the SRS light stays on, the system still needs diagnosis."
+      }
+    ],
+    related: [
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
+      { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
+    ]
+  },
+  {
+    pageSlug: "low-fuel-warning-light",
+    symbolSlug: "low-fuel-warning",
+    title: "Low Fuel Warning Light Meaning: How Far Can You Drive?",
+    metaDescription:
+      "Learn what the low fuel warning light means, how much range may be left, whether it is safe to keep driving, and what to do before the tank runs dry.",
+    eyebrow: "Fuel warning",
+    h1: "Low Fuel Warning Light Meaning",
+    summary:
+      "The low fuel warning light means the fuel level is low. Refuel soon — running a tank dry can leave you stranded and, on some vehicles, make restarting harder after refueling.",
+    colorText: "Amber or yellow",
+    canDriveText: "Yes, refuel soon",
+    urgency: "Low to medium",
+    sections: [
+      {
+        title: "What it means",
+        body: "The low fuel symbol usually looks like a fuel pump. It appears before the tank is completely empty, giving you time to reach a station. Remaining range varies widely by vehicle and driving style."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Note the estimated range if your dashboard shows it.",
+          "Refuel at the next safe opportunity — do not rely on the last few miles.",
+          "On diesel vehicles, running very low can increase the risk of drawing air or sediment into the fuel system.",
+          "Reset your trip computer after refueling if you track fuel use."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Fuel level genuinely low",
+          "Faulty fuel level sender",
+          "Instrument cluster glitch",
+          "Recent steep hill or sharp turn affecting sender reading"
+        ]
+      },
+      {
+        title: "How far can you go?",
+        body: "Some cars have 30–50 miles of reserve after the light appears, but this is not guaranteed. Highway driving, cold weather, and heavy loads use more fuel. Treat the light as a prompt to refuel, not a precise countdown."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is it bad to run the tank to empty?",
+        answer: "It can leave you stranded and may pull debris or air into the fuel system on some vehicles. Refuel before the tank is empty when possible."
+      },
+      {
+        question: "Why does the fuel light flicker on hills?",
+        answer: "Fuel slosh can briefly trigger the sender. If the light stays on level ground, the tank is likely genuinely low."
+      }
+    ],
+    related: [
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
+      { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
+    ]
   }
 ];
 

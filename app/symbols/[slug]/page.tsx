@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SymbolIcon } from "@/components/SymbolIcon";
 import { SiteFooter } from "@/components/SiteFooter";
+import { buildArticleJsonLd, buildHowToJsonLd } from "@/lib/guide-schema";
 import { getGuide, getGuideSymbol, guides } from "@/lib/guides";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -77,10 +78,16 @@ export default async function SymbolGuidePage({ params }: PageProps) {
       }
     }))
   };
+  const articleJsonLd = buildArticleJsonLd(guide, symbol.name);
+  const howToJsonLd = buildHowToJsonLd(guide);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      {howToJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="article-header">
         <Link className="back-link" href="/">Back to dashboard symbols</Link>

@@ -71,6 +71,7 @@ const faqJsonLd = {
 export default function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="site-header">
         <div className="header-copy">
@@ -83,13 +84,13 @@ export default function HomePage() {
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>
           <nav className="header-jump-links" aria-label="Page sections">
             <a href="#symbolGrid">Browse symbols</a>
+            <a href="#guides">Symbol guides</a>
+            <a href="#scenarios">Scenarios</a>
             <a href="#urgent-symbols">Urgent lights</a>
             <a href="#driving-advice">Can I drive?</a>
-            <a href="#system-groups">By system</a>
-            <a href="#common-names">Common names</a>
             <a href="#faq">FAQ</a>
           </nav>
-          <p className="updated-note">Last updated: June 3, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
+          <p className="updated-note">Last updated: June 4, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>
@@ -125,11 +126,11 @@ function SeoContent() {
         </div>
       </section>
 
-      <section className="content-section">
+      <section className="content-section" id="guides">
         <div className="content-intro">
           <p className="eyebrow">Detailed guides</p>
           <h2>Start with the most common warning lights</h2>
-          <p>These five dashboard warning lights have the clearest standalone search intent and the highest safety value. Each guide explains meaning, urgency, common causes, and what to check first.</p>
+          <p>These dashboard warning lights have the clearest search intent and the highest safety value. Each guide explains meaning, urgency, common causes, and what to check first.</p>
         </div>
         <div className="detailed-guide-list">
           <Link href="/symbols/check-engine-light/">Check Engine Light</Link>
@@ -137,6 +138,24 @@ function SeoContent() {
           <Link href="/symbols/battery-warning-light/">Battery Warning Light</Link>
           <Link href="/symbols/brake-warning-light/">Brake Warning Light</Link>
           <Link href="/symbols/tire-pressure-warning-light/">Tire Pressure Warning Light</Link>
+          <Link href="/symbols/abs-warning-light/">ABS Warning Light</Link>
+          <Link href="/symbols/coolant-temperature-warning-light/">Coolant Temperature Warning</Link>
+          <Link href="/symbols/airbag-warning-light/">Airbag Warning Light</Link>
+          <Link href="/symbols/low-fuel-warning-light/">Low Fuel Warning Light</Link>
+        </div>
+      </section>
+
+      <section className="content-section" id="scenarios">
+        <div className="content-intro">
+          <p className="eyebrow">By situation</p>
+          <h2>What to do in common driving scenarios</h2>
+          <p>Sometimes the question is not just one symbol, but a situation — a red light at night, two warnings together, or TPMS after a cold morning. These scenario guides help you decide your next step.</p>
+        </div>
+        <div className="detailed-guide-list">
+          <Link href="/scenarios/red-dashboard-lights/">Red dashboard light came on</Link>
+          <Link href="/scenarios/two-warning-lights/">Two warning lights together</Link>
+          <Link href="/scenarios/winter-tpms-light/">TPMS light in cold weather</Link>
+          <Link href="/scenarios/flashing-check-engine/">Flashing check engine light</Link>
         </div>
       </section>
 
@@ -179,11 +198,11 @@ function SeoContent() {
           <p><strong>Oil Pressure Warning:</strong> low oil pressure risk; stop safely and check oil level.</p>
           <p><strong>Battery Warning Light:</strong> charging system fault; the alternator or battery may need attention.</p>
           <p><strong>Brake Warning Light:</strong> parking brake, low brake fluid, or brake system fault.</p>
-          <p><strong>ABS Warning Light:</strong> anti-lock braking may be unavailable, though normal braking may remain.</p>
-          <p><strong>Tire Pressure Warning:</strong> also called TPMS or tyre pressure light; check all tyre/tire pressures.</p>
-          <p><strong>Airbag Warning Light:</strong> SRS or restraint system fault; airbag protection may be reduced.</p>
-          <p><strong>Coolant Temperature Warning:</strong> engine overheating risk; stop and let the engine cool.</p>
-          <p><strong>Low Fuel Warning:</strong> refuel soon to avoid running the tank dry.</p>
+          <p><strong>ABS Warning Light:</strong> <Link href="/symbols/abs-warning-light/">anti-lock braking may be unavailable</Link>, though normal braking may remain.</p>
+          <p><strong>Tire Pressure Warning:</strong> also called <Link href="/symbols/tire-pressure-warning-light/">TPMS or tyre pressure light</Link>; check all tyre/tire pressures.</p>
+          <p><strong>Airbag Warning Light:</strong> <Link href="/symbols/airbag-warning-light/">SRS or restraint system fault</Link>; airbag protection may be reduced.</p>
+          <p><strong>Coolant Temperature Warning:</strong> <Link href="/symbols/coolant-temperature-warning-light/">engine overheating risk</Link>; stop and let the engine cool.</p>
+          <p><strong>Low Fuel Warning:</strong> <Link href="/symbols/low-fuel-warning-light/">refuel soon</Link> to avoid running the tank dry.</p>
           <p><strong>Seat Belt Reminder:</strong> a seat belt is not fastened or a seat sensor detects weight.</p>
           <p><strong>Door, Hood, or Trunk Open:</strong> close the door, bonnet/hood, boot/trunk before driving.</p>
           <p><strong>Washer Fluid Low:</strong> refill windscreen or windshield washer fluid.</p>

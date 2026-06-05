@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
 import { guides } from "@/lib/guides";
+import { scenarios } from "@/lib/scenarios";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const baseUrl = SITE_URL;
-const lastModified = new Date("2026-06-03");
+const lastModified = new Date("2026-06-04");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 1
+    },
+    {
+      url: `${SITE_URL}/about/`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.4
     },
     {
       url: `${SITE_URL}/disclaimer/`,
@@ -26,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8
+    })),
+    ...scenarios.map((scenario) => ({
+      url: `${SITE_URL}/scenarios/${scenario.slug}/`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.7
     }))
   ];
 }

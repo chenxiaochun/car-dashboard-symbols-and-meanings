@@ -9,6 +9,8 @@ export function SiteFooter() {
         <a href="/#symbolGrid">Symbols</a>
         <a href="/#searchInput">Search</a>
         <a href="/#faq">FAQ</a>
+        <a href="/#scenarios">Scenarios</a>
+        <a href="/about/">About</a>
         <a href="/disclaimer/">Disclaimer</a>
       </nav>
       <p className="footer-note">

@@ -88,5 +88,9 @@ export const guideLinks: Record<string, string> = {
   "oil-pressure-warning": "/symbols/oil-pressure-warning-light/",
   "battery-warning-light": "/symbols/battery-warning-light/",
   "brake-warning-light": "/symbols/brake-warning-light/",
-  "tire-pressure-warning": "/symbols/tire-pressure-warning-light/"
+  "tire-pressure-warning": "/symbols/tire-pressure-warning-light/",
+  "abs-warning-light": "/symbols/abs-warning-light/",
+  "coolant-temperature-warning": "/symbols/coolant-temperature-warning-light/",
+  "airbag-warning-light": "/symbols/airbag-warning-light/",
+  "low-fuel-warning": "/symbols/low-fuel-warning-light/"
 };
