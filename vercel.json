@@ -5,8 +5,68 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/favicon.ico",
+      "destination": "/icon.svg",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "destination": "/icon.svg",
+      "permanent": true
+    },
+    {
+      "source": "/apple-touch-icon-precomposed.png",
+      "destination": "/icon.svg",
+      "permanent": true
+    },
+    {
       "source": "/symbols/:slug.html",
       "destination": "/symbols/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/check-engine/",
+      "destination": "/symbols/check-engine-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/oil-pressure-warning/",
+      "destination": "/symbols/oil-pressure-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/tire-pressure-warning/",
+      "destination": "/symbols/tire-pressure-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/coolant-temperature-warning/",
+      "destination": "/symbols/coolant-temperature-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/low-fuel-warning/",
+      "destination": "/symbols/low-fuel-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/battery-warning/",
+      "destination": "/symbols/battery-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/brake-warning/",
+      "destination": "/symbols/brake-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/abs-warning/",
+      "destination": "/symbols/abs-warning-light/",
+      "permanent": true
+    },
+    {
+      "source": "/symbols/airbag-warning/",
+      "destination": "/symbols/airbag-warning-light/",
       "permanent": true
     }
   ]

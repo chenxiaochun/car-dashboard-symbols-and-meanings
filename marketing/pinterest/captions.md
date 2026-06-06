@@ -96,6 +96,95 @@ https://warninglightfinder.com/symbols/tire-pressure-warning-light/
 
 ---
 
+## Pin 4 — Brake Warning Light
+
+**File:** `pinterest-brake-warning-light.png`  
+**Destination link:** https://warninglightfinder.com/symbols/brake-warning-light/
+
+**Title:**
+```
+Brake Warning Light — Red Circle with Exclamation Mark
+```
+
+**Description:**
+```
+Red brake warning on your dashboard? Don’t ignore it.
+
+Quick checks:
+• Is the parking brake fully released?
+• Brake fluid level low?
+• Stop if the pedal feels soft or braking feels weak
+
+Full brake warning guide:
+https://warninglightfinder.com/symbols/brake-warning-light/
+
+Symbols vary by make/model — confirm with your owner’s manual.
+
+#brakewarninglight #dashboardwarninglights #caradvice #cartips #brakesystem #warninglightfinder #carsafety
+```
+
+**Board suggestion:** Car Tips & Dashboard Warning Lights
+
+---
+
+## Pin 5 — Battery Warning Light
+
+**File:** `pinterest-battery-warning-light.png`  
+**Destination link:** https://warninglightfinder.com/symbols/battery-warning-light/
+
+**Title:**
+```
+Battery Warning Light — Charging System Fault
+```
+
+**Description:**
+```
+Red battery light usually means the charging system isn’t keeping the battery powered.
+
+What to do:
+• Turn off non-essential electrical load (A/C, heated seats)
+• Get the alternator, belt, and battery checked soon
+• Don’t ignore it on long drives — the car can stall
+
+Full guide:
+https://warninglightfinder.com/symbols/battery-warning-light/
+
+#batterywarninglight #alternator #dashboardlights #cartips #warninglightfinder #carrepair #chargingsystem
+```
+
+**Board suggestion:** Car Tips & Dashboard Warning Lights
+
+---
+
+## Pin 6 — ABS Warning Light
+
+**File:** `pinterest-abs-warning-light.png`  
+**Destination link:** https://warninglightfinder.com/symbols/abs-warning-light/
+
+**Title:**
+```
+ABS Warning Light — What “ABS” on Your Dash Means
+```
+
+**Description:**
+```
+Amber ABS light = anti-lock braking may not work, but normal braking often still does.
+
+Quick tips:
+• Drive carefully, especially on wet or icy roads
+• Avoid hard panic stops if possible
+• Get the system scanned — often a wheel speed sensor
+
+Full ABS guide:
+https://warninglightfinder.com/symbols/abs-warning-light/
+
+#abslight #abswarning #dashboardsymbols #cartips #warninglightfinder #brakes #carsafety
+```
+
+**Board suggestion:** Car Tips & Dashboard Warning Lights
+
+---
+
 ## Posting checklist
 
 1. Pinterest → **Create** → upload image  
