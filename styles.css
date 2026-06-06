@@ -551,6 +551,17 @@ main {
   font: 16px/1.55 ui-sans-serif, system-ui, sans-serif;
 }
 
+.how-to-steps {
+  margin: 18px 0 0;
+  padding-left: 24px;
+  color: var(--muted);
+  font: 16px/1.55 ui-sans-serif, system-ui, sans-serif;
+}
+
+.how-to-steps li + li {
+  margin-top: 10px;
+}
+
 .guide-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

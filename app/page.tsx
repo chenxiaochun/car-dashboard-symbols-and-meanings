@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SymbolFinder } from "@/components/SymbolFinder";
 import { SiteFooter } from "@/components/SiteFooter";
+import {
+  buildHomeFaqJsonLd,
+  buildHomeHowToJsonLd,
+  homeFaqs,
+  homeHowToSteps,
+  serpGapParagraphs
+} from "@/lib/home-content";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -21,58 +28,15 @@ const websiteJsonLd = {
   inLanguage: "en-US"
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What do car dashboard symbols mean?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Car dashboard symbols are warning lights and indicator lights that tell you about the condition of your vehicle. Red lights usually mean stop safely, amber or yellow lights mean inspect soon, and green or blue lights usually mean a feature is active."
-      }
-    },
-    {
-      "@type": "Question",
-      name: "Can I keep driving with a dashboard warning light on?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "It depends on the symbol and color. Red warning lights such as oil pressure, brake, or coolant temperature should be treated as urgent. Amber lights often mean you can drive cautiously but should inspect the vehicle soon."
-      }
-    },
-    {
-      "@type": "Question",
-      name: "What does a red dashboard light mean?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A red dashboard light usually means a serious warning or unsafe condition. Stop safely when possible, check the owner's manual, and avoid continuing if the warning relates to oil pressure, brakes, battery charging, or engine temperature."
-      }
-    },
-    {
-      "@type": "Question",
-      name: "What does an amber or yellow dashboard light mean?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "An amber or yellow dashboard light usually means a system needs attention soon. Examples include check engine, ABS, tyre or tire pressure, airbag, traction control, and diesel particulate filter warnings."
-      }
-    },
-    {
-      "@type": "Question",
-      name: "Are dashboard symbols the same on every car?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. Many warning light symbols are similar across vehicles, but exact icons, colors, and meanings can vary by make, model, year, and market. Always confirm with the owner's manual for your specific vehicle."
-      }
-    }
-  ]
-};
+const faqJsonLd = buildHomeFaqJsonLd(homeFaqs);
+const howToJsonLd = buildHomeHowToJsonLd();
 
 export default function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
       <header className="site-header">
         <div className="header-copy">
           <a className="brand-mark" href="/" aria-label="Car Dashboard Symbols and Meanings home">
@@ -86,11 +50,13 @@ export default function HomePage() {
             <a href="#symbolGrid">Browse symbols</a>
             <a href="#guides">Symbol guides</a>
             <a href="#scenarios">Scenarios</a>
+            <a href="#serp-gaps">Beyond basic guides</a>
+            <a href="#diagnostic-steps">Free diagnosis</a>
             <a href="#urgent-symbols">Urgent lights</a>
             <a href="#driving-advice">Can I drive?</a>
             <a href="#faq">FAQ</a>
           </nav>
-          <p className="updated-note">Last updated: June 4, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
+          <p className="updated-note">Last updated: June 6, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>
@@ -157,6 +123,35 @@ function SeoContent() {
           <Link href="/scenarios/winter-tpms-light/">TPMS light in cold weather</Link>
           <Link href="/scenarios/flashing-check-engine/">Flashing check engine light</Link>
         </div>
+      </section>
+
+      <section className="content-section" id="serp-gaps">
+        <div className="content-intro">
+          <p className="eyebrow">What most guides skip</p>
+          <h2>Dashboard warning light topics beyond basic symbol lists</h2>
+          <p>Top search results explain individual lights well, but often miss combinations, flashing patterns, free diagnosis, and seasonal triggers. Each paragraph below states the takeaway first, then the detail you can verify.</p>
+        </div>
+        <div className="guide-grid">
+          {serpGapParagraphs.map((paragraph) => (
+            <article key={paragraph.id}>
+              <h3>{paragraph.title}</h3>
+              <p>{paragraph.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="content-section" id="diagnostic-steps">
+        <div className="content-intro">
+          <p className="eyebrow">Step-by-step</p>
+          <h2>Free or low-cost first response when a warning light appears</h2>
+          <p>Use this order before paying for parts or guessing how far you can drive. It matches the HowTo structured data on this page for search engines and AI answers.</p>
+        </div>
+        <ol className="how-to-steps">
+          {homeHowToSteps.map((step) => (
+            <li key={step}>{step}</li>
+          ))}
+        </ol>
       </section>
 
       <section className="content-section split-section" id="urgent-symbols">
@@ -249,10 +244,12 @@ function SeoContent() {
       <section className="content-section faq-section" id="faq">
         <p className="eyebrow">Quick answers</p>
         <h2>Car dashboard symbols FAQ</h2>
-        <details><summary>What should I check first when a dashboard light comes on?</summary><p>First check the color and whether the car feels different. If the light is red, stop safely. If it is amber, read the symbol, check obvious causes such as fuel cap or tyre pressure, and arrange inspection if it stays on.</p></details>
-        <details><summary>Is a flashing check engine light worse than a steady one?</summary><p>Yes. A flashing check engine light can indicate a misfire that may damage the catalytic converter. Reduce speed, avoid hard acceleration, and get the car checked as soon as possible.</p></details>
-        <details><summary>Why does the same warning light have different names?</summary><p>Names vary by country and manufacturer. For example, check engine light is also called engine management light or MIL, while tyre pressure warning may be written as tire pressure warning in US English.</p></details>
-        <details><summary>Can I use this guide for any car brand?</summary><p>Use it as a general dashboard symbol guide. Symbols can vary by make, model, year, and market, so your owner's manual is the final source for the exact meaning on your vehicle.</p></details>
+        {homeFaqs.map((faq) => (
+          <details key={faq.question}>
+            <summary>{faq.question}</summary>
+            <p>{faq.answer}</p>
+          </details>
+        ))}
       </section>
       <p className="disclaimer">Dashboard symbols vary by make and model. This guide explains common warning light meanings and first checks, but it is not a substitute for your owner's manual or a qualified mechanic's diagnosis.</p>
     </>

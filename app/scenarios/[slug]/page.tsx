@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
+import { buildScenarioFaqJsonLd, buildScenarioHowToJsonLd } from "@/lib/scenario-schema";
 import { getScenario, scenarios } from "@/lib/scenarios";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -54,15 +55,24 @@ export default async function ScenarioPage({ params }: PageProps) {
     description: scenario.metaDescription,
     url: `${SITE_URL}/scenarios/${scenario.slug}/`,
     inLanguage: "en-US",
-    dateModified: "2026-06-04",
+    dateModified: "2026-06-06",
     author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL }
   };
+
+  const faqJsonLd = buildScenarioFaqJsonLd(scenario);
+  const howToJsonLd = buildScenarioHowToJsonLd(scenario);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      {faqJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
+      {howToJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
+      )}
       <header className="article-header">
         <Link className="back-link" href="/">
           Back to dashboard symbols
@@ -85,6 +95,16 @@ export default async function ScenarioPage({ params }: PageProps) {
             ) : null}
           </section>
         ))}
+
+        <section className="content-section faq-section">
+          <h2>FAQ</h2>
+          {scenario.faqs.map((faq) => (
+            <details key={faq.question}>
+              <summary>{faq.question}</summary>
+              <p>{faq.answer}</p>
+            </details>
+          ))}
+        </section>
 
         <section className="content-section">
           <h2>Related symbol guides</h2>
