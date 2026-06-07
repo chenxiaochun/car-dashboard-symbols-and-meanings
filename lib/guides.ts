@@ -47,21 +47,52 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "oil-pressure-warning-light",
     symbolSlug: "oil-pressure-warning",
-    title: "Oil Pressure Warning Light Meaning: Stop or Keep Driving?",
-    metaDescription: "Learn what the red oil pressure warning light means, why it is urgent, what to check first, common causes, and when to stop driving.",
+    title: "Red Oil Pressure Light Meaning — What the Oil Sign in Your Car Means",
+    metaDescription:
+      "The oil pressure light is red on most cars and shows an oil-can symbol. Learn what the oil sign in your car means, how it differs from transmission oil pressure warnings, and when to stop driving.",
     eyebrow: "Red engine warning",
     h1: "Oil Pressure Warning Light Meaning",
-    summary: "The oil pressure warning light means engine oil pressure may be too low. This is one of the most urgent dashboard warnings because low oil pressure can damage the engine quickly.",
+    summary:
+      "The oil pressure warning light is red on most vehicles and shows an oil-can or genie-lamp symbol. It means engine oil pressure may be too low — not simply that an oil change is due — and it is one of the most urgent dashboard warnings because low pressure can damage the engine within minutes.",
     colorText: "Red",
     canDriveText: "No. Stop safely.",
     urgency: "High",
     sections: [
-      { title: "What it means", body: "The oil pressure light usually shows an oil can symbol. It does not simply mean an oil change is due. It warns that oil pressure may be too low to protect moving engine parts." },
+      {
+        title: "What it means",
+        body:
+          "The oil pressure light — often called the oil sign in a car — usually shows a red oil-can or dripping-oil icon. It warns that oil pressure may be too low to protect moving engine parts. It is not the same as a yellow low-oil-level reminder on some VW/Audi models, and it is not the same as a transmission oil pressure warning on automatic vehicles."
+      },
+      {
+        title: "What color is the oil pressure light?",
+        body:
+          "On most cars sold in the US and UK, the engine oil pressure warning is red because low oil pressure is a stop-now fault. A few manufacturers use amber or yellow for a low oil level reminder — that is a different warning from red oil pressure. If your dashboard shows a red oil-can symbol while driving, treat it as urgent regardless of brand."
+      },
+      {
+        title: "Engine oil pressure vs transmission oil pressure",
+        body:
+          "Engine oil pressure and transmission oil pressure are separate systems with different symbols. The engine warning is usually a red oil can and relates to lubrication inside the engine. A transmission oil pressure warning — more common on automatic trucks and some SUVs — may show a gear icon, the word AT, OIL, or a thermometer combined with a gear, and it means the automatic gearbox has low line pressure. If you searched for a transmission oil pressure symbol, confirm whether the icon includes a gear or transmission label; a plain oil can almost always means engine oil pressure."
+      },
       { title: "What to do first", ordered: true, items: ["Pull over safely and turn off the engine.", "Wait a few minutes, then check the oil level if your vehicle has a dipstick.", "Look for obvious oil leaks under the car.", "Do not keep driving if the light remains on after topping up with the correct oil."] },
       { title: "Common causes", items: ["Low engine oil level", "Oil leak or severe oil consumption", "Faulty oil pressure sensor", "Blocked oil pickup or filter", "Oil pump or internal engine problem"] },
       { title: "When it is most serious", body: "Stop immediately if the oil light appears with engine knocking, ticking, burning smell, smoke, or loss of power. Continuing to drive can turn a small leak or low oil level into major engine damage." }
     ],
     faqs: [
+      {
+        question: "What color is the oil pressure light?",
+        answer:
+          "Red on most cars. Red means stop safely and check the engine — low oil pressure can cause damage within minutes. Amber or yellow oil-can icons on some vehicles mean low oil level, not low pressure; check your owner's manual if the color is not red."
+      },
+      {
+        question: "What is the oil sign in a car?",
+        answer:
+          "The oil sign is usually a red oil-can or genie-lamp icon on the dashboard. It is the engine oil pressure warning light. When it comes on while driving, pull over, turn off the engine, and check the oil level before continuing."
+      },
+      {
+        question: "Is the transmission oil pressure symbol the same as the engine oil light?",
+        answer:
+          "No. Engine oil pressure uses an oil-can symbol and protects the engine. Transmission oil pressure warnings — mainly on automatics — often include a gear, AT, or OIL label and relate to gearbox hydraulic pressure. A plain red oil can almost always means engine oil pressure, not transmission."
+      },
       { question: "Is oil pressure the same as oil level?", answer: "No. Low oil level can cause low pressure, but a pressure warning can also come from pump, sensor, or internal engine problems." },
       { question: "Can I drive to a workshop?", answer: "Not if the red oil pressure warning stays on. Arrange help or towing rather than driving with low oil pressure." }
     ],
