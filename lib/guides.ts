@@ -47,13 +47,13 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "oil-pressure-warning-light",
     symbolSlug: "oil-pressure-warning",
-    title: "Red Oil Pressure Light Meaning — What the Oil Sign in Your Car Means",
+    title: "Oil Pressure Light Meaning — Red Oil Can Dashboard Warning",
     metaDescription:
-      "The oil pressure light is red on most cars and shows an oil-can symbol. Learn what the oil sign in your car means, how it differs from transmission oil pressure warnings, and when to stop driving.",
+      "Oil pressure light meaning: a red oil-can dash light that warns engine oil pressure may be too low. Learn what the oil sign in your car means, how it differs from an oil leak indicator, and when to stop driving.",
     eyebrow: "Red engine warning",
-    h1: "Oil Pressure Warning Light Meaning",
+    h1: "Oil Pressure Light Meaning",
     summary:
-      "The oil pressure warning light is red on most vehicles and shows an oil-can or genie-lamp symbol. It means engine oil pressure may be too low — not simply that an oil change is due — and it is one of the most urgent dashboard warnings because low pressure can damage the engine within minutes.",
+      "The oil pressure warning light — also called the oil pressure indicator light — is red on most vehicles and shows an oil-can or genie-lamp symbol on the dashboard. It means engine oil pressure may be too low, not simply that an oil change is due, and low pressure can damage the engine within minutes.",
     colorText: "Red",
     canDriveText: "No. Stop safely.",
     urgency: "High",
@@ -61,7 +61,7 @@ export const guides: SymbolGuide[] = [
       {
         title: "What it means",
         body:
-          "The oil pressure light — often called the oil sign in a car — usually shows a red oil-can or dripping-oil icon. It warns that oil pressure may be too low to protect moving engine parts. It is not the same as a yellow low-oil-level reminder on some VW/Audi models, and it is not the same as a transmission oil pressure warning on automatic vehicles."
+          "The oil pressure light — often called the oil sign in a car, the oil can dashboard light, or the oil can dash light — usually shows a red oil-can or dripping-oil icon. It warns that oil pressure may be too low to protect moving engine parts. It is not the same as a yellow low-oil-level reminder on some VW/Audi models, and it is not the same as a transmission oil pressure warning on automatic vehicles."
       },
       {
         title: "What color is the oil pressure light?",
@@ -78,6 +78,21 @@ export const guides: SymbolGuide[] = [
       { title: "When it is most serious", body: "Stop immediately if the oil light appears with engine knocking, ticking, burning smell, smoke, or loss of power. Continuing to drive can turn a small leak or low oil level into major engine damage." }
     ],
     faqs: [
+      {
+        question: "What does the oil pressure light mean?",
+        answer:
+          "It means engine oil pressure may be too low to lubricate moving parts safely. On most dashboards the symbol is a red oil can or dripping-oil icon. Pull over, turn off the engine, and check the oil level — do not keep driving if the light stays on."
+      },
+      {
+        question: "What is the oil can light on the dashboard?",
+        answer:
+          "The oil can dashboard light — sometimes called the oil can dash light — is usually the engine oil pressure warning. It looks like a small oil can or genie lamp, often red. When it comes on while driving, stop safely and check oil level before continuing."
+      },
+      {
+        question: "Is the oil leak sign on the dashboard the same as the oil pressure light?",
+        answer:
+          "Not always. A red oil-can symbol while driving is usually the oil pressure warning, which can appear because of a leak, low oil level, or a sensor fault. Some cars use a separate low-oil-level reminder (often yellow) that is not the same as red oil pressure. If you see oil under the car or the red oil-can light stays on, treat it as urgent and stop driving."
+      },
       {
         question: "What color is the oil pressure light?",
         answer:
