@@ -259,6 +259,91 @@ export const guides: SymbolGuide[] = [
     ]
   },
   {
+    pageSlug: "traction-control-light",
+    symbolSlug: "traction-control-light",
+    title: "Traction Control Light Meaning — Car With Squiggly Lines Symbol",
+    metaDescription:
+      "The traction control light often shows a car with squiggly or wavy lines underneath. Learn what the TC / skid light means when it flashes vs stays on, and what to check first.",
+    eyebrow: "Stability system warning",
+    h1: "Traction Control Light Meaning",
+    summary:
+      "The traction control light — sometimes called the TC light or skid light — usually shows a car with squiggly or wavy lines under the tires. A flashing icon often means the system is actively limiting wheel spin; a steady amber light usually means traction control is off or has a fault.",
+    colorText: "Amber or yellow",
+    canDriveText: "Yes, with caution",
+    urgency: "Inspect if steady",
+    sections: [
+      {
+        title: "What it means",
+        body:
+          "Traction control (TC or TCS) reduces wheel spin when you accelerate on slippery surfaces. The dashboard symbol is often a small car outline with squiggly or wavy lines beneath it — drivers search for it as the car with squiggly lines light or slippery-road symbol. When the light flashes briefly, the system is usually working. When it stays on steady, traction control may be switched off or a fault may be stored."
+      },
+      {
+        title: "Flashing vs steady traction control light",
+        body:
+          "A flashing traction control light during hard acceleration on wet, icy, or loose gravel usually means the system is cutting power to regain grip — that is normal. A steady amber light at startup that does not turn off often means TC is disabled (button pressed) or the stability system detected a fault. If the same drive also triggers the check engine light, scan engine codes first; an engine misfire or sensor fault can disable traction control on many vehicles."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Check whether you pressed the TC or ESC off button — some cars show a steady light when traction control is intentionally disabled.",
+          "If the light flashed only on slippery pavement, ease off the throttle; no repair is needed if it clears.",
+          "If the light stays on, note whether the check engine, ABS, or battery light is also on.",
+          "Scan for fault codes if the steady light returns every drive — wheel speed sensors and steering-angle sensors are common causes."
+        ]
+      },
+      {
+        title: "Common causes of a steady light",
+        items: [
+          "Traction or stability control switched off manually",
+          "Faulty wheel speed sensor",
+          "Steering angle or yaw sensor fault",
+          "Engine misfire or emissions fault disabling stability aids",
+          "Low battery voltage after a weak alternator or recent jump-start",
+          "Blown fuse or control module communication fault"
+        ]
+      },
+      {
+        title: "Traction control vs stability control (ESC/ESP)",
+        body:
+          "Traction control limits drive-wheel spin during acceleration. Electronic stability control (ESC, ESP, or DSC on some brands) also helps correct skids by braking individual wheels. Many dashboards use similar car-with-lines icons; your owner's manual label may say TC, TCS, ESC, or ESP. A steady warning usually means the broader stability system needs attention, not just tire pressure or brakes alone."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is the car with squiggly lines on the dashboard?",
+        answer:
+          "It is usually the traction control or stability control warning. The wavy or squiggly lines under a car outline mean the system is active, off, or has a fault related to wheel slip. Flashing on a wet road is often normal; steady amber after startup deserves a scan or button check."
+      },
+      {
+        question: "Why is my traction control light on?",
+        answer:
+          "Most often the system was turned off, or a wheel speed sensor, steering sensor, or engine fault stored a code. Check the TC/ESC button first, then scan codes if the light stays on every trip."
+      },
+      {
+        question: "Is it safe to drive with the traction control light on?",
+        answer:
+          "Usually yes if the car drives normally and no red warnings are on — but grip on wet or icy roads may be reduced if TC is disabled. Avoid hard acceleration and increase following distance until the system is checked."
+      },
+      {
+        question: "Why did traction control and check engine light come on together?",
+        answer:
+          "An engine or transmission fault can disable traction control while the powertrain is in limp mode. Scan the check engine codes first; fixing the underlying engine fault often clears the TC light without a separate repair."
+      },
+      {
+        question: "Does traction control affect the ABS light?",
+        answer:
+          "They share wheel speed sensors on many cars. A bad sensor can trigger ABS and traction warnings together, sometimes with a battery or steering light after low voltage. See our guide on two warning lights together if multiple icons are on."
+      }
+    ],
+    related: [
+      { href: "/symbols/abs-warning-light/", label: "ABS Warning Light" },
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
+    ]
+  },
+  {
     pageSlug: "coolant-temperature-warning-light",
     symbolSlug: "coolant-temperature-warning",
     title: "Coolant Temperature Warning Light: Overheating Guide",

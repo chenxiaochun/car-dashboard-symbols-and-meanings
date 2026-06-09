@@ -153,6 +153,7 @@ export const scenarios: ScenarioGuide[] = [
     relatedGuides: [
       { href: "/symbols/abs-warning-light/", label: "ABS Warning Light" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/symbols/traction-control-light/", label: "Traction Control Light" },
       { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" }
     ],
     relatedScenarios: [

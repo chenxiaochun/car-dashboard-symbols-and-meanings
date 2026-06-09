@@ -105,6 +105,7 @@ function SeoContent() {
           <Link href="/symbols/brake-warning-light/">Brake Warning Light</Link>
           <Link href="/symbols/tire-pressure-warning-light/">Tire Pressure Warning Light</Link>
           <Link href="/symbols/abs-warning-light/">ABS Warning Light</Link>
+          <Link href="/symbols/traction-control-light/">Traction Control Light</Link>
           <Link href="/symbols/coolant-temperature-warning-light/">Coolant Temperature Warning</Link>
           <Link href="/symbols/airbag-warning-light/">Airbag Warning Light</Link>
           <Link href="/symbols/low-fuel-warning-light/">Low Fuel Warning Light</Link>
