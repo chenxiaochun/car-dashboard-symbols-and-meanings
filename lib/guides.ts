@@ -94,6 +94,11 @@ export const guides: SymbolGuide[] = [
           "Not always. A red oil-can symbol while driving is usually the oil pressure warning, which can appear because of a leak, low oil level, or a sensor fault. Some cars use a separate low-oil-level reminder (often yellow) that is not the same as red oil pressure. If you see oil under the car or the red oil-can light stays on, treat it as urgent and stop driving."
       },
       {
+        question: "Is the oil gauge on the dashboard the same as the oil pressure light?",
+        answer:
+          "Not on most cars. An oil gauge (needle or bar showing pressure or level while driving) is a live reading; the red oil-can warning light is a separate alert that oil pressure may be too low. Some dashboards show both — a gauge you watch normally and a red oil-can symbol that means stop now. If you searched for car oil light meaning or an oil pressure gauge symbol, check whether you see a steady red icon (warning light) or a moving gauge needle; the warning light is the urgent one."
+      },
+      {
         question: "What color is the oil pressure light?",
         answer:
           "Red on most cars. Red means stop safely and check the engine — low oil pressure can cause damage within minutes. Amber or yellow oil-can icons on some vehicles mean low oil level, not low pressure; check your owner's manual if the color is not red."

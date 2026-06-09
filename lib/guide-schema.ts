@@ -1,7 +1,7 @@
 import type { SymbolGuide } from "@/lib/guides";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
-const DATE_MODIFIED = "2026-06-07";
+const DATE_MODIFIED = "2026-06-09";
 
 export function buildArticleJsonLd(guide: SymbolGuide, symbolName: string) {
   return {

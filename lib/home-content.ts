@@ -36,6 +36,16 @@ export const serpGapParagraphs = [
 
 export const homeFaqs: HomeFaq[] = [
   {
+    question: "What are rear vehicle warning lights?",
+    answer:
+      "Rear vehicle warning lights are dashboard symbols related to the back of the car — not one single icon. Common examples include the rear fog lamp (amber lamp with lines pointing left), reverse or backup camera fault warnings, blind-spot or rear cross-traffic alerts on newer vehicles, and parking-aid indicators. Match the exact shape and color on your dash, then use the Symbol Finder on this page to open the matching guide."
+  },
+  {
+    question: "What do van dashboard symbols mean?",
+    answer:
+      "Van dashboard symbols use the same core warning icons as cars and SUVs: red oil can for oil pressure, horseshoe for tire pressure (TPMS), engine outline for check engine, thermometer for coolant temperature, and battery outline for charging problems. Commercial vans may also show diesel particulate filter (DPF), AdBlue, or load/door warnings depending on model. Start with color and shape, then confirm in your owner's manual because exact icons vary by make and year."
+  },
+  {
     question: "How do I identify which dashboard symbol is lit if I don't know the name?",
     answer:
       "Start with color, then shape: red oil can = oil pressure, horseshoe/exclamation = TPMS, engine block outline = check engine, thermometer in waves = coolant temperature, battery outline = charging system, circle with exclamation in parentheses = brake system. Use the Symbol Finder on this page to filter by color and system, then open the matching guide."
