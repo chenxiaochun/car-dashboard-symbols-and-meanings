@@ -3,7 +3,6 @@ node_modules
 .next
 out
 tsconfig.tsbuildinfo
-marketing
 
 # Accidental static export copies (use `out/` as deploy target)
 public/_next
