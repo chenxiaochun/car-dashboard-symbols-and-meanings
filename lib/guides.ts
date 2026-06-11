@@ -20,28 +20,121 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "check-engine-light",
     symbolSlug: "check-engine-light",
-    title: "Check Engine Light Meaning: Can You Drive and What to Do",
-    metaDescription: "Learn what the check engine light means, whether you can keep driving, common causes, what to check first, and when a flashing engine light is urgent.",
+    title: "Check Engine Light Meaning — Flashing vs Steady, Codes, and How Far to Drive",
+    metaDescription:
+      "Check engine light meaning: steady vs flashing MIL, common P-codes (P0300, P0420, P0171), how far you can drive if the car feels normal, and what to do when traction control comes on too.",
     eyebrow: "Engine warning",
     h1: "Check Engine Light Meaning",
-    summary: "The check engine light means the engine or emissions control system has detected a fault. A steady light is usually less urgent than a flashing light, but it should not be ignored.",
+    summary:
+      "The check engine light — also called the engine management light, MIL, or malfunction indicator lamp — means the engine or emissions system stored a fault. A steady amber or yellow light is usually less urgent than a flashing one, but you should scan codes and repair soon rather than ignore it for weeks.",
     colorText: "Amber or yellow",
-    canDriveText: "Usually, if steady",
+    canDriveText: "Usually, if steady and normal",
     urgency: "Inspect soon",
     sections: [
-      { title: "What it means", body: "The check engine light, also called the engine management light, MIL, or malfunction indicator lamp, is triggered when the car's computer sees a problem in the engine, fuel, ignition, or emissions system. The car may still feel normal, but a stored fault code can explain what the system detected." },
-      { title: "What to do first", ordered: true, items: ["Check whether the light is steady or flashing.", "Tighten the fuel cap if your car has one, then see whether the light clears after a few trips.", "Avoid hard acceleration, towing, or high-speed driving until the cause is known.", "Scan for diagnostic trouble codes if the light stays on."] },
-      { title: "Common causes", items: ["Loose or faulty fuel cap", "Oxygen sensor or emissions sensor fault", "Ignition misfire, coil, or spark plug problem", "Mass airflow sensor fault", "Catalytic converter efficiency problem"] },
-      { title: "When to stop driving", body: "If the check engine light is flashing, reduce speed and avoid heavy throttle. A flashing light can mean an active misfire that may damage the catalytic converter. Stop sooner if the car shakes, loses power, overheats, smells like fuel, or shows another red warning light." }
+      {
+        title: "What it means",
+        body:
+          "The check engine light is an amber or yellow engine-outline symbol on most dashboards. It turns on when the powertrain control module detects a problem in fuel, ignition, emissions, or related sensors. The car may still drive normally — the light is a warning that something failed a self-test or is out of range, not always an immediate breakdown. A stored OBD-II diagnostic trouble code (DTC) usually points to the system that triggered it."
+      },
+      {
+        title: "Flashing vs steady check engine light",
+        body:
+          "A steady check engine light means a fault is stored. It could be minor (loose fuel cap, EVAP leak) or serious (catalyst damage, ongoing misfire history) — you cannot tell from the light alone. A flashing check engine light is more urgent on most gasoline cars: it often indicates an active misfire dumping unburned fuel into the exhaust, which can overheat the catalytic converter within minutes. Ease off the throttle, avoid hard acceleration, and get scanned the same day if the light flashes. Diesel vehicles sometimes use a flashing MIL for different faults; check your owner's manual if you drive a diesel."
+      },
+      {
+        title: "How far can you drive with the check engine light on?",
+        body:
+          "There is no fixed mileage. If the light is steady and the car runs smoothly with no shaking, overheating, fuel smell, or power loss, many drivers reach a shop or parts store within a few days or roughly 50–100 miles — but repair should not wait weeks. A flashing light, repeated stalling, or any red warning (oil, temperature, brake) means stop driving as soon as safe and arrange a scan or tow. Continuing cross-country or ignoring a steady light for months can waste fuel, fail emissions tests, and turn a small sensor fault into an expensive catalytic converter replacement."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Note whether the light is steady or flashing, and whether traction control or another warning appeared at the same time.",
+          "Tighten the fuel cap until it clicks (if your car has one), then drive 3–10 normal trips to see if the light clears.",
+          "Avoid hard acceleration, towing, and high RPM until you know the code.",
+          "Read OBD-II codes — many AutoZone and O'Reilly stores in the US scan free; a basic reader costs about $20–$40.",
+          "Write down every P-code and search it with your make, model, and year before replacing parts."
+        ]
+      },
+      {
+        title: "Common OBD-II codes (starting points, not a diagnosis)",
+        body:
+          "Codes tell you which system failed a test, not always which part to replace. These appear frequently on gasoline cars:",
+        items: [
+          "P0300 — random/multiple cylinder misfire (flashing MIL often relates to active misfire)",
+          "P0301–P0306 — misfire on a specific cylinder (coil, plug, injector, compression on that cylinder)",
+          "P0420 / P0430 — catalytic converter efficiency below threshold (often follows long-term misfire or oil consumption)",
+          "P0171 / P0174 — system too lean (vacuum leak, MAF fault, fuel delivery, or unmetered air)",
+          "P0442 / P0455 / P0456 — evaporative emissions leak (fuel cap, purge valve, or small hose leak)",
+          "P0130–P0161 — oxygen sensor heater or circuit faults (sensor, wiring, or exhaust leak upstream)"
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Loose, missing, or cracked fuel cap",
+          "Ignition coil, spark plug, or injector misfire",
+          "Oxygen sensor or air-fuel ratio sensor fault",
+          "Mass airflow (MAF) sensor dirty or failed",
+          "EVAP purge valve or leak in the fuel vapor system",
+          "Catalytic converter efficiency problem after long-term faults",
+          "Aftermarket parts or recent battery disconnect (temporary codes until cleared)"
+        ]
+      },
+      {
+        title: "Check engine and traction control light together",
+        body:
+          "When the check engine light and traction control (or stability) light come on at the same time, the engine fault often disabled traction aids — not two unrelated failures. Scan engine codes first. Fixing a misfire, sensor, or emissions problem frequently clears the traction light without a separate repair. If both lights appeared right after a weak crank or battery work, also check charging voltage and ground connections before replacing stability modules."
+      },
+      {
+        title: "When to stop driving",
+        body:
+          "Stop or tow if the check engine light is flashing, the car shakes or loses power, you smell raw fuel, coolant temperature rises, oil pressure warning appears, or the exhaust smells strongly of sulfur. A steady light alone rarely means pull over immediately — but it does mean scan and schedule repair, not months of delay."
+      }
     ],
     faqs: [
-      { question: "Is a steady check engine light safe?", answer: "Often yes for a short period if the car drives normally, but the vehicle should still be scanned and repaired soon." },
-      { question: "Can a loose fuel cap cause it?", answer: "Yes. A loose or damaged fuel cap can trigger an evaporative emissions fault on many petrol/gasoline vehicles." }
+      {
+        question: "Is a flashing check engine light worse than a solid one?",
+        answer:
+          "Yes on most gasoline cars. Flashing usually means an active misfire that can damage the catalytic converter quickly. A solid light still needs a scan, but you typically have more time to reach a shop if the car drives normally."
+      },
+      {
+        question: "How far can I drive with a steady check engine light?",
+        answer:
+          "If the car feels normal, many people drive to a scanner or shop within a few days or about 50–100 miles. There is no manufacturer-approved mileage limit — avoid highway trips, towing, and weeks of delay. Flashing, shaking, or smell of fuel means stop sooner."
+      },
+      {
+        question: "Is a steady check engine light safe?",
+        answer:
+          "Often yes for a short period if driving feels normal, but the fault can waste fuel, increase emissions, and stress the catalytic converter over time. Scan codes and repair within days, not months."
+      },
+      {
+        question: "Can a loose fuel cap cause the check engine light?",
+        answer:
+          "Yes. A loose or damaged cap can set EVAP leak codes (such as P0442 or P0455). Tighten the cap, then allow several drive cycles — sometimes 50–100 miles — for the light to clear on its own."
+      },
+      {
+        question: "Why did check engine and traction control come on together?",
+        answer:
+          "Engine or transmission faults often disable traction and stability control until the problem is fixed. Scan the check engine codes first; resolving the powertrain fault usually clears the traction light."
+      },
+      {
+        question: "Will the check engine light clear itself?",
+        answer:
+          "Sometimes, if the fault was temporary (for example a loose cap that was tightened). If the underlying problem remains, the light returns after the computer runs the same test again — usually within a few drive cycles."
+      },
+      {
+        question: "Where can I get check engine codes read for free?",
+        answer:
+          "In the US, AutoZone and O'Reilly Auto Parts commonly offer free OBD-II scans in store. Write down the exact P-code; it is a starting point for diagnosis, not a parts list."
+      }
     ],
     related: [
+      { href: "/scenarios/flashing-check-engine/", label: "Flashing check engine light" },
+      { href: "/symbols/traction-control-light/", label: "Traction Control Light" },
       { href: "/symbols/oil-pressure-warning-light/", label: "Oil Pressure Warning" },
-      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
-      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" }
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]
   },
   {
