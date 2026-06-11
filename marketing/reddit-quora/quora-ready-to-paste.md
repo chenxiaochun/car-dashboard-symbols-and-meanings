@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-06-10）：** #1 ✅ 06-06 · #2 ✅ 06-07 · #3 ✅ 06-10 · **下一条 → #4 马蹄形** · Reddit #1–2 ✅
+> **进度（2026-06-11）：** #1–3 ✅ · #4 ⛔ 不让发 · #5 ✅ 06-11 · **下一条 → #6 ABS+刹车** · Reddit #1–3 ✅
 
 ---
 
@@ -12,9 +12,9 @@
 | 1 | TPMS 胎压灯（早晨闪烁） | ✅ 2026-06-06 已发 |
 | 2 | 检查发动机灯能开多远 | ✅ 2026-06-07 已发 |
 | 3 | 闪烁 vs steady CEL | ✅ 2026-06-10 已发 |
-| 4 | 马蹄形/dashboard 符号 | **明天发** |
-| 5 | 油压灯（有油还亮） | 待办 |
-| 6 | ABS + 刹车灯 | 待办 |
+| 4 | 马蹄形/dashboard 符号 | ⛔ 06-11 不让发（换问题或改天） |
+| 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
+| 6 | ABS + 刹车灯 | **明天发** |
 
 ---
 
@@ -111,7 +111,7 @@ If yours is flashing, note whether it happens at idle, under load, or only when 
 
 ---
 
-## 4️⃣ 马蹄形/dashboard 符号 **← 明天发这条**
+## 4️⃣ 马蹄形/dashboard 符号 ⛔ 06-11 不让发 — 换问题或改天再试
 
 **问题：** What does the horse shoe symbol light on your car's dashboard mean?  
 **链接：** https://www.quora.com/What-does-the-horse-shoe-symbol-light-on-your-car-s-dashboard-mean
@@ -135,10 +135,13 @@ Always confirm with your vehicle owner's manual — some brands use slightly dif
 
 ---
 
-## 5️⃣ 油压灯 — 机油够但灯还亮
+## 5️⃣ 油压灯 — 机油够但灯还亮 ✅ 已发（2026-06-11，替代 #4）
 
 **问题：** Why would the oil pressure light come on while driving, even though there is plenty of oil in the engine?  
 **链接：** https://www.quora.com/Why-would-the-oil-pressure-light-come-on-while-driving-even-though-there-is-plenty-of-oil-in-the-engine
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
 **操作：** Answer → 粘贴：
 
@@ -161,9 +164,11 @@ Reference: https://warninglightfinder.com/symbols/oil-pressure-warning-light/
 Does the light come on at idle, at highway speed, or when hot? That pattern helps a mechanic diagnose faster.
 ```
 
+</details>
+
 ---
 
-## 6️⃣ ABS + 牵引控制灯同时亮
+## 6️⃣ ABS + 牵引控制灯同时亮 **← 明天发这条**
 
 **问题：** If you have your ABS light and both traction control lights on, will your oil can and wrench come on?  
 **链接：** https://www.quora.com/If-you-have-your-ABS-light-and-both-traction-control-lights-on-will-your-oil-can-and-wrench-come-on

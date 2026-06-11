@@ -1,6 +1,6 @@
 # Reddit 一键复制 — 2026-06-07 更新
 
-> **进度（2026-06-10）：** #1 ✅ 06-07 · #2 ✅ 06-10 · **下一条 → #3 Dodge Charger TPMS**  
+> **进度（2026-06-11）：** #1 ✅ 06-07 · #2 ✅ 06-10 · #3 ✅ 06-11 · **下一条 → #4 Subaru TPMS**  
 > 用**日常 Chrome** 登录 Reddit。链接放在文末当 reference。
 
 ---
@@ -11,8 +11,8 @@
 |---|--------|------|------|
 | **1** | Honda Accord TPMS/TC/EPS | ✅ 原定 06-06 → 实发 06-07 |
 | **2** | Honda Civic 电气/多灯 | ✅ 2026-06-10 已发 |
-| 3 | Dodge Charger TPMS 传感器 | **明天发** |
-| 4 | r/askcarguys Subaru TPMS | 待办 |
+| 3 | Dodge Charger TPMS 传感器 | ✅ 2026-06-11 已发 |
+| 4 | r/askcarguys Subaru TPMS | **明天发** |
 
 ---
 
@@ -83,11 +83,14 @@ Did anyone do a loaded charging test (not just "alternator good" light on a test
 
 ---
 
-## 3️⃣ Dodge Charger — 左后 TPMS 一直显示 32 PSI（实压已变） **← 明天发这条**
+## 3️⃣ Dodge Charger — 左后 TPMS 一直显示 32 PSI（实压已变） ✅ 已发（2026-06-11）
 
 **子版：** r/MechanicAdvice  
 **时间：** 约 25 天前（评论少，仍值得回）  
 **链接：** https://www.reddit.com/r/MechanicAdvice/comments/1tbzswk/2022_dodge_charger_tpms_light_on/
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
 **楼主情况：** 2022 Charger，左后 TPMS 始终显示 32 PSI，打气到 40 也不变；启动约 1 分钟后由绿变红报低压。
 
@@ -112,9 +115,11 @@ More on steady vs flashing TPMS behavior: https://warninglightfinder.com/symbols
 Did anyone scan the TPMS codes to see if it's specifically left rear sensor signal?
 ```
 
+</details>
+
 ---
 
-## 4️⃣（备选）Subaru Impreza — TPMS 能否手动复位
+## 4️⃣（备选）Subaru Impreza — TPMS 能否手动复位 **← 明天发这条**
 
 **子版：** r/askcarguys（规则比 MechanicAdvice 松）  
 **时间：** 约 9 天前  
