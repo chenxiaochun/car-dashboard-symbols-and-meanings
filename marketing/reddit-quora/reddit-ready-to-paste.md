@@ -1,6 +1,6 @@
 # Reddit 一键复制 — 2026-06-07 更新
 
-> **进度（2026-06-11）：** #1 ✅ 06-07 · #2 ✅ 06-10 · #3 ✅ 06-11 · **下一条 → #4 Subaru TPMS**  
+> **进度（2026-06-12）：** #1–4 ✅ 排期发完 · **下一条 → 搜索新帖**（见文末链接）  
 > 用**日常 Chrome** 登录 Reddit。链接放在文末当 reference。
 
 ---
@@ -12,7 +12,7 @@
 | **1** | Honda Accord TPMS/TC/EPS | ✅ 原定 06-06 → 实发 06-07 |
 | **2** | Honda Civic 电气/多灯 | ✅ 2026-06-10 已发 |
 | 3 | Dodge Charger TPMS 传感器 | ✅ 2026-06-11 已发 |
-| 4 | r/askcarguys Subaru TPMS | **明天发** |
+| 4 | r/askcarguys Subaru TPMS | ✅ 2026-06-12 已发 |
 
 ---
 
@@ -119,13 +119,16 @@ Did anyone scan the TPMS codes to see if it's specifically left rear sensor sign
 
 ---
 
-## 4️⃣（备选）Subaru Impreza — TPMS 能否手动复位 **← 明天发这条**
+## 4️⃣ Subaru Impreza — TPMS 能否手动复位 ✅ 已发（2026-06-12）
 
 **子版：** r/askcarguys（规则比 MechanicAdvice 松）  
 **时间：** 约 9 天前  
 **链接：** https://www.reddit.com/r/askcarguys/comments/1tr8bps/2016_subaru_impreza_hatchback_can_i_manually/
 
-**操作：** 若 #1–3 都已发，或想换 sub 发 → Answer/Comment
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+**操作：** Comment
 
 ```
 On most 2016 Imprezas with direct TPMS, you can't really "reset" a bad sensor from the dash — you either correct the pressure and drive until the module accepts it, or use a TPMS relearn tool / shop scan after sensor or tire work.
@@ -144,17 +147,18 @@ Cold weather note: https://warninglightfinder.com/scenarios/winter-tpms-light/
 Does your dash show four individual pressures, or just one TPMS warning light?
 ```
 
+</details>
+
 ---
 
 ## 发完记录
 
-| 日期 | 帖子 | 已发？ |
-|------|------|--------|
-| 2026-06-06 | Honda Accord #1 | 计划（未发） |
-| 2026-06-07 | Honda Accord #1 | ✅ 实发 |
-| | Honda Civic #2 | ☐ |
-| | Dodge Charger #3 | ☐ |
-| | Subaru #4 | ☐ |
+| # | 帖子 | 日期 |
+|---|------|------|
+| 1 | Honda Accord TPMS/TC/EPS | ✅ 06-07 |
+| 2 | Honda Civic 多灯 | ✅ 06-10 |
+| 3 | Dodge Charger TPMS | ✅ 06-11 |
+| 4 | Subaru Impreza TPMS | ✅ 06-12 |
 
 ---
 

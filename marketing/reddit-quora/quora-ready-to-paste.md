@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-06-11）：** #1–3 ✅ · #4 ⛔ 不让发 · #5 ✅ 06-11 · **下一条 → #6 ABS+刹车** · Reddit #1–3 ✅
+> **进度（2026-06-12）：** #1–3、#5–6 ✅ · #4 ⛔ · **下一条 → 换问题试马蹄形 或 搜新帖** · Reddit #1–4 ✅
 
 ---
 
@@ -14,7 +14,7 @@
 | 3 | 闪烁 vs steady CEL | ✅ 2026-06-10 已发 |
 | 4 | 马蹄形/dashboard 符号 | ⛔ 06-11 不让发（换问题或改天） |
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
-| 6 | ABS + 刹车灯 | **明天发** |
+| 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 
 ---
 
@@ -168,12 +168,15 @@ Does the light come on at idle, at highway speed, or when hot? That pattern help
 
 ---
 
-## 6️⃣ ABS + 牵引控制灯同时亮 **← 明天发这条**
+## 6️⃣ ABS + 牵引控制灯同时亮 ✅ 已发（2026-06-12）
 
 **问题：** If you have your ABS light and both traction control lights on, will your oil can and wrench come on?  
 **链接：** https://www.quora.com/If-you-have-your-ABS-light-and-both-traction-control-lights-on-will-your-oil-can-and-wrench-come-on
 
-**操作：** Answer → 粘贴（偏「两灯同时亮」场景，可略改标题贴合）：
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+**操作：** Answer → 粘贴：
 
 ```
 Usually those are separate systems — ABS/traction control lights often share a wheel-speed sensor fault, while the oil can and wrench are unrelated unless you have multiple problems at once.
@@ -189,6 +192,8 @@ Combination guide: https://warninglightfinder.com/scenarios/two-warning-lights/
 
 Did all three lights start at the same moment (after a bump, battery disconnect, or tire work)? That detail matters.
 ```
+
+</details>
 
 ---
 
