@@ -269,27 +269,113 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "tire-pressure-warning-light",
     symbolSlug: "tire-pressure-warning",
-    title: "Tire Pressure Warning Light Meaning: TPMS and Tyre Pressure",
-    metaDescription: "Learn what the tire pressure warning light means, how TPMS works, whether you can drive, what to check first, and why the light may stay on.",
+    title: "TPMS Light Meaning — Horseshoe Symbol, Flashing vs Steady, and Stuck PSI",
+    metaDescription:
+      "Tire pressure warning light meaning: horseshoe or U-shape TPMS icon, flashing at startup vs steady, cold-weather drops, and what it means when one tire shows a stuck PSI reading.",
     eyebrow: "Tyre and tire warning",
     h1: "Tire Pressure Warning Light Meaning",
-    summary: "The tire pressure warning light, also called TPMS or tyre pressure warning, means one or more tyres/tires may be underinflated or the pressure monitoring system needs attention.",
+    summary:
+      "The tire pressure warning light — often called TPMS or the horseshoe dashboard symbol — usually means a tire may be underinflated or a pressure sensor needs attention. A steady amber light often points to low air; a flashing light at startup for 60–90 seconds then staying on often points to a sensor or system fault.",
     colorText: "Amber or yellow",
     canDriveText: "Slowly, if not flat",
     urgency: "Check soon",
     sections: [
-      { title: "What it means", body: "The tyre pressure symbol often looks like a horseshoe or flat tire shape with an exclamation mark. It means the tyre pressure monitoring system has detected low pressure or a sensor issue. Low pressure can reduce grip, increase wear, and cause overheating." },
-      { title: "What to do first", ordered: true, items: ["Slow down and avoid sharp steering if the car pulls or feels unstable.", "Check all tyre/tire pressures, including the spare if your vehicle monitors it.", "Inflate to the pressure shown on the door placard or owner's manual, not the number printed on the tyre sidewall.", "Reset the TPMS only after correcting the pressure if your vehicle requires a reset."] },
-      { title: "Common causes", items: ["One or more tyres/tires are underinflated", "Puncture, nail, or slow leak", "Cold weather pressure drop", "Recent tyre rotation or replacement", "Faulty TPMS sensor or weak sensor battery"] },
-      { title: "When to stop driving", body: "Stop as soon as safe if the tyre looks flat, the car pulls strongly, steering vibrates, or you hear flapping or thumping. Driving on a flat tyre can damage the wheel and make the car harder to control." }
+      {
+        title: "What it means",
+        body:
+          "The tire pressure monitoring system (TPMS) warns when a tire falls below a set threshold or when a sensor stops reporting believable data. On most dashboards the icon looks like a horseshoe, U-shape, or flat tire outline with an exclamation mark in the center — drivers often search for it as the horseshoe light or tyre pressure symbol. Low pressure reduces grip, wears tires faster, and can overheat a tire at highway speed. The light is usually amber or yellow, not red, but you should still check pressures before continuing."
+      },
+      {
+        title: "Flashing vs steady TPMS light",
+        body:
+          "A steady TPMS light after you have been driving usually means low pressure on one or more tires — including a slow leak or pressure that dropped overnight in cold weather. A TPMS icon that flashes for about 60–90 seconds when you start the car, then stays on solid, often indicates a system or sensor fault rather than a simple low-air event. Some cars also flash briefly during the self-check, then turn off if all sensors read correctly. If yours flashes every startup and never clears, plan on checking pressures first, then scanning for TPMS codes or inspecting sensors."
+      },
+      {
+        title: "When one tire shows a stuck PSI (for example always 32)",
+        body:
+          "If the dashboard always shows the same pressure on one corner — for example left rear stuck at 32 PSI even after you inflate to 36 or 40 with a manual gauge — that usually means the TPMS sensor or signal for that wheel is faulty, not that the tire is magically correct. Real low pressure changes when you add air; a frozen reading points to a dead sensor battery (common at 5–10 years), a damaged sensor from tire work, or a module that no longer trusts that corner. Confirm with a manual gauge on all four tires cold, then have the affected sensor tested or replaced and relearned if needed."
+      },
+      {
+        title: "Cold weather and morning TPMS warnings",
+        body:
+          "Tire pressure drops as temperature falls — roughly 1 PSI for every 10°F (about 5.5 kPa per 5.5°C). A light that appears after the first cold night of the season, or that blinks in the morning then clears after driving, is often pressure-related rather than a puncture. Inflate to the cold specification on the driver's door jamb placard when the tires are cold (before driving or after sitting several hours), not to the maximum PSI molded on the tire sidewall."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Slow down if the car pulls, vibrates, or a tire looks visibly soft.",
+          "Check all four tire pressures with a manual gauge when tires are cold.",
+          "Inflate to the door jamb placard PSI (include the spare if your vehicle monitors it).",
+          "Drive 5–10 minutes; many systems clear after corrected pressure registers.",
+          "If pressure is correct on all corners but the light flashes at every startup or one PSI reading never changes, suspect a sensor and schedule TPMS diagnosis."
+        ]
+      },
+      {
+        title: "Direct vs indirect TPMS",
+        body:
+          "Direct TPMS uses a sensor in each wheel (or valve stem) and can often show individual tire pressures on the dash. Indirect TPMS estimates pressure from wheel speed and may not show per-tire numbers. If your display shows four separate pressures, you almost certainly have direct sensors — a stuck number on one corner is a strong sensor clue. After rotation, replacement tires, or new wheels, some vehicles need a relearn procedure even when sensors are healthy."
+      },
+      {
+        title: "Common causes",
+        items: [
+          "One or more tires underinflated",
+          "Cold-weather pressure drop overnight",
+          "Puncture, nail, or slow leak",
+          "Faulty or dead TPMS sensor battery",
+          "Sensor damaged during tire repair or rotation",
+          "Missing relearn after tire or wheel service",
+          "TPMS module fault (more likely if the icon flashes at every startup)"
+        ]
+      },
+      {
+        title: "When to stop driving",
+        body:
+          "Stop as soon as safe if a tire looks flat, the car pulls hard to one side, you hear flapping or thumping, or steering shudders. Driving on a significantly underinflated tire can destroy the tire and damage the wheel. A steady TPMS light with normal handling and only a few PSI low is usually a check-soon situation, not an instant stop — but verify with a gauge, do not rely on the light alone."
+      }
     ],
     faqs: [
-      { question: "Why did the TPMS light come on after cold weather?", answer: "Tyre pressure drops as temperature falls. Inflate to the recommended pressure when the tyres are cold." },
-      { question: "Why is the light still on after inflating?", answer: "Some cars need a TPMS reset or a short drive. If it stays on, a sensor or leak may need inspection." }
+      {
+        question: "What does the horseshoe symbol on the dashboard mean?",
+        answer:
+          "It is usually the tire pressure monitoring system (TPMS). The horseshoe or U-shape with an exclamation mark means a tire may be low or a sensor fault was detected. Check cold pressures with a gauge and inflate to the door jamb placard value."
+      },
+      {
+        question: "Why does my TPMS light flash then stay on?",
+        answer:
+          "Flashing for 60–90 seconds at startup, then staying solid, often indicates a TPMS system or sensor fault. Confirm all tire pressures first; if they are correct and the pattern repeats every drive, have the sensors scanned — a failing sensor battery is common on older cars."
+      },
+      {
+        question: "Why is my TPMS light on after cold weather?",
+        answer:
+          "Pressure drops about 1 PSI per 10°F of temperature fall. Overnight cold can push tires below the TPMS threshold without a nail or puncture. Inflate when tires are cold to the placard PSI."
+      },
+      {
+        question: "Why is the TPMS light still on after I inflated the tires?",
+        answer:
+          "Some cars need a few minutes of driving or a manual relearn after inflation. If all pressures are correct on a gauge and the light returns within days, suspect a slow leak or a failing sensor."
+      },
+      {
+        question: "Why does one tire always show the same PSI on the dash?",
+        answer:
+          "A stuck reading on one corner — for example always 32 PSI while a manual gauge shows a different value — usually means a faulty TPMS sensor for that wheel, not accurate pressure data. Sensor replacement and relearn are often required."
+      },
+      {
+        question: "Can I drive with the TPMS light on?",
+        answer:
+          "Usually yes at reduced speed if the tire is not visibly flat and the car handles normally — but check pressure with a gauge first. Stop if the tire looks soft, the car pulls, or you hear tire slap. Low pressure at highway speed is unsafe."
+      },
+      {
+        question: "Do I inflate tires to the number on the tire sidewall?",
+        answer:
+          "No. Use the cold pressure on the driver's door jamb placard or owner's manual. The sidewall shows the tire's maximum rating, not the correct pressure for your vehicle."
+      }
     ],
     related: [
+      { href: "/scenarios/winter-tpms-light/", label: "TPMS in cold weather" },
       { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
-      { href: "/symbols/check-engine-light/", label: "Check Engine Light" }
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]
   },
   {
