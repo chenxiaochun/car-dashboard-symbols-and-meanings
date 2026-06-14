@@ -56,7 +56,7 @@ export default function HomePage() {
             <a href="#driving-advice">Can I drive?</a>
             <a href="#faq">FAQ</a>
           </nav>
-          <p className="updated-note">Last updated: June 6, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
+          <p className="updated-note">Last updated: June 14, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>
@@ -120,6 +120,7 @@ function SeoContent() {
         </div>
         <div className="detailed-guide-list">
           <Link href="/scenarios/red-dashboard-lights/">Red dashboard light came on</Link>
+          <Link href="/scenarios/lights-on-at-startup/">Multiple lights at startup</Link>
           <Link href="/scenarios/two-warning-lights/">Two warning lights together</Link>
           <Link href="/scenarios/winter-tpms-light/">TPMS light in cold weather</Link>
           <Link href="/scenarios/flashing-check-engine/">Flashing check engine light</Link>

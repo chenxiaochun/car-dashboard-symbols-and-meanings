@@ -217,27 +217,103 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "battery-warning-light",
     symbolSlug: "battery-warning-light",
-    title: "Battery Warning Light Meaning: Charging System Warning",
-    metaDescription: "Learn what the battery warning light means, common charging system causes, whether you can keep driving, and what to do first.",
+    title: "Battery Warning Light Meaning — Charging System and Flickering Dash Lights",
+    metaDescription:
+      "Battery light on while driving? Learn what the red battery symbol means, why multiple dashboard lights can flash at startup, how long you can drive, and what to check first.",
     eyebrow: "Electrical warning",
     h1: "Battery Warning Light Meaning",
-    summary: "The battery warning light usually means the charging system is not keeping the battery powered. The car may run for a short time, then lose electrical power.",
+    summary:
+      "The battery warning light — a red battery symbol on most dashboards — usually means the charging system is not keeping the battery powered. Despite the name, the alternator, drive belt, wiring, or connections are often the real issue. Low voltage can also trigger other warnings at startup, such as power steering, ABS, traction control, or TPMS.",
     colorText: "Red",
     canDriveText: "Short distance only",
     urgency: "High",
     sections: [
-      { title: "What it means", body: "Despite the name, the battery light often points to the alternator, belt, wiring, or charging circuit rather than the battery alone. If the system is not charging, headlights, power steering, engine electronics, and other systems may lose power." },
-      { title: "What to do first", ordered: true, items: ["Turn off nonessential electrical loads such as heated seats and rear defroster.", "Avoid stopping the engine unless you are in a safe place, because it may not restart.", "Check whether the drive belt is broken or slipping if it is safe to inspect.", "Have the battery and alternator tested soon."] },
-      { title: "Common causes", items: ["Failing alternator", "Loose, broken, or slipping belt", "Weak battery or poor battery connection", "Corroded terminals or wiring fault", "Charging system fuse or control fault"] },
-      { title: "When to stop driving", body: "Stop safely if the battery light appears with overheating, heavy steering, dim lights, warning messages, or loss of electrical systems. These signs can mean the car may stop running soon." }
+      {
+        title: "What it means",
+        body:
+          "The battery warning light indicates a charging-system problem, not always a dead battery. While the engine runs, the alternator should supply power and maintain roughly 13.5–14.5 volts at the battery on many gasoline cars. If voltage drops, the red battery icon may come on — and on modern cars, low voltage during cranking or while driving can also store communication faults that light TPMS, check engine, traction control, or electric power steering warnings at the same time."
+      },
+      {
+        title: "Multiple lights at startup or when the engine starts",
+        body:
+          "A cluster of amber lights that appear for a few seconds when you turn the key — battery, check engine, traction control, TPMS, power steering — is often a voltage dip during cranking, not five separate failures. The starter draws heavy current; a weak battery, bad ground, loose terminal, or failing alternator can drag system voltage down enough to set temporary warnings. If all lights go out after the engine is running and the car drives normally, note whether the battery symbol flickers at idle or returns while driving — that pattern still deserves a charging-system test."
+      },
+      {
+        title: "Flickering dashboard lights while driving",
+        body:
+          "Lights that flicker or pulse while driving — but look stable at idle — often point to a loose or corroded connection, failing alternator under load, or a slipping belt rather than random module failures. Wiggle-test battery terminals and the main engine ground strap while watching voltage if it is safe to do so. A refurbished or low-quality alternator can pass a quick bench test yet drop output when hot or when headlights, blower, and rear defroster are on."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Turn off heated seats, rear defroster, and high beams to reduce electrical load.",
+          "Avoid shutting off the engine in an unsafe place — a weak charging system may not restart.",
+          "With the engine running, check whether headlights brighten slightly when you rev — dim lights at idle that brighten with RPM can mean alternator or belt trouble.",
+          "Inspect the drive belt for glazing, cracks, or slipping; look for corrosion on battery terminals.",
+          "Ask for a loaded charging-system test (voltage with headlights and blower on), not only a quick alternator lamp check."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Failing alternator or voltage regulator",
+          "Loose, corroded, or damaged battery terminals",
+          "Weak or old battery that cannot hold load",
+          "Broken, glazed, or slipping serpentine belt",
+          "Bad engine or body ground strap",
+          "Charging circuit fuse or wiring fault",
+          "Recent battery disconnect leaving stored U-codes until cleared"
+        ]
+      },
+      {
+        title: "How long can you drive with the battery light on?",
+        body:
+          "There is no safe fixed distance. The car may run on battery alone for minutes to under an hour depending on load, battery condition, and whether the alternator is completely dead or weak. If the light stays on while driving, head toward a shop or safe place to stop — do not plan a long trip. If steering becomes heavy, lights dim severely, or warnings multiply, pull over as soon as safe."
+      },
+      {
+        title: "When to stop driving",
+        body:
+          "Stop safely if the battery light stays on with dimming headlights, heavy steering, burning rubber smell from a slipping belt, overheating, or multiple red warnings. A charging failure can leave you stranded without warning once the battery is drained."
+      }
     ],
     faqs: [
-      { question: "Does the battery light mean I need a new battery?", answer: "Not always. The alternator and charging system should be tested before replacing parts." },
-      { question: "Why did power steering get heavy too?", answer: "Some cars use electric power steering, which can be affected by low voltage. A belt failure can also affect multiple systems." }
+      {
+        question: "Does the battery light mean I need a new battery?",
+        answer:
+          "Not always. Test the charging system first. A good battery with a failed alternator can still trigger the light. Conversely, a weak battery can overload a marginal alternator. Many shops test both together."
+      },
+      {
+        question: "Why did power steering get heavy when the battery light came on?",
+        answer:
+          "Electric power steering needs stable voltage. Low charging voltage — especially during startup or with a failing alternator — can reduce assist or store a fault until voltage recovers. Fix charging and grounds before replacing steering components."
+      },
+      {
+        question: "Why did several warning lights come on when I started the car?",
+        answer:
+          "Low system voltage during cranking is a common cause on 2010+ vehicles. TPMS, check engine, traction, ABS, and EPS can all set communication or low-voltage codes together. If lights clear after startup, still test battery, terminals, belt, and alternator output under load."
+      },
+      {
+        question: "Can a bad alternator cause the check engine light?",
+        answer:
+          "Yes. Low or unstable voltage can set powertrain and network codes. Scan codes — U-codes often indicate communication or voltage issues. Repair charging first; other lights may clear without separate repairs."
+      },
+      {
+        question: "What voltage should I see with the engine running?",
+        answer:
+          "Many gasoline cars show about 13.5–14.5 volts at the battery with accessories off. Significantly lower — or voltage that collapses when you turn on headlights and blower — suggests charging trouble. Exact specs vary by vehicle; use your repair manual as the authority."
+      },
+      {
+        question: "I just replaced the battery and alternator but the light is still on — why?",
+        answer:
+          "Check belt tension and alignment, terminal tightness, ground straps, and whether a refurbished alternator performs under load when hot. Also clear stored codes after major electrical work — some warnings linger until a drive cycle or scan tool reset after the root cause is fixed."
+      }
     ],
     related: [
-      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
-      { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" }
+      { href: "/scenarios/lights-on-at-startup/", label: "Multiple lights at startup" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" },
+      { href: "/symbols/traction-control-light/", label: "Traction Control Light" },
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" }
     ]
   },
   {

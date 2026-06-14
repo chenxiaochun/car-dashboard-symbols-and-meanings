@@ -157,6 +157,7 @@ export const scenarios: ScenarioGuide[] = [
       { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" }
     ],
     relatedScenarios: [
+      { href: "/scenarios/lights-on-at-startup/", label: "Multiple lights at startup" },
       { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights" },
       { href: "/scenarios/winter-tpms-light/", label: "TPMS light in cold weather" }
     ]
@@ -285,6 +286,92 @@ export const scenarios: ScenarioGuide[] = [
     relatedGuides: [
       { href: "/symbols/check-engine-light/", label: "Check Engine Light Guide" },
       { href: "/symbols/coolant-temperature-warning-light/", label: "Coolant Temperature Warning" }
+    ],
+    relatedScenarios: [
+      { href: "/scenarios/two-warning-lights/", label: "Two warning lights together" },
+      { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights" }
+    ]
+  },
+  {
+    slug: "lights-on-at-startup",
+    title: "Multiple Dashboard Lights at Startup: Battery, TPMS, Check Engine, and More",
+    metaDescription:
+      "Several warning lights at startup often mean low system voltage during cranking — not separate failures. Learn what to check first: battery, grounds, belt, and alternator under load.",
+    eyebrow: "Driving scenario",
+    h1: "Why several dashboard lights come on when you start the car",
+    summary:
+      "If TPMS, check engine, traction control, power steering, ABS, or battery warnings flash together when you turn the key — then often clear after the engine starts — low voltage during cranking is a common cause. One charging or connection problem can trigger multiple warnings at once.",
+    howToName: "What to do when multiple dashboard lights appear at startup",
+    sections: [
+      {
+        title: "Why this happens at startup specifically",
+        body:
+          "Starting the engine pulls a large burst of current from the battery. For a second or two, system voltage can dip below what modules expect. Modern cars run dozens of computers; a brief low-voltage event can set TPMS, check engine, traction, ABS, or electric power steering warnings together even when no single part has failed yet. If lights go out after idle stabilizes, you still need a charging-system check — the dip may repeat every cold start until the battery, cable, ground, belt, or alternator is fixed."
+      },
+      {
+        title: "Lights that cleared after startup — is it safe?",
+        body:
+          "Sometimes yes for a single event if the car now drives normally, all warnings are off, and headlights are bright at idle. Treat it as a warning, not an all-clear: schedule a battery and charging test soon. If the same cluster returns every start, or any light stays on while driving, do not ignore it. Intermittent flickering while driving — especially with a battery symbol — points to connections or alternator output under load, not a one-time glitch."
+      },
+      {
+        title: "Typical light clusters and what they share",
+        items: [
+          "Battery + power steering heavy → low voltage or belt/alternator",
+          "Battery + flickering headlights → charging or loose terminal",
+          "TPMS + check engine + traction at crank → voltage dip or network fault",
+          "ABS + traction + battery → wheel-speed and network modules share power and grounds",
+          "All amber, none red, all clear after start → still test charging before replacing four modules"
+        ]
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Write down which lights appeared, whether they cleared, and if steering felt heavy or headlights dimmed.",
+          "Inspect battery terminals and the main engine ground strap for corrosion or looseness.",
+          "With the engine running and accessories off, measure battery voltage if you have a multimeter — roughly 13.5–14.5 V is typical on many cars.",
+          "Repeat with headlights, blower, and rear defroster on — voltage should not collapse.",
+          "Scan for codes; U-codes and low-voltage codes support a charging diagnosis over random part replacement."
+        ]
+      },
+      {
+        title: "After recent battery or alternator work",
+        body:
+          "A new battery on a failing alternator — or a refurbished alternator that tests fine unloaded — is a frequent story behind flickering lights and repeat startup warnings. Confirm belt routing and tension, torque on battery terminals, and loaded alternator output after any recent repair. Clear codes only after the charging system passes a loaded test."
+      },
+      {
+        title: "When to stop driving",
+        body:
+          "Do not drive far if the battery light stays on, steering stays heavy, lights keep flickering at idle, or red oil, brake, or coolant warnings appear with the cluster. Multiple amber lights that clear once may allow a short drive to a shop for testing — not a long highway trip."
+      }
+    ],
+    faqs: [
+      {
+        question: "Why do TPMS, check engine, and traction control all light up when I start the car?",
+        answer:
+          "Low system voltage during cranking is a common link. Modules wake up during the voltage sag and set faults. If they clear after startup, test battery condition, terminal connections, ground straps, belt, and alternator output under load before replacing individual sensors."
+      },
+      {
+        question: "The lights flash at startup then go off — do I still need a mechanic?",
+        answer:
+          "Yes, if the pattern repeats. A healthy charging system usually does not throw a multi-light parade every morning. A one-time event after leaving lights on overnight may only need a battery test — but verify charging, not just jump-start and forget."
+      },
+      {
+        question: "Dashboard lights flicker while driving but not at idle — what does that mean?",
+        answer:
+          "Often a loose battery cable, bad ground, or alternator that cannot keep voltage under load. Vibration while moving can open a marginal connection. Have charging and grounds checked before chasing ABS, TPMS, or traction parts separately."
+      },
+      {
+        question: "Is this the same as two warning lights while driving?",
+        answer:
+          "Related but not identical. Startup clusters often mean a brief voltage dip; two steady lights while driving may mean one system fault disabling another. See our two-warning-lights guide if warnings stay on after the engine is warm."
+      }
+    ],
+    relatedGuides: [
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/symbols/traction-control-light/", label: "Traction Control Light" },
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" }
     ],
     relatedScenarios: [
       { href: "/scenarios/two-warning-lights/", label: "Two warning lights together" },
