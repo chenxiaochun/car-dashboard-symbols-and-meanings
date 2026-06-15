@@ -55,7 +55,7 @@ export default async function ScenarioPage({ params }: PageProps) {
     description: scenario.metaDescription,
     url: `${SITE_URL}/scenarios/${scenario.slug}/`,
     inLanguage: "en-US",
-    dateModified: "2026-06-06",
+    dateModified: "2026-06-14",
     author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL }
   };

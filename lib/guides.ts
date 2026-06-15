@@ -207,6 +207,11 @@ export const guides: SymbolGuide[] = [
           "No. Engine oil pressure uses an oil-can symbol and protects the engine. Transmission oil pressure warnings — mainly on automatics — often include a gear, AT, or OIL label and relate to gearbox hydraulic pressure. A plain red oil can almost always means engine oil pressure, not transmission."
       },
       { question: "Is oil pressure the same as oil level?", answer: "No. Low oil level can cause low pressure, but a pressure warning can also come from pump, sensor, or internal engine problems." },
+      {
+        question: "Is the oil change light the same as the oil pressure light?",
+        answer:
+          "No. An oil change reminder or oil life monitor (often amber, sometimes a wrench or message) means scheduled maintenance is due — you can usually keep driving and book a service. The oil pressure warning (usually a red oil can while driving) means lubrication pressure may be too low and can damage the engine within minutes. Some VW/Audi models use a yellow oil-can icon for low oil level — that is still not the same as red oil pressure. Check color, whether the icon appears while driving, and your owner's manual."
+      },
       { question: "Can I drive to a workshop?", answer: "Not if the red oil pressure warning stays on. Arrange help or towing rather than driving with low oil pressure." }
     ],
     related: [

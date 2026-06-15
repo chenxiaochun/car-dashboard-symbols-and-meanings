@@ -148,6 +148,11 @@ export const scenarios: ScenarioGuide[] = [
         question: "I checked basics but both lights are still on — why?",
         answer:
           "Shared wiring, low voltage after a battery disconnect, or one stored fault disabling another system are common. An OBD-II scan plus a charging-system test often explains paired amber lights better than visual checks alone."
+      },
+      {
+        question: "What does Service Vehicle Soon mean with ABS or traction control?",
+        answer:
+          "Service Vehicle Soon (or a similar wrench/chassis message) is a general alert that something in the brake, stability, suspension, or drivetrain network needs diagnosis — it is not one specific part. With ABS or traction control, one underlying fault often disables related systems: low voltage can store multiple chassis codes; a wheel-speed sensor fault can trigger ABS and traction together; brake fluid or hydraulic issues can pair brake and ABS warnings. Scan all modules, fix the root cause, then clear codes — do not replace ABS and traction parts separately without testing."
       }
     ],
     relatedGuides: [
@@ -365,6 +370,11 @@ export const scenarios: ScenarioGuide[] = [
         question: "Is this the same as two warning lights while driving?",
         answer:
           "Related but not identical. Startup clusters often mean a brief voltage dip; two steady lights while driving may mean one system fault disabling another. See our two-warning-lights guide if warnings stay on after the engine is warm."
+      },
+      {
+        question: "What does the master warning light (triangle) mean when other lights are on?",
+        answer:
+          "The master warning light — usually a red or amber triangle with an exclamation mark — is a summary alert, not a separate failure. It tells you to read the other messages or symbols on the dash. At startup with a brief cluster of amber lights, it often clears with the rest once voltage stabilizes. If the triangle stays on while driving, prioritize any red oil, brake, or coolant warnings first, then battery/charging, then scan codes for the remaining amber lights rather than treating the triangle as its own repair."
       }
     ],
     relatedGuides: [
