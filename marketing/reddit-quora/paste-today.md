@@ -14,6 +14,7 @@
 | Quora #1–3、#5、#6 | 06-06～06-12 | #4 马蹄形 ⛔ 06-11 跳过 |
 | Reddit #5 — 2015 Audi A3 TPMS/转向 | 06-23 | 搜索新帖 |
 | Quora #7 — 闪烁 TPMS 能开多久 | 06-23 | 无人回答帖 |
+| Reddit #6 — Sienna TC 突然全刹 | 06-23 | 链 TC + two-warning-lights |
 
 ---
 
@@ -46,14 +47,15 @@
 ## 今天可选（有空再做）
 
 1. **GSC 复盘** — CEL 页展示 / 点击 / 排名 / CTR（只看不改）
-2. ~~站外 1 条~~ — ✅ 06-23 已发 Reddit + Quora 各 1 条
+2. ~~站外 1 条~~ — ✅ 06-23 已发 Reddit×2 + Quora×1
 3. **Pinterest Pin 4** — 刹车警示灯，`marketing/pinterest/captions.md`
+4. **GSC TC 页** — 展示 +155% 通知，记展示/点击/查询词（只看不改）
 
 ## 明天可选（06-24）
 
-1. **Reddit #6** — 2018 Honda Fit 多灯（0 评论，文案已写好）  
+1. **休息** — 今天已发 Reddit×2 + Quora×1，明天不发也完全 OK
+2. **Reddit #7** — 2018 Honda Fit 多灯（备选）  
    https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/
-2. **休息** — 今天已发 2 条，明天不发也完全 OK
 
 ---
 
@@ -110,3 +112,4 @@
 | Quora #6 | ABS + 刹车/多灯 | 06-12 |
 | Reddit #5 | [2015 Audi A3 TPMS/转向](https://www.reddit.com/r/MechanicAdvice/comments/1uc0a7k/audi_help/) | 06-23 |
 | Quora #7 | [闪烁 TPMS 能开多久](https://www.quora.com/unanswered/How-long-can-you-drive-with-a-very-low-tire-pressure-warning-light-flashing-in-your-dashboard-without-causing-any-permanent-damage-to-your-cars-engine-transmission-parts) | 06-23 |
+| Reddit #6 | [Sienna TC 突然全刹](https://www.reddit.com/r/MechanicAdvice/comments/1u2wgmm/traction_control_full_braking/) | 06-23 |
