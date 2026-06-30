@@ -1,6 +1,6 @@
-# 今日待办 — 2026-06-24
+# 今日待办 — 2026-06-25
 
-> **进度：** 观察期第 12 天 · CEL 已索引 ✅ · **06-24 GSC+GA4 复盘 ✅** · 06-23 站外 Reddit×2 + Quora×1 ✅ · **7d：367 展示 / 1 点击（油压页）/ 排名 28** · TC 193 展示仍 0 点击 · 站内继续只看不改（至约 7 月初）
+> **进度：** 观察期第 13 天 · **06-25 Reddit #7 ✅** · GA4 Referral 仍 2 次（无 reddit.com 明细）· 站内继续只看不改（至约 7 月初）
 
 ---
 
@@ -16,6 +16,8 @@
 | **GSC CEL 页复盘** | **06-24** | 7d 15 展示 / 0 点击 / 排名 35.1 |
 | **GSC 全站 + GA4 复盘** | **06-24** | 见下方快照 |
 | **GSC 7d 页面+查询词明细** | **06-24** | 1 点击确认在油压页；查询词全 TC、0 点击 |
+| **GA4 Referral 复查** | **06-25** | 28d Referral 2 次；仍无 reddit.com 单独列出 |
+| **Reddit #7 — 2018 Honda Fit 多灯** | **06-25** | 首条评论；链 two-warning-lights + lights-on-at-startup |
 
 ---
 
@@ -153,19 +155,18 @@
 
 ---
 
-## 今天建议（06-24）
+## 今天建议（06-25）
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | **站外休息** — 昨天已发 3 条，今天不发 |
+| **1** | **站外休息** — 今天已发 Reddit #7 |
 | **2** | 可选 **Pinterest Pin 4** — 刹车，`marketing/pinterest/captions.md` |
-| **3** | 下周初再查 GSC TC 点击是否从 0 动起来 |
+| **3** | 过几天再查 GA4 是否出现 reddit.com referral |
 
-### 明天可选（06-25）
+### 明天可选（06-26）
 
-1. **Reddit #7** — 2018 Honda Fit 多灯（备选）  
-   https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/
-2. **休息** — 每周 2–4 条站外已够
+1. **休息** — 本周站外已够（06-23×3 + 06-25×1）
+2. **Quora #8** — 马蹄形换题或搜 `traction control light meaning`
 
 ---
 
@@ -223,3 +224,4 @@
 | Reddit #5 | [2015 Audi A3 TPMS/转向](https://www.reddit.com/r/MechanicAdvice/comments/1uc0a7k/audi_help/) | 06-23 |
 | Quora #7 | [闪烁 TPMS 能开多久](https://www.quora.com/unanswered/How-long-can-you-drive-with-a-very-low-tire-pressure-warning-light-flashing-in-your-dashboard-without-causing-any-permanent-damage-to-your-cars-engine-transmission-parts) | 06-23 |
 | Reddit #6 | [Sienna TC 突然全刹](https://www.reddit.com/r/MechanicAdvice/comments/1u2wgmm/traction_control_full_braking/) | 06-23 |
+| Reddit #7 | [2018 Honda Fit 多灯/Honda Sensing](https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/) | 06-25 |

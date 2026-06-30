@@ -1,6 +1,6 @@
 # Reddit 一键复制 — 2026-06-07 更新
 
-> **进度（2026-06-12）：** #1–4 ✅ 排期发完 · **下一条 → 搜索新帖**（见文末链接）  
+> **进度（2026-06-25）：** #1–7 ✅ · **下一条 → 搜索新帖**（见文末链接）  
 > 用**日常 Chrome** 登录 Reddit。链接放在文末当 reference。
 
 ---
@@ -13,6 +13,22 @@
 | **2** | Honda Civic 电气/多灯 | ✅ 2026-06-10 已发 |
 | 3 | Dodge Charger TPMS 传感器 | ✅ 2026-06-11 已发 |
 | 4 | r/askcarguys Subaru TPMS | ✅ 2026-06-12 已发 |
+| **7** | 2018 Honda Fit Honda Sensing/多灯 | ✅ 2026-06-25 已发 |
+
+---
+
+## 7️⃣ 2018 Honda Fit — Honda Sensing + TPMS/EPS 多灯 ✅ 已发（2026-06-25）
+
+**子版：** r/MechanicAdvice  
+**链接：** https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/  
+**链到：** two-warning-lights + lights-on-at-startup
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+2018 Fit：Honda Sensing 全挂 → 拔 camera/radar 后 TPMS/EPS 加入；P1659/P2108；电压正常。首条评论，针对 U-code 扫描、接插件、接地、标定。
+
+</details>
 
 ---
 
@@ -159,6 +175,9 @@ Does your dash show four individual pressures, or just one TPMS warning light?
 | 2 | Honda Civic 多灯 | ✅ 06-10 |
 | 3 | Dodge Charger TPMS | ✅ 06-11 |
 | 4 | Subaru Impreza TPMS | ✅ 06-12 |
+| 5 | Audi A3 TPMS/转向 | ✅ 06-23 |
+| 6 | Sienna TC 全刹 | ✅ 06-23 |
+| 7 | Honda Fit 多灯 | ✅ 06-25 |
 
 ---
 
