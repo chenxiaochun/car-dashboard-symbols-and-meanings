@@ -18,6 +18,7 @@
 | **GSC 7d 页面+查询词明细** | **06-24** | 1 点击确认在油压页；查询词全 TC、0 点击 |
 | **GA4 Referral 复查** | **06-25** | 28d Referral 2 次；仍无 reddit.com 单独列出 |
 | **Reddit #7 — 2018 Honda Fit 多灯** | **06-25** | 首条评论；链 two-warning-lights + lights-on-at-startup |
+| **Pinterest Pin 4 — 刹车灯** | **06-25** | 已发布；链 brake-warning-light 页 |
 
 ---
 
@@ -159,9 +160,9 @@
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | **站外休息** — 今天已发 Reddit #7 |
-| **2** | 可选 **Pinterest Pin 4** — 刹车，`marketing/pinterest/captions.md` |
-| **3** | 过几天再查 GA4 是否出现 reddit.com referral |
+| **1** | **站外休息** — Reddit #7 + Pinterest Pin 4 已完成 |
+| **2** | 过几天再查 GA4 是否出现 reddit.com / pinterest referral |
+| **3** | 下周初查 GSC TC 点击是否从 0 动起来 |
 
 ### 明天可选（06-26）
 
@@ -174,7 +175,7 @@
 
 - ❌ 改油压、CEL、TC 页面 title/meta（观察期至约 **7 月初**）
 - ❌ 重复 GSC 索引同一 URL
-- ❌ 今天再发 Reddit / Quora（昨天已超额）
+- ❌ 今天再发 Reddit / Quora（本周已够：06-23×3 + 06-25×1）
 
 ---
 
@@ -225,3 +226,4 @@
 | Quora #7 | [闪烁 TPMS 能开多久](https://www.quora.com/unanswered/How-long-can-you-drive-with-a-very-low-tire-pressure-warning-light-flashing-in-your-dashboard-without-causing-any-permanent-damage-to-your-cars-engine-transmission-parts) | 06-23 |
 | Reddit #6 | [Sienna TC 突然全刹](https://www.reddit.com/r/MechanicAdvice/comments/1u2wgmm/traction_control_full_braking/) | 06-23 |
 | Reddit #7 | [2018 Honda Fit 多灯/Honda Sensing](https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/) | 06-25 |
+| Pinterest Pin 4 | [Brake Warning Light](https://www.pinterest.com/pin/1055249756456622160) | 06-25 |

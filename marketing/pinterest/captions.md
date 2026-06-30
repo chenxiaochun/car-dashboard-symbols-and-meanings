@@ -96,10 +96,12 @@ https://warninglightfinder.com/symbols/tire-pressure-warning-light/
 
 ---
 
-## Pin 4 — Brake Warning Light
+## Pin 4 — Brake Warning Light ✅ 已发（2026-06-25）
 
 **File:** `pinterest-brake-warning-light.png`  
-**Destination link:** https://warninglightfinder.com/symbols/brake-warning-light/
+**Destination link:** https://warninglightfinder.com/symbols/brake-warning-light/  
+**Pin:** https://www.pinterest.com/pin/1055249756456622160  
+**Board:** Car Tips & Dashboard Warning Lights
 
 **Title:**
 ```
