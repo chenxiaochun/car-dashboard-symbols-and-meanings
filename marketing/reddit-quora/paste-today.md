@@ -20,6 +20,7 @@
 | **Reddit #7 — 2018 Honda Fit 多灯** | **06-25** | 首条评论；链 two-warning-lights + lights-on-at-startup |
 | **Pinterest Pin 4 — 刹车灯** | **06-25** | 已发布；链 brake-warning-light 页 |
 | **GSC 全站 7d 复盘** | **07-06** | 402 展示 / 0 点击 / 排名 22.7；见下方快照 |
+| **TC 页 meta description 微调** | **07-06** | title 未动；针对 CTR / 查询词优化 |
 
 ---
 
@@ -208,10 +209,9 @@
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | **Pinterest Pin 5** — 电瓶灯（`captions.md`，配合 battery 词起量） |
-| **2** | 可选 **Quora #8** — `traction control light meaning` 或 battery 相关问题 |
-| **3** | 若决定动站内：只试 **TC 页 meta**（1 处），油压/CEL 不动 |
-| **4** | 下周再查 GSC 7d 点击是否恢复 |
+| **1** | **Pinterest Pin 5** — 配图已生成，待发布（`marketing/pinterest/pinterest-battery-warning-light.png`） |
+| **2** | **TC meta 已改** — 等 2 周看 GSC CTR，勿再动 title |
+| **3** | 可选 **Quora #8** — battery 或 TC 相关问题 |
 
 ### 本周站外节奏
 

@@ -523,7 +523,7 @@ export const guides: SymbolGuide[] = [
     symbolSlug: "traction-control-light",
     title: "Traction Control Light Meaning — Car With Squiggly Lines Symbol",
     metaDescription:
-      "The traction control light often shows a car with squiggly or wavy lines underneath. Learn what the TC / skid light means when it flashes vs stays on, and what to check first.",
+      "Traction control light meaning — squiggly-lines car symbol on your dashboard. Flashing vs steady TC light: causes, what to check first, and when it's safe to drive.",
     eyebrow: "Stability system warning",
     h1: "Traction Control Light Meaning",
     summary:

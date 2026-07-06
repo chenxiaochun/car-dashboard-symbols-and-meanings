@@ -129,10 +129,11 @@ Symbols vary by make/model — confirm with your owner’s manual.
 
 ---
 
-## Pin 5 — Battery Warning Light
+## Pin 5 — Battery Warning Light ✅ 配图就绪（2026-07-06，待发布）
 
 **File:** `pinterest-battery-warning-light.png`  
-**Destination link:** https://warninglightfinder.com/symbols/battery-warning-light/
+**Destination link:** https://warninglightfinder.com/symbols/battery-warning-light/  
+**Board:** Car Tips & Dashboard Warning Lights
 
 **Title:**
 ```
