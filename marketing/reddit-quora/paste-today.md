@@ -1,6 +1,6 @@
 # 今日待办 — 2026-07-06
 
-> **进度：** **07-06 Pinterest Pin 5 ✅** · TC meta 已微调 · GSC 7d：402 展示 / 0 点击 / 排名 22.7 · 油压页别动
+> **进度：** **07-06 Quora #8 ✅** · Pin 5 ✅ · TC meta 已微调 · GSC 7d：402 展示 / 0 点击 / 排名 22.7
 
 ---
 
@@ -22,6 +22,7 @@
 | **GSC 全站 7d 复盘** | **07-06** | 402 展示 / 0 点击 / 排名 22.7；见下方快照 |
 | **TC 页 meta description 微调** | **07-06** | title 未动；针对 CTR / 查询词优化 |
 | **Pinterest Pin 5 — 电瓶灯** | **07-06** | 已发布；链 battery-warning-light 页 |
+| **Quora #8 — 电瓶灯闪烁** | **07-06** | 链 battery-warning-light 页 |
 
 ---
 
@@ -210,9 +211,9 @@
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | **站外休息** — Pin 5 + TC meta 今日已完成 |
-| **2** | 可选 **Quora #8** — battery 相关问题 |
-| **3** | 等 2 周看 TC meta CTR；下周查 GSC 点击 |
+| **1** | **站外休息** — Pin 5 + Quora #8 + TC meta 今日已完成 |
+| **2** | 等 2 周看 TC meta CTR；下周查 GSC 点击 |
+| **3** | 过几天查 GA4 是否出现 quora.com / pinterest referral |
 
 ### 本周站外节奏
 
@@ -277,3 +278,4 @@
 | Reddit #7 | [2018 Honda Fit 多灯/Honda Sensing](https://www.reddit.com/r/MechanicAdvice/comments/1u9k23r/troubleshooting_help_please/) | 06-25 |
 | Pinterest Pin 4 | [Brake Warning Light](https://www.pinterest.com/pin/1055249756456622160) | 06-25 |
 | Pinterest Pin 5 | [Battery Warning Light](https://www.pinterest.com/pin/1055249756456820421) | 07-06 |
+| Quora #8 | [电瓶灯行驶中闪烁](https://www.quora.com/Why-does-my-battery-light-come-on-and-off-while-Im-driving/answer/Chen-Xiaochun) | 07-06 |

@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-06-12）：** #1–3、#5–6 ✅ · #4 ⛔ · **下一条 → 换问题试马蹄形 或 搜新帖** · Reddit #1–4 ✅
+> **进度（2026-07-06）：** #1–3、#5–8 ✅ · #4 ⛔ · Reddit #1–7 ✅ · Pinterest Pin 4–5 ✅
 
 ---
 
@@ -15,6 +15,22 @@
 | 4 | 马蹄形/dashboard 符号 | ⛔ 06-11 不让发（换问题或改天） |
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
+| **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 8️⃣ 电瓶灯 — 行驶中闪烁 ✅ 已发（2026-07-06）
+
+**问题：** Why does my battery light come on and off while I'm driving?  
+**链接：** https://www.quora.com/Why-does-my-battery-light-come-on-and-off-while-Im-driving/answer/Chen-Xiaochun  
+**链到：** battery-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+电瓶灯 = 充电系统警告；闪烁常见原因：端子/接地、皮带打滑、发电机负载下失效。链到 battery-warning-light 页。结尾问 idle vs A/C 模式。
+
+</details>
 
 ---
 
