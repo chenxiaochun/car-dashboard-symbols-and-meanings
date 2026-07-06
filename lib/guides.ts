@@ -284,6 +284,16 @@ export const guides: SymbolGuide[] = [
     ],
     faqs: [
       {
+        question: "What does the battery light mean on a car?",
+        answer:
+          "The red battery symbol on your dashboard is a charging-system warning, not a simple \"replace the battery\" message. With the engine running, the alternator should hold roughly 13.5–14.5 volts at the battery. When voltage drops — from a weak alternator, slipping belt, bad ground, or corroded terminals — the light comes on. On modern cars, low voltage can also trigger TPMS, traction control, or power steering warnings at the same time. Test charging under load (headlights and blower on), not only at idle."
+      },
+      {
+        question: "What does a battery warning light mean while driving?",
+        answer:
+          "A battery warning light that appears or flickers while driving means the charging system is not keeping voltage high enough. Common causes include a failing alternator, loose battery terminals, a glazed or slipping serpentine belt, or a weak battery that cannot support electrical load. If the light stays on, dim your loads (A/C, heated seats) and head for a shop — the engine can stall once the battery drains. A light that clears only when you rev the engine often points to alternator or belt trouble at low RPM."
+      },
+      {
         question: "Does the battery light mean I need a new battery?",
         answer:
           "Not always. Test the charging system first. A good battery with a failed alternator can still trigger the light. Conversely, a weak battery can overload a marginal alternator. Many shops test both together."

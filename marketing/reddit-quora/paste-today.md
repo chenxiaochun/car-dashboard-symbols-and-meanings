@@ -23,6 +23,7 @@
 | **TC 页 meta description 微调** | **07-06** | title 未动；针对 CTR / 查询词优化 |
 | **Pinterest Pin 5 — 电瓶灯** | **07-06** | 已发布；链 battery-warning-light 页 |
 | **Quora #8 — 电瓶灯闪烁** | **07-06** | 链 battery-warning-light 页 |
+| **电瓶页 +2 FAQ** | **07-06** | 对准 GSC：battery light meaning / warning light while driving |
 
 ---
 
