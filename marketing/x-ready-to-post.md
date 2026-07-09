@@ -2,18 +2,23 @@
 
 > **定位：** 轻量曝光 + referral，**不替代**论坛 SEO 外链。  
 > **节奏：** 每周 1–2 条原创推 + 随缘回复真人提问。  
-> **配图：** `marketing/pinterest/` 下 PNG 可直接上传（TC 暂无专用图，见各条说明）。
+> **配图：** `marketing/pinterest/` 下 PNG 可直接上传（TC 暂无专用图，见各条说明）。  
+> **字数：** 单条 **≤280 字符**（链接按 X 规则计 ~23 字符）。下方均为短版。
 
 ---
 
 ## 本周发布顺序
 
+> **07-09：** BOG / Car Talk 均卡住 → **论坛不发**，下面 X 为本周主菜。
+
 | 顺序 | 渠道 | 内容 | 链到 | 状态 |
 |------|------|------|------|------|
-| **1** | BOG 论坛 | [Tundra 电瓶灯帖](https://bobistheoilguy.com/forums/threads/2005-tundra-battery-light-keeps-coming-on.377581/) | battery-warning-light | 待发 |
-| **2** | X 推 #1 | 电瓶灯（下文） | battery-warning-light | 待发 |
-| **3** | X 推 #2 | TC 波浪线符号（下文） | traction-control-light | 待发 |
-| **4** | X 推 #3 | 多灯同亮（下文） | two-warning-lights | 待发 |
+| **1** | **X 推 #1** | 电瓶灯 | battery-warning-light | **今天发** |
+| **2** | **Reddit #8** | 搜新帖（电瓶/TC） | TC 或电瓶页 | 可选 |
+| **3** | X 推 #2 | TC 波浪线 | traction-control-light | 隔 1–2 天 |
+| **4** | X 推 #3 | 多灯同亮 | two-warning-lights | 隔 1–2 天 |
+| — | ~~Car Talk~~ | Fusion 帖 | — | 验证码过难，跳过 |
+| — | ~~BOG~~ | Tundra 帖 | — | 账号被拒，跳过 |
 
 论坛回复全文见 `automotive-backlink-targets.md` →「已筛选目标帖」首推。
 
@@ -21,60 +26,56 @@
 
 ## 原创推 #1 — 电瓶 / 充电系统 🥇
 
-**配图：** `marketing/pinterest/pinterest-battery-warning-light.png`  
+**配图：** `marketing/pinterest/pinterest-battery-warning-light.png`（若报错先**纯文字**发，成功后再编辑加图）
+
 **链到：** https://warninglightfinder.com/symbols/battery-warning-light/
 
+### 标准短版（~160 字符）
+
 ```
-Battery light flickers at idle but clears when you rev?
-
-That's usually the charging system struggling — alternator, belt, or grounds — not just "bad battery."
-
-Running voltage should be ~13.5–14.5V with the engine on. Test under load (headlights + A/C on).
-
-Free guide to what the symbol means:
+Battery light at idle but clears when you rev? Think alternator, belt, or ground—not the battery. ~13.5–14.5V with engine on.
 https://warninglightfinder.com/symbols/battery-warning-light/
+#CarRepair
+```
 
-#CarRepair #DashboardLights
+### 极简版（X 报错时用，无 hashtag、无特殊符号，~115 字符）← **先试这条**
+
+```
+Battery light at idle? Often alternator or belt, not the battery. Check 13.5-14.5V running.
+https://warninglightfinder.com/symbols/battery-warning-light/
+```
+
+### 更短备用（~85 字符）
+
+```
+Battery light flickers at idle? Charging system issue. Guide:
+https://warninglightfinder.com/symbols/battery-warning-light/
 ```
 
 ---
 
-## 原创推 #2 — TC / wavy lines 🥇（GSC 首点页）
+## 原创推 #2 — TC / wavy lines 🥇（~152 字符）
 
 **配图：** 暂无 TC 专用 Pin → **纯文字发**，或截一张站内 TC 符号图上传  
 **链到：** https://warninglightfinder.com/symbols/traction-control-light/
 
 ```
-That squiggly / wavy-lines symbol on your dash?
-
-Usually traction control (or stability control). Steady = system off or fault stored. Flashing on wet roads = it's working.
-
-Not the same as check engine — but low voltage can throw TC + other lights together.
-
-What it means + what to check first:
+Wavy-lines / squiggly symbol on the dash? Usually traction control. Steady on = fault; flashing on wet roads = working.
 https://warninglightfinder.com/symbols/traction-control-light/
-
-#CarTips #TractionControl
+#CarTips
 ```
 
 ---
 
-## 原创推 #3 — 多灯同亮 / 电压
+## 原创推 #3 — 多灯同亮 / 电压（~144 字符）
 
 **配图：** 可选 `pinterest-battery-warning-light.png`（电气多灯场景）或纯文字  
 **链到：** https://warninglightfinder.com/scenarios/two-warning-lights/
 
 ```
-TPMS + traction control + EPS all pop on at once?
-
-Before replacing three systems — check charging voltage under load and main grounds. One weak alternator or bad ground loves to light up half the dash.
-
-Especially common right after a battery or alternator swap.
-
-Combo-light checklist:
+TPMS + TC + EPS all on at once? Check charging voltage under load and grounds before replacing three systems.
 https://warninglightfinder.com/scenarios/two-warning-lights/
-
-#MechanicAdvice #WarningLights
+#CarRepair
 ```
 
 ---
@@ -96,38 +97,29 @@ dashboard warning lights multiple
 
 ---
 
-## 回复模板 A — 电瓶灯行驶中闪
+## 回复模板 A — 电瓶灯（回复用，短）
 
 ```
-Red battery symbol = charging system warning, not always a dead battery.
-
-Engine running: ~13.5–14.5V at the terminals. If it flickers at idle and clears when you rev, think alternator brushes, belt, or corroded terminals before buying another battery.
-
-Guide: https://warninglightfinder.com/symbols/battery-warning-light/
+Red battery light = charging system, not always a dead battery. ~13.5–14.5V engine running; flickers at idle → alternator/belt/terminals first.
+https://warninglightfinder.com/symbols/battery-warning-light/
 ```
 
 ---
 
-## 回复模板 B — TC / 波浪线符号
+## 回复模板 B — TC / 波浪线（短）
 
 ```
-Squiggly-line / car-with-wavy-lines symbol is usually traction control. Steady on = off or fault; flashing on slippery pavement = active intervention.
-
-Scan ABS/TC codes if it stays on in dry weather. Low voltage can also trip TC with other warnings.
-
-Guide: https://warninglightfinder.com/symbols/traction-control-light/
+Wavy-lines symbol = usually traction control. Steady on in dry weather → scan ABS/TC codes. Low voltage can trip it with other lights.
+https://warninglightfinder.com/symbols/traction-control-light/
 ```
 
 ---
 
-## 回复模板 C — 多灯同亮
+## 回复模板 C — 多灯同亮（短）
 
 ```
-When several amber lights hit together (TPMS, TC, EPS, even CEL) after electrical work, I check voltage under load and grounds before replacing multiple modules.
-
-Common after battery/alternator jobs or loose main ground.
-
-Checklist: https://warninglightfinder.com/scenarios/two-warning-lights/
+Several amber lights after battery/alternator work? Check voltage under load + grounds before replacing multiple modules.
+https://warninglightfinder.com/scenarios/two-warning-lights/
 ```
 
 ---
@@ -143,7 +135,22 @@ Checklist: https://warninglightfinder.com/scenarios/two-warning-lights/
 
 ---
 
-## 不要做
+## X 发帖报错排查
+
+`Something went wrong, but don't fret — let's give it another shot.` 常见原因与顺序：
+
+| 顺序 | 试什么 |
+|------|--------|
+| 1 | 用上方 **极简版**（无 `#`、无 em dash `—`、用 `13.5-14.5` 不用 `~`） |
+| 2 | **先别附图**，纯文字+链接发出去 |
+| 3 | 换浏览器或手机 App；关 VPN |
+| 4 | 退出重登；确认账号已绑手机/邮箱 |
+| 5 | 等 15–30 分钟再试（新号/频控） |
+| 6 | 链接单独一行；或暂时只发文字，评论里补链接 |
+
+仍失败 → 今天改发 **Reddit #8**，X 明天再试。
+
+---
 
 - ❌ 一天连发 5 条带同一链接（像 spam）
 - ❌ 只留链接不写字

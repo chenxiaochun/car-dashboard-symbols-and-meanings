@@ -28,6 +28,7 @@
 | **GSC 7d 页面+查询词明细** | **07-08** | TC 195 展示重回第一；wavy lines + battery 词并列 |
 | **GSC 全站 7d 复盘** | **07-09** | **629 展示 / 1 点击 / 排名 19.3**；7/6 出首点 |
 | **GSC 7d 页面明细（点击归因）** | **07-09** | **TC 页 1 点击 / 308 展示**；油压 0/105 |
+| **Reddit #8 — 2010 Maxima 发电机** | **07-09** | 链 battery-warning-light 页 |
 
 ---
 
@@ -277,7 +278,7 @@
 | 信号 | 解读 | 行动 |
 |------|------|------|
 | **TC 1 点击 / 308 展示** | 07-06 meta 后首转化 | **不动 TC title**；等到 ~7/20 评判 |
-| **站外双轨** | 论坛 SEO + X 曝光 | BOG 首推 + X 3 推（见 `x-ready-to-post.md`） |
+| **站外双轨** | 论坛卡住 → Reddit/Quora/X | **本周：Reddit #8 ✅ + X 推（若未发）** |
 | 排名 **19.3** | 迄今最好 | 继续观察 |
 | 油压 0 点击 / 105 展示 | 历史有点击页 | ❌ **油压 title/meta 仍别动** |
 
@@ -288,16 +289,17 @@
 | 优先级 | 事项 |
 |--------|------|
 | **1** | ~~GSC 网页 Tab 查点击归因~~ ✅ **TC 页** |
-| **2** | **BOG 首推** — [Tundra 电瓶灯帖](https://bobistheoilguy.com/forums/threads/2005-tundra-battery-light-keeps-coming-on.377581/)，回复见 `automotive-backlink-targets.md` |
-| **3** | **X 本周 3 推** — 文案见 `marketing/x-ready-to-post.md`（电瓶 → TC → 多灯） |
+| **2** | **X 推 #1 电瓶** — `x-ready-to-post.md`（BOG/Car Talk 均卡住，改 X 首推） |
+| **3** | ~~Reddit #8 Maxima 发电机~~ ✅ **07-09 已发** |
 
-### 本周站外节奏（论坛 SEO + X 曝光）
+### 本周站外节奏（论坛暂缓）
 
 | 渠道 | 频率 | 本周 |
 |------|------|------|
-| **BOG / 汽车论坛** | 每 1–2 周 1 条 | Tundra 电瓶帖（SEO 主菜） |
-| **X.com** | 每周 1–2 推 + 随缘回复 | 3 条待发（见 `x-ready-to-post.md`） |
-| Reddit / Quora | 维持现有 | 本周可休息 |
+| **X.com** | 1–2 推/周 | 推 #1 电瓶（今天） |
+| **Reddit** | 1 条/周 | **#8 Maxima** ✅ 07-09 |
+| **Quora** | 休息 | 07-06 刚发 #8 |
+| ~~BOG / Car Talk~~ | — | 注册门槛过高，**不花时间** |
 
 ---
 
@@ -361,3 +363,4 @@
 | Pinterest Pin 4 | [Brake Warning Light](https://www.pinterest.com/pin/1055249756456622160) | 06-25 |
 | Pinterest Pin 5 | [Battery Warning Light](https://www.pinterest.com/pin/1055249756456820421) | 07-06 |
 | Quora #8 | [电瓶灯行驶中闪烁](https://www.quora.com/Why-does-my-battery-light-come-on-and-off-while-Im-driving/answer/Chen-Xiaochun) | 07-06 |
+| Reddit #8 | [2010 Maxima 发电机](https://www.reddit.com/r/MechanicAdvice/comments/1urho5z/2010_maxima_alternator_seems_to_be_bad/) | 07-09 |

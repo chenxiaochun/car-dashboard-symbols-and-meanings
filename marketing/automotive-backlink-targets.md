@@ -1,8 +1,23 @@
 # 汽车垂直站外链 — 目标清单与模板
 
-> **用途：** 在 Reddit/Quora 之外，每周或每两周争取 **1 条** 高质量汽车相关外链。  
-> **节奏：** 先花时间读帖/读文 → 写真实有用回复 → 文末 1 条 reference 链接。  
-> **原则：** 少而精；不群发；不买链；**油压页 title/meta 仍别动**。
+> **用途：** 在 Reddit/Quora 之外，争取高质量汽车相关外链与曝光。  
+> **07-09 现实：** BOG 注册被拒 · Car Talk 人机验证过难 → **本周不硬磕传统论坛**，主走 **Reddit / Quora / X**（你已验证能发）。  
+> **原则：** 少而精；不买链；**油压页 title/meta 仍别动**。
+
+---
+
+## 渠道门槛记录（避免重复踩坑）
+
+| 渠道 | 状态 | 建议 |
+|------|------|------|
+| **BOG** | 注册 `account rejected` | 暂缓；最多换邮箱试 1 次，别死磕 |
+| **Car Talk** | 人机验证过难 | **放弃**，时间性价比太低 |
+| **Reddit** | ✅ 已发过 #1–7 | **继续用**（见 `reddit-ready-to-paste.md`） |
+| **Quora** | ✅ 已发过 #1–8 | **继续用** |
+| **X.com** | 注册相对简单 | **本周主推**（见 `x-ready-to-post.md`） |
+| 品牌论坛（DodgeForum 等） | 可 Google 登录，未测 | 有空再试，非紧急 |
+
+**结论：** 传统论坛 SEO 外链 **排队等以后**；现在用已打通的 3 个渠道更划算。
 
 ---
 
@@ -24,16 +39,72 @@
 
 ### 🥇 首推 — 本周发这一条
 
+> **07-09 更新：** BOG 被拒 · Car Talk 验证码变态 → **论坛帖暂缓**。下面 Plan A/B 留作日后账号通了再用；**本周执行见 `x-ready-to-post.md` + Reddit 搜索新帖**。
+
+#### ~~Plan A — Car Talk~~（验证码过难，跳过）
+
+#### ~~Plan B — BOG~~（账号 rejected，跳过）
+
+#### 本周实际执行（零论坛注册）
+
+| 顺序 | 渠道 | 动作 |
+|------|------|------|
+| 1 | **X** | 发推 #1 电瓶（`x-ready-to-post.md`） |
+| 2 | **Reddit** | `reddit-ready-to-paste.md` 文末搜新帖，链 TC 或电瓶页 |
+| 3 | **Quora** | 搜 `battery light while driving` 或 TC 新问题（可选） |
+
+---
+
+#### 日后可用 — Car Talk（账号能注册时再发）
+
+| 项目 | 内容 |
+|------|------|
+| **帖子** | [2014 Ford Fusion — ABS/TC/airbag combo lights](https://community.cartalk.com/t/2014-ford-fusion-abs-lights-in-combo-with-others/188786) |
+| **站点** | [Car Talk Community](https://community.cartalk.com/) — 用 Google 或邮箱注册 |
+| **楼主** | 多灯间歇；技师换胎/对齐仍没查出 |
+| **链到** | `/scenarios/two-warning-lights/` |
+| **为何选它** | 末楼已提电压问题；你可补充 **系统诊断顺序 + checklist**，自然带链 |
+
+<details>
+<summary>📋 一键复制回复（Car Talk）</summary>
+
+```
+The intermittent ABS + traction-control combo — especially when several 
+unrelated warnings flip on and off — is often worth treating as a 
+communication/voltage problem before more parts get thrown at it.
+
+I'd have a shop (or you, with a multimeter) verify:
+1. Battery load test + charging voltage with engine running (~13.5–14.5V).
+2. Same test with headlights, blower, and rear defrost on — see if voltage 
+   sags when the warnings appear.
+3. Full module scan (ABS, PCM, BCM) — not just a generic OBD engine read. 
+   Intermittent faults often sit in "pending" until the cluster acts up.
+
+New tires and alignment rarely explain TC/ABS warnings unless a wheel-speed 
+sensor or harness was disturbed during the work — worth inspecting those 
+connectors if anything was touched near the hubs.
+
+Combo-light checklist (what each cluster of warnings usually points to first):
+https://warninglightfinder.com/scenarios/two-warning-lights/
+
+Do the warnings ever show up right after a cold start, or mainly after 
+the car has been running a while?
+```
+
+</details>
+
+---
+
+#### Plan B — BOG（账号通过后再发）
+
 | 项目 | 内容 |
 |------|------|
 | **帖子** | [2005 Tundra — Battery light keeps coming on](https://bobistheoilguy.com/forums/threads/2005-tundra-battery-light-keeps-coming-on.377581/) |
-| **站点** | Bob Is The Oil Guy |
-| **楼主** | 电瓶灯间歇亮、雨刷变慢、刚换电瓶；350k miles |
 | **链到** | `/symbols/battery-warning-light/` |
-| **为何选它** | 与 Quora #8 同场景；BOG 权重高；帖较新（2024–2025） |
+| **状态** | ⚠️ 注册被拒时见下方「BOG 账号被拒怎么办」 |
 
 <details>
-<summary>📋 一键复制回复（改 1 句 Tundra 细节再发）</summary>
+<summary>📋 一键复制回复（BOG — 账号通过后发）</summary>
 
 ```
 The slow wipers when the light comes on is a strong hint the charging system 
@@ -56,6 +127,22 @@ When the light is on, what voltage do you read at idle vs ~2000 RPM?
 ```
 
 </details>
+
+---
+
+### BOG 账号被拒怎么办
+
+`Your account has been rejected` = **注册被拒绝**，不是「等待审核」。
+
+| 可试一次 | 说明 |
+|----------|------|
+| **换邮箱** | 常用 Gmail/Outlook，别用临时邮箱 |
+| **换用户名** | 像真人车友名，别用品牌/网站名 |
+| **关 VPN** | 代理 IP 常被直接拒 |
+| **别连注多次** | 同一邮箱反复注册更容易永久拒 |
+| **联系版主** | [User information, questions, and rules](https://bobistheoilguy.com/forums/forums/user-information-questions-and-rules.26/) 说明误拒 |
+
+**仍不过 → 跳过 BOG**，改 Car Talk + X（本周主执行路径）。
 
 ---
 
@@ -284,7 +371,8 @@ Is it all four corners after the first freeze, or one wheel only?
 
 | # | 渠道 | 帖子/页面 URL | 链到 | 日期 | 备注 |
 |---|------|---------------|------|------|------|
-| — | BOG | [Tundra battery light](https://bobistheoilguy.com/forums/threads/2005-tundra-battery-light-keeps-coming-on.377581/) | battery-warning-light | 待发 | 07-09 首推 |
+| — | Car Talk | [Fusion ABS/TC combo](https://community.cartalk.com/t/2014-ford-fusion-abs-lights-in-combo-with-others/188786) | two-warning-lights | 待发 | 07-09 首推（BOG 被拒） |
+| — | BOG | [Tundra battery light](https://bobistheoilguy.com/forums/threads/2005-tundra-battery-light-keeps-coming-on.377581/) | battery-warning-light | 暂缓 | 账号 rejected |
 
 ---
 

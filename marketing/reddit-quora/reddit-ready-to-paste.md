@@ -1,6 +1,6 @@
-# Reddit 一键复制 — 2026-06-07 更新
+# Reddit 一键复制 — 2026-07-09 更新
 
-> **进度（2026-06-25）：** #1–7 ✅ · **下一条 → 搜索新帖**（见文末链接）  
+> **进度（2026-07-09）：** #1–8 ✅ · **下一条 → 搜新帖**（见文末链接；备选 8b Ram 帖留下周）  
 > 用**日常 Chrome** 登录 Reddit。链接放在文末当 reference。
 
 ---
@@ -9,11 +9,60 @@
 
 | # | 匹配度 | 帖子 | 状态 |
 |---|--------|------|------|
-| **1** | Honda Accord TPMS/TC/EPS | ✅ 原定 06-06 → 实发 06-07 |
-| **2** | Honda Civic 电气/多灯 | ✅ 2026-06-10 已发 |
-| 3 | Dodge Charger TPMS 传感器 | ✅ 2026-06-11 已发 |
-| 4 | r/askcarguys Subaru TPMS | ✅ 2026-06-12 已发 |
+| **8** | 2010 Maxima 发电机/行驶中油门失效 | ✅ 2026-07-09 已发 |
+| **8b** | 2000 Ram 电瓶/启动机（3 个月新电瓶） | 备选 → 下周可发 |
 | **7** | 2018 Honda Fit Honda Sensing/多灯 | ✅ 2026-06-25 已发 |
+
+---
+
+## 8️⃣ 2010 Nissan Maxima 3.5 SV — 发电机？行驶中油门失效 ✅ 已发（2026-07-09）
+
+**子版：** r/MechanicAdvice  
+**链接：** https://www.reddit.com/r/MechanicAdvice/comments/1urho5z/2010_maxima_alternator_seems_to_be_bad/  
+**链到：** `battery-warning-light`
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+行驶中油门失效 → 低电压 limp mode；2025 年 3 月复发 → 充电/接地未根治；电压测试、负载测试、端子/接地、换发电机同时考虑电瓶；费用 $450–700；链电瓶页；结尾问 3 月熄火前是否亮电瓶灯。
+
+</details>
+
+---
+
+## 8b 2000 Dodge Ram 1500 5.9L — 电瓶还是启动机？（备选）
+
+**子版：** r/MechanicAdvice  
+**时间：** 约 5h 前 · 4 评论（已有「快速 click = 电瓶」；OP 说电瓶才 3 个月）  
+**链接：** https://www.reddit.com/r/MechanicAdvice/comments/1urd69k/battery_or_starter_problem/  
+**链到：** `battery-warning-light`
+
+**楼主情况：** 停车几分钟后无法启动；jump/清端子无效；快速 solenoid click、内灯闪烁变暗；曾启动一次又被朋友熄火；电瓶 3 个月新。
+
+**注意：** 若今天已发 #8，**本周只发一条**；此帖留下周或作第二条（间隔 3+ 天）。
+
+**操作：** 打开链接 → Comment
+
+```
+Rapid solenoid clicking with interior lights dimming/flickering is almost always "not enough voltage to hold the starter engaged" — usually the battery, not the starter motor itself.
+
+A 3-month-old battery can still be dead if:
+• it sat undercharged on the shelf or after install
+• a failing alternator has been draining it on drives (jump-start once doesn't prove the charging system is healthy)
+• there's a parasitic draw or a bad connection that drops voltage under load
+
+On your 2000 Ram 5.9:
+1. Measure resting voltage at the battery — below ~12.2V before crank is weak.
+2. While someone cranks, watch voltage at the battery posts (not just clamps). If it plunges under ~9.5V, battery or cable drop — not usually a starter unless voltage stays high and you still get only clicks.
+3. If you get it running, check charging at idle with lights on — you want stable ~13.5–14.5V. Low charging explains why a "new" battery keeps dying.
+4. Since it did start once after a jump then died again when shut off, charge/test the battery properly before replacing the starter.
+
+If the battery tests bad under warranty, swap it — but still verify alternator output or you'll repeat this in another few months.
+
+What the battery/charging warning light means on the dash: https://warninglightfinder.com/symbols/battery-warning-light/
+
+Before it quit in the parking lot, had the battery light been on at all while you were driving earlier that day?
+```
 
 ---
 
@@ -178,12 +227,15 @@ Does your dash show four individual pressures, or just one TPMS warning light?
 | 5 | Audi A3 TPMS/转向 | ✅ 06-23 |
 | 6 | Sienna TC 全刹 | ✅ 06-23 |
 | 7 | Honda Fit 多灯 | ✅ 06-25 |
+| 8 | 2010 Maxima 发电机 | ✅ 07-09 |
 
 ---
 
 ## 搜索链接（自己找新帖时用）
 
+- **电瓶/发电机：** https://www.reddit.com/r/MechanicAdvice/search/?q=alternator%20battery%20light&restrict_sr=1&sort=new&t=month
 - TPMS 近期：https://www.reddit.com/r/MechanicAdvice/search/?q=TPMS%20light&restrict_sr=1&sort=new&t=month
 - 多灯：https://www.reddit.com/r/MechanicAdvice/search/?q=dashboard%20warning%20lights&restrict_sr=1&sort=new&t=month
+- TC 灯：https://www.reddit.com/r/MechanicAdvice/search/?q=traction%20control%20light&restrict_sr=1&sort=new&t=month
 - 油压：https://www.reddit.com/r/MechanicAdvice/search/?q=oil%20pressure%20light&restrict_sr=1&sort=new&t=month
 - askcarguys TPMS：https://www.reddit.com/r/askcarguys/search/?q=TPMS&restrict_sr=1&sort=new&t=month
