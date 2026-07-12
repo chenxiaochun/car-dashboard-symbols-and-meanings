@@ -13,8 +13,8 @@
 
 | 顺序 | 渠道 | 内容 | 链到 | 状态 |
 |------|------|------|------|------|
-| **1** | **X 推 #1** | 电瓶灯 | battery-warning-light | **今天发** |
-| **2** | **Reddit #8** | 搜新帖（电瓶/TC） | TC 或电瓶页 | 可选 |
+| **1** | **X 推 #1** | 电瓶灯 | battery-warning-light | ❌ 07-12 纯文字也失败 |
+| **2** | **Reddit 8b** | Ram 电瓶帖 | battery-warning-light | ✅ 07-12 已发 |
 | **3** | X 推 #2 | TC 波浪线 | traction-control-light | 隔 1–2 天 |
 | **4** | X 推 #3 | 多灯同亮 | two-warning-lights | 隔 1–2 天 |
 | — | ~~Car Talk~~ | Fusion 帖 | — | 验证码过难，跳过 |
@@ -129,7 +129,8 @@ https://warninglightfinder.com/scenarios/two-warning-lights/
 | # | 类型 | 链接 | 链到 | 日期 | 备注 |
 |---|------|------|------|------|------|
 | — | BOG 回复 | 待填 | battery-warning-light | — | Tundra 帖 |
-| — | X 推 #1 | 待填 | battery-warning-light | — | |
+| — | X 推 #1 | — | battery-warning-light | ❌ 07-12 | 纯文字也失败 |
+| — | Reddit 8b | [Ram 电瓶帖](https://www.reddit.com/r/MechanicAdvice/comments/1urd69k/battery_or_starter_problem/) | battery-warning-light | 07-12 | X 替补 |
 | — | X 推 #2 | 待填 | traction-control-light | — | |
 | — | X 推 #3 | 待填 | two-warning-lights | — | |
 
@@ -147,8 +148,9 @@ https://warninglightfinder.com/scenarios/two-warning-lights/
 | 4 | 退出重登；确认账号已绑手机/邮箱 |
 | 5 | 等 15–30 分钟再试（新号/频控） |
 | 6 | 链接单独一行；或暂时只发文字，评论里补链接 |
+| 7 | **无链接纯文字也失败** → 账号/频控/未验证；**停试 1–2 天**，查手机邮箱绑定；改 **Reddit**（07-12 已发 8b） |
 
-仍失败 → 今天改发 **Reddit #8**，X 明天再试。
+仍失败 → **不要连续重试**；隔 1–2 天再试一条 5 词以内纯文字。
 
 ---
 

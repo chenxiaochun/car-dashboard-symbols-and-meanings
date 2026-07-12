@@ -32,6 +32,7 @@
 | **GSC 全站 7d 复盘** | **07-11** | 910 展示 / 1 点击 / 排名 17.1 |
 | **GSC 全站 7d 复盘** | **07-12** | **1,020 展示 / 2 点击 / 排名 16.8** |
 | **GSC 7d 页面+查询词明细** | **07-12** | **TC 668 展示 / 2 点击**；油压 0/101；电瓶 0/72 |
+| **Reddit 8b — 2000 Ram 电瓶** | **07-12** | X 失败替补；链 battery-warning-light |
 
 ---
 
@@ -322,7 +323,7 @@
 | **TC 2 点击 / 668 展示** | meta 微调持续有效；全站唯一点击页 | **不动 TC title**；**~7/20** 再评 meta |
 | 全站 **1,020 展示 / 排名 16.8** | 展示破千、排名前移 | 继续观察，不 panic 改内容 |
 | 油压 **0/101** | 历史有点击页，本期波动 | ❌ **油压 title/meta 仍别动** |
-| 电瓶 **0/72** + battery 查询词 | 曝光在涨、未转化 | X 推 #1 + 下周 Reddit 8b |
+| 电瓶 **0/72** + battery 查询词 | 曝光在涨、未转化 | Reddit 8b ✅ 07-12；X 暂挂 |
 | **AI 故障分析** | 查询仍是「符号含义」型 | **暂不上**；等 TC 周点击 ≥5 或排名 ≤12 |
 
 ---
@@ -332,16 +333,16 @@
 | 优先级 | 事项 |
 |--------|------|
 | **1** | ~~GSC 页面+查询 Tab~~ ✅ **TC 668/2；查询 wavy lines + battery** |
-| **2** | **X 推 #1 电瓶** — `x-ready-to-post.md`（对准 battery 查询词） |
-| **3** | **~7/16** 再截 GSC；**~7/20** 评判 TC meta |
-| **4** | 下周可选：**Reddit 8b**（Ram 电瓶帖，`reddit-ready-to-paste.md`） |
+| **2** | ~~X 推 #1 电瓶~~ ❌ **纯文字也失败**（账号/频控，隔 1–2 天再试） |
+| **3** | ~~Reddit 8b Ram 电瓶~~ ✅ **07-12 已发**（X 替补） |
+| **4** | **~7/16** 再截 GSC；**~7/20** 评判 TC meta |
 
 ### 本周站外节奏
 
 | 渠道 | 频率 | 本周 / 下周 |
 |------|------|-------------|
-| **X.com** | 1–2 推/周 | 推 #1 电瓶（若未发） |
-| **Reddit** | 1 条/周 | #8 ✅ 07-09；**8b 留下周** |
+| **X.com** | 1–2 推/周 | ❌ 07-12 失败；**隔 1–2 天**再试极简纯文字 |
+| **Reddit** | 1–2 条/周 | #8 ✅ 07-09；**8b ✅ 07-12** |
 | **Quora** | 休息 | 07-06 刚发 #8 |
 | ~~BOG / Car Talk~~ | — | 不花时间 |
 
@@ -408,3 +409,4 @@
 | Pinterest Pin 5 | [Battery Warning Light](https://www.pinterest.com/pin/1055249756456820421) | 07-06 |
 | Quora #8 | [电瓶灯行驶中闪烁](https://www.quora.com/Why-does-my-battery-light-come-on-and-off-while-Im-driving/answer/Chen-Xiaochun) | 07-06 |
 | Reddit #8 | [2010 Maxima 发电机](https://www.reddit.com/r/MechanicAdvice/comments/1urho5z/2010_maxima_alternator_seems_to_be_bad/) | 07-09 |
+| Reddit 8b | [2000 Ram 电瓶/启动](https://www.reddit.com/r/MechanicAdvice/comments/1urd69k/battery_or_starter_problem/) | 07-12 |
