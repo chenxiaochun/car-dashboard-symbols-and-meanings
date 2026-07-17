@@ -1,6 +1,6 @@
-# Reddit 一键复制 — 2026-07-12 更新
+# Reddit 一键复制 — 2026-07-17 更新
 
-> **进度（2026-07-12）：** #1–8 + **8b** ✅ · **下一条 → 搜新帖**（见文末链接）  
+> **进度（2026-07-17）：** #1–9 + **8b** ✅ · #9b Accord VSA 保留备用  
 > 用**日常 Chrome** 登录 Reddit。链接放在文末当 reference。
 
 ---
@@ -9,9 +9,142 @@
 
 | # | 匹配度 | 帖子 | 状态 |
 |---|--------|------|------|
+| **9** | 🥇 2014 Cruze — Service Traction Control + 转速归零 | ✅ 2026-07-17 已发 |
+| **9b** | 2013 Accord — 间歇 TPMS/VSA/EPS + 偏航传感器码 | ⏳ 备选（若 #9 已有长回复可改发这条） |
 | **8** | 2010 Maxima 发电机/行驶中油门失效 | ✅ 2026-07-09 已发 |
 | **8b** | 2000 Ram 电瓶/启动机 | ✅ 2026-07-12 已发 |
-| **7** | 2018 Honda Fit Honda Sensing/多灯 | ✅ 2026-06-25 已发 |
+
+---
+
+## 9️⃣ 2014 Chevy Cruze — Service Traction Control + RPM 卡 0 ✅ 已发（2026-07-17）
+
+**子版：** r/MechanicAdvice  
+**链接：** https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/  
+**链到：** `traction-control-light`  
+**背景：** 96k miles；行驶中突然 Service Traction Control；转速表一直 0。已有人提 CKP / ABS 模块 — 你的回复补「为什么会亮 TC」+ 扫描范围，不要只重复传感器名。
+
+**操作：** 打开链接 → Comment → 粘贴：
+
+```
+On a 2014 Cruze, tach stuck at 0 + "Service Traction Control" at the same moment usually means the car lost a usable engine-speed signal — not that the traction system randomly failed by itself.
+
+Traction/stability needs engine RPM (and wheel-speed data) to work. When the crankshaft position sensor, its wiring, or the path that feeds the cluster/ECM drops out, you often get:
+• tach dead at 0 while the car is still moving
+• Service Traction Control / reduced stability aids
+• sometimes ABS or check-engine codes shortly after
+
+What I'd do next (in order):
+1. Scan ECM and ABS/chassis modules — not just a basic OBD "engine only" check. Write down every code before clearing.
+2. Treat a dead tach as a crankshaft position sensor / harness suspect first (common around this mileage), but confirm with codes + live data before buying parts.
+3. Inspect the CKP connector and wiring for oil, chafing, or a loose plug — Cruze engine-bay heat/oil leaks love to kill connectors.
+4. If codes point at a wheel-speed sensor or ABS module instead, chase that path; TC will also light when the car can't trust wheel speed.
+
+Safe to drive short distance if it still runs smoothly and brakes feel normal — but don't ignore it. No engine-speed signal can leave you stranded or in limp behavior next.
+
+Quick TC symbol / fault checklist: https://warninglightfinder.com/symbols/traction-control-light/
+
+Did a basic scanner show any codes yet, or is the tach the only symptom so far?
+```
+
+---
+
+## 9b 2013 Honda Accord LX — 间歇 TPMS + VSA + EPS ⏳ 备选
+
+**子版：** r/MechanicAdvice  
+**链接：** https://www.reddit.com/r/MechanicAdvice/comments/1ut1mds/2013_honda_accord_lx_intermittent_tpms_vsa_and/  
+**链到：** `traction-control-light` + `two-warning-lights`  
+**背景：** 189k miles；间歇闪 TPMS + VSA/traction + EPS；重启有时消失。已扫到 81-03 yaw rate、81-19/81-20 CPU、151-11。
+
+**操作：** Comment → 粘贴：
+
+```
+Intermittent TPMS + VSA + EPS on a 2013 Accord usually isn't three separate failures — especially with 81-03 (yaw rate) and those 81-19 / 81-20 internal VSA module codes on the scan.
+
+VSA is Honda's traction/stability system. When the yaw-rate sensor or the VSA unit glitches, Honda often throws the traction light and can pull EPS/TPMS warnings along for the ride (shared power/ground/comms). Lights clearing after a restart fits an intermittent sensor, connector, or low-voltage event more than a tire problem.
+
+Before replacing the whole VSA module:
+1. Load-test the battery and check charging under load (headlights + blower on) — weak voltage makes this exact light cluster common on Accords.
+2. Inspect battery terminals, main grounds, and the yaw-rate / VSA connectors for corrosion or a loose plug (sensor is often under the console area — shops miss a bad pin).
+3. Ask the shop whether 81-03 returns immediately on a road test after clear, or only after bumps/turns — that helps separate sensor vs module vs wiring.
+4. TPMS flashing with the others can be a passenger on the same voltage/comms bus; don't start with four TPMS sensors unless tire pressures are actually wrong on a gauge.
+
+VSA / traction light explainer: https://warninglightfinder.com/symbols/traction-control-light/
+Multi-light priority checklist: https://warninglightfinder.com/scenarios/two-warning-lights/
+
+When the lights come on, does battery voltage on a meter dip, or do you notice it more over bumps / hard turns?
+```
+
+---
+
+## 9️⃣ TC / wavy lines — 三套通用模板（搜新帖时用）
+
+> **怎么找帖：** 打开文末「TC 灯」搜索 → 选 **7 天内、评论少、症状清楚** 的帖 → 按情况选 9a / 9b / 9c → **改 1–2 句车型/症状** 再发。  
+> **链到：** `https://warninglightfinder.com/symbols/traction-control-light/`  
+> **可选加链（仅多灯帖）：** `https://warninglightfinder.com/scenarios/two-warning-lights/`  
+> **不要：** 同一天发两条；不要只丢链接；不要回已有长技术帖抢楼。
+
+### 9a — 「车底下波浪线 / squiggly / wavy lines 是啥灯？」
+
+**适用：** OP 不知道符号名，只描述形状；或贴了仪表盘图问「这是什么」。
+
+```
+That car-with-wavy-lines / squiggly-lines symbol is usually traction control (TC/TCS) — sometimes stability control (ESC/ESP) uses a very similar icon.
+
+Quick read of the behavior:
+• Flashes briefly on wet/icy/gravel when you accelerate → often normal (system cutting wheel spin)
+• Stays on steady after startup on dry roads → system may be switched off, or a fault is stored
+• Steady + check engine / ABS at the same time → scan codes; one root cause often disables TC
+
+First checks before replacing parts:
+1. Confirm you didn't bump the TC / ESC Off button (some cars show a steady light when intentionally disabled)
+2. Note whether ABS or check engine is also on
+3. If it stays on every drive, scan ABS/chassis codes — wheel speed sensors are a common trigger
+
+Symbol guide with the icon pictured: https://warninglightfinder.com/symbols/traction-control-light/
+
+Does it flash only when the road is slippery, or stay solid the whole drive?
+```
+
+### 9b-template — 「牵引灯一直亮 / TC light stays on」
+
+**适用：** OP 明确说 traction control / TC / TCS / VSC / ESC 常亮；车还能开。
+
+```
+A steady traction control light usually means TC is off or the system stored a fault — not the same as a brief flash on a wet road (that often means it's working).
+
+I'd check in this order:
+1. TC / ESC Off button — press once and see if the light clears after a restart
+2. Any ABS light with it? Shared wheel-speed sensors love to kill both systems together
+3. Check engine light too? Scan engine codes first — misfire / sensor faults often disable traction aids on modern cars
+4. Recent battery / jump-start / alignment? Low voltage and steering-angle sensor calibration issues are common after that
+
+If the car drives normally on dry pavement, short trips are usually OK — just leave more following distance in rain until it's scanned.
+
+Plain-English breakdown: https://warninglightfinder.com/symbols/traction-control-light/
+
+Year/make/model, and is ABS or check engine on with it?
+```
+
+### 9c — 「TC + 检查发动机灯一起亮」或「TC 突然介入刹一下」
+
+**适用：** 多灯；或 OP 说 traction 突然刹车/限扭（类似你们已发的 Sienna 帖，但别回同一帖）。
+
+```
+When traction control and check engine light up together, it's often one powertrain fault — not two separate repairs. The ECU can disable TC/stability while a misfire or sensor fault is active.
+
+What I'd do:
+• Scan the check engine P-codes first (AutoZone / O'Reilly often do this free in the US)
+• Write down every code before clearing anything
+• Fix or diagnose the engine side; the TC light frequently clears afterward without a separate "traction module" replacement
+• If ABS is also on, add wheel-speed sensor / tone ring to the list — those shared sensors trip ABS + TC together
+
+If the car shakes, smells like fuel, or the check engine is flashing → ease off and get scanned the same day.
+
+TC symbol guide: https://warninglightfinder.com/symbols/traction-control-light/
+Multi-light priority checklist: https://warninglightfinder.com/scenarios/two-warning-lights/
+
+What codes (if any) showed up, and does the car feel rough when the lights are on?
+```
 
 ---
 
@@ -209,14 +342,16 @@ Does your dash show four individual pressures, or just one TPMS warning light?
 | 7 | Honda Fit 多灯 | ✅ 06-25 |
 | 8 | 2010 Maxima 发电机 | ✅ 07-09 |
 | 8b | 2000 Ram 电瓶/启动 | ✅ 07-12 |
+| 9 | [2014 Cruze Service TC + RPM=0](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/) | ✅ 07-17 |
 
 ---
 
 ## 搜索链接（自己找新帖时用）
 
+- **TC 灯（今天优先）：** https://www.reddit.com/r/MechanicAdvice/search/?q=traction%20control%20light&restrict_sr=1&sort=new&t=week
+- **wavy / squiggly：** https://www.reddit.com/r/MechanicAdvice/search/?q=wavy%20OR%20squiggly%20dashboard&restrict_sr=1&sort=new&t=month
 - **电瓶/发电机：** https://www.reddit.com/r/MechanicAdvice/search/?q=alternator%20battery%20light&restrict_sr=1&sort=new&t=month
 - TPMS 近期：https://www.reddit.com/r/MechanicAdvice/search/?q=TPMS%20light&restrict_sr=1&sort=new&t=month
 - 多灯：https://www.reddit.com/r/MechanicAdvice/search/?q=dashboard%20warning%20lights&restrict_sr=1&sort=new&t=month
-- TC 灯：https://www.reddit.com/r/MechanicAdvice/search/?q=traction%20control%20light&restrict_sr=1&sort=new&t=month
 - 油压：https://www.reddit.com/r/MechanicAdvice/search/?q=oil%20pressure%20light&restrict_sr=1&sort=new&t=month
 - askcarguys TPMS：https://www.reddit.com/r/askcarguys/search/?q=TPMS&restrict_sr=1&sort=new&t=month

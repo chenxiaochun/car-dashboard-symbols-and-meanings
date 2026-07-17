@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-07-06）：** #1–3、#5–8 ✅ · #4 ⛔ · Reddit #1–7 ✅ · Pinterest Pin 4–5 ✅
+> **进度（2026-07-17）：** #1–3、#5–8 ✅ · #4 ⛔ · **#9 TC/wavy lines 待发** · Reddit #1–8b ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **9** | TC / wavy lines 符号含义（对准 GSC） | ⏳ 07-17 可选；Reddit #9 优先 |
 | 1 | TPMS 胎压灯（早晨闪烁） | ✅ 2026-06-06 已发 |
 | 2 | 检查发动机灯能开多远 | ✅ 2026-06-07 已发 |
 | 3 | 闪烁 vs steady CEL | ✅ 2026-06-10 已发 |
@@ -17,6 +18,36 @@
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
 
+---
+
+## 9️⃣ TC / wavy lines — 仪表盘波浪线是什么？⏳ 待发
+
+> **进度：** Reddit #9 Cruze 已发；这条 Quora 建议明天发。  
+> **链到：** traction-control-light
+
+### 推荐问题 A（对准 GSC：squiggly）
+
+**问题：** How do I turn off the squiggly lines on my car?  
+**链接：** https://www.quora.com/How-do-I-turn-off-the-squiggly-lines-on-my-car
+
+```
+Those "squiggly lines" under a car outline are usually the traction control (or stability control) warning — not a decoration you permanently switch off.
+
+What the light is telling you:
+• Flashing on wet/icy/gravel while you accelerate → often normal. The system is limiting wheel spin. Ease off the throttle and it should stop flashing.
+• Steady amber after startup → traction control may be turned off with a button, or a fault is stored (wheel speed sensor, steering angle sensor, ABS-related issue, or low voltage are common).
+• Steady light + check engine or ABS → scan codes first; one fault often disables traction aids.
+
+How to "turn it off" the right way:
+1. Look for a TC / ESC / VSC Off button near the shifter or dash — press it only if you intentionally want the system disabled (not recommended for normal driving).
+2. If you didn't press anything and the light stays on every trip, don't keep forcing it off — get ABS/chassis codes read.
+3. Confirm tire pressures are correct; mismatched or very low tires can confuse the system.
+
+Short guide with the symbol pictured:
+https://warninglightfinder.com/symbols/traction-control-light/
+
+Is your light flashing only on slippery roads, or staying solid the whole drive?
+```
 ---
 
 ## 8️⃣ 电瓶灯 — 行驶中闪烁 ✅ 已发（2026-07-06）

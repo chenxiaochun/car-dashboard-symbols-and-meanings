@@ -1,6 +1,22 @@
-# 今日待办 — 2026-07-15 晚
+# 今日待办 — 2026-07-17
 
-> **进度：** GSC 7d：**1,255 展示 / 3 点击 / CTR 0.2% / 排名 15.8** · 展示持平 · **排名迄今最好**
+> **进度：** Reddit #9 Cruze ✅ 已发 · Quora squiggly 明天
+> **文案：** `quora-ready-to-paste.md` → #9
+
+---
+
+## 今天要做（07-17）
+
+| 优先级 | 事项 |
+|--------|------|
+| **1** | ✅ Reddit #9：2014 Cruze Service TC + RPM=0 已发 |
+| **2** | #9b Accord VSA 保留备用，今天不再发 Reddit |
+| **3** | Quora squiggly **明天**发 |
+
+**直接打开：**
+
+- [Reddit #9 Cruze](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/)
+- [Reddit #9b Accord](https://www.reddit.com/r/MechanicAdvice/comments/1ut1mds/2013_honda_accord_lx_intermittent_tpms_vsa_and/)
 
 ---
 
@@ -8,6 +24,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Reddit #9 — 2014 Cruze Service TC + RPM=0** | **07-17** | 链 traction-control-light |
 | GSC 索引 CEL 页 | 06-23 | `/symbols/check-engine-light/` 已索引 |
 | Reddit #5 — 2015 Audi A3 TPMS/转向 | 06-23 | 搜索新帖 |
 | Quora #7 — 闪烁 TPMS 能开多久 | 06-23 | 无人回答帖 |
