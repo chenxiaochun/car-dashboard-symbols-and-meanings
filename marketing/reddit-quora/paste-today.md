@@ -1,22 +1,17 @@
-# 今日待办 — 2026-07-17
+# 今日待办 — 2026-07-18
 
-> **进度：** Reddit #9 Cruze ✅ 已发 · Quora squiggly 明天
-> **文案：** `quora-ready-to-paste.md` → #9
+> **进度：** Reddit #9 ✅ · Quora #9 squiggly ✅ · 本周站外完成  
+> **下一项：** ~7/20 评 TC meta；站内 title 仍不动
 
 ---
 
-## 今天要做（07-17）
+## 今天要做（07-18）
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | ✅ Reddit #9：2014 Cruze Service TC + RPM=0 已发 |
-| **2** | #9b Accord VSA 保留备用，今天不再发 Reddit |
-| **3** | Quora squiggly **明天**发 |
-
-**直接打开：**
-
-- [Reddit #9 Cruze](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/)
-- [Reddit #9b Accord](https://www.reddit.com/r/MechanicAdvice/comments/1ut1mds/2013_honda_accord_lx_intermittent_tpms_vsa_and/)
+| **1** | ✅ Quora #9：squiggly lines 已发 |
+| **2** | 本周不再发外链；观察 GSC 到 ~7/20 |
+| **3** | #9b Accord VSA 保留备用 |
 
 ---
 
@@ -24,6 +19,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #9 — squiggly lines / TC** | **07-18** | 链 traction-control-light |
 | **Reddit #9 — 2014 Cruze Service TC + RPM=0** | **07-17** | 链 traction-control-light |
 | GSC 索引 CEL 页 | 06-23 | `/symbols/check-engine-light/` 已索引 |
 | Reddit #5 — 2015 Audi A3 TPMS/转向 | 06-23 | 搜索新帖 |
@@ -463,3 +459,5 @@
 | Quora #8 | [电瓶灯行驶中闪烁](https://www.quora.com/Why-does-my-battery-light-come-on-and-off-while-Im-driving/answer/Chen-Xiaochun) | 07-06 |
 | Reddit #8 | [2010 Maxima 发电机](https://www.reddit.com/r/MechanicAdvice/comments/1urho5z/2010_maxima_alternator_seems_to_be_bad/) | 07-09 |
 | Reddit 8b | [2000 Ram 电瓶/启动](https://www.reddit.com/r/MechanicAdvice/comments/1urd69k/battery_or_starter_problem/) | 07-12 |
+| Reddit #9 | [2014 Cruze Service TC + RPM=0](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/) | 07-17 |
+| Quora #9 | [squiggly lines / TC](https://www.quora.com/How-do-I-turn-off-the-squiggly-lines-on-my-car) | 07-18 |
