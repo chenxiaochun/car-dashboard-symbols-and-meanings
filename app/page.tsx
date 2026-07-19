@@ -56,7 +56,7 @@ export default function HomePage() {
             <a href="#driving-advice">Can I drive?</a>
             <a href="#faq">FAQ</a>
           </nav>
-          <p className="updated-note">Last updated: July 17, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
+          <p className="updated-note">Last updated: July 19, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>

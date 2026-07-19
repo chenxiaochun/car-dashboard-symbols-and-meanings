@@ -537,7 +537,7 @@ export const guides: SymbolGuide[] = [
     eyebrow: "Stability system warning",
     h1: "Traction Control Light Meaning",
     summary:
-      "The traction control light — sometimes called the TC light or skid light — usually shows a car with squiggly or wavy lines under the tires. A flashing icon often means the system is actively limiting wheel spin; a steady amber light usually means traction control is off or has a fault.",
+      "The traction control light — sometimes called the TC light or skid light — usually shows a car with squiggly or wavy lines under the tires. A flashing icon often means the system is actively limiting wheel spin; a steady amber light usually means traction control is off or has a fault. Brand labels such as VSC, ESC, ESP, or DSC point to the same family of systems.",
     colorText: "Amber or yellow",
     canDriveText: "Yes, with caution",
     urgency: "Inspect if steady",
@@ -545,7 +545,7 @@ export const guides: SymbolGuide[] = [
       {
         title: "What it means",
         body:
-          "Traction control (TC or TCS) reduces wheel spin when you accelerate on slippery surfaces. The dashboard symbol is often a small car outline with squiggly or wavy lines beneath it — drivers search for it as the car with squiggly lines light or slippery-road symbol. When the light flashes briefly, the system is usually working. When it stays on steady, traction control may be switched off or a fault may be stored."
+          "Traction control (TC or TCS) reduces wheel spin when you accelerate on slippery surfaces. The dashboard symbol is often a small car outline with squiggly or wavy lines beneath it — drivers search for it as the car with squiggly lines light, wavy lines symbol, or slippery-road icon. When the light flashes briefly, the system is usually working. When it stays on steady, traction control may be switched off or a fault may be stored."
       },
       {
         title: "Flashing vs steady traction control light",
@@ -558,25 +558,37 @@ export const guides: SymbolGuide[] = [
         items: [
           "Check whether you pressed the TC or ESC off button — some cars show a steady light when traction control is intentionally disabled.",
           "If the light flashed only on slippery pavement, ease off the throttle; no repair is needed if it clears.",
-          "If the light stays on, note whether the check engine, ABS, or battery light is also on.",
-          "Scan for fault codes if the steady light returns every drive — wheel speed sensors and steering-angle sensors are common causes."
+          "If the light stays on, note whether the check engine, ABS, battery, or EPS light is also on.",
+          "Scan ABS and chassis modules as well as the engine computer — a basic OBD-II P-code reader alone often misses wheel-speed and yaw-rate faults.",
+          "Write down every code before clearing anything; intermittent lights that vanish after a restart still leave stored history."
         ]
       },
       {
         title: "Common causes of a steady light",
         items: [
           "Traction or stability control switched off manually",
-          "Faulty wheel speed sensor",
-          "Steering angle or yaw sensor fault",
+          "Faulty wheel speed sensor or damaged tone ring",
+          "Steering angle or yaw rate sensor fault (common after battery work or alignment)",
           "Engine misfire or emissions fault disabling stability aids",
+          "Lost engine-speed signal (for example a failing crankshaft position sensor) that also kills the tachometer",
           "Low battery voltage after a weak alternator or recent jump-start",
-          "Blown fuse or control module communication fault"
+          "Blown fuse or ABS/VSA control module communication fault"
         ]
+      },
+      {
+        title: "Brand names: VSC, ESC, ESP, DSC, and Service Traction Control",
+        body:
+          "Automakers use different labels for the same idea. Toyota and Lexus often show Check VSC or VSC Off. Many European and US brands use ESC or ESP. BMW may say DSC. GM vehicles (Chevy, GMC, Cadillac) sometimes display Service Traction Control as a message instead of — or in addition to — the squiggly-lines icon. Treat those messages like a steady traction or stability warning: the system has detected a fault or lost a required input (wheel speed, yaw rate, steering angle, or engine RPM). Scan the ABS/chassis modules before replacing parts."
+      },
+      {
+        title: "When traction control appears with a dead tach or limp feel",
+        body:
+          "If Service Traction Control (or a steady TC light) appears at the same time the tachometer sticks at zero, the car may have lost a usable engine-speed signal. Traction and stability systems need engine RPM and wheel-speed data; when a crankshaft position sensor, harness, or related circuit fails, the cluster can show RPM at 0 while the car is still moving, and stability aids shut down. Scan the ECM and ABS modules — do not assume the traction module itself is the first part to replace. Drive only a short distance if the engine still runs smoothly and braking feels normal, then get codes read the same day."
       },
       {
         title: "Traction control vs stability control (ESC/ESP)",
         body:
-          "Traction control limits drive-wheel spin during acceleration. Electronic stability control (ESC, ESP, or DSC on some brands) also helps correct skids by braking individual wheels. Many dashboards use similar car-with-lines icons; your owner's manual label may say TC, TCS, ESC, or ESP. A steady warning usually means the broader stability system needs attention, not just tire pressure or brakes alone."
+          "Traction control limits drive-wheel spin during acceleration. Electronic stability control (ESC, ESP, VSC, or DSC on some brands) also helps correct skids by braking individual wheels. Many dashboards use similar car-with-lines icons; your owner's manual label may say TC, TCS, ESC, ESP, VSC, or DSC. A steady warning usually means the broader stability system needs attention, not just tire pressure or brakes alone."
       }
     ],
     faqs: [
@@ -586,14 +598,24 @@ export const guides: SymbolGuide[] = [
           "It is usually the traction control or stability control warning. The wavy or squiggly lines under a car outline mean the system is active, off, or has a fault related to wheel slip. Flashing on a wet road is often normal; steady amber after startup deserves a scan or button check."
       },
       {
+        question: "What does a car with wavy lines symbol mean?",
+        answer:
+          "A car with wavy or squiggly lines under it is the traction or stability control symbol on most vehicles. Brief flashing on slippery pavement usually means the system is working. A light that stays on in dry weather often means TC was switched off or a sensor/module fault is stored — check the Off button, then scan ABS/chassis codes."
+      },
+      {
+        question: "What does Service Traction Control mean?",
+        answer:
+          "Service Traction Control is a dashboard message (common on Chevy and other GM vehicles) that the traction or stability system needs diagnosis. It is not a scheduled oil-change reminder. Scan ABS and chassis codes; wheel speed sensors, yaw-rate sensors, and lost engine-speed signals are frequent causes. Fix the stored fault rather than ignoring the message for weeks."
+      },
+      {
         question: "Why is my traction control light on?",
         answer:
-          "Most often the system was turned off, or a wheel speed sensor, steering sensor, or engine fault stored a code. Check the TC/ESC button first, then scan codes if the light stays on every trip."
+          "Most often the system was turned off, or a wheel speed sensor, steering or yaw sensor, or engine fault stored a code. Check the TC/ESC button first, then scan ABS and engine modules if the light stays on every trip."
       },
       {
         question: "Is it safe to drive with the traction control light on?",
         answer:
-          "Usually yes if the car drives normally and no red warnings are on — but grip on wet or icy roads may be reduced if TC is disabled. Avoid hard acceleration and increase following distance until the system is checked."
+          "Usually yes if the car drives normally and no red warnings are on — but grip on wet or icy roads may be reduced if TC is disabled. Avoid hard acceleration and increase following distance until the system is checked. If the tach is stuck at zero or the car feels like limp mode, treat it as more urgent and scan the same day."
       },
       {
         question: "Why did traction control and check engine light come on together?",
@@ -604,6 +626,11 @@ export const guides: SymbolGuide[] = [
         question: "Does traction control affect the ABS light?",
         answer:
           "They share wheel speed sensors on many cars. A bad sensor can trigger ABS and traction warnings together, sometimes with a battery or steering light after low voltage. See our guide on two warning lights together if multiple icons are on."
+      },
+      {
+        question: "Is VSC the same as traction control?",
+        answer:
+          "VSC (Vehicle Stability Control) is Toyota/Lexus naming for the stability system that includes traction control. A Check VSC light or VSC Off message should be treated like a traction/stability warning on other brands — confirm you did not press Off, then scan for ABS/VSC codes if it stays on."
       }
     ],
     related: [
