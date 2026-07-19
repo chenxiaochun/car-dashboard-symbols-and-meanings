@@ -33,7 +33,7 @@ export default function DisclaimerPage() {
           {SITE_TITLE} ({SITE_NAME}) is a general reference for common dashboard warning lights. Please read this page
           before using the symbol finder, guides, or driving advice on this site.
         </p>
-        <p className="updated-note">Last updated: June 4, 2026.</p>
+        <p className="updated-note">Last updated: July 19, 2026.</p>
       </header>
 
       <main className="article-body">
@@ -113,6 +113,11 @@ export default function DisclaimerPage() {
             We aim to keep information accurate and useful, but dashboard technology changes and manufacturer designs
             vary. Content may be incomplete, outdated, or contain errors. We do not guarantee that any symbol match,
             explanation, or suggested first check is complete, current, or correct for your vehicle.
+          </p>
+          <p>
+            For how guides are researched, reviewed, and updated, see our{" "}
+            <Link href="/about/">About</Link> page. Corrections are welcome at{" "}
+            <a href="mailto:470427826@qq.com">470427826@qq.com</a>.
           </p>
         </section>
 
