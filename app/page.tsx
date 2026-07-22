@@ -39,24 +39,24 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
       <header className="site-header">
         <div className="header-copy">
-          <a className="brand-mark" href="/" aria-label="Car Dashboard Symbols and Meanings home">
+          <a className="brand-mark" href="/" aria-label={`${SITE_NAME} home`}>
             <img src="/icon.svg" alt="" width="40" height="40" />
-            <span>Dash Light Finder</span>
+            <span>{SITE_NAME}</span>
           </a>
           <p className="eyebrow">Dashboard warning light finder</p>
-          <h1>Car Dashboard Symbols and Meanings</h1>
+          <h1>{SITE_TITLE}</h1>
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>
           <nav className="header-jump-links" aria-label="Page sections">
             <a href="#symbolGrid">Browse symbols</a>
-            <a href="#guides">Symbol guides</a>
+            <a href="#guides">Guides</a>
             <a href="#scenarios">Scenarios</a>
-            <a href="#serp-gaps">Beyond basic guides</a>
-            <a href="#diagnostic-steps">Free diagnosis</a>
-            <a href="#urgent-symbols">Urgent lights</a>
-            <a href="#driving-advice">Can I drive?</a>
             <a href="#faq">FAQ</a>
+            <Link href="/about/">About</Link>
           </nav>
-          <p className="updated-note">Last updated: July 19, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.</p>
+          <p className="updated-note">
+            Last updated: July 22, 2026. Icons are simplified reference illustrations, not exact manufacturer symbols.{" "}
+            <Link href="/about/">How we review guides</Link>
+          </p>
         </div>
         <div className="quick-panel" aria-label="Warning color guide">
           <div><span className="dot red"></span><strong>Red</strong><small>Stop safely</small></div>

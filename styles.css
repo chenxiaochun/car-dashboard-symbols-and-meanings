@@ -149,6 +149,18 @@ h1 {
   font: 800 13px/1.45 ui-sans-serif, system-ui, sans-serif;
 }
 
+.updated-note a {
+  color: var(--road);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.updated-note a:hover,
+.updated-note a:focus-visible {
+  color: var(--amber);
+  outline: none;
+}
+
 .quick-panel {
   display: grid;
   grid-template-columns: 1fr 1fr;

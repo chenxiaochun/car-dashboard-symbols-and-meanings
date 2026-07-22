@@ -75,7 +75,7 @@ export default async function ScenarioPage({ params }: PageProps) {
       )}
       <header className="article-header">
         <Link className="back-link" href="/">
-          Back to dashboard symbols
+          Back to {SITE_NAME}
         </Link>
         <p className="eyebrow">{scenario.eyebrow}</p>
         <h1>{scenario.h1}</h1>

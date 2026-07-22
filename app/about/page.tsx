@@ -23,7 +23,7 @@ export default function AboutPage() {
     <>
       <header className="article-header">
         <Link className="back-link" href="/">
-          Back to dashboard symbols
+          Back to {SITE_NAME}
         </Link>
         <p className="eyebrow">About this site</p>
         <h1>About {SITE_NAME}</h1>

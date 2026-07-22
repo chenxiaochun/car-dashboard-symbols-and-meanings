@@ -90,7 +90,7 @@ export default async function SymbolGuidePage({ params }: PageProps) {
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="article-header">
-        <Link className="back-link" href="/">Back to dashboard symbols</Link>
+        <Link className="back-link" href="/">Back to {SITE_NAME}</Link>
         <div className="article-hero">
           <div className="article-icon">
             <SymbolIcon symbol={symbol} large />

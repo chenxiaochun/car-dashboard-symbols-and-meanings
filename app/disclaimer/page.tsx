@@ -25,7 +25,7 @@ export default function DisclaimerPage() {
     <>
       <header className="article-header">
         <Link className="back-link" href="/">
-          Back to dashboard symbols
+          Back to {SITE_NAME}
         </Link>
         <p className="eyebrow">Legal &amp; safety notice</p>
         <h1>Disclaimer</h1>
