@@ -383,6 +383,13 @@ main {
   height: 58px;
 }
 
+.symbol-icon .generated-symbol-image {
+  width: 74px;
+  height: 74px;
+  display: block;
+  object-fit: cover;
+}
+
 .symbol-name {
   margin: 0;
   font: 800 17px/1.16 ui-sans-serif, system-ui, sans-serif;
@@ -476,6 +483,13 @@ main {
 .detail-icon svg {
   width: 96px;
   height: 96px;
+}
+
+.detail-icon .generated-symbol-image {
+  width: 130px;
+  height: 130px;
+  display: block;
+  object-fit: cover;
 }
 
 .detail-icon-caption {
