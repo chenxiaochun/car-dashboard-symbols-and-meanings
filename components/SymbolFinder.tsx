@@ -67,6 +67,11 @@ export function SymbolFinder() {
   }, []);
 
   const selectedShapeHint = selected ? symbolShapeHints[selected.slug] : undefined;
+  const activeFilters = [
+    color !== "all" ? colorLabels[color] : null,
+    shape !== "all" ? shapeFilters.find((item) => item.id === shape)?.label : null,
+    system !== "all" ? system : null
+  ].filter(Boolean);
 
   return (
     <>
@@ -96,56 +101,62 @@ export function SymbolFinder() {
           <div className="result-count">{items.length} symbols</div>
         </div>
 
-        <div className="filters" aria-label="Filters">
-          <div>
-            <p>Color</p>
-            <div className="chip-group">
-              {(Object.keys(colorLabels) as FilterColor[]).map((item) => (
-                <button
-                  className="chip"
-                  type="button"
-                  key={item}
-                  aria-pressed={color === item}
-                  onClick={() => setColor(item)}
-                >
-                  {colorLabels[item]}
-                </button>
-              ))}
+        <details className="filter-drawer">
+          <summary>
+            <span>Filters</span>
+            <span className="filter-summary">{activeFilters.length > 0 ? activeFilters.join(" / ") : "All symbols"}</span>
+          </summary>
+          <div className="filters" aria-label="Filters">
+            <div>
+              <p>Color</p>
+              <div className="chip-group">
+                {(Object.keys(colorLabels) as FilterColor[]).map((item) => (
+                  <button
+                    className="chip"
+                    type="button"
+                    key={item}
+                    aria-pressed={color === item}
+                    onClick={() => setColor(item)}
+                  >
+                    {colorLabels[item]}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p>Shape on your dash</p>
+              <div className="chip-group">
+                {shapeFilters.map((item) => (
+                  <button
+                    className="chip"
+                    type="button"
+                    key={item.id}
+                    aria-pressed={shape === item.id}
+                    onClick={() => setShape(item.id)}
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p>System</p>
+              <div className="chip-group">
+                {systems.map((item) => (
+                  <button
+                    className="chip"
+                    type="button"
+                    key={item}
+                    aria-pressed={system === item}
+                    onClick={() => setSystem(item)}
+                  >
+                    {item === "all" ? "All systems" : item}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
-          <div>
-            <p>Shape on your dash</p>
-            <div className="chip-group">
-              {shapeFilters.map((item) => (
-                <button
-                  className="chip"
-                  type="button"
-                  key={item.id}
-                  aria-pressed={shape === item.id}
-                  onClick={() => setShape(item.id)}
-                >
-                  {item.label}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div>
-            <p>System</p>
-            <div className="chip-group">
-              {systems.map((item) => (
-                <button
-                  className="chip"
-                  type="button"
-                  key={item}
-                  aria-pressed={system === item}
-                  onClick={() => setSystem(item)}
-                >
-                  {item === "all" ? "All systems" : item}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
+        </details>
       </section>
 
       <section className="symbol-grid" id="symbolGrid" aria-label="Dashboard symbols">
