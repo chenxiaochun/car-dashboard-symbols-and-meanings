@@ -556,3 +556,5 @@
 | Reddit 8b | [2000 Ram 电瓶/启动](https://www.reddit.com/r/MechanicAdvice/comments/1urd69k/battery_or_starter_problem/) | 07-12 |
 | Reddit #9 | [2014 Cruze Service TC + RPM=0](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/) | 07-17 |
 | Quora #9 | [squiggly lines / TC](https://www.quora.com/How-do-I-turn-off-the-squiggly-lines-on-my-car) | 07-18 |
+| Pinterest Pin 6 | ABS Warning Light | 07-24 |
+| Reddit #10 | [Oil Pressure Light that Won’t go Away?](https://www.reddit.com/r/MechanicAdvice/comments/1v4mgl6/oil_pressure_light_that_wont_go_away/) | red-dashboard-lights | 07-24 |

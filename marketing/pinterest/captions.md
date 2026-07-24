@@ -160,7 +160,7 @@ https://warninglightfinder.com/symbols/battery-warning-light/
 
 ---
 
-## Pin 6 — ABS Warning Light
+## Pin 6 — ABS Warning Light ✅ 已发（2026-07-24）
 
 **File:** `pinterest-abs-warning-light.png`  
 **Destination link:** https://warninglightfinder.com/symbols/abs-warning-light/
