@@ -447,7 +447,7 @@ main {
   width: 74px;
   height: 74px;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .symbol-name {
@@ -549,7 +549,7 @@ main {
   width: 130px;
   height: 130px;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .detail-icon-caption {
@@ -787,6 +787,21 @@ main {
   font: 15px/1.48 ui-sans-serif, system-ui, sans-serif;
 }
 
+.inline-resource-link {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border-left: 4px solid var(--amber);
+  background: rgba(255, 248, 230, 0.72);
+  color: var(--road);
+  font: 800 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+
+.inline-resource-link a {
+  color: var(--road);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .detailed-guide-list {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -944,6 +959,13 @@ main {
   height: 104px;
 }
 
+.article-icon .generated-symbol-image {
+  width: 140px;
+  height: 140px;
+  display: block;
+  object-fit: contain;
+}
+
 .article-header h1 {
   margin: 0;
   font-size: clamp(40px, 6vw, 72px);
@@ -999,6 +1021,136 @@ main {
   padding-left: 24px;
   color: var(--muted);
   font: 16px/1.55 ui-sans-serif, system-ui, sans-serif;
+}
+
+.chart-header {
+  max-width: 1180px;
+}
+
+.chart-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.chart-actions a,
+.chart-actions button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid var(--road);
+  background: var(--road);
+  color: white;
+  cursor: pointer;
+  font: 900 13px/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.chart-actions a:hover,
+.chart-actions a:focus-visible,
+.chart-actions button:hover,
+.chart-actions button:focus-visible {
+  border-color: var(--amber);
+  background: var(--amber);
+  color: var(--road);
+  outline: none;
+}
+
+.chart-color-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.chart-color-grid article {
+  min-height: 132px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.chart-color-grid h3,
+.chart-color-grid p {
+  margin: 8px 0 0;
+}
+
+.chart-groups {
+  display: grid;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.chart-group h3 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 12px;
+  font: 900 22px/1.1 ui-sans-serif, system-ui, sans-serif;
+}
+
+.chart-table {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.chart-symbol-row {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-height: 92px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+a.chart-symbol-row:hover,
+a.chart-symbol-row:focus-visible {
+  border-color: var(--road);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 144, 0, 0.16);
+}
+
+.chart-symbol-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  background: var(--road);
+}
+
+.chart-symbol-icon .generated-symbol-image {
+  width: 58px;
+  height: 58px;
+}
+
+.chart-symbol-copy strong,
+.chart-symbol-copy span,
+.chart-symbol-copy em {
+  display: block;
+}
+
+.chart-symbol-copy strong {
+  color: var(--ink);
+  font: 900 15px/1.2 ui-sans-serif, system-ui, sans-serif;
+}
+
+.chart-symbol-copy span {
+  margin-top: 4px;
+  color: var(--muted);
+  font: 13px/1.35 ui-sans-serif, system-ui, sans-serif;
+}
+
+.chart-symbol-copy em {
+  margin-top: 5px;
+  color: var(--road);
+  font: 800 12px/1.25 ui-sans-serif, system-ui, sans-serif;
+  font-style: normal;
 }
 
 .related-links {
@@ -1065,6 +1217,8 @@ main {
   .guide-grid,
   .drive-grid,
   .combo-list,
+  .chart-color-grid,
+  .chart-table,
   .system-guide,
   .detailed-guide-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1113,9 +1267,15 @@ main {
   .guide-grid,
   .drive-grid,
   .combo-list,
+  .chart-color-grid,
+  .chart-table,
   .system-guide,
   .detailed-guide-list {
     grid-template-columns: 1fr;
+  }
+
+  .chart-symbol-row {
+    min-height: 86px;
   }
 
   .content-section {
@@ -1152,5 +1312,99 @@ main {
     width: 42px;
     height: 42px;
     font-size: 21px;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .site-footer,
+  .back-link,
+  .chart-actions,
+  .updated-note,
+  .disclaimer {
+    display: none;
+  }
+
+  .article-header,
+  .article-body,
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  .article-header {
+    margin-bottom: 12px;
+  }
+
+  .article-header h1 {
+    font-size: 34px;
+  }
+
+  .article-summary,
+  .content-section p {
+    color: #333;
+    font-size: 12px;
+  }
+
+  .content-section {
+    margin-top: 12px;
+    padding: 0;
+    border: 0;
+    background: white;
+    box-shadow: none;
+  }
+
+  .content-section h2 {
+    font-size: 20px;
+  }
+
+  .chart-color-grid,
+  .chart-table {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .chart-groups {
+    gap: 12px;
+  }
+
+  .chart-color-grid article,
+  .chart-symbol-row {
+    break-inside: avoid;
+    border-color: #bbb;
+  }
+
+  .chart-color-grid article {
+    min-height: auto;
+    padding: 8px;
+  }
+
+  .chart-group h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .chart-symbol-row {
+    min-height: 72px;
+    grid-template-columns: 42px minmax(0, 1fr);
+    padding: 6px;
+  }
+
+  .chart-symbol-icon,
+  .chart-symbol-icon .generated-symbol-image {
+    width: 42px;
+    height: 42px;
+  }
+
+  .chart-symbol-copy strong {
+    font-size: 11px;
+  }
+
+  .chart-symbol-copy span,
+  .chart-symbol-copy em {
+    font-size: 9px;
   }
 }

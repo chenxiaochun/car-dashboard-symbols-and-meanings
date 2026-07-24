@@ -48,6 +48,7 @@ export default function HomePage() {
           <p className="intro">Match the symbol on your instrument panel, check how urgent it is, and see what to do next.</p>
           <nav className="header-jump-links" aria-label="Page sections">
             <a href="#symbolGrid">Browse symbols</a>
+            <Link href="/dashboard-warning-lights-chart/">Chart</Link>
             <a href="#guides">Guides</a>
             <a href="#scenarios">Scenarios</a>
             <a href="#faq">FAQ</a>
@@ -190,6 +191,10 @@ function SeoContent() {
 
       <section className="content-section">
         <div className="content-intro"><p className="eyebrow">Common dashboard symbols</p><h2>Popular warning lights covered in this guide</h2><p>These are the dashboard symbols drivers most often need to identify quickly. Use the finder above to filter by color or vehicle system, then open a symbol for the first checks and driving advice.</p></div>
+        <p className="inline-resource-link">
+          Need a quick handout? Open the{" "}
+          <Link href="/dashboard-warning-lights-chart/">printable dashboard warning lights chart</Link>.
+        </p>
         <div className="symbol-summary-list">
           <p><strong>Check Engine Light:</strong> engine or emissions fault; scan diagnostic trouble codes if it stays on.</p>
           <p><strong>Oil Pressure Warning:</strong> low oil pressure risk; stop safely and check oil level.</p>

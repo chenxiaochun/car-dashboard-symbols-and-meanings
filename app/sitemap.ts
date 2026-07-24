@@ -7,6 +7,7 @@ export const dynamic = "force-static";
 
 const siteLastModified = new Date("2026-07-19");
 const aboutLastModified = new Date("2026-07-19");
+const chartLastModified = new Date("2026-07-24");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -21,6 +22,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: aboutLastModified,
       changeFrequency: "yearly",
       priority: 0.4
+    },
+    {
+      url: `${SITE_URL}/dashboard-warning-lights-chart/`,
+      lastModified: chartLastModified,
+      changeFrequency: "monthly",
+      priority: 0.75
     },
     {
       url: `${SITE_URL}/disclaimer/`,
