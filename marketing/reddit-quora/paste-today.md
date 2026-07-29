@@ -1,7 +1,7 @@
-# 今日待办 — 2026-07-28
+# 今日待办 — 2026-07-29
 
 > **进度：** GSC 7d（7/19–7/25）：**9 点击 / 1,363 展示 / CTR 0.7% / 排名 13.6**  
-> **TC meta：继续不改** · 观察到 **~8/3**
+> **TC meta：继续不改** · 观察到 **~8/3** · **Quora #10 ✅**
 
 ---
 
@@ -22,12 +22,12 @@
 
 ---
 
-## 今天要做（07-28）
+## 今天要做（07-29）
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | ✅ 记 GSC 快照；无站内改动 |
-| **2** | 站外可选低频 1 条；不强求 |
+| **1** | ✅ Quora #10 — Honda SRS / airbag |
+| **2** | 站外下一条隔 2–3 天；不强求 |
 | **3** | **~8/3** 再评 CTR / 排名 |
 
 ---
@@ -36,6 +36,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #10 — Honda SRS light** | **07-29** | 链 airbag-warning-light |
 | **GSC 7d 复盘** | **07-28** | 9 点击 / 0.7% CTR / 13.6；展示创新高 |
 | **GSC 7d 复盘 + 7/27 评判** | **07-27** | 9 点击 / 0.7% CTR / 13.4；meta 不动 |
 | **GSC 7d 复盘** | **07-23** | 7 点击 / 0.6% CTR / 15.9；meta 不动 |
@@ -610,3 +611,4 @@
 | Quora #9 | [squiggly lines / TC](https://www.quora.com/How-do-I-turn-off-the-squiggly-lines-on-my-car) | 07-18 |
 | Pinterest Pin 6 | ABS Warning Light | 07-24 |
 | Reddit #10 | [Oil Pressure Light that Won’t go Away?](https://www.reddit.com/r/MechanicAdvice/comments/1v4mgl6/oil_pressure_light_that_wont_go_away/) | red-dashboard-lights | 07-24 |
+| Quora #10 | [Honda SRS light](https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda) | airbag-warning-light | 07-29 |

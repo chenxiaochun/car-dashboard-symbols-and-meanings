@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-07-18）：** #1–3、#5–9 ✅ · #4 ⛔ · Reddit #1–9 ✅
+> **进度（2026-07-29）：** #1–3、#5–10 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **10** | Honda SRS / airbag | ✅ 2026-07-29 已发 |
 | **9** | TC / wavy lines（squiggly lines） | ✅ 2026-07-18 已发 |
 | 1 | TPMS 胎压灯（早晨闪烁） | ✅ 2026-06-06 已发 |
 | 2 | 检查发动机灯能开多远 | ✅ 2026-06-07 已发 |
@@ -17,6 +18,21 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 🔟 Honda SRS / airbag ✅ 已发（2026-07-29）
+
+**问题：** What does the SRS light mean on my Honda?  
+**链接：** https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda  
+**链到：** airbag-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+SRS = airbag/pretensioner；自检后常亮需扫 SRS 码；常见座椅线束/安全带扣/时钟弹簧/低压事件；链 airbag 页；结尾问触发场景。
+
+</details>
 
 ---
 
