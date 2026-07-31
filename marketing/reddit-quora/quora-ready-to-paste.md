@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-07-29）：** #1–3、#5–10 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-07-31）：** #1–3、#5–11 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **11** | coolant temp light on/off | ✅ 2026-07-31 已发 |
 | **10** | Honda SRS / airbag | ✅ 2026-07-29 已发 |
 | **9** | TC / wavy lines（squiggly lines） | ✅ 2026-07-18 已发 |
 | 1 | TPMS 胎压灯（早晨闪烁） | ✅ 2026-06-06 已发 |
@@ -18,6 +19,21 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣1️⃣ coolant temp light on/off ✅ 已发（2026-07-31）
+
+**问题：** What does the engine coolant temp light mean? What if it goes on and off?  
+**链接：** https://www.quora.com/What-does-the-engine-coolant-temp-light-mean-What-if-it-goes-on-and-off  
+**链到：** coolant-temperature-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+过热警告；常亮先停凉；间歇查液位/节温器/风扇/传感器；链 coolant 页；结尾问图标与水温表。
+
+</details>
 
 ---
 

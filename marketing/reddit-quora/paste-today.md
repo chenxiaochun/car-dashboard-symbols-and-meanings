@@ -1,7 +1,7 @@
 # 今日待办 — 2026-07-31
 
 > **进度：** GSC 7d（7/22–7/28）：**4 点击 / 1,764 展示 / CTR 0.2% / 排名 16.2**  
-> **TC meta：继续不改** · 观察到 **~8/3**
+> **TC meta：继续不改** · 观察到 **~8/3** · **Quora #11 ✅**
 
 ---
 
@@ -27,7 +27,7 @@
 | 优先级 | 事项 |
 |--------|------|
 | **1** | ✅ 记 GSC 快照；无站内改动 |
-| **2** | 站外可选低频 1 条；不强求 |
+| **2** | ✅ Quora #11 — coolant temp light |
 | **3** | **~8/3** 再评 CTR / 排名 |
 
 ---
@@ -36,6 +36,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #11 — coolant temp on/off** | **07-31** | 链 coolant-temperature-warning-light |
 | **GSC 7d 复盘** | **07-31** | 4 点击 / 0.2% CTR / 16.2；展示 1,764 新高 |
 | **Quora #10 — Honda SRS light** | **07-29** | 链 airbag-warning-light |
 | **GSC 7d 复盘** | **07-28** | 9 点击 / 0.7% CTR / 13.6；展示创新高 |
@@ -630,3 +631,4 @@
 | Pinterest Pin 6 | ABS Warning Light | 07-24 |
 | Reddit #10 | [Oil Pressure Light that Won’t go Away?](https://www.reddit.com/r/MechanicAdvice/comments/1v4mgl6/oil_pressure_light_that_wont_go_away/) | red-dashboard-lights | 07-24 |
 | Quora #10 | [Honda SRS light](https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda) | airbag-warning-light | 07-29 |
+| Quora #11 | [coolant temp light on/off](https://www.quora.com/What-does-the-engine-coolant-temp-light-mean-What-if-it-goes-on-and-off) | coolant-temperature-warning-light | 07-31 |
