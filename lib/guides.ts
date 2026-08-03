@@ -294,6 +294,11 @@ export const guides: SymbolGuide[] = [
           "A battery warning light that appears or flickers while driving means the charging system is not keeping voltage high enough. Common causes include a failing alternator, loose battery terminals, a glazed or slipping serpentine belt, or a weak battery that cannot support electrical load. If the light stays on, dim your loads (A/C, heated seats) and head for a shop — the engine can stall once the battery drains. A light that clears only when you rev the engine often points to alternator or belt trouble at low RPM."
       },
       {
+        question: "Why is the battery light on at idle but goes out when I rev the engine?",
+        answer:
+          "That pattern often means the alternator or belt is not making enough output at low RPM, or a connection is marginal until higher engine speed. Check belt condition and tension, battery terminals, and main grounds, then measure charging voltage at idle versus ~2,000 RPM with headlights and blower on. Do not ignore it — the light may stay on longer as the alternator worsens."
+      },
+      {
         question: "Does the battery light mean I need a new battery?",
         answer:
           "Not always. Test the charging system first. A good battery with a failed alternator can still trigger the light. Conversely, a weak battery can overload a marginal alternator. Many shops test both together."
@@ -338,23 +343,85 @@ export const guides: SymbolGuide[] = [
     metaDescription: "Learn what the brake warning light means, how it differs from ABS and parking brake lights, common causes, and when to stop driving.",
     eyebrow: "Brake system warning",
     h1: "Brake Warning Light Meaning",
-    summary: "The brake warning light can mean the parking brake is on, brake fluid is low, or the brake system needs attention. Because brakes are safety-critical, treat this warning carefully.",
+    summary:
+      "The brake warning light — often a red circle with an exclamation mark, or the word BRAKE — can mean the parking brake is on, brake fluid is low, or the brake system needs attention. Because brakes are safety-critical, treat this warning carefully.",
     colorText: "Red",
     canDriveText: "Only after checks",
     urgency: "High",
     sections: [
-      { title: "What it means", body: "A red brake light may show an exclamation mark, the word BRAKE, or a circle in brackets. It can be simple, such as the parking brake being applied, or serious, such as low brake fluid or a hydraulic brake fault." },
-      { title: "What to do first", ordered: true, items: ["Check that the parking brake or handbrake is fully released.", "Check brake fluid level if it is safe and you know where the reservoir is.", "Do not drive if the brake pedal feels soft, sinks, or braking distance feels longer.", "Get the brake system inspected if the light stays on."] },
-      { title: "Common causes", items: ["Parking brake engaged", "Low brake fluid", "Brake fluid leak", "Worn brake pads on some vehicles", "Brake switch, sensor, or hydraulic system fault"] },
-      { title: "Brake light vs ABS light", body: "An ABS light often means anti-lock braking may be unavailable, while normal braking may still work. A red brake warning is more urgent because it can involve the main braking system. If both ABS and brake warning lights are on, inspect the car before continuing." }
+      {
+        title: "What it means",
+        body:
+          "A red brake system warning light may show an exclamation mark inside a circle (sometimes with brackets), the word BRAKE, or both. It can be simple, such as the parking brake being applied, or serious, such as low brake fluid or a hydraulic brake fault. Drivers often search for it as a brake system warning light or exclamation mark on the dash — those phrases usually point to this red brake warning, not the amber ABS light alone."
+      },
+      {
+        title: "Circle with exclamation mark / BRAKE text",
+        body:
+          "On many cars the icon is a circle with ! in the center (ISO brake symbol). Others spell BRAKE in red. Either way, start by confirming the parking brake / handbrake is fully released. If the light stays on with the parking brake off, check brake fluid when safe and note pedal feel before deciding whether to drive."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Check that the parking brake or handbrake is fully released.",
+          "Check brake fluid level if it is safe and you know where the reservoir is.",
+          "Do not drive if the brake pedal feels soft, sinks to the floor, or braking distance feels longer.",
+          "Get the brake system inspected if the light stays on after releasing the parking brake."
+        ]
+      },
+      {
+        title: "Soft pedal or longer stopping distance",
+        body:
+          "If the red brake light is on and the pedal feels spongy, sinks, or you need more distance to stop, treat it as a possible hydraulic leak or air in the lines — not a cosmetic lamp. Pull over safely and arrange a tow or inspection. Do not \"test\" hard stops on public roads hoping the feel improves."
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Parking brake engaged",
+          "Low brake fluid",
+          "Brake fluid leak",
+          "Worn brake pads on some vehicles",
+          "Brake switch, sensor, or hydraulic system fault"
+        ]
+      },
+      {
+        title: "Brake light vs ABS light",
+        body:
+          "An amber ABS light often means anti-lock braking may be unavailable, while normal braking may still work. A red brake warning is more urgent because it can involve the main braking system. If both ABS and brake warning lights are on together, inspect the car before continuing — shared sensors, low fluid, or hydraulic issues can light both."
+      }
     ],
     faqs: [
-      { question: "Can low brake fluid be dangerous?", answer: "Yes. Low brake fluid can indicate worn pads or a leak. If the pedal feels abnormal, do not continue driving." },
-      { question: "Can I drive if it was just the parking brake?", answer: "If the light goes out after releasing the parking brake and braking feels normal, driving may be fine. If it stays on, inspect the system." }
+      {
+        question: "What does a brake system warning light mean?",
+        answer:
+          "A red brake system warning usually means the parking brake is on, brake fluid is low, or there is a fault in the hydraulic brake system. Check that the parking brake is released first. If the light stays on, check fluid level when safe and note whether the pedal feels soft — soft pedal means do not keep driving."
+      },
+      {
+        question: "Is it safe to drive with the brake warning light on?",
+        answer:
+          "Only if the light was clearly the parking brake and it goes out when released, and the pedal feels normal. If the red brake light stays on, or braking feels soft or longer, do not continue — get the system inspected or towed."
+      },
+      {
+        question: "What if the brake light and ABS light are both on?",
+        answer:
+          "Both lights together raise urgency. ABS may be offline and the main brake system may also have a fluid or sensor issue. Avoid hard driving; have the ABS and brake modules scanned and inspect for leaks before a long trip."
+      },
+      {
+        question: "Can low brake fluid be dangerous?",
+        answer:
+          "Yes. Low brake fluid can indicate worn pads or a leak. If the pedal feels abnormal, do not continue driving."
+      },
+      {
+        question: "Can I drive if it was just the parking brake?",
+        answer:
+          "If the light goes out after releasing the parking brake and braking feels normal, driving may be fine. If it stays on, inspect the system."
+      }
     ],
     related: [
+      { href: "/symbols/abs-warning-light/", label: "ABS Warning Light" },
       { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
-      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" }
+      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]
   },
   {
@@ -576,9 +643,9 @@ export const guides: SymbolGuide[] = [
         ]
       },
       {
-        title: "Brand names: VSC, ESC, ESP, DSC, and Service Traction Control",
+        title: "Brand names: VSC, ESC, ESP, DSC, VSA, and Service Traction Control",
         body:
-          "Automakers use different labels for the same idea. Toyota and Lexus often show Check VSC or VSC Off. Many European and US brands use ESC or ESP. BMW may say DSC. GM vehicles (Chevy, GMC, Cadillac) sometimes display Service Traction Control as a message instead of — or in addition to — the squiggly-lines icon. Treat those messages like a steady traction or stability warning: the system has detected a fault or lost a required input (wheel speed, yaw rate, steering angle, or engine RPM). Scan the ABS/chassis modules before replacing parts."
+          "Automakers use different labels for the same idea. Toyota and Lexus often show Check VSC or VSC Off. Honda and Acura use VSA (Vehicle Stability Assist). Volkswagen and many European brands use ESC or ESP; Mercedes often shows an ESP-style car-with-lines icon. BMW may say DSC. GM vehicles (Chevy, GMC, Cadillac) sometimes display Service Traction Control as a message instead of — or in addition to — the squiggly-lines icon. Treat those messages like a steady traction or stability warning: the system has detected a fault or lost a required input (wheel speed, yaw rate, steering angle, or engine RPM). Scan the ABS/chassis modules before replacing parts."
       },
       {
         title: "When traction control appears with a dead tach or limp feel",
@@ -631,6 +698,21 @@ export const guides: SymbolGuide[] = [
         question: "Is VSC the same as traction control?",
         answer:
           "VSC (Vehicle Stability Control) is Toyota/Lexus naming for the stability system that includes traction control. A Check VSC light or VSC Off message should be treated like a traction/stability warning on other brands — confirm you did not press Off, then scan for ABS/VSC codes if it stays on."
+      },
+      {
+        question: "What does the VSA light mean on a Honda?",
+        answer:
+          "VSA (Vehicle Stability Assist) is Honda/Acura naming for electronic stability and traction control. A VSA light that stays on after startup usually means the system is off or has a fault — same urgency as a steady TC/ESC light on other cars. Check the VSA Off button, then scan ABS/VSA modules if it returns every trip."
+      },
+      {
+        question: "What does a VW or Mercedes traction control light mean?",
+        answer:
+          "On Volkswagen and Mercedes-Benz cars, the traction or stability warning is often an ESC/ESP-style car-with-lines icon (sometimes with a triangle). Flashing on a slippery road can mean the system is intervening; a steady light usually means ESC/traction is off or a wheel-speed / yaw sensor fault is stored. Scan ABS/ESP modules — do not assume the light is only tire pressure."
+      },
+      {
+        question: "What is the car with zig zag or swerve lines on the dashboard?",
+        answer:
+          "Zig zag, swerve, or squiggly lines under a car outline are almost always the traction or stability control symbol — the same family as wavy-lines and slippery-road icons. Brief flashing on wet or icy pavement is often normal intervention; a light that stays on in dry weather needs the Off-button check and, if it persists, an ABS/chassis scan."
       }
     ],
     related: [
@@ -649,14 +731,20 @@ export const guides: SymbolGuide[] = [
     eyebrow: "Red engine warning",
     h1: "Coolant Temperature Warning Light Meaning",
     summary:
-      "The coolant temperature warning light means the engine may be overheating. Stop safely, let the engine cool, and check coolant level only when it is safe to do so.",
+      "The coolant temperature warning light means the engine may be overheating — or, on some cars, that coolant level is low. Stop safely, let the engine cool, and check level only when it is safe. A light that comes on and off still deserves a cooling-system check.",
     colorText: "Red",
     canDriveText: "No. Stop safely.",
     urgency: "High",
     sections: [
       {
         title: "What it means",
-        body: "This warning usually shows a thermometer in liquid or a red temperature symbol. It means the engine coolant temperature is higher than normal, which can lead to serious engine damage if ignored."
+        body:
+          "This warning usually shows a thermometer in liquid or a red temperature symbol. It means the engine coolant temperature is higher than normal, which can lead to serious engine damage if ignored. Treat a red temperature or overheat light as \"pull over soon,\" not \"finish the trip and see.\""
+      },
+      {
+        title: "Low coolant light vs temperature / overheat light",
+        body:
+          "Some vehicles have a separate low-coolant icon (often a reservoir or float symbol) that means the overflow tank is low — not necessarily that the engine is already overheating. A temperature / overheat light (thermometer) means the system thinks coolant is too hot. Both matter: low coolant can become overheating within minutes. Check your owner's manual artwork if you are unsure which icon you have, then check reservoir level only when the engine is cool."
       },
       {
         title: "What to do first",
@@ -665,8 +753,14 @@ export const guides: SymbolGuide[] = [
           "Pull over safely and turn off the engine.",
           "Wait at least 15–30 minutes before opening the coolant cap — hot coolant can spray and burn.",
           "Check for steam, sweet smell, or visible leaks under the car.",
-          "Check coolant level only when the system is cool, if you know how to do so safely."
+          "Check the coolant reservoir level only when the system is cool, if you know how to do so safely.",
+          "If the gauge climbs into the red or steam appears, do not limp home — arrange a tow."
         ]
+      },
+      {
+        title: "When the light comes on and off",
+        body:
+          "An intermittent coolant or temperature light can still mean a real problem. Common patterns include low coolant that sloshes away from a level sensor, a sticking thermostat, a cooling fan that only runs sometimes, a weak water pump, or a flaky coolant temperature sensor/wiring. If the light returns after you top up coolant, or the gauge climbs when the light flashes, treat it as an overheating risk and get the system pressure-tested."
       },
       {
         title: "Common causes",
@@ -675,22 +769,41 @@ export const guides: SymbolGuide[] = [
           "Faulty thermostat",
           "Cooling fan not running",
           "Blocked radiator or airflow issue",
-          "Water pump failure"
+          "Water pump failure",
+          "Faulty coolant temperature sensor or connector"
         ]
       },
       {
         title: "When it is most serious",
-        body: "Stop immediately if you see steam from under the hood/bonnet, smell coolant, hear boiling, or lose power. Driving an overheating engine can warp the cylinder head or cause costly damage."
+        body:
+          "Stop immediately if you see steam from under the hood/bonnet, smell coolant, hear boiling, or lose power. Driving an overheating engine can warp the cylinder head or cause costly head-gasket damage."
       }
     ],
     faqs: [
       {
+        question: "What does the engine coolant temperature light mean?",
+        answer:
+          "It is an overheating / cooling-system warning. A steady red temperature light while driving means pull over safely, shut the engine off, and let it cool before opening anything in the cooling system. Continuing to drive can damage the head gasket or warp the head within minutes."
+      },
+      {
+        question: "Can I keep driving with the coolant light on?",
+        answer:
+          "No — not as a plan. If the temperature or overheat light is on, stop as soon as it is safe. A very short move out of a live lane may be necessary, but limping many miles risks expensive engine damage. If you see steam or the gauge is in the red, shut down and tow."
+      },
+      {
+        question: "What if the coolant light goes on and off?",
+        answer:
+          "Intermittent lights often mean low coolant, a sticking thermostat, an intermittent fan, or a sensor issue — not a false alarm you can ignore. Check reservoir level when cool, look for leaks, and confirm the radiator fan runs when the engine is hot or A/C is on. If the light returns, get a cooling-system diagnosis."
+      },
+      {
         question: "Can I add water if coolant is low?",
-        answer: "Only when the engine is cool and you use the correct coolant mix recommended in your manual. Plain water is a temporary emergency measure on some vehicles, not a long-term fix."
+        answer:
+          "Only when the engine is cool and you use the correct coolant mix recommended in your manual. Plain water is a temporary emergency measure on some vehicles, not a long-term fix."
       },
       {
         question: "Why did the light come on in traffic?",
-        answer: "Low airflow at idle, a weak fan, low coolant, or a stuck thermostat can trigger overheating in stop-and-go driving."
+        answer:
+          "Low airflow at idle, a weak fan, low coolant, or a stuck thermostat can trigger overheating in stop-and-go driving. Watch the temperature gauge; if it climbs, pull over and shut the engine off."
       }
     ],
     related: [

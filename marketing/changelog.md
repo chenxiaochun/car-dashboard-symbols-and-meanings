@@ -1,0 +1,57 @@
+# 改动日志
+
+> 每次站内、SEO、营销相关改动都记一条。新记录写在**最上面**。  
+> 格式：日期 · 类型 · 做了什么 · 涉及文件 · 备注（为何/观察点）。
+
+---
+
+## 2026-08-03
+
+### content — 加强专题页正文/FAQ（不动 title/meta）
+
+- **Coolant**：补「液位灯 vs 水温灯」「间歇亮灭」；扩 FAQ（含义、能否开、on/off）
+- **Brake**：补感叹号/`BRAKE`、软踏板；扩 FAQ；related 加 ABS / two-lights
+- **TC**：品牌段补 Honda VSA、VW/Mercedes；FAQ 加 VSA、VW/Mercedes、zig-zag/swerve
+- **Battery**：FAQ 加 idle 亮、加油门灭
+- **sitemap**：`siteLastModified` → `2026-08-03`
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts`  
+**备注：** 对齐 GSC 查询缺口；TC/油压 title/meta 仍不改。部署后可用 `npm run indexnow` 通知。
+
+### seo — 接入 IndexNow
+
+- 根目录密钥：`public/2458ed4057e44248b8c2d8321a501b01.txt`
+- 脚本：`scripts/submit-indexnow.mjs` · `npm run indexnow`
+- 已对全站 19 URL 提交，返回 **202**
+
+**文件：** `public/2458ed4057e44248b8c2d8321a501b01.txt` · `scripts/submit-indexnow.mjs` · `package.json`  
+**备注：** 回应 Bing Webmaster「未采用 IndexNow」；高质量外链提示靠站外维持，非代码修复。
+
+---
+
+## 2026-08-01
+
+### docs — GSC 28d 快照
+
+- 28d（~7/2–7/29）：**23 点击 / 5,390 展示 / CTR 0.4% / 排名 16.2**
+- 7/29 单日约 6 点击、展示峰约 500
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** meta 不动；观察到 ~8/3。
+
+---
+
+## 2026-07-31
+
+### docs — GSC 7d 快照 + Quora #11
+
+- 7d（7/22–7/28）：**4 点击 / 1,764 展示 / CTR 0.2% / 排名 16.2**（滚窗出窗）
+- Quora #11 coolant temp on/off → `coolant-temperature-warning-light`
+
+**文件：** `marketing/reddit-quora/paste-today.md` · `marketing/reddit-quora/quora-ready-to-paste.md`
+
+---
+
+## 更早记录
+
+站外发布明细与历史 GSC 快照仍以 [`marketing/reddit-quora/paste-today.md`](reddit-quora/paste-today.md) 为准；自 **2026-08-03** 起，凡代码/内容/SEO 改动同步写入本文件。
