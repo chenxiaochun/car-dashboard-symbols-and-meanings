@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-07-31）：** #1–3、#5–11 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-08-05）：** #1–3、#5–13 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,8 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **13** | brake light after pads/fluid | ✅ 2026-08-05 已发 |
+| **12** | ABS light, brakes still work | ✅ 2026-08-05 已发 |
 | **11** | coolant temp light on/off | ✅ 2026-07-31 已发 |
 | **10** | Honda SRS / airbag | ✅ 2026-07-29 已发 |
 | **9** | TC / wavy lines（squiggly lines） | ✅ 2026-07-18 已发 |
@@ -19,6 +21,36 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣3️⃣ brake light after pads/fluid ✅ 已发（2026-08-05）
+
+**问题：** I have changed my brake pad and fluid, but the brake light sign still come up on my dashboard.  
+**链接：** https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard  
+**链到：** brake-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+手刹/液位/踏板手感/磨损传感器/ABS 轮速；链 brake 页；结尾问红 BRAKE 还是琥珀色 ABS。
+
+</details>
+
+---
+
+## 1️⃣2️⃣ ABS light, brakes still work ✅ 已发（2026-08-05）
+
+**问题：** Can you keep driving with the ABS warning light on but the brakes are still working?  
+**链接：** https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working  
+**链到：** abs-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+可谨慎开；防抱死失效；红刹车灯/软踏板则停；扫 ABS 模块；链 abs 页。
+
+</details>
 
 ---
 

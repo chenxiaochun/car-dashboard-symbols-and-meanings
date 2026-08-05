@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-08-05
+
+### outreach — Quora #12 + #13
+
+- **#12** ABS light / brakes still work → `abs-warning-light`
+- **#13** brake light after pads/fluid → `brake-warning-light`
+
+**文件：** `marketing/reddit-quora/paste-today.md` · `marketing/reddit-quora/quora-ready-to-paste.md`  
+**备注：** 补 ABS / brake 外链缺口；与 08-03 正文加强配套。
+
+### docs — GSC 28d 快照
+
+- 28d（~7/6–8/2）：**27 点击 / 6,713 展示 / CTR 0.4% / 排名 16.9**
+- 对比 08-01：展示 +1,323；点击 23→27；CTR 持平；排名 16.2→16.9（微回）
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 曝光续涨；08-03 正文加强尚早见效；**不改 title/meta**。
+
+---
+
 ## 2026-08-03
 
 ### content — 加强专题页正文/FAQ（不动 title/meta）

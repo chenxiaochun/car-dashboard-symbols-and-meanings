@@ -1,34 +1,34 @@
-# 今日待办 — 2026-08-03
+# 今日待办 — 2026-08-05
 
-> **进度：** GSC 28d（~7/2–7/29）：**23 点击 / 5,390 展示 / CTR 0.4% / 排名 16.2**  
-> **TC meta：继续不改** · **专题页正文已加强（08-03）** · 改动日志见 `marketing/changelog.md`
-
----
-
-## GSC 快照（08-01 查）← 最新
-
-### 全站（28 天，约 7/2–7/29）
-
-| 指标 | 数值 | 说明 |
-|------|------|------|
-| 展示 | **5,390** | 月内持续抬升；7/29 日峰约 **500** |
-| 点击 | **23** | 多数日 0–2；**7/29 单日约 6**（明显尖峰） |
-| CTR | **0.4%** | 28d 口径；短窗 7d 曾因出窗掉到 0.2% |
-| 平均排名 | **16.2** | 与 07-31 的 7d 排名同档 |
-
-**趋势：** 7 月展示从日约 100–200 爬到月末 300–500；点击整体稀疏，但 7/29 出现本月最强单日。
-
-**解读：** 曝光与点击月末共振偏正面，不是崩。28d 点击 **23** 已远超早期观察门槛。主阵地仍是 TC。**不改 title/meta**；08-03 已加强 coolant/brake/TC FAQ/battery FAQ 正文。
+> **进度：** GSC 28d（~7/6–8/2）：**27 点击 / 6,713 展示 / CTR 0.4% / 排名 16.9**  
+> **TC meta：继续不改** · **Quora #12–13 ✅** · 改动日志见 `marketing/changelog.md`
 
 ---
 
-## 今天要做（08-03）
+## GSC 快照（08-05 查）← 最新
+
+### 全站（28 天，约 7/6–8/2）
+
+| 指标 | 数值 | 对比上期（~7/2–7/29） |
+|------|------|----------------------|
+| 展示 | **6,713** | ↑ 从 5,390（**+1,323**） |
+| 点击 | **27** | ↑ 从 23 → 27 |
+| CTR | **0.4%** | ≈ 持平 |
+| 平均排名 | **16.9** | ↓ 从 16.2 回退 **0.7 位** |
+
+**趋势：** 展示月末后维持高位（约 **400**/日）；7/29 尖峰（约 6 点击）仍在窗内；8/2 点击回落属正常波动。
+
+**解读：** 曝光继续扩、点击缓升、CTR 稳住；排名微摆。08-03 正文加强尚早见效。**不改 title/meta**；继续观察。
+
+---
+
+## 今天要做（08-05）
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | ✅ 加强 coolant / brake / TC FAQ / battery FAQ（不动 title/meta） |
-| **2** | ✅ 建立 `marketing/changelog.md` 改动日志 |
-| **3** | 部署后 `npm run indexnow`；继续观察 CTR / 排名 |
+| **1** | ✅ 记 GSC 28d 快照 |
+| **2** | ✅ Quora #12 ABS · #13 brake after pads/fluid |
+| **3** | 继续观察 CTR / 排名（正文加强后 1–2 周） |
 
 ---
 
@@ -36,6 +36,9 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #12 — ABS brakes still work** | **08-05** | 链 abs-warning-light |
+| **Quora #13 — brake light after pads/fluid** | **08-05** | 链 brake-warning-light |
+| **GSC 28d 复盘** | **08-05** | 27 点击 / 0.4% CTR / 16.9；展示 6,713 |
 | **专题页正文加强 + changelog** | **08-03** | coolant/brake/TC/battery；见 changelog |
 | **IndexNow 接入并提交 19 URL** | **08-03** | 返回 202 |
 | **GSC 28d 复盘** | **08-01** | 23 点击 / 0.4% CTR / 16.2；展示 5,390 |
@@ -652,3 +655,5 @@
 | Reddit #10 | [Oil Pressure Light that Won’t go Away?](https://www.reddit.com/r/MechanicAdvice/comments/1v4mgl6/oil_pressure_light_that_wont_go_away/) | red-dashboard-lights | 07-24 |
 | Quora #10 | [Honda SRS light](https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda) | airbag-warning-light | 07-29 |
 | Quora #11 | [coolant temp light on/off](https://www.quora.com/What-does-the-engine-coolant-temp-light-mean-What-if-it-goes-on-and-off) | coolant-temperature-warning-light | 07-31 |
+| Quora #12 | [ABS light, brakes still work](https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working) | abs-warning-light | 08-05 |
+| Quora #13 | [brake light after pads/fluid](https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard) | brake-warning-light | 08-05 |
