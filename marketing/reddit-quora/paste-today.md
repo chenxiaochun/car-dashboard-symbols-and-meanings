@@ -1,7 +1,7 @@
-# 今日待办 — 2026-08-05
+# 今日待办 — 2026-08-06
 
 > **进度：** GSC 28d（~7/6–8/2）：**27 点击 / 6,713 展示 / CTR 0.4% / 排名 16.9**  
-> **TC meta：继续不改** · **Quora #12–13 ✅** · 改动日志见 `marketing/changelog.md`
+> **新专题 ×3 ✅** · 改动日志见 `marketing/changelog.md`
 
 ---
 
@@ -22,13 +22,13 @@
 
 ---
 
-## 今天要做（08-05）
+## 今天要做（08-06）
 
 | 优先级 | 事项 |
 |--------|------|
-| **1** | ✅ 记 GSC 28d 快照 |
-| **2** | ✅ Quora #12 ABS · #13 brake after pads/fluid |
-| **3** | 继续观察 CTR / 排名（正文加强后 1–2 周） |
+| **1** | ✅ 新增 power-steering / oil-level / transmission 专题页 |
+| **2** | 部署后 IndexNow 提交 3 个新 URL |
+| **3** | 继续观察 CTR / 排名 |
 
 ---
 
@@ -36,6 +36,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **新专题 ×3** | **08-06** | power-steering · oil-level-low · transmission |
 | **Quora #12 — ABS brakes still work** | **08-05** | 链 abs-warning-light |
 | **Quora #13 — brake light after pads/fluid** | **08-05** | 链 brake-warning-light |
 | **GSC 28d 复盘** | **08-05** | 27 点击 / 0.4% CTR / 16.9；展示 6,713 |

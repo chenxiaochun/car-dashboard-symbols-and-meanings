@@ -110,6 +110,9 @@ function SeoContent() {
           <Link href="/symbols/coolant-temperature-warning-light/">Coolant Temperature Warning</Link>
           <Link href="/symbols/airbag-warning-light/">Airbag Warning Light</Link>
           <Link href="/symbols/low-fuel-warning-light/">Low Fuel Warning Light</Link>
+          <Link href="/symbols/power-steering-warning-light/">Power Steering Warning Light</Link>
+          <Link href="/symbols/oil-level-low-warning-light/">Low Oil Level Warning Light</Link>
+          <Link href="/symbols/transmission-warning-light/">Transmission Warning Light</Link>
         </div>
       </section>
 
@@ -198,6 +201,7 @@ function SeoContent() {
         <div className="symbol-summary-list">
           <p><strong>Check Engine Light:</strong> engine or emissions fault; scan diagnostic trouble codes if it stays on.</p>
           <p><strong>Oil Pressure Warning:</strong> low oil pressure risk; stop safely and check oil level.</p>
+          <p><strong>Low Oil Level Warning:</strong> <Link href="/symbols/oil-level-low-warning-light/">amber quantity reminder</Link> — not the same as red oil pressure.</p>
           <p><strong>Battery Warning Light:</strong> charging system fault; the alternator or battery may need attention.</p>
           <p><strong>Brake Warning Light:</strong> parking brake, low brake fluid, or brake system fault.</p>
           <p><strong>ABS Warning Light:</strong> <Link href="/symbols/abs-warning-light/">anti-lock braking may be unavailable</Link>, though normal braking may remain.</p>
@@ -205,11 +209,12 @@ function SeoContent() {
           <p><strong>Airbag Warning Light:</strong> <Link href="/symbols/airbag-warning-light/">SRS or restraint system fault</Link>; airbag protection may be reduced.</p>
           <p><strong>Coolant Temperature Warning:</strong> <Link href="/symbols/coolant-temperature-warning-light/">engine overheating risk</Link>; stop and let the engine cool.</p>
           <p><strong>Low Fuel Warning:</strong> <Link href="/symbols/low-fuel-warning-light/">refuel soon</Link> to avoid running the tank dry.</p>
+          <p><strong>Power Steering Warning:</strong> <Link href="/symbols/power-steering-warning-light/">steering assist may be reduced</Link>; drive carefully and inspect the system.</p>
+          <p><strong>Transmission Warning:</strong> <Link href="/symbols/transmission-warning-light/">gearbox fault or overheat risk</Link>; drive gently and scan codes.</p>
           <p><strong>Seat Belt Reminder:</strong> a seat belt is not fastened or a seat sensor detects weight.</p>
           <p><strong>Door, Hood, or Trunk Open:</strong> close the door, bonnet/hood, boot/trunk before driving.</p>
           <p><strong>Washer Fluid Low:</strong> refill windscreen or windshield washer fluid.</p>
           <p><strong>High Beam, Low Beam, Fog Light, and Turn Signal Indicators:</strong> lighting indicators usually show a feature is active.</p>
-          <p><strong>Power Steering Warning:</strong> steering assistance may be reduced; drive carefully and inspect the system.</p>
         </div>
       </section>
 

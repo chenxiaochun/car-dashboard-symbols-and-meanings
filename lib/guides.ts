@@ -215,6 +215,7 @@ export const guides: SymbolGuide[] = [
       { question: "Can I drive to a workshop?", answer: "Not if the red oil pressure warning stays on. Arrange help or towing rather than driving with low oil pressure." }
     ],
     related: [
+      { href: "/symbols/oil-level-low-warning-light/", label: "Low Oil Level Warning" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
       { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" }
     ]
@@ -332,6 +333,7 @@ export const guides: SymbolGuide[] = [
     related: [
       { href: "/scenarios/lights-on-at-startup/", label: "Multiple lights at startup" },
       { href: "/scenarios/two-warning-lights/", label: "Two lights together" },
+      { href: "/symbols/power-steering-warning-light/", label: "Power Steering Warning" },
       { href: "/symbols/traction-control-light/", label: "Traction Control Light" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" }
     ]
@@ -927,6 +929,245 @@ export const guides: SymbolGuide[] = [
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
       { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
       { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
+    ]
+  },
+  {
+    pageSlug: "power-steering-warning-light",
+    symbolSlug: "power-steering-warning",
+    title: "Power Steering Warning Light Meaning — Steering Wheel With Exclamation",
+    metaDescription:
+      "Power steering warning light meaning: steering wheel with exclamation mark, heavy steering, EPS vs hydraulic assist, and what to check when the light comes on with the battery light.",
+    eyebrow: "Steering warning",
+    h1: "Power Steering Warning Light Meaning",
+    summary:
+      "The power steering warning light — often a steering wheel outline with an exclamation mark — means steering assistance may be reduced or offline. The car can usually still be steered, but it may feel much heavier. Low voltage, a failing EPS motor, or (on older cars) low power-steering fluid are common causes.",
+    colorText: "Amber or yellow",
+    canDriveText: "Yes, carefully",
+    urgency: "Inspect soon",
+    sections: [
+      {
+        title: "What it means",
+        body:
+          "Most modern cars use electric power steering (EPS). When the cluster shows a steering-wheel icon with !, assist may be limited or disabled. You can often still drive, but parking-lot turns and low-speed maneuvers need more muscle. This is not the same as the red brake warning (circle with !) — that icon is about the brake system, not steering."
+      },
+      {
+        title: "Electric (EPS) vs hydraulic power steering",
+        body:
+          "EPS cars have no traditional power-steering fluid reservoir for assist — the fault is electrical or motor/module related. Older hydraulic systems use a belt-driven pump and fluid; a slipping belt, low fluid, or pump failure can light a steering warning and make the wheel heavy. Check your owner's manual for which system you have before buying fluid."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Note whether the battery or charging light is also on — low voltage often disables EPS.",
+          "At low speed, confirm you can still steer; if the wheel locks or feels stuck, stop safely.",
+          "For hydraulic systems, check power-steering fluid level when cool if the reservoir is accessible.",
+          "Inspect the serpentine belt for cracks or glazing on hydraulic cars.",
+          "Scan for EPS / steering-angle codes; a basic engine-only OBD reader may miss them."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Low battery voltage or failing alternator (EPS needs stable power)",
+          "EPS motor, torque sensor, or control module fault",
+          "Steering angle sensor not calibrated after battery or alignment work",
+          "Low power-steering fluid or leak (hydraulic systems)",
+          "Slipping or broken drive belt (hydraulic pump)"
+        ]
+      },
+      {
+        title: "When it is most serious",
+        body:
+          "Get help the same day if steering suddenly becomes extremely heavy at speed, the battery light is also on, or multiple stability warnings appear. Do not ignore a steady EPS light for weeks — assist can drop without much warning when voltage sags."
+      }
+    ],
+    faqs: [
+      {
+        question: "What does a steering wheel with an exclamation mark mean?",
+        answer:
+          "It is usually the power steering warning. Assist may be reduced. Drive carefully to a shop, especially if the wheel feels heavy. It is not the red brake circle-with-! light."
+      },
+      {
+        question: "Why is my steering heavy when the power steering light is on?",
+        answer:
+          "Without assist, you are turning the rack mostly by hand. At parking speeds that feels dramatic; at highway speed it may feel closer to normal but still needs repair. Check charging voltage on EPS cars before replacing the steering rack."
+      },
+      {
+        question: "Can a weak battery cause the power steering light?",
+        answer:
+          "Yes. EPS is sensitive to low voltage during cranking or while idling with many accessories on. If the battery light or multiple warnings came on together, test the battery and alternator first."
+      },
+      {
+        question: "Is it safe to drive with the power steering light on?",
+        answer:
+          "Usually yes for a short trip if you can still steer and no red brake/oil/temperature lights are on. Avoid high-speed emergency maneuvers and get the system scanned soon."
+      }
+    ],
+    related: [
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
+      { href: "/scenarios/lights-on-at-startup/", label: "Multiple lights at startup" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
+    ]
+  },
+  {
+    pageSlug: "oil-level-low-warning-light",
+    symbolSlug: "oil-level-low",
+    title: "Low Oil Level Warning Light Meaning — Not the Same as Oil Pressure",
+    metaDescription:
+      "Low oil level warning light meaning: yellow oil-can or oil level icon vs red oil pressure light, what to check on the dipstick, and when you can still drive a short distance.",
+    eyebrow: "Maintenance warning",
+    h1: "Low Oil Level Warning Light Meaning",
+    summary:
+      "A low oil level warning — often amber or yellow, sometimes an oil can with level marks — means the engine may be low on oil quantity. It is not the same as the red oil-pressure warning. Check the dipstick or oil-level display when the engine is cool or as the manual directs, then top up with the correct grade if needed.",
+    colorText: "Amber or yellow (usually)",
+    canDriveText: "Short distance after checking",
+    urgency: "Inspect soon",
+    sections: [
+      {
+        title: "What it means",
+        body:
+          "The low oil level light (or message) means the oil quantity in the sump may be below the minimum mark. Many European cars (including some VW/Audi models) use a yellow oil-can icon for level. That is a maintenance / top-up alert — still important, but different urgency from a red oil-pressure can that appears while driving."
+      },
+      {
+        title: "Low oil level vs oil pressure (do not confuse them)",
+        body:
+          "Red oil-can while driving = oil pressure may be too low → stop safely and shut the engine off. Amber/yellow oil level or oil-can with level lines = quantity may be low → check and top up soon. Low level can eventually cause low pressure, so do not ignore a level warning for weeks. If both appear, treat it as an oil-pressure emergency first."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Park on level ground and wait as your manual recommends before checking the dipstick or electronic oil-level menu.",
+          "If level is below MIN, add the correct oil grade in small amounts and recheck — do not overfill.",
+          "Look under the car for fresh oil spots; note oil consumption between services.",
+          "If the red oil-pressure light is also on, stop driving and arrange a tow.",
+          "Book service if you must add oil often or the level warning returns quickly."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Oil overdue for a change / gradual consumption",
+          "Small leak (valve cover, oil filter, pan gasket)",
+          "Turbo or piston-ring oil use on higher-mileage engines",
+          "Incorrect last fill (underfilled after service)",
+          "Faulty oil level sensor (less common — verify with dipstick when available)"
+        ]
+      },
+      {
+        title: "When it is most serious",
+        body:
+          "Stop if the red oil-pressure warning appears, you hear knocking, or oil is pouring under the car. A level warning alone with a normal-running engine usually allows a careful short drive to buy oil or reach a shop after you confirm the dipstick."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is the yellow oil light the same as the red oil pressure light?",
+        answer:
+          "No. Yellow/amber oil level warnings mean check and top up oil quantity. A red oil-can pressure light while driving means stop — lubrication pressure may be too low. See our oil pressure guide if the icon is red and stays on while the engine runs."
+      },
+      {
+        question: "Can I drive with the low oil level light on?",
+        answer:
+          "Only after you check the level. If it is just slightly low, top up and drive gently to a shop. If the dipstick is dry or the red pressure light is on, do not keep driving."
+      },
+      {
+        question: "Why does my VW or Audi show a yellow oil can?",
+        answer:
+          "Many VW/Audi cars use a yellow oil-can symbol for minimum oil level, not red oil pressure. Check oil level with the car on level ground as the manual describes (some use an electronic measurement instead of a dipstick)."
+      },
+      {
+        question: "How much oil should I add?",
+        answer:
+          "Add small amounts of the grade on the oil cap or manual, then recheck. The distance from MIN to MAX is often less than a full quart/liter — overfilling can cause its own problems."
+      }
+    ],
+    related: [
+      { href: "/symbols/oil-pressure-warning-light/", label: "Oil Pressure Warning" },
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
+    ]
+  },
+  {
+    pageSlug: "transmission-warning-light",
+    symbolSlug: "transmission-warning",
+    title: "Transmission Warning Light Meaning — Gearbox Fault and Overheat",
+    metaDescription:
+      "Transmission warning light meaning: gearbox or AT temperature icon, limp mode, whether you can keep driving, and what to check before a long trip.",
+    eyebrow: "Drivetrain warning",
+    h1: "Transmission Warning Light Meaning",
+    summary:
+      "A transmission warning light — often a gear icon, thermometer in a gear, or an AT/transmission message — means the gearbox control system detected a fault or abnormal temperature. The car may still move, sometimes in limp mode with limited gears. Drive gently and get codes scanned soon.",
+    colorText: "Amber or yellow",
+    canDriveText: "Gently, if it still shifts",
+    urgency: "Inspect soon",
+    sections: [
+      {
+        title: "What it means",
+        body:
+          "Automatic and dual-clutch gearboxes use sensors for fluid temperature, pressure, and gear position. When a fault is stored, the cluster may show a gear symbol, a temperature-in-gear icon, or a message such as Transmission malfunction. Manual cars rarely have this light; clutch or gearbox issues more often show as feel/noise rather than a dedicated lamp."
+      },
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Note whether the check engine light is also on — many transmission faults store powertrain codes.",
+          "If the car is in limp mode (stuck in one gear, harsh shifts), avoid highway speeds and tow if needed.",
+          "Do not keep driving hard, towing, or sitting in traffic with a transmission overheat warning.",
+          "Check for burnt smell or red/brown fluid leaks under the center of the car.",
+          "Scan TCM / transmission codes — not only generic engine P-codes when possible."
+        ]
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Transmission fluid overheating (towing, hills, low fluid)",
+          "Low or burnt automatic transmission fluid (where a dipstick/service applies)",
+          "Faulty speed sensor, solenoid, or valve body issue",
+          "Mechatronic / TCM fault on dual-clutch gearboxes",
+          "Wiring or connector corrosion after water exposure"
+        ]
+      },
+      {
+        title: "Transmission light vs engine oil light",
+        body:
+          "A plain red oil-can icon is almost always engine oil pressure, not the gearbox. Transmission warnings usually include a gear shape, AT label, or temperature-in-gear artwork. Do not top up engine oil hoping to clear a transmission light."
+      },
+      {
+        title: "When it is most serious",
+        body:
+          "Stop and arrange a tow if the car will not engage Drive/Reverse, gears slam violently, fluid is pouring out, or the transmission overheat warning will not clear after a cool-down. Continuing can destroy the gearbox."
+      }
+    ],
+    faqs: [
+      {
+        question: "What does a transmission warning light look like?",
+        answer:
+          "Common artwork is a gear outline, a thermometer inside a gear, or a dashboard message naming the transmission. Exact icons vary by brand — check the owner's manual if you are unsure."
+      },
+      {
+        question: "Can I drive with the transmission light on?",
+        answer:
+          "If the car still shifts reasonably and no overheat message is present, a short gentle drive to a shop may be OK. If it is stuck in limp mode, slips, or overheats, minimize driving and consider a tow."
+      },
+      {
+        question: "Why did the transmission and check engine lights come on together?",
+        answer:
+          "Many gearbox faults set powertrain codes that also illuminate the check engine light. Scan both engine and transmission modules before replacing parts."
+      },
+      {
+        question: "Does transmission fluid temperature cause the light?",
+        answer:
+          "Yes on many automatics. Hard towing, mountain grades, or low fluid can trigger a temperature-related transmission warning. Stop in a safe place, let it cool, and avoid continued heavy load until serviced."
+      }
+    ],
+    related: [
+      { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
+      { href: "/symbols/oil-pressure-warning-light/", label: "Oil Pressure Warning" },
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]
   }
 ];

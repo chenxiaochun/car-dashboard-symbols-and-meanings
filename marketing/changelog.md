@@ -5,6 +5,20 @@
 
 ---
 
+## 2026-08-06
+
+### content — 新增 3 个警示灯专题页
+
+- `/symbols/power-steering-warning-light/`（方向盘感叹号 / EPS）
+- `/symbols/oil-level-low-warning-light/`（低油位 ≠ 红油压）
+- `/symbols/transmission-warning-light/`（变速箱故障/过热）
+- 接入 `guideLinks`、首页指南列表与摘要内链；sitemap `lastModified` → 2026-08-06
+
+**文件：** `lib/guides.ts` · `lib/symbols.ts` · `app/page.tsx` · `app/sitemap.ts`  
+**备注：** finder 图标与 PNG 已有；部署后 IndexNow 提交这 3 个 URL。
+
+---
+
 ## 2026-08-05
 
 ### outreach — Quora #12 + #13

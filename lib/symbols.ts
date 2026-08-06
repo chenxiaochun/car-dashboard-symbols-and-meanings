@@ -93,5 +93,8 @@ export const guideLinks: Record<string, string> = {
   "traction-control-light": "/symbols/traction-control-light/",
   "coolant-temperature-warning": "/symbols/coolant-temperature-warning-light/",
   "airbag-warning-light": "/symbols/airbag-warning-light/",
-  "low-fuel-warning": "/symbols/low-fuel-warning-light/"
+  "low-fuel-warning": "/symbols/low-fuel-warning-light/",
+  "power-steering-warning": "/symbols/power-steering-warning-light/",
+  "oil-level-low": "/symbols/oil-level-low-warning-light/",
+  "transmission-warning": "/symbols/transmission-warning-light/"
 };
