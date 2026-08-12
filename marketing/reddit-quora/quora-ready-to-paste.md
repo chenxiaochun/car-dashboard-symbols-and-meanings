@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-08-05）：** #1–3、#5–13 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-08-12）：** #1–3、#5–14 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **14** | steering wheel ! + TC/ABS/brake together | ✅ 2026-08-12 已发 |
 | **13** | brake light after pads/fluid | ✅ 2026-08-05 已发 |
 | **12** | ABS light, brakes still work | ✅ 2026-08-05 已发 |
 | **11** | coolant temp light on/off | ✅ 2026-07-31 已发 |
@@ -21,6 +22,21 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣4️⃣ steering wheel ! + TC/ABS/brake 同时亮 ✅ 已发（2026-08-12）
+
+**问题：** Why would the steering wheel with exclamation point, traction control, emergency break light (e brake is off) and ABS light turn on in my car randomly at the same time?  
+**链接：** https://www.quora.com/Why-would-the-steering-wheel-with-exclamation-point-traction-control-emergency-break-light-e-brake-is-off-and-ABS-light-turn-on-in-my-car-randomly-at-the-same-time  
+**链到：** power-steering-warning-light + two-warning-lights
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+多灯常为低压/共模故障；方向盘! = EPS 不是红刹车!；先查电瓶充电与接地，再扫 ABS/EPS；链 power-steering + two-warning-lights；结尾问转向是否变沉。
+
+</details>
 
 ---
 

@@ -1,11 +1,51 @@
-# 今日待办 — 2026-08-09
+# 今日待办 — 2026-08-12
 
-> **进度：** GSC 28d（~7/11–8/7）：**27 点击 / 8,382 展示 / CTR 0.3% / 排名 16.6**  
+> **进度：** GSC 28d（~7/13–8/9）：**29 点击 / 8,754 展示 / CTR 0.3% / 排名 16.4**  
 > **TC/油压 title·meta：继续不改** · 改动日志见 `marketing/changelog.md`
 
 ---
 
-## GSC 快照（08-09 查）← 最新
+## GSC 快照（08-12 查）← 最新
+
+### 全站（28 天，约 7/13–8/9）
+
+| 指标 | 数值 | 对比上期 28d（08-09：~7/11–8/7） |
+|------|------|--------------------------------|
+| 展示 | **8,754** | ↑ 从 8,382（**+372**） |
+| 点击 | **29** | ↑ 从 27 → 29 |
+| CTR | **0.3%** | ≈ 持平 |
+| 平均排名 | **16.4** | ↑ 从 16.6 略好 **0.2 位** |
+
+**趋势：** 展示持续爬升，8/6 附近约 **700** 后略回；点击仍以 7/29 峰（约 6）为主，其余多为 0–2/日；8/7–8/9 有回填。
+
+**解读：** 曝光+点击都在缓升，CTR 稳住。7d 排名 15.5、28d 16.4 方向一致。**不改 title/meta**；新专题仍观察。站外 0–1 条即可。
+
+### 全站（7 天，8/3–8/9）
+
+| 指标 | 数值 | 对比上期 7d（08-09：8/1–8/7） |
+|------|------|------------------------------|
+| 展示 | **3,293** | ≈ 略降（3,406→3,293，**-113**） |
+| 点击 | **6** | ↑ 从 5 → 6 |
+| CTR | **0.2%** | ↑ 从 0.1% |
+| 平均排名 | **15.5** | ↑ 从 16.6 前移 **1.1 位** |
+
+**趋势：** 展示约 **400–700**/日，8/6 附近偏高后回落到约 400；点击 8/3–8/5 为 0，8/7–8/8 各约 2，8/9 约 1。
+
+**解读：** 周点击略增、CTR 回升、**排名 15.5 是近期 7d 最好之一**。展示高位横盘属正常，不是掉量。08-06 新专题仍早（索引/展示要再等）。**不改 title/meta**；有空可截 28d 对照，站外 0–1 条即可。
+
+---
+
+## 今天要做（08-12）
+
+| 优先级 | 事项 |
+|--------|------|
+| **1** | ✅ 记 GSC 7d + 28d 快照 |
+| **2** | ✅ Quora #14 — steering wheel ! + 多灯 |
+| **3** | 继续观察排名是否稳住 ≤16；新专题有无展示 |
+
+---
+
+## GSC 快照（08-09 查，历史参考）
 
 ### 全站（28 天，约 7/11–8/7）
 
@@ -35,20 +75,12 @@
 
 ---
 
-## 今天要做（08-09）
-
-| 优先级 | 事项 |
-|--------|------|
-| **1** | ✅ 记 GSC 7d + 28d 快照 |
-| **2** | ✅ IndexNow 提交 3 个新专题 URL（200） |
-| **3** | 可选：站外低频 0–1 条；继续观察 CTR / 排名 |
-
----
-
 ## ✅ 已完成
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #14 — steering wheel ! + 多灯** | **08-12** | 链 power-steering-warning-light + two-warning-lights |
+| **GSC 7d + 28d 复盘** | **08-12** | 7d：6/3,293/0.2%/**15.5**；28d：29/8,754/0.3%/16.4 |
 | **GSC 7d + 28d 复盘** | **08-09** | 7d：5/3,406/0.1%/16.6；28d：27/8,382/0.3%/16.6 |
 | **IndexNow ×3 新专题** | **08-09** | 返回 200 |
 | **新专题 ×3** | **08-06** | power-steering · oil-level-low · transmission |
@@ -690,3 +722,4 @@
 | Quora #11 | [coolant temp light on/off](https://www.quora.com/What-does-the-engine-coolant-temp-light-mean-What-if-it-goes-on-and-off) | coolant-temperature-warning-light | 07-31 |
 | Quora #12 | [ABS light, brakes still work](https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working) | abs-warning-light | 08-05 |
 | Quora #13 | [brake light after pads/fluid](https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard) | brake-warning-light | 08-05 |
+| Quora #14 | [steering wheel ! + TC/ABS/brake](https://www.quora.com/Why-would-the-steering-wheel-with-exclamation-point-traction-control-emergency-break-light-e-brake-is-off-and-ABS-light-turn-on-in-my-car-randomly-at-the-same-time) | power-steering-warning-light | 08-12 |

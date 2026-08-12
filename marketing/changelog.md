@@ -5,6 +5,27 @@
 
 ---
 
+## 2026-08-12
+
+### docs — GSC 7d + 28d 快照
+
+- 7d（8/3–8/9）：**6 点击 / 3,293 展示 / CTR 0.2% / 排名 15.5**
+- 28d（~7/13–8/9）：**29 点击 / 8,754 展示 / CTR 0.3% / 排名 16.4**
+- 对比 08-09：28d 展示 8,382→8,754；点击 27→29；CTR 持平 0.3%；排名 16.6→16.4
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 曝光与点击缓升；7d 排名 15.5 近期较好；不改 TC/油压 title/meta；新专题仍观察。
+
+### outreach — Quora #14 ✅ 已发
+
+- 问题：steering wheel with ! + TC + parking brake + ABS 同时亮
+- 链到 `power-steering-warning-light` + `two-warning-lights`
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 给 08-06 动力转向专题补首条外链。
+
+---
+
 ## 2026-08-09
 
 ### docs — GSC 7d + 28d 快照
