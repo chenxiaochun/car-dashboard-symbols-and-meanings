@@ -5,6 +5,28 @@
 
 ---
 
+## 2026-08-13
+
+### docs — GSC 页面明细（28d）
+
+- TC：**22 点击 / 4,158 展示**（仍主导）
+- 有点：首页 2、图 2；油压/TPMS/低油/气囊/红灯 各 1
+- 有展无点：刹车 **0/775**、电瓶 **0/451**；CEL 0/141、启动多灯 0/110、winter TPMS 0/98
+- 28d 共 **16** 页有展示；**ABS / coolant / 08-06 三篇新专题未进页面报告**
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 不缺页；暂不新开薄页；先确认新专题是否已索引；TC/油压 title/meta 仍不改。
+
+### seo — 6 个 URL 已请求编入索引
+
+- ABS · coolant · power-steering · oil-level · transmission · two-warning-lights
+- 用户在 GSC「网址检查」逐个请求
+
+**文件：**（无代码改动）  
+**备注：** 勿重复提交；等几天到一两周，用 `site:` 或页面报告看是否进榜。
+
+---
+
 ## 2026-08-12
 
 ### docs — GSC 7d + 28d 快照
