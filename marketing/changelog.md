@@ -5,6 +5,20 @@
 
 ---
 
+## 2026-08-16
+
+### docs — GSC 28d 快照 + 查询词 + 页面明细
+
+- 28d（~7/18–8/14）：**32 点击 / ~11,300 展示 / CTR 0.3% / 排名 16.0**
+- 对比 08-12：展示 8,754→约 11,300；点击 29→32；CTR 持平 0.3%；排名 16.4→16.0
+- 查询词：有点的是 squiggly / traction control system；刹车类词展示领先（136+103）但 0 点击
+- 页面：**16 → 19** 有展示；power-steering 57 / transmission 49 / oil-level 38 已进榜；ABS / coolant / two-warning-lights 仍未进
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 新三篇索引请求已见效，勿再提交；不改 TC/油压 title/meta；刹车/电瓶有展无点继续观察。
+
+---
+
 ## 2026-08-13
 
 ### docs — GSC 页面明细（28d）
