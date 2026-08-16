@@ -74,8 +74,8 @@
 | 优先级 | 事项 |
 |--------|------|
 | **1** | ✅ 记 GSC 28d + 查询词 + 页面明细（19 页） |
-| **2** | 不再重复提交那 6 个 URL；ABS/coolant/two-lights 继续等 |
-| **3** | **不改 TC/油压 title**；刹车/电瓶有展无点仍只观察 |
+| **2** | ✅ Quora #15 — 黄油位 vs 红油压 |
+| **3** | **不改 TC/油压 title**；ABS/coolant/two-lights 继续等收录 |
 
 ---
 
@@ -167,6 +167,7 @@
 
 | 事项 | 日期 | 备注 |
 |------|------|------|
+| **Quora #15 — 黄油位 vs 红油压** | **08-16** | 链 oil-level-low-warning-light + oil-pressure-warning-light |
 | **GSC 28d + 查询词 + 页面** | **08-16** | 32/~11,300；19 页有展；新三篇进榜；ABS/coolant/two-lights 未进 |
 | **GSC 请求索引 ×6** | **08-13** | ABS · coolant · power-steering · oil-level · transmission · two-warning-lights |
 | **GSC 页面明细 28d** | **08-13** | TC 22/4,158；刹车 0/775；电瓶 0/451；新专题未进榜 |
@@ -814,3 +815,4 @@
 | Quora #12 | [ABS light, brakes still work](https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working) | abs-warning-light | 08-05 |
 | Quora #13 | [brake light after pads/fluid](https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard) | brake-warning-light | 08-05 |
 | Quora #14 | [steering wheel ! + TC/ABS/brake](https://www.quora.com/Why-would-the-steering-wheel-with-exclamation-point-traction-control-emergency-break-light-e-brake-is-off-and-ABS-light-turn-on-in-my-car-randomly-at-the-same-time) | power-steering-warning-light | 08-12 |
+| Quora #15 | [Corsa yellow oil / gauge full](https://www.quora.com/Why-does-the-low-oil-light-come-on-intermittently-when-the-oil-gauge-is-full-My-car-is-a-2013-vauxhall-corsa) | oil-level-low-warning-light | 08-16 |

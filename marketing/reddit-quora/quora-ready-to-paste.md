@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-08-12）：** #1–3、#5–14 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-08-16）：** #1–3、#5–15 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **15** | yellow oil level vs red oil pressure (Corsa) | ✅ 2026-08-16 已发 |
 | **14** | steering wheel ! + TC/ABS/brake together | ✅ 2026-08-12 已发 |
 | **13** | brake light after pads/fluid | ✅ 2026-08-05 已发 |
 | **12** | ABS light, brakes still work | ✅ 2026-08-05 已发 |
@@ -22,6 +23,21 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣5️⃣ yellow oil level vs red oil pressure ✅ 已发（2026-08-16）
+
+**问题：** Why does the low oil light come on intermittently when the oil gauge is full? My car is a 2013 vauxhall corsa.  
+**链接：** https://www.quora.com/Why-does-the-low-oil-light-come-on-intermittently-when-the-oil-gauge-is-full-My-car-is-a-2013-vauxhall-corsa  
+**链到：** oil-level-low-warning-light + oil-pressure-warning-light
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+Corsa 黄油位 vs 红油压；油表 full 仍可能接近 MIN；先看机油尺再换传感器；链 oil-level + oil-pressure；结尾问图标颜色与触发场景。
+
+</details>
 
 ---
 

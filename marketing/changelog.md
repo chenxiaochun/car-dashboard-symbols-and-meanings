@@ -17,6 +17,14 @@
 **文件：** `marketing/reddit-quora/paste-today.md`  
 **备注：** 新三篇索引请求已见效，勿再提交；不改 TC/油压 title/meta；刹车/电瓶有展无点继续观察。
 
+### outreach — Quora #15 ✅ 已发
+
+- 问题：Corsa 油灯间歇亮但油表 full
+- 链到 `oil-level-low-warning-light` + `oil-pressure-warning-light`
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 给 08-06 低油位专题补首条外链。
+
 ---
 
 ## 2026-08-13
