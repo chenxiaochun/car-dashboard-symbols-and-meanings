@@ -130,7 +130,7 @@
 | **1** | 补 **28d 页面明细** + **查询词** | ⬜ 待做 |
 | **2** | 确认 ABS / coolant / two-lights / oil-level-low 是否在榜外 | ⬜ 待做 |
 | **3** | **不改 TC/油压 title**；刹车已首点 — 继续观察能否稳定 | 进行中 |
-| **4** | 可选：站外 **0–1 条**，优先 **oil-pressure**（7d 仍 0/345）或巩固 brake | ⬜ 可选 |
+| **4** | 可选：站外 **0–1 条**，优先 **oil-pressure** → **Quora #16 已起草（08-25）** | ⬜ 待发 |
 | **5** | **约 09-06 再查** GSC：油压/TPMS/电瓶能否转有点击；ABS 等是否进 28d 榜 | ⬜ 约 09-06 |
 
 ### 给未来 AI 的上下文
@@ -144,7 +144,19 @@
 
 ---
 
-## 今天要做（08-23）
+## 今天要做（08-25）
+
+| 优先级 | 事项 |
+|--------|------|
+| **1** | ⬜ **Quora #16** — oil pressure 还能继续开？→ `oil-pressure-warning-light`（文案见 `quora-ready-to-paste.md`） |
+| **2** | **不改 TC/油压 title**；ABS/coolant/two-lights 继续等 |
+| **3** | ⬜ 补 28d 页面明细 / 查询词（有空再做） |
+
+发完 #16 后：把本表标 ✅，并在下方「已发布」表加一行。
+
+---
+
+## 今天要做（08-23，历史）
 
 | 优先级 | 事项 |
 |--------|------|
@@ -152,7 +164,7 @@
 | **2** | ✅ 记 GSC **7d 页面明细**（Top9） |
 | **3** | ⬜ 补 **28d 页面明细** / 查询词 |
 | **4** | **不改 TC/油压 title**；ABS/coolant/two-lights 继续等 |
-| **5** | 可选：站外 0–1 条（优先 oil-pressure） |
+| **5** | 可选：站外 0–1 条（优先 oil-pressure）→ **08-25 起草 Quora #16** |
 
 ---
 
@@ -368,6 +380,7 @@
 | 事项 | 日期 | 备注 |
 |------|------|------|
 | **GSC 7d + 28d + 页面** | **08-20** | 35/~13,000；图 7 点、低油 3 点；刹车/油压/电瓶 0 点 |
+| **Quora #16 — oil pressure 还能继续开？** | **08-25** | ⬜ 待发 → oil-pressure-warning-light |
 | **Quora #15 — 黄油位 vs 红油压** | **08-16** | 链 oil-level-low-warning-light + oil-pressure-warning-light |
 | **GSC 28d + 查询词 + 页面** | **08-16** | 32/~11,300；19 页有展；新三篇进榜；ABS/coolant/two-lights 未进 |
 | **GSC 请求索引 ×6** | **08-13** | ABS · coolant · power-steering · oil-level · transmission · two-warning-lights |
@@ -1016,4 +1029,5 @@
 | Quora #12 | [ABS light, brakes still work](https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working) | abs-warning-light | 08-05 |
 | Quora #13 | [brake light after pads/fluid](https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard) | brake-warning-light | 08-05 |
 | Quora #14 | [steering wheel ! + TC/ABS/brake](https://www.quora.com/Why-would-the-steering-wheel-with-exclamation-point-traction-control-emergency-break-light-e-brake-is-off-and-ABS-light-turn-on-in-my-car-randomly-at-the-same-time) | power-steering-warning-light | 08-12 |
+| Quora #16 | [oil pressure — safe to keep driving?](https://www.quora.com/Is-it-safe-to-continue-driving-with-an-oil-pressure-warning-light-on-What-steps-should-be-taken-if-stopping-immediately-is-not-an-option) | oil-pressure-warning-light | 08-25 ⬜ 待发 |
 | Quora #15 | [Corsa yellow oil / gauge full](https://www.quora.com/Why-does-the-low-oil-light-come-on-intermittently-when-the-oil-gauge-is-full-My-car-is-a-2013-vauxhall-corsa) | oil-level-low-warning-light | 08-16 |

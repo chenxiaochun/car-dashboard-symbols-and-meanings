@@ -5,6 +5,19 @@
 
 ---
 
+## 2026-08-25
+
+### outreach — Quora #16 待发（油压「还能继续开吗」）
+
+- 问题：oil pressure light on — safe to keep driving / if can't stop immediately
+- 链到 `oil-pressure-warning-light`
+- 动机：08-23 备忘优先补油压外链（7d 0/345）；#5 已覆盖「有油还亮」，本条覆盖「敢不敢开」
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 用户手动 Answer 后改 ✅；不改 title/meta。
+
+---
+
 ## 2026-08-23
 
 ### docs — GSC 7d + 28d 快照 + 7d 页面明细 + AI 分析备忘
