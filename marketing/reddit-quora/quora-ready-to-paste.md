@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-08-25）：** #1–3、#5–15 ✅ · **#16 待发（油压）** · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-08-27）：** #1–3、#5–16 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,7 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
-| **16** | oil pressure light — safe to keep driving? | ⬜ **今日待发 → oil-pressure** |
+| **16** | oil light flashes intermittently | ✅ **2026-08-27 已发** |
 | **15** | yellow oil level vs red oil pressure (Corsa) | ✅ 2026-08-16 已发 |
 | **14** | steering wheel ! + TC/ABS/brake together | ✅ 2026-08-12 已发 |
 | **13** | brake light after pads/fluid | ✅ 2026-08-05 已发 |
@@ -27,37 +27,21 @@
 
 ---
 
-## 1️⃣6️⃣ oil pressure light — 还能继续开吗？⬜ 待发
+## 1️⃣6️⃣ oil light flashes intermittently ✅ 已发（2026-08-27）
 
-**为何发这条：** GSC 7d 油压 **0 点击 / 345 展示**（08-23）；#5 已覆盖「有油还亮」，本条覆盖 **「亮了还敢不敢开」** 高意图词，补外链缺口。  
-**问题：** Is it safe to continue driving with an oil pressure warning light on? What steps should be taken if stopping immediately is not an option?  
-**链接：** https://www.quora.com/Is-it-safe-to-continue-driving-with-an-oil-pressure-warning-light-on-What-steps-should-be-taken-if-stopping-immediately-is-not-an-option  
+**问题：** What does it mean if the oil light on my dashboard flashes intermittently?  
+**链接：** https://www.quora.com/What-does-it-mean-if-the-oil-light-on-my-dashboard-flashes-intermittently  
 **链到：** `oil-pressure-warning-light`
 
-**操作：** Answer → 粘贴：
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
-```
-Short answer: no — treat a red oil pressure / oil can light as "stop when safe," not "limp home."
+闪烁/间歇 = 压力或 sender 在阈值点；先停机查尺与漏油；勿猜传感器，要用机械表确认；变常亮或有敲击声立即停；链 oil-pressure；结尾问 idle/热车/转弯模式。
 
-That light is about oil *pressure*, not "time for an oil change." Low pressure can damage bearings in minutes, especially at higher RPM.
+</details>
 
-If the light comes on while driving:
-1. Pull over safely and shut the engine off
-2. Wait a few minutes, then check the dipstick (level + whether oil looks milky or burnt)
-3. Look under the car for fresh leaks
-4. If level is low, top up with the correct viscosity — then restart briefly to see if the light clears
-5. If the light stays on with oil level OK, do not keep driving — tow it. A bad sensor exists, but you only know after a mechanic checks real pressure with a gauge
-
-If you literally cannot stop this second (middle of a tunnel, no shoulder): lower RPM, avoid hills/highway speed, get to the nearest safe pull-off, then shut off. Every extra mile is a gamble.
-
-Not the same as a yellow oil *level* light on some cars — red oil can / oil pressure is the urgent one.
-
-Reference: https://warninglightfinder.com/symbols/oil-pressure-warning-light/
-
-Was the light steady or flickering, and did you hear knocking/ticking when it came on?
-```
-
-**发完后：** 在本表改 ✅ + 日期；同步 `paste-today.md` / `changelog.md`。
+**已废弃（勿再发）：**  
+https://www.quora.com/Is-it-safe-to-continue-driving-with-an-oil-pressure-warning-light-on-What-steps-should-be-taken-if-stopping-immediately-is-not-an-option — 用户此前已答过。
 
 ---
 

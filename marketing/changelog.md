@@ -5,6 +5,29 @@
 
 ---
 
+## 2026-08-27
+
+### outreach — Quora #16 ✅ 已发（油灯闪烁）
+
+- 问题：oil light flashes intermittently
+- 链到 `oil-pressure-warning-light`
+- 原「还能继续开吗」已答过 → 已换题后发出
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 配合同日油压页正文加强；部署后可用 IndexNow。
+
+### content — 加强油压页正文/FAQ（不动 title/meta）
+
+- 正文补：闪烁 vs 常亮、idle 亮、传感器 vs 真低压；common causes 加粘度
+- FAQ 补：还能继续开？/ idle 亮灭 / 闪烁 / 坏传感器；强化「别猜是传感器」
+- related 加 two-warning-lights；sitemap `siteLastModified` → 2026-08-27
+- **title / metaDescription 未改**（历史策略）
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts`  
+**备注：** 对齐 Quora #16 意图与 08-23「油压有展无点」；部署后可用 `npm run indexnow` 通知油压 URL。
+
+---
+
 ## 2026-08-25
 
 ### outreach — Quora #16 待发（油压「还能继续开吗」）

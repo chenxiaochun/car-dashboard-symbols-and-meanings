@@ -166,9 +166,47 @@ export const guides: SymbolGuide[] = [
         body:
           "Engine oil pressure and transmission oil pressure are separate systems with different symbols. The engine warning is usually a red oil can and relates to lubrication inside the engine. A transmission oil pressure warning — more common on automatic trucks and some SUVs — may show a gear icon, the word AT, OIL, or a thermometer combined with a gear, and it means the automatic gearbox has low line pressure. If you searched for a transmission oil pressure symbol, confirm whether the icon includes a gear or transmission label; a plain oil can almost always means engine oil pressure."
       },
-      { title: "What to do first", ordered: true, items: ["Pull over safely and turn off the engine.", "Wait a few minutes, then check the oil level if your vehicle has a dipstick.", "Look for obvious oil leaks under the car.", "Do not keep driving if the light remains on after topping up with the correct oil."] },
-      { title: "Common causes", items: ["Low engine oil level", "Oil leak or severe oil consumption", "Faulty oil pressure sensor", "Blocked oil pickup or filter", "Oil pump or internal engine problem"] },
-      { title: "When it is most serious", body: "Stop immediately if the oil light appears with engine knocking, ticking, burning smell, smoke, or loss of power. Continuing to drive can turn a small leak or low oil level into major engine damage." }
+      {
+        title: "What to do first",
+        ordered: true,
+        items: [
+          "Pull over safely and turn off the engine.",
+          "Wait a few minutes, then check the oil level if your vehicle has a dipstick.",
+          "Look for obvious oil leaks under the car.",
+          "Do not keep driving if the light remains on after topping up with the correct oil."
+        ]
+      },
+      {
+        title: "Flickering vs steady oil pressure light",
+        body:
+          "A steady red oil-can light while the engine is running is the most urgent pattern — treat it as low pressure until a mechanic proves otherwise. Flickering or intermittent oil light often means pressure is hovering near the switch threshold: marginal oil level (sloshing on turns), a failing pressure sender, wiring that opens and closes, or a pump/pickup that cavitates under certain loads. Flickering is not \"safer\" than steady — it can worsen into a solid light as level drops or the fault progresses. If you also hear ticking or knocking when it flickers, shut off immediately."
+      },
+      {
+        title: "Oil pressure light at idle",
+        body:
+          "Pressure is lowest at idle and rises with RPM. A light that comes on only at idle and clears when you rev the engine can still mean real low pressure (worn pump, thin oil, worn bearings) or a sender that trips too early. Do not keep idling in traffic hoping it clears. Check level and viscosity first; if the light returns at idle with oil level OK, have actual pressure verified with a mechanical gauge before blaming the sensor."
+      },
+      {
+        title: "Common causes",
+        items: [
+          "Low engine oil level",
+          "Oil leak or severe oil consumption",
+          "Faulty oil pressure sensor / sending unit",
+          "Wrong oil viscosity (too thin for climate or engine)",
+          "Blocked oil pickup or filter",
+          "Oil pump or internal engine problem (worn bearings)"
+        ]
+      },
+      {
+        title: "Sensor fault vs real low pressure",
+        body:
+          "A bad oil pressure switch or sender can turn the light on with normal pressure — but you cannot tell from the dash alone. The safe sequence is always: stop, check level, look for leaks, then verify real pressure with a mechanical gauge at the engine port. If the gauge reads normal while the dash light stays on, replace the sender/wiring. If the gauge reads low, do not drive — diagnose pump, pickup, filter, or internal wear. Guessing \"it's just the sensor\" is how engines get destroyed."
+      },
+      {
+        title: "When it is most serious",
+        body:
+          "Stop immediately if the oil light appears with engine knocking, ticking, burning smell, smoke, or loss of power. Continuing to drive can turn a small leak or low oil level into major engine damage."
+      }
     ],
     faqs: [
       {
@@ -180,6 +218,26 @@ export const guides: SymbolGuide[] = [
         question: "What is the oil can light on the dashboard?",
         answer:
           "The oil can dashboard light — sometimes called the oil can dash light — is usually the engine oil pressure warning. It looks like a small oil can or genie lamp, often red. When it comes on while driving, stop safely and check oil level before continuing."
+      },
+      {
+        question: "Is it safe to keep driving with the oil pressure light on?",
+        answer:
+          "No. Treat a red oil pressure / oil can light as stop when safe, not limp home. Low pressure can damage bearings within minutes, especially at higher RPM. If you literally cannot stop this second (no shoulder), lower RPM, avoid hills and highway speed, reach the nearest safe pull-off, then shut off — every extra mile is a gamble. Arrange towing rather than driving to a shop with the light on."
+      },
+      {
+        question: "Why does the oil pressure light come on at idle but go off when I rev?",
+        answer:
+          "Oil pressure is lowest at idle. That pattern can mean worn bearings or pump, oil that is too thin, low level that the pickup only loses at idle, or a sender that trips near the threshold. Check the dipstick first. If level is OK and the light still returns at idle, have a shop read real pressure with a mechanical gauge — do not assume it is only a sensor."
+      },
+      {
+        question: "What does a flickering or intermittent oil light mean?",
+        answer:
+          "Flickering usually means pressure or the sender signal is right at the switch point. Common causes: oil level low enough that the pickup gulps air on turns or hills, a failing pressure switch, loose wiring, or early pump/pickup trouble. Stop and check level. Flickering that becomes a solid light, or appears with knocking/ticking, means shut off immediately."
+      },
+      {
+        question: "Can a bad oil pressure sensor cause the light to stay on?",
+        answer:
+          "Yes — a failed sender or switch can illuminate the light with normal oil pressure. You only know after checking oil level and confirming real pressure with a mechanical gauge. If the gauge is normal and the dash light stays on, replace the sensor/wiring. If the gauge is low, the problem is mechanical, not the bulb circuit."
       },
       {
         question: "Is the oil leak sign on the dashboard the same as the oil pressure light?",
@@ -206,18 +264,27 @@ export const guides: SymbolGuide[] = [
         answer:
           "No. Engine oil pressure uses an oil-can symbol and protects the engine. Transmission oil pressure warnings — mainly on automatics — often include a gear, AT, or OIL label and relate to gearbox hydraulic pressure. A plain red oil can almost always means engine oil pressure, not transmission."
       },
-      { question: "Is oil pressure the same as oil level?", answer: "No. Low oil level can cause low pressure, but a pressure warning can also come from pump, sensor, or internal engine problems." },
+      {
+        question: "Is oil pressure the same as oil level?",
+        answer:
+          "No. Low oil level can cause low pressure, but a pressure warning can also come from pump, sensor, or internal engine problems. Some cars have a separate yellow low-oil-level light — that is not the same as the red oil pressure warning."
+      },
       {
         question: "Is the oil change light the same as the oil pressure light?",
         answer:
           "No. An oil change reminder or oil life monitor (often amber, sometimes a wrench or message) means scheduled maintenance is due — you can usually keep driving and book a service. The oil pressure warning (usually a red oil can while driving) means lubrication pressure may be too low and can damage the engine within minutes. Some VW/Audi models use a yellow oil-can icon for low oil level — that is still not the same as red oil pressure. Check color, whether the icon appears while driving, and your owner's manual."
       },
-      { question: "Can I drive to a workshop?", answer: "Not if the red oil pressure warning stays on. Arrange help or towing rather than driving with low oil pressure." }
+      {
+        question: "Can I drive to a workshop?",
+        answer:
+          "Not if the red oil pressure warning stays on. Arrange help or towing rather than driving with low oil pressure. A short crawl to the shoulder after checking level is different from a multi-mile trip to a garage with the light on."
+      }
     ],
     related: [
       { href: "/symbols/oil-level-low-warning-light/", label: "Low Oil Level Warning" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
-      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" }
+      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
+      { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]
   },
   {
