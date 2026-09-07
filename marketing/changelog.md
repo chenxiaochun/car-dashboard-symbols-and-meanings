@@ -7,6 +7,15 @@
 
 ## 2026-09-07
 
+### outreach — Quora #17 ✅ 已发（TPMS 气压正常仍亮）
+
+- 问题：TPMS light on, tires ~30 PSI fine
+- 链到 `tire-pressure-warning-light`
+- 动机：09-07 备忘优先非油压外链；7d TPMS **0/700**
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 配合观察 TPMS 高展无点；不改 title。
+
 ### docs — GSC 7d + 28d 全站快照 + 查询词 + AI 备忘
 
 - 7d（8/29–9/4）：**32 点击 / 6,810 展示 / CTR 0.5% / 排名 11.8**

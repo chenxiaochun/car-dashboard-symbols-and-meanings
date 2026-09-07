@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-08-27）：** #1–3、#5–16 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-09-07）：** #1–3、#5–17 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **17** | TPMS light on but tire pressure fine | ✅ **2026-09-07 已发** |
 | **16** | oil light flashes intermittently | ✅ **2026-08-27 已发** |
 | **15** | yellow oil level vs red oil pressure (Corsa) | ✅ 2026-08-16 已发 |
 | **14** | steering wheel ! + TC/ABS/brake together | ✅ 2026-08-12 已发 |
@@ -24,6 +25,21 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣7️⃣ TPMS light on but pressure fine ✅ 已发（2026-09-07）
+
+**问题：** The tire pressure monitor light is on and all of the tires have good pressure levels of 30 PSI. Why is this light on?  
+**链接：** https://www.quora.com/The-tire-pressure-monitor-light-is-on-and-all-of-the-tires-have-good-pressure-levels-of-30-PSI-Why-is-this-light-on  
+**链到：** `tire-pressure-warning-light`
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+气压正常仍亮：冷热胎、门贴 PSI/备胎、闪后常亮=系统故障、传感器电池老化；先冷胎校门贴再开一段；仍亮则扫 TPMS；链 tire-pressure；结尾问闪后常亮还是一直常亮。
+
+</details>
 
 ---
 

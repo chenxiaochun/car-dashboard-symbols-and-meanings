@@ -183,7 +183,7 @@
 |--------|------|------|
 | **1** | ✅ 全站 + 查询 + 页面齐 | ✅ |
 | **2** | **不改 title**；油压再观察至 ~09-21 | 进行中 |
-| **3** | 可选：站外 0–1 条（非油压也可，避免重复 #16） | ⬜ 可跳过 |
+| **3** | 可选：站外 0–1 条 → **Quora #17 TPMS ✅ 09-07** | ✅ 已发 |
 | **4** | 若 09-21 油压仍 0 且展>600 → 再议轻补 FAQ | ⬜ |
 | **5** | ~09-14 再查全站（可选） | ⬜ |
 
@@ -196,6 +196,18 @@
 ---
 
 ## 今天要做（09-07）
+
+| 优先级 | 事项 |
+|--------|------|
+| **1** | ✅ 记 GSC 全站 + 查询词 + 页面 |
+| **2** | ✅ **Quora #17** — TPMS 气压正常仍亮 → tire-pressure |
+| **3** | **不改 TC/油压/刹车 title**；油压继续观察至 ~09-21 |
+
+发完 #17 后：把本表标 ✅，并在「已发布」表加一行。
+
+---
+
+## 今天要做（09-07，GSC 记录）
 
 | 优先级 | 事项 |
 |--------|------|
@@ -781,6 +793,7 @@
 | 事项 | 日期 | 备注 |
 |------|------|------|
 | **GSC 7d + 28d + 页面** | **08-20** | 35/~13,000；图 7 点、低油 3 点；刹车/油压/电瓶 0 点 |
+| **Quora #17 — TPMS 气压正常仍亮** | **09-07** | ✅ 已发 → tire-pressure-warning-light |
 | **Quora #16 — oil light flashes intermittently** | **08-27** | ✅ 已发 → oil-pressure-warning-light |
 | **Quora #15 — 黄油位 vs 红油压** | **08-16** | 链 oil-level-low-warning-light + oil-pressure-warning-light |
 | **GSC 28d + 查询词 + 页面** | **08-16** | 32/~11,300；19 页有展；新三篇进榜；ABS/coolant/two-lights 未进 |
@@ -1430,5 +1443,6 @@
 | Quora #12 | [ABS light, brakes still work](https://www.quora.com/Can-you-keep-driving-with-the-ABS-warning-light-on-but-the-brakes-are-still-working) | abs-warning-light | 08-05 |
 | Quora #13 | [brake light after pads/fluid](https://www.quora.com/I-have-changed-my-brake-pad-and-fluid-but-the-brake-light-sign-still-come-up-on-my-dashboard) | brake-warning-light | 08-05 |
 | Quora #14 | [steering wheel ! + TC/ABS/brake](https://www.quora.com/Why-would-the-steering-wheel-with-exclamation-point-traction-control-emergency-break-light-e-brake-is-off-and-ABS-light-turn-on-in-my-car-randomly-at-the-same-time) | power-steering-warning-light | 08-12 |
+| Quora #17 | [TPMS on but pressure fine](https://www.quora.com/The-tire-pressure-monitor-light-is-on-and-all-of-the-tires-have-good-pressure-levels-of-30-PSI-Why-is-this-light-on) | tire-pressure-warning-light | 09-07 ✅ |
 | Quora #16 | [oil light flashes intermittently](https://www.quora.com/What-does-it-mean-if-the-oil-light-on-my-dashboard-flashes-intermittently) | oil-pressure-warning-light | 08-27 ✅ |
 | Quora #15 | [Corsa yellow oil / gauge full](https://www.quora.com/Why-does-the-low-oil-light-come-on-intermittently-when-the-oil-gauge-is-full-My-car-is-a-2013-vauxhall-corsa) | oil-level-low-warning-light | 08-16 |
