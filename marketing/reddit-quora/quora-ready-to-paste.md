@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-09-07）：** #1–3、#5–17 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-09-16）：** #1–3、#5–18 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **18** | low fuel warning light — which symbol / how far | ✅ **2026-09-16 已发** |
 | **17** | TPMS light on but tire pressure fine | ✅ **2026-09-07 已发** |
 | **16** | oil light flashes intermittently | ✅ **2026-08-27 已发** |
 | **15** | yellow oil level vs red oil pressure (Corsa) | ✅ 2026-08-16 已发 |
@@ -25,6 +26,43 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 1️⃣8️⃣ low fuel warning light — which symbol / how far ✅ 已发（2026-09-16）
+
+**问题：** What does the low fuel level warning light mean?  
+**链接：** https://www.quora.com/What-does-the-low-fuel-level-warning-light-mean  
+**链到：** `low-fuel-warning-light`  
+**动机：** 09-16 GSC — 低油页 2/841；问句词 `which symbol warns that you are low on fuel?` 0/52；核心词合计 0/117
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+It’s the fuel-pump (gas station pump) icon — almost always amber/yellow, not red. That’s the symbol that warns you are low on fuel. Many clusters also put a tiny triangle left or right of the pump to show which side the filler door is on.
+
+What it means in practice:
+• The tank is into reserve. You usually still have some miles left, but the number isn’t guaranteed.
+• Treat it as “refuel at the next safe station,” not “I can stretch this all day.”
+• On some diesels, running dry can pull air/sediment into the system and make restarting harder after you fill up.
+
+Don’t confuse it with:
+• Red oil-can light → oil pressure (stop safely; different warning)
+• Check-engine light → engine outline / stored codes (separate system)
+
+If the light flickers on hills then stays off on flat ground, that’s often fuel slosh. If it stays on after you fill up, the fuel-level sender or cluster may be at fault.
+
+More detail (symbol, range, what to do first): https://warninglightfinder.com/symbols/low-fuel-warning-light/
+
+Does yours show estimated miles/km when it comes on, or just the pump icon with no range?
+```
+
+</details>
+
+**备用问题（下次低油再发时可用，勿与上条重复）：**  
+https://www.quora.com/How-much-petrol-remains-after-the-indication-of-a-warning-symbol-yellow-colored-tank-symbol-in-the-Ford-Ecosport  
+→ 同样链 `low-fuel-warning-light`，回答侧重「黄泵/黄箱符号 = 低油；剩油因车而异，别当精确倒计时」。
 
 ---
 

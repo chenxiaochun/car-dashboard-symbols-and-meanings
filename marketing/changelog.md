@@ -5,6 +5,57 @@
 
 ---
 
+## 2026-09-16
+
+### outreach — Quora #18 ✅ 已发（低油警告灯是哪个符号）
+
+- 问题：What does the low fuel level warning light mean?
+- 链到 `low-fuel-warning-light`
+- 命中：which symbol / low fuel warning（09-16 GSC 0 点击高展）
+- 备用问题留档：Ecosport yellow tank symbol
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 与同日低油页 FAQ 加强配套。参照 TPMS（#17 约 9 天见效），观察约 1–3 周。
+
+### content — 低油页补强（FAQ + 符号段，title/meta 未改）
+
+- 新增 section：`Which symbol warns that you are low on fuel?` · `Low fuel light vs oil light`
+- FAQ 2→7：问句词精确命中、外观、还能开多远、假报警、与 check engine 区分
+- related 加图页 + 油压（防油灯/油泵混淆）
+- `app/sitemap.ts` lastModified → 2026-09-16
+- **不改** title / metaDescription
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `marketing/reddit-quora/paste-today.md`  
+**备注：** 对标油压打法；目标词 `which symbol warns that you are low on fuel?`（0/52）与 low fuel 核心词合计 0/117。观察约 2–3 周。
+
+### docs — GSC 28d 全站快照 + AI 备忘
+
+- 28d（~8/17–9/13）：**159 点击 / 2.74 万展示 / CTR 0.6% / 排名 12.1**
+- 对比 09-07：点击 103→**159（+54%）**、展示 2.3万→2.74万、CTR 0.4%→**0.6%**、排名 13.5→**12.1**
+- 趋势：9/8 后日展示 1,100–1,300；9/8–9/11 日点击约 8–11，9/10 前后为峰
+### docs — GSC 7d 页面快照：油压 / TPMS 双双破 0 🎉
+
+- 7d 页面前 10：TC **33**/3,525 · 图 9/230 · **TPMS 5/592** · 变速箱 4/298 · 低油 2/841 · **油压 2/582** · oil-level-low 2/315 · 电瓶 2/251 · 刹车 1/647 · 助力 1/132
+- **油压破 0** — 08-27 FAQ 加强约 3 周后生效（原 0/514）
+- **TPMS 破 0** — Quora #17（09-07）约 9 天后生效（原 0/700）
+- 出流量页面从 ~7 扩到 **10+**（电瓶、助力首次进榜）
+- 前 10 合计 **61 点击**（09-07 同口径约 32）
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 「补 FAQ + 一条外链、不动 title」打法已验证。下一轮目标：刹车（1/647）、低油（2/841）。
+
+### docs — GSC 7d 查询词快照（801 行）
+
+- 有点击词全部仅 1 点击：transmission warning light 1/28 · car with wavy lines symbol 1/5 · horseshoe sign in car 1/4 · what does this light mean 1/2 · two squiggly lines 1/1 · dashboard warning lights chart 1/1
+- 0 点击高展：**symbols dashboard oil light on car 0/79** · **which symbol warns that you are low on fuel? 0/52** · low fuel warning light 0/37 · low fuel warning 0/28
+- **低油三词合计 0/117** — 结合页面 2/841，确认低油为当前最大短板
+- TC 33 点击不见于前 10 → 靠 801 行长尾吃量，无单一大词
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 下一步优先低油页补 FAQ 命中问句型词；`symbols dashboard oil light on car` 疑为「找图识灯」意图错配，观察是否改由图页承接。不改 title。
+
+---
+
 ## 2026-09-07
 
 ### outreach — Quora #17 ✅ 已发（TPMS 气压正常仍亮）

@@ -959,6 +959,10 @@ export const guides: SymbolGuide[] = [
         body: "The low fuel symbol usually looks like a fuel pump. It appears before the tank is completely empty, giving you time to reach a station. Remaining range varies widely by vehicle and driving style."
       },
       {
+        title: "Which symbol warns that you are low on fuel?",
+        body: "The low fuel warning is the fuel-pump (gas-station pump) icon on the dashboard, almost always amber or yellow — not red. Many clusters also place a small triangle on the left or right of the pump to show which side the filler door is on. It is not the oil-can light (engine oil) and not the check-engine light. If you are looking at a chart of dashboard symbols, the pump icon is the one that means refuel soon."
+      },
+      {
         title: "What to do first",
         ordered: true,
         items: [
@@ -980,21 +984,53 @@ export const guides: SymbolGuide[] = [
       {
         title: "How far can you go?",
         body: "Some cars have 30–50 miles of reserve after the light appears, but this is not guaranteed. Highway driving, cold weather, and heavy loads use more fuel. Treat the light as a prompt to refuel, not a precise countdown."
+      },
+      {
+        title: "Low fuel light vs oil light",
+        body: "Drivers sometimes confuse the amber fuel-pump icon with the oil-can warning. Low fuel is usually yellow/amber and means the tank is low — you can keep driving to a station. A red oil-can light means oil pressure may be too low and you should stop safely. If both appear, treat oil pressure as the urgent one first."
       }
     ],
     faqs: [
       {
+        question: "Which symbol warns that you are low on fuel?",
+        answer:
+          "The fuel-pump (gas pump) icon — usually amber or yellow on the dashboard. Many cars also show a small arrow next to the pump pointing to the filler side. It is not the oil-can symbol and not the check-engine light. When that pump light comes on, plan to refuel soon rather than stretch the last miles."
+      },
+      {
+        question: "What does the low fuel warning light look like?",
+        answer:
+          "It looks like a small fuel pump or gas-station pump nozzle. Color is typically amber/yellow. Some clusters add a left/right triangle for the filler door. If you searched for low fuel warning light or low fuel warning and see a red oil can instead, that is a different warning (oil pressure)."
+      },
+      {
+        question: "How far can you drive with the low fuel light on?",
+        answer:
+          "Often tens of miles remain, but reserve varies by car, speed, hills, A/C, and load. Do not treat any number as guaranteed. Use the estimated range on the dash if shown, then refuel at the next safe station. Running dry can leave you stranded and, on some diesels, complicate restart after filling."
+      },
+      {
         question: "Is it bad to run the tank to empty?",
-        answer: "It can leave you stranded and may pull debris or air into the fuel system on some vehicles. Refuel before the tank is empty when possible."
+        answer:
+          "It can leave you stranded and may pull debris or air into the fuel system on some vehicles. Refuel before the tank is empty when possible."
       },
       {
         question: "Why does the fuel light flicker on hills?",
-        answer: "Fuel slosh can briefly trigger the sender. If the light stays on level ground, the tank is likely genuinely low."
+        answer:
+          "Fuel slosh can briefly trigger the sender. If the light stays on level ground, the tank is likely genuinely low."
+      },
+      {
+        question: "Can a bad fuel level sensor cause a false low fuel light?",
+        answer:
+          "Yes. A failing fuel-level sender or cluster glitch can show empty (or keep the light on) when the tank still has fuel. After you fill up, if the gauge stays wrong or the light will not clear, have the sender and cluster diagnosed — do not keep driving on a false empty reading without confirming at a station."
+      },
+      {
+        question: "Is the low fuel light the same as the check engine light?",
+        answer:
+          "No. Low fuel is the pump icon and means the tank is low. The check-engine light is a separate engine outline (often amber) that stores diagnostic codes. You can get both at once if running very low triggers misfires or evaporative-system codes, but they are different warnings."
       }
     ],
     related: [
+      { href: "/dashboard-warning-lights-chart/", label: "Dashboard warning lights chart" },
+      { href: "/symbols/oil-pressure-warning-light/", label: "Oil Pressure Warning" },
       { href: "/symbols/check-engine-light/", label: "Check Engine Light" },
-      { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
       { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
     ]
   },
