@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-09-22）：** #1–3、#5–18 ✅ · #4 ⛔ · **#19 刹车 ⬜ 待发** · Reddit #1–10 ✅
+> **进度（2026-09-22）：** #1–3、#5–19 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,7 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
-| **19** | brake warning — circle with ! / which symbol | ⬜ **待发** |
+| **19** | brake warning — circle with ! / which symbol | ✅ **2026-09-22 已发** |
 | **18** | low fuel warning light — which symbol / how far | ✅ **2026-09-16 已发** |
 | **17** | TPMS light on but tire pressure fine | ✅ **2026-09-07 已发** |
 | **16** | oil light flashes intermittently | ✅ **2026-08-27 已发** |
@@ -30,14 +30,15 @@
 
 ---
 
-## 1️⃣9️⃣ brake warning — circle with ! / which symbol ⬜ 待发
+## 1️⃣9️⃣ brake warning — circle with ! / which symbol ✅ 已发（2026-09-22）
 
 **问题：** What does the brake fluid level warning light mean?  
 **链接：** https://www.quora.com/What-does-the-brake-fluid-level-warning-light-mean  
 **链到：** `brake-warning-light`  
 **动机：** 09-22 GSC — 刹车 7d **0/604**；问句 `which symbol warns… brakes?` **0/78**；emergency brake symbol 28d 1/12
 
-**操作：** 打开链接 → 点 **Answer** → 粘贴：
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
 ```
 That light is almost always the same red brake-system warning — a circle with an exclamation mark in the middle, or the word BRAKE in red. That’s the dashboard symbol that warns something may be wrong with your brakes (or that the parking brake is still on).
@@ -58,7 +59,9 @@ More on the symbol and what to do first: https://warninglightfinder.com/symbols/
 Does yours stay on steadily, or only after a hard turn (fluid slosh near the Min mark)?
 ```
 
-**备用（若上面已有你的回答）：**  
+</details>
+
+**备用（下次刹车再发时可用，勿与上条重复）：**  
 https://www.quora.com/Why-is-the-brake-light-on-the-dashboard-in-my-car-still-on-even-after-I-changed-the-rotors-and-brake-pads  
 → 同样链 `brake-warning-light`，侧重手刹/液位/排气/差压开关。
 

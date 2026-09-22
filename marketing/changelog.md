@@ -7,15 +7,15 @@
 
 ## 2026-09-22
 
-### outreach — Quora #19 草稿（刹车，待发）
+### outreach — Quora #19 ✅ 已发（刹车警告灯 / 圆圈感叹号）
 
 - 问题：What does the brake fluid level warning light mean?
 - 链到 `brake-warning-light`
 - 命中：which symbol warns… brakes?（7d 0/78）+ circle-with-!
-- 备用：换完片/盘后刹车灯仍亮
+- 备用问题留档：换完片/盘后刹车灯仍亮
 
 **文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
-**备注：** 与同日刹车页 FAQ 加强配套；发完标 ✅。
+**备注：** 与同日刹车页 FAQ 加强配套。参照 TPMS（#17 ~9 天）、低油（#18 ~6 天）见效节奏，观察约 1–3 周。
 
 ### content — 油压页轻补 FAQ（问句命中，title/meta 未改）
 
