@@ -210,6 +210,11 @@ export const guides: SymbolGuide[] = [
     ],
     faqs: [
       {
+        question: "Which symbol warns that there is something wrong with your oil pressure?",
+        answer:
+          "The red oil-can (or dripping-oil / genie-lamp) icon on the dashboard. That is the engine oil pressure warning — not the amber fuel-pump icon and not a yellow oil-level reminder on some cars. When the red oil-can light comes on while driving, pull over, shut off the engine, and check oil level before continuing. On a dashboard symbol chart, look for the oil can in red."
+      },
+      {
         question: "What does the oil pressure light mean?",
         answer:
           "It means engine oil pressure may be too low to lubricate moving parts safely. On most dashboards the symbol is a red oil can or dripping-oil icon. Pull over, turn off the engine, and check the oil level — do not keep driving if the light stays on."
@@ -424,6 +429,11 @@ export const guides: SymbolGuide[] = [
           "A red brake system warning light may show an exclamation mark inside a circle (sometimes with brackets), the word BRAKE, or both. It can be simple, such as the parking brake being applied, or serious, such as low brake fluid or a hydraulic brake fault. Drivers often search for it as a brake system warning light or exclamation mark on the dash — those phrases usually point to this red brake warning, not the amber ABS light alone."
       },
       {
+        title: "Which symbol warns that there is something wrong with your brakes?",
+        body:
+          "The main brake system warning is usually a red circle with an exclamation mark in the center — the ISO brake symbol — or the word BRAKE in red. That icon means the parking brake may be on, brake fluid may be low, or the hydraulic brake system needs attention. It is not the amber ABS letters (anti-lock only) and not the horseshoe/U-shape TPMS tire-pressure icon. On symbol charts, look for the red circle-with-! or BRAKE text when the question asks which dashboard symbol warns of a brake problem."
+      },
+      {
         title: "Circle with exclamation mark / BRAKE text",
         body:
           "On many cars the icon is a circle with ! in the center (ISO brake symbol). Others spell BRAKE in red. Either way, start by confirming the parking brake / handbrake is fully released. If the light stays on with the parking brake off, check brake fluid when safe and note pedal feel before deciding whether to drive."
@@ -457,9 +467,34 @@ export const guides: SymbolGuide[] = [
         title: "Brake light vs ABS light",
         body:
           "An amber ABS light often means anti-lock braking may be unavailable, while normal braking may still work. A red brake warning is more urgent because it can involve the main braking system. If both ABS and brake warning lights are on together, inspect the car before continuing — shared sensors, low fluid, or hydraulic issues can light both."
+      },
+      {
+        title: "Brake warning vs TPMS horseshoe symbol",
+        body:
+          "The horseshoe or U-shape icon with an exclamation mark is usually TPMS (tire pressure), not the brake system. The brake warning is a full circle with ! or the word BRAKE in red. If you searched emergency brake symbol or horseshoe sign in car, check color and shape: amber horseshoe = tires; red circle-with-! = brakes."
       }
     ],
     faqs: [
+      {
+        question: "Which symbol warns that there is something wrong with your brakes?",
+        answer:
+          "Usually the red circle with an exclamation mark (ISO brake symbol) or red BRAKE text. That warns the parking brake may be on, brake fluid may be low, or the hydraulic system needs attention. It is not the amber ABS letters and not the horseshoe TPMS icon. On a dashboard symbol chart, the red circle-with-! is the brake-system warning."
+      },
+      {
+        question: "What does the brake warning light look like?",
+        answer:
+          "Most often a red circle with ! in the center, sometimes with bracket marks on the sides. Some cars spell BRAKE in red instead. Color is red — not amber. If you see a horseshoe/U-shape in amber, that is usually tire pressure (TPMS), not the main brake warning."
+      },
+      {
+        question: "What is the emergency brake symbol on the dashboard?",
+        answer:
+          "There is rarely a separate \"emergency brake\" icon that stays on while driving. The red circle-with-! or BRAKE light often comes on when the parking brake / handbrake is engaged — release it fully and the light should go out. If it stays on, treat it as a brake-system warning (fluid, leak, or fault), not just the e-brake."
+      },
+      {
+        question: "Is the horseshoe symbol the brake warning light?",
+        answer:
+          "Usually no. A horseshoe or U-shape with ! is the TPMS tire-pressure warning (amber/yellow). The brake system warning is a red circle with ! or BRAKE text. Shape and color together tell them apart on a symbol chart."
+      },
       {
         question: "What does a brake system warning light mean?",
         answer:
@@ -487,8 +522,8 @@ export const guides: SymbolGuide[] = [
       }
     ],
     related: [
+      { href: "/dashboard-warning-lights-chart/", label: "Dashboard warning lights chart" },
       { href: "/symbols/abs-warning-light/", label: "ABS Warning Light" },
-      { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
       { href: "/symbols/tire-pressure-warning-light/", label: "Tire Pressure Warning" },
       { href: "/scenarios/two-warning-lights/", label: "Two lights together" }
     ]

@@ -5,6 +5,55 @@
 
 ---
 
+## 2026-09-22
+
+### outreach — Quora #19 草稿（刹车，待发）
+
+- 问题：What does the brake fluid level warning light mean?
+- 链到 `brake-warning-light`
+- 命中：which symbol warns… brakes?（7d 0/78）+ circle-with-!
+- 备用：换完片/盘后刹车灯仍亮
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 与同日刹车页 FAQ 加强配套；发完标 ✅。
+
+### content — 油压页轻补 FAQ（问句命中，title/meta 未改）
+
+- 新增 FAQ：`Which symbol warns that there is something wrong with your oil pressure?`
+- 目标词：09-22 7d **0/73**
+- **不改** title / metaDescription
+
+**文件：** `lib/guides.ts`  
+**备注：** 页面已破 0（28d 4 点）；该问句仍 0 点，精确命中即可。
+
+### content — 刹车页补强（FAQ + 符号段，title/meta 未改）
+
+- 新增 section：`Which symbol warns… brakes?` · `Brake warning vs TPMS horseshoe symbol`
+- FAQ 5→9：问句词精确命中、外观、emergency brake 符号、马蹄形 vs 刹车区分
+- related 加图页；移除 battery（与刹车关联弱）
+- `app/sitemap.ts` lastModified → 2026-09-22
+- **不改** title / metaDescription
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `marketing/reddit-quora/paste-today.md`  
+**备注：** 对标低油打法；目标词 `which symbol warns… brakes?`（7d 0/78）+ emergency brake symbol（28d 1/12）。观察约 1–3 周。
+
+### docs — GSC 页面 28d + 7d + 查询词快照 + AI 备忘
+
+**28d 页面前 10（共 26 行）：** TC **105**/12,706 · 图 **31**/800 · TPMS 10/2,343 · **低油 8/3,116** · 变速箱 6/1,226 · 刹车 5/2,149 · oil-level-low 5/1,414 · 油压 4/1,935 · 首页 3/317 · 电瓶 2/849 · **Top10 合计 179 点击**（超 09-16 全站 159）
+
+**7d 页面前 10：** TC 31/4,048 · 图 7/216 · **低油 4/1,106（2→4 🎉）** · TPMS 3/617 · 油压 2/394 · 变速箱 1/320 · oil-level-low 1/301 · 电瓶 1/198 · 助力 1/139 · **刹车 0/604 ⚠️**
+
+**7d 查询词 0 点击高展：** 刹车问句 **0/78** · 油压问句 **0/73** · low fuel warning light **0/65**
+
+**关键结论：**
+- 低油 09-16 部署 → 09-22 仅 6 天 7d 点击 2→4，打法再次验证
+- 刹车 28d 有 5 点但 7d 回 0/604 + 问句 0/78 → **下一优先刹车 FAQ**
+
+**文件：** `marketing/reddit-quora/paste-today.md`  
+**备注：** 不改 title。刹车页 FAQ + 可选 Quora #19。
+
+---
+
 ## 2026-09-16
 
 ### outreach — Quora #18 ✅ 已发（低油警告灯是哪个符号）
