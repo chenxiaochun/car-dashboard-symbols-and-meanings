@@ -5,6 +5,21 @@
 
 ---
 
+## 2026-10-01
+
+### content — 图页补「认灯」对照段（title/meta 未改）
+
+- 新增 section：Oil light / fuel pump / horseshoe / brake 快速对照
+- 目标词：`symbols dashboard oil light on car`（09-28 7d **0/37**，长期找图识灯意图）
+- 内链到油压、低油、TPMS、刹车详解页
+- `dateModified` + 页脚 Last updated → 2026-10-01；sitemap `siteLastModified` → 2026-10-01
+- **不改** chart title / meta description
+
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts` · `paste-today.md`  
+**备注：** 刹车 #19 仍观察至 ~10-13；今日不改刹车/低油/油压。图页 CTR 已高，补对照段抢找图意图。
+
+---
+
 ## 2026-09-28
 
 ### docs — GSC 全站 + 页面 + 查询词 28d/7d 快照：排名进个位数 🎉

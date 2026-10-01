@@ -42,7 +42,7 @@ const chartJsonLd = {
     "A quick-reference chart for common car dashboard symbols, warning light colors, urgency, and first checks.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-07-24",
+  dateModified: "2026-10-01",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -73,7 +73,7 @@ export default function DashboardWarningLightsChartPage() {
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: July 24, 2026.</p>
+        <p className="updated-note">Last updated: October 1, 2026.</p>
       </header>
 
       <main className="article-body">
@@ -143,6 +143,39 @@ export default function DashboardWarningLightsChartPage() {
                 </div>
               </section>
             ))}
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="content-intro">
+            <p className="eyebrow">Quick match</p>
+            <h2>Oil light, fuel pump, and horseshoe — which is which?</h2>
+            <p>
+              Many drivers search for &quot;symbols dashboard oil light on car&quot; or similar chart-style queries when
+              they need a visual match, not a long repair article. Use this short guide with the chart above.
+            </p>
+          </div>
+          <div className="check-list">
+            <p>
+              <strong>Oil pressure (usually red oil can):</strong> Looks like a small oil can or genie lamp. If it
+              comes on while driving, stop safely and check oil level — this is not the fuel light. Full guide:{" "}
+              <Link href="/symbols/oil-pressure-warning-light/">oil pressure warning light</Link>.
+            </p>
+            <p>
+              <strong>Low fuel (amber fuel pump):</strong> Gas-station pump icon, often with a tiny arrow for the
+              filler side. Refuel soon; do not confuse it with the oil can. Full guide:{" "}
+              <Link href="/symbols/low-fuel-warning-light/">low fuel warning light</Link>.
+            </p>
+            <p>
+              <strong>Tire pressure / TPMS (amber horseshoe):</strong> U-shape or horseshoe with an exclamation mark —
+              tires, not brakes. Full guide:{" "}
+              <Link href="/symbols/tire-pressure-warning-light/">tire pressure warning light</Link>.
+            </p>
+            <p>
+              <strong>Brake system (red circle with !):</strong> Full circle with an exclamation mark, or the word
+              BRAKE — not the horseshoe. Full guide:{" "}
+              <Link href="/symbols/brake-warning-light/">brake warning light</Link>.
+            </p>
           </div>
         </section>
 
