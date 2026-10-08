@@ -472,9 +472,19 @@ export const guides: SymbolGuide[] = [
         title: "Brake warning vs TPMS horseshoe symbol",
         body:
           "The horseshoe or U-shape icon with an exclamation mark is usually TPMS (tire pressure), not the brake system. The brake warning is a full circle with ! or the word BRAKE in red. If you searched emergency brake symbol or horseshoe sign in car, check color and shape: amber horseshoe = tires; red circle-with-! = brakes."
+      },
+      {
+        title: "Brake warning light still on after new pads or rotors",
+        body:
+          "Replacing pads and rotors often does not clear a red brake warning by itself. New pads let caliper pistons retract farther, which can drop the reservoir level below the float sensor — top up with the correct DOT fluid to the Max mark if low. Air left in the lines after service can trip a pressure-differential switch (soft pedal is a clue). Also confirm the parking-brake switch is fully released and any pad-wear sensor plugs were reconnected. If the pedal feels normal and fluid is correct but the light stays on, scan for brake/ABS codes rather than guessing."
       }
     ],
     faqs: [
+      {
+        question: "What does the brake warning light mean?",
+        answer:
+          "The brake warning light — usually a red circle with an exclamation mark, or red BRAKE text — means the parking brake may still be on, brake fluid may be low, or there is a hydraulic brake-system fault. Release the parking brake first. If the light stays on, check fluid when safe and note pedal feel. Soft or sinking pedal means do not keep driving; get the system inspected or towed. It is not the amber ABS letters and not the horseshoe TPMS icon."
+      },
       {
         question: "Which symbol warns that there is something wrong with your brakes?",
         answer:
@@ -519,6 +529,16 @@ export const guides: SymbolGuide[] = [
         question: "Can I drive if it was just the parking brake?",
         answer:
           "If the light goes out after releasing the parking brake and braking feels normal, driving may be fine. If it stays on, inspect the system."
+      },
+      {
+        question: "Why is the brake warning light still on after I changed pads and rotors?",
+        answer:
+          "Pads and rotors alone often do not clear the red brake warning. Common reasons: reservoir fluid dropped below the level sensor after pistons retracted, air left in the hydraulic circuit (pressure-differential switch), parking-brake switch not fully released, or a pad-wear sensor left unplugged. Check fluid to Max with the correct DOT fluid, confirm pedal feel, then scan brake/ABS codes if the light remains."
+      },
+      {
+        question: "Is the brake warning light the same as the ABS light?",
+        answer:
+          "No. The brake warning light is usually red (circle with ! or BRAKE) and can involve the main hydraulic system or parking brake. The ABS light is usually amber letters and means anti-lock may be offline while normal braking often still works. Both on together raises urgency — inspect before a long trip."
       }
     ],
     related: [

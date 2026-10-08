@@ -5,6 +5,45 @@
 
 ---
 
+## 2026-10-08
+
+### outreach — Quora #20 ✅ 已发（换片/盘后刹车灯仍亮）
+
+- 问题：Why is the brake light… still on even after rotors and brake pads?
+- 链到 `brake-warning-light`
+- 动机：#19 约 16 天未兑现；7d 0/672 · 词 `brake warning light` 0/65
+- 备用问题留档：Why is my brake light on after changing my brakes?
+
+**文件：** `marketing/reddit-quora/quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 与同日刹车页第二轮 FAQ 配套。观察约 1–3 周（至 ~10-29）。
+
+### content — 刹车页第二轮补强（FAQ + section，title/meta 未改）
+
+- 新增 section：`Brake warning light still on after new pads or rotors`
+- FAQ 新增：`What does the brake warning light mean?`（精确命中核心词）· 换片后仍亮 · ABS vs brake 区分
+- sitemap `siteLastModified` → 2026-10-08
+- **不改** title / metaDescription
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `paste-today.md`  
+**备注：** 对标 10-08 GSC；观察约 1–3 周。
+
+### docs — GSC 页面 + 查询词 28d/7d：刹车仍 0，TPMS 英式词破 0
+
+**28d 页面前 10：** TC **106**/16,755 · 图 **35**/1,022 · TPMS 11/2,911 · 低油 10/3,731 · 变速箱 8/1,206 · 油压 4/1,502 · oil-level-low 4/958 · **红灯场景 3/677（新进）** · 助力 3/503 · 首页 3/336 · **刹车掉出 Top10**
+
+**7d 页面前 10：** TC 19/4,558 · 图 4/286 · TPMS 2/1,034 · 低油 2/950 · 红灯场景 2/135 · 首页 2/66 · **刹车 0/672** · 变速箱 0/329 · 气囊 0/296 · 油压 0/289
+
+**查询词：**
+- ✅ `low fuel level` 28d **1/166**（展 ↑）
+- 🎉 `tyre pressure symbol` 28d **1/119** · 7d **1/67**
+- ⚠️ 7d `brake warning light` **0/65** · low fuel warning light 0/53
+
+**结论：** 刹车 #19（09-22）约 **16 天**仍 7d 0 点且展涨至 672；观察窗 ~10-13 将满。建议再轻补 FAQ + 备用外链，**仍不改 title**。
+
+**文件：** `marketing/reddit-quora/paste-today.md`
+
+---
+
 ## 2026-10-01
 
 ### content — 图页补「认灯」对照段（title/meta 未改）

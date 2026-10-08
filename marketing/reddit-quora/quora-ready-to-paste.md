@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-09-22）：** #1–3、#5–19 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-08）：** #1–3、#5–20 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **20** | brake light still on after pads/rotors | ✅ **2026-10-08 已发** |
 | **19** | brake warning — circle with ! / which symbol | ✅ **2026-09-22 已发** |
 | **18** | low fuel warning light — which symbol / how far | ✅ **2026-09-16 已发** |
 | **17** | TPMS light on but tire pressure fine | ✅ **2026-09-07 已发** |
@@ -27,6 +28,40 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣0️⃣ brake light still on after pads/rotors ✅ 已发（2026-10-08）
+
+**问题：** Why is the brake light on the dashboard in my car still on even after I changed the rotors and brake pads?  
+**链接：** https://www.quora.com/Why-is-the-brake-light-on-the-dashboard-in-my-car-still-on-even-after-I-changed-the-rotors-and-brake-pads  
+**链到：** `brake-warning-light`  
+**动机：** 10-08 GSC — 刹车 7d **0/672**；查询词 `brake warning light` **0/65**；#19（09-22）约 16 天未兑现 → 第二轮外链
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+New pads and rotors often don’t clear the red brake warning by themselves — that light is usually about parking brake, fluid level, or hydraulic balance, not “pads look new.”
+
+Check these in order:
+1. Parking brake / handbrake fully released (and the switch under the lever or pedal isn’t stuck).
+2. Brake fluid at the reservoir Max mark with the correct DOT fluid. When pistons retract for thicker pads, the level can drop below the float sensor and keep the light on.
+3. Pedal feel — soft or sinking usually means air left after the job (pressure-differential switch) → needs a proper bleed, sometimes with a scan tool on ABS cars.
+4. Pad-wear sensor plugs reconnected if your car has them.
+
+Don’t confuse the red circle-with-! / BRAKE light with amber ABS letters (anti-lock only) or the amber horseshoe (TPMS tires).
+
+More detail: https://warninglightfinder.com/symbols/brake-warning-light/
+
+Is the pedal firm, and is the light red BRAKE / circle-with-! or amber ABS?
+```
+
+</details>
+
+**备用（下次刹车再发时可用，勿与上条重复）：**  
+https://www.quora.com/Why-is-my-brake-light-on-after-changing-my-brakes  
+→ 同样链 `brake-warning-light`。
 
 ---
 
@@ -61,9 +96,8 @@ Does yours stay on steadily, or only after a hard turn (fluid slosh near the Min
 
 </details>
 
-**备用（下次刹车再发时可用，勿与上条重复）：**  
-https://www.quora.com/Why-is-the-brake-light-on-the-dashboard-in-my-car-still-on-even-after-I-changed-the-rotors-and-brake-pads  
-→ 同样链 `brake-warning-light`，侧重手刹/液位/排气/差压开关。
+**备用（已提升为 #20，见上方）：**  
+https://www.quora.com/Why-is-the-brake-light-on-the-dashboard-in-my-car-still-on-even-after-I-changed-the-rotors-and-brake-pads
 
 ---
 
