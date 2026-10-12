@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-08）：** #1–3、#5–20 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-12）：** #1–3、#5–21 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
 | **20** | brake light still on after pads/rotors | ✅ **2026-10-08 已发** |
 | **19** | brake warning — circle with ! / which symbol | ✅ **2026-09-22 已发** |
 | **18** | low fuel warning light — which symbol / how far | ✅ **2026-09-16 已发** |
@@ -28,6 +29,41 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣1️⃣ airbag SRS light on — are bags disabled? ✅ 已发（2026-10-12）
+
+**问题：** If your airbag srs light is on in your vehicle, does that mean the airbag system is disabled?  
+**链接：** https://www.quora.com/If-your-airbag-srs-light-is-on-in-your-vehicle-does-that-mean-the-airbag-system-is-disabled  
+**链到：** `airbag-warning-light`  
+**动机：** 10-08 GSC — 气囊 7d **0/296** 新进高展；#10 已发 Honda SRS，本条换通用禁用/安全意图
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Often yes for at least part of the system. An SRS / airbag light that stays on after startup means the restraint module stored a fault — one or more bags, pretensioners, sensors, or the clock spring may not work correctly in a crash. It doesn’t always mean every bag is dead, but you should treat protection as unreliable until it’s scanned and fixed.
+
+What the light looks like:
+• Seated person with a round airbag in front, or the letters SRS / AIR BAG
+• Usually amber/yellow — not the red brake circle-with-!
+
+Common triggers: loose seat wiring after moving seats, occupancy sensor, clock spring (steering wheel), battery/low-voltage event, old crash repair connectors.
+
+What to do:
+1. Note whether it stays on after the self-check (should go out in a few seconds if healthy).
+2. Get an SRS scan — a cheap engine-only OBD reader often misses these codes.
+3. Don’t clear the light and ignore it.
+
+More detail: https://warninglightfinder.com/symbols/airbag-warning-light/
+
+Did yours come on after seat work, a battery change, or out of nowhere?
+```
+
+</details>
+
+**勿重复：** #10 Honda SRS 已发 — https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda
 
 ---
 

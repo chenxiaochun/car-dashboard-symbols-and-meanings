@@ -5,6 +5,41 @@
 
 ---
 
+## 2026-10-12
+
+### outreach — Quora #21 ✅ 已发（气囊 SRS 是否禁用）
+
+- 问题：If your airbag SRS light is on… are bags disabled?
+- 链到 `airbag-warning-light`
+- 动机：10-08 气囊 7d 0/296；与 #10 Honda SRS 不重复
+- 配合同日气囊页加强
+
+**文件：** `quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 观察约 1–3 周。低油 title 试点另轨观察至 ~10-26。
+
+### seo — 低油页 title/meta CTR 试点（首次改 title）
+
+- **旧 title：** Low Fuel Warning Light Meaning: How Far Can You Drive?
+- **新 title：** Low Fuel Warning Light Meaning — Fuel Pump Symbol & How Far Left
+- **新 meta：** 前挂「Amber fuel-pump symbol = low fuel」+ 外观/续航/行动
+- **动机：** 28d 点击平台 ~187；低油 10/3,731≈0.27% CTR；FAQ+#18 已做完仍低转化
+- **范围：** 只改低油；**不改 TC / 刹车 / 油压 title**
+- 观察至 ~10-26；无改善则回滚
+
+**文件：** `lib/guides.ts` · `paste-today.md`
+
+### content — 气囊页补强 + Quora #21 草稿
+
+- section：外观、SRS 是否禁用；FAQ 2→5
+- related 加图页 + 启动多灯
+- Quora #21：SRS light on → bags disabled? → `airbag-warning-light`
+- sitemap → 2026-10-12
+
+**文件：** `lib/guides.ts` · `quora-ready-to-paste.md` · `app/sitemap.ts`  
+**备注：** 对标 10-08 气囊 7d 0/296。#10 Honda SRS 已发，本条换通用题。
+
+---
+
 ## 2026-10-08
 
 ### outreach — Quora #20 ✅ 已发（换片/盘后刹车灯仍亮）

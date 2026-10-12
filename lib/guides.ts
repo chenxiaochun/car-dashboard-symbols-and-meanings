@@ -939,9 +939,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "airbag-warning-light",
     symbolSlug: "airbag-warning-light",
-    title: "Airbag Warning Light Meaning: SRS and Safety System Fault",
+    title: "Airbag Warning Light Meaning — SRS Light, Person With Airbag Symbol",
     metaDescription:
-      "Learn what the airbag or SRS warning light means, whether you can drive, common causes, and why restraint system faults should be inspected soon.",
+      "Airbag / SRS light on? What the person-with-airbag symbol means, whether bags may be disabled, common causes, and what to check first.",
     eyebrow: "Safety warning",
     h1: "Airbag Warning Light Meaning",
     summary:
@@ -955,13 +955,18 @@ export const guides: SymbolGuide[] = [
         body: "The airbag or SRS light indicates a fault in the airbag, seatbelt pretensioner, crash sensor, or control module. The symbol may show a seated person with an airbag or the words AIR BAG / SRS."
       },
       {
+        title: "What does the airbag / SRS light look like?",
+        body:
+          "Most cars show a seated figure with a circle (airbag) in front of them, or the letters SRS / AIR BAG in amber or yellow. It is not the red brake circle-with-! and not the check-engine outline. On a dashboard symbols chart, look for the person-with-airbag icon under safety warnings."
+      },
+      {
         title: "What to do first",
         ordered: true,
         items: [
           "Check whether the light stays on after startup — it should normally go out briefly during self-check.",
           "Make sure nothing is blocking the seat or seatbelt buckle.",
           "Avoid placing heavy items on passenger seats that can confuse seat sensors.",
-          "Book a diagnostic check for the restraint system."
+          "Book a diagnostic check for the restraint system — a basic engine-only OBD reader often misses SRS codes."
         ]
       },
       {
@@ -971,8 +976,14 @@ export const guides: SymbolGuide[] = [
           "Loose wiring under seats after seat movement",
           "Clock spring or steering wheel module issue",
           "Previous accident repair or disconnected connector",
+          "Low voltage / battery event that set a temporary code",
           "Control module fault"
         ]
+      },
+      {
+        title: "Does an SRS light mean the airbags are disabled?",
+        body:
+          "Often yes for at least part of the system — the module has detected a fault and may inhibit deployment of one or more bags or pretensioners until repaired. It does not always mean every bag is dead, but you should treat protection as unreliable until scanned and fixed. Do not clear the light and ignore it."
       },
       {
         title: "Why you should not ignore it",
@@ -981,26 +992,44 @@ export const guides: SymbolGuide[] = [
     ],
     faqs: [
       {
+        question: "What does the airbag warning light mean?",
+        answer:
+          "It means the supplemental restraint system (SRS) stored a fault — airbags, pretensioners, sensors, clock spring, or wiring. The icon is usually a seated person with an airbag, or SRS / AIR BAG text in amber. The car may still drive, but crash protection may be reduced until diagnosed."
+      },
+      {
+        question: "If the airbag SRS light is on, does that mean the airbag system is disabled?",
+        answer:
+          "Often yes for the affected circuit — the module may inhibit one or more bags or pretensioners until the fault is fixed. It is not a guarantee that every bag is dead, but you should not assume full protection. Get an SRS scan (not only a cheap engine OBD reader) and repair before treating the light as cosmetic."
+      },
+      {
         question: "Is it safe to drive with the airbag light on?",
-        answer: "The car may drive normally, but crash protection may be reduced. Have the SRS system inspected as soon as practical."
+        answer:
+          "The car may drive normally, but crash protection may be reduced. Have the SRS system inspected as soon as practical — especially before highway trips or if the light came on after seat work, a battery change, or an impact."
       },
       {
         question: "Can a weak car battery cause the airbag light?",
-        answer: "Low voltage during startup can sometimes trigger warning lights temporarily. If the SRS light stays on, the system still needs diagnosis."
+        answer:
+          "Low voltage during startup can sometimes trigger warning lights temporarily. If the SRS light stays on after a solid charge and a few drive cycles, the system still needs diagnosis — do not assume it will clear on its own."
+      },
+      {
+        question: "What does the SRS light look like on the dashboard?",
+        answer:
+          "Usually a seated figure with a round airbag in front, or the letters SRS / AIR BAG. Color is typically amber or yellow. Confirm in your owner's manual — brands vary the artwork slightly."
       }
     ],
     related: [
+      { href: "/dashboard-warning-lights-chart/", label: "Dashboard warning lights chart" },
       { href: "/symbols/battery-warning-light/", label: "Battery Warning Light" },
-      { href: "/symbols/brake-warning-light/", label: "Brake Warning Light" },
+      { href: "/scenarios/lights-on-at-startup/", label: "Multiple lights at startup" },
       { href: "/scenarios/red-dashboard-lights/", label: "Red dashboard lights guide" }
     ]
   },
   {
     pageSlug: "low-fuel-warning-light",
     symbolSlug: "low-fuel-warning",
-    title: "Low Fuel Warning Light Meaning: How Far Can You Drive?",
+    title: "Low Fuel Warning Light Meaning — Fuel Pump Symbol & How Far Left",
     metaDescription:
-      "Learn what the low fuel warning light means, how much range may be left, whether it is safe to keep driving, and what to do before the tank runs dry.",
+      "Amber fuel-pump symbol = low fuel. See what the light looks like, how far you may still drive, and what to do before the tank runs dry.",
     eyebrow: "Fuel warning",
     h1: "Low Fuel Warning Light Meaning",
     summary:
