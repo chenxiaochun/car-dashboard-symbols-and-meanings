@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const siteLastModified = new Date("2026-10-12");
+const siteLastModified = new Date("2026-10-15");
 const aboutLastModified = new Date("2026-07-19");
 const chartLastModified = new Date("2026-07-24");
 

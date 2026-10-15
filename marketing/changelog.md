@@ -5,6 +5,27 @@
 
 ---
 
+## 2026-10-15
+
+### seo — GSC 自查 + 批量 CTR title（TC/低油/TPMS/刹车）
+
+**全站 28d：** **178 / 3.91万 / 0.5% / 8**（对比 09-28：189 / 3.19万 / 0.6% / 9.7）— 展↑点↓ = CTR 恶化  
+**全站 7d：** **47 / 1.25万 / 0.4% / 7.7**
+
+**页面 7d 亮点：** 刹车 **1/750** 破 0 · 气囊 **1/268** 破 0 · 图页 **13/538**  
+**低油 7d：** **1/1,671**（CTR ~0.06%）· 词 `low fuel level` 0/93
+
+**Title 变更：**
+- TC → `Car With Squiggly Lines Light Meaning — Traction Control (Wavy Lines)`
+- 低油 → `Low Fuel Light (Fuel Pump Symbol) — How Far Can You Drive?`（v2）
+- TPMS → `TPMS / Tyre Pressure Light Meaning — Horseshoe Symbol on Dash`
+- 刹车 → `Brake Warning Light Meaning — Red Circle With Exclamation Mark`
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `paste-today.md`  
+**备注：** 浏览器直连 GSC 读取。~10-18 再自查；图页 CTR 证明认灯意图可转化。
+
+---
+
 ## 2026-10-12
 
 ### outreach — Quora #21 ✅ 已发（气囊 SRS 是否禁用）
@@ -15,7 +36,7 @@
 - 配合同日气囊页加强
 
 **文件：** `quora-ready-to-paste.md` · `paste-today.md`  
-**备注：** 观察约 1–3 周。低油 title 试点另轨观察至 ~10-26。
+**备注：** 观察约 1–3 周。低油 title 试点另轨，**~10-17（约 5 天）**初判，无改善即回滚。
 
 ### seo — 低油页 title/meta CTR 试点（首次改 title）
 
@@ -24,7 +45,7 @@
 - **新 meta：** 前挂「Amber fuel-pump symbol = low fuel」+ 外观/续航/行动
 - **动机：** 28d 点击平台 ~187；低油 10/3,731≈0.27% CTR；FAQ+#18 已做完仍低转化
 - **范围：** 只改低油；**不改 TC / 刹车 / 油压 title**
-- 观察至 ~10-26；无改善则回滚
+- 观察至 **~10-17（约 5 天）**；无改善则回滚（不必等满两周）
 
 **文件：** `lib/guides.ts` · `paste-today.md`
 

@@ -413,8 +413,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "brake-warning-light",
     symbolSlug: "brake-warning-light",
-    title: "Brake Warning Light Meaning: Is It Safe to Drive?",
-    metaDescription: "Learn what the brake warning light means, how it differs from ABS and parking brake lights, common causes, and when to stop driving.",
+    title: "Brake Warning Light Meaning — Red Circle With Exclamation Mark",
+    metaDescription:
+      "Brake warning light (red circle with ! or BRAKE)? Safe to drive? How it differs from ABS and TPMS, common causes, and what to check first.",
     eyebrow: "Brake system warning",
     h1: "Brake Warning Light Meaning",
     summary:
@@ -551,9 +552,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "tire-pressure-warning-light",
     symbolSlug: "tire-pressure-warning",
-    title: "TPMS Light Meaning — Horseshoe Symbol, Flashing vs Steady, and Stuck PSI",
+    title: "TPMS / Tyre Pressure Light Meaning — Horseshoe Symbol on Dash",
     metaDescription:
-      "Tire pressure warning light meaning: horseshoe or U-shape TPMS icon, flashing at startup vs steady, cold-weather drops, and what it means when one tire shows a stuck PSI reading.",
+      "Tyre pressure symbol (horseshoe / U-shape)? What TPMS means, flashing vs steady, cold-weather drops, and what to do when pressure looks fine.",
     eyebrow: "Tyre and tire warning",
     h1: "Tire Pressure Warning Light Meaning",
     summary:
@@ -722,9 +723,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "traction-control-light",
     symbolSlug: "traction-control-light",
-    title: "Traction Control Light Meaning — Car With Squiggly Lines Symbol",
+    title: "Car With Squiggly Lines Light Meaning — Traction Control (Wavy Lines)",
     metaDescription:
-      "Traction control light meaning — squiggly-lines car symbol on your dashboard. Flashing vs steady TC light: causes, what to check first, and when it's safe to drive.",
+      "Car with squiggly or wavy lines on the dash? That's usually traction control. Flashing vs steady TC light, what to check first, and when it's safe to drive.",
     eyebrow: "Stability system warning",
     h1: "Traction Control Light Meaning",
     summary:
@@ -1027,9 +1028,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "low-fuel-warning-light",
     symbolSlug: "low-fuel-warning",
-    title: "Low Fuel Warning Light Meaning — Fuel Pump Symbol & How Far Left",
+    title: "Low Fuel Light (Fuel Pump Symbol) — How Far Can You Drive?",
     metaDescription:
-      "Amber fuel-pump symbol = low fuel. See what the light looks like, how far you may still drive, and what to do before the tank runs dry.",
+      "Low fuel level light = amber fuel-pump icon. How far you may still drive, what the symbol looks like, and what to do before the tank runs dry.",
     eyebrow: "Fuel warning",
     h1: "Low Fuel Warning Light Meaning",
     summary:
