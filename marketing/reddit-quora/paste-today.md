@@ -119,8 +119,8 @@
 | **1** | ✅ 自查 GSC 并记快照 |
 | **2** | ✅ 图页 title + 内容对接 visual-guide |
 | **3** | ✅ Quora #22 草稿 |
-| **4** | ⬜ 上线 + IndexNow 图页 |
-| **5** | ⬜ 发 Quora #22 |
+| **4** | ✅ 上线 + IndexNow 图页（`02ccb4c` → warninglightfinder.com） |
+| **5** | ⬜ 发 Quora #22（浏览器自动 Post 被拒，请手动发） |
 | **6** | ~10-22 再看低油 title；无改善再议回滚 |
 
 ---
