@@ -18,16 +18,16 @@ const colorAdvice: Record<SymbolColor, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Printable Dashboard Warning Lights Chart",
+  title: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
   description:
-    "A printable dashboard warning lights chart with common red, amber, green, and blue car symbols, meanings, urgency, and first checks.",
+    "Visual identification guide for common car dashboard warning lights: printable chart with pictures, red/amber meanings, urgency, and first checks.",
   alternates: {
     canonical: "/dashboard-warning-lights-chart/"
   },
   openGraph: {
-    title: "Printable Dashboard Warning Lights Chart",
+    title: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
     description:
-      "Use this car dashboard warning lights chart to match common symbols by color, meaning, urgency, and first check.",
+      "Create a visual reference for common dashboard car warning lights — printable chart with symbols, colors, and what to do first.",
     url: "/dashboard-warning-lights-chart/",
     siteName: SITE_NAME,
     type: "article"
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
 const chartJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Printable Dashboard Warning Lights Chart",
+  headline: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
   description:
-    "A quick-reference chart for common car dashboard symbols, warning light colors, urgency, and first checks.",
+    "A visual identification guide and printable chart for common car dashboard warning light symbols by color, meaning, and urgency.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-10-01",
+  dateModified: "2026-10-19",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -63,20 +63,34 @@ export default function DashboardWarningLightsChartPage() {
         <Link className="back-link" href="/">
           Back to {SITE_NAME}
         </Link>
-        <p className="eyebrow">Printable reference</p>
-        <h1>Dashboard Warning Lights Chart</h1>
+        <p className="eyebrow">Printable visual guide</p>
+        <h1>Dashboard Warning Lights Chart With Pictures</h1>
         <p className="article-summary">
-          Match common car dashboard symbols by color, urgency, and first check. This chart is designed as a quick
-          reference for drivers, driving schools, safety handouts, and maintenance checklists.
+          A visual identification guide for common car dashboard warning lights — printable chart with symbol
+          pictures, color (red / amber / green / blue), urgency, and first checks. Built for drivers, driving
+          schools, and quick roadside lookup.
         </p>
         <div className="chart-actions">
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: October 1, 2026.</p>
+        <p className="updated-note">Last updated: October 19, 2026.</p>
       </header>
 
       <main className="article-body">
+        <section className="content-section">
+          <div className="content-intro">
+            <p className="eyebrow">How to use this guide</p>
+            <h2>Need a visual reference guide for dashboard warning lights?</h2>
+            <p>
+              If you searched for a visual identification guide or a chart of common car dashboard warning symbols
+              with pictures, start here: match the icon shape and color in the chart below, note the urgency, then
+              open the linked guide for causes and what to do first. Color is the fastest filter — red first, then
+              amber.
+            </p>
+          </div>
+        </section>
+
         <section className="content-section">
           <div className="content-intro">
             <p className="eyebrow">Color guide</p>

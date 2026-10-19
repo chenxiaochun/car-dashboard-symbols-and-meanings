@@ -5,6 +5,32 @@
 
 ---
 
+## 2026-10-19
+
+### seo — GSC 自查 + 图页 SERP/内容加强 + Quora #22 草稿
+
+**全站 28d（约 9/19–10/16）：** **178 / 4.16万 / 0.4% / 8**（对比 10-15：178 / 3.91万 / 0.5% / 8）— 展再↑、点持平、CTR 再掉到 0.4%  
+**全站 7d（约 10/10–10/16）：** **50 / 1.26万 / 0.4% / 8.1**（对比 10-15：47 / 1.25万）
+
+**图页杠杆确认：**
+- 28d **47/1,572（CTR ~3.0%）** · 7d **15/572（~2.6%）** — 全站唯一稳定高 CTR
+- 词 `visual reference guide…` 28d **8/53** · 7d **5/27**；`visual identification…` 28d **4/130** · 7d **3/80**
+
+**低油仍崩：** 7d **1/1,802** · 词 `low fuel level` 7d **0/76** — 10-15 title 数据窗仍偏早（截止 ~10/16），**暂不回滚**  
+**刹车：** 7d **2/780**（持续破 0）· 词 `brake warning light meaning` **1/6**
+
+**图页改动：**
+- title/OG → `Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide`
+- h1 / summary / dateModified / sitemap → 2026-10-19
+- 新增 section：对接 visual reference / identification 查询意图
+
+**Quora #22（待发）：** dashboard warning lights mean / how to act → 图页
+
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts` · `quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 下一步 = 上线图页 + IndexNow + 发 #22；TC title 暂不回滚。
+
+---
+
 ## 2026-10-15
 
 ### seo — GSC 自查 + 批量 CTR title（TC/低油/TPMS/刹车）

@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-12）：** #1–3、#5–21 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-19）：** #1–3、#5–21 ✅ · #22 ⬜ 待发 · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **22** | dashboard warning lights — what they mean / how to act | ⬜ **待发 → 图页** |
 | **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
 | **20** | brake light still on after pads/rotors | ✅ **2026-10-08 已发** |
 | **19** | brake warning — circle with ! / which symbol | ✅ **2026-09-22 已发** |
@@ -29,6 +30,40 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣2️⃣ dashboard warning lights — what they mean / how to act ⬜ 待发
+
+**问题：** What are car dashboard warning lights? What do they mean, and how do we act?  
+**链接：** https://www.quora.com/What-are-car-dashboard-warning-lights-What-do-they-mean-and-how-do-we-act  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 10-19 GSC — 图页 28d **47/1,572（CTR ~3%）**· 7d **15/572**；词 `visual reference guide` **8/53** · `visual identification guide` **4/130** 已证明「看图识灯」高转化。全站 CTR 仍 0.4%，外链推图页比再推低油/TC 更划算。题仅 1 答，易占位。
+
+<details>
+<summary>复制回答</summary>
+
+```
+Color first, then the icon shape.
+
+• Red = urgent — stop safely or treat as “don’t keep driving” (oil pressure, brake, coolant overheat, battery while driving).
+• Amber/yellow = inspect soon — drive gently if the car feels normal (TPMS horseshoe, check engine, ABS, traction/squiggly lines, low fuel pump).
+• Green/blue = usually “feature on” (lights, cruise) — not a fault.
+
+How to act in 30 seconds:
+1. Note color + whether it stayed on after the startup self-check.
+2. Match the symbol (oil can ≠ fuel pump ≠ horseshoe ≠ red circle with !).
+3. Red → pull over when safe. Amber → check the simple thing first (tire pressure, fuel, fluid), then scan if it stays on.
+
+I keep a printable chart with pictures for the common symbols here:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Which light came on for you — red or amber, and roughly what shape?
+```
+
+</details>
+
+**备用（同意图）：** 若上题已有很多新答，可搜 `dashboard warning lights chart` / `red vs yellow dashboard lights` 再换题，仍链图页。
 
 ---
 
