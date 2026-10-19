@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-19）：** #1–3、#5–21 ✅ · #22 ⬜ 待发 · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-19）：** #1–3、#5–22 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,7 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
-| **22** | dashboard warning lights — what they mean / how to act | ⬜ **待发 → 图页** |
+| **22** | dashboard warning lights — what they mean / how to act | ✅ **2026-10-19 已发** |
 | **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
 | **20** | brake light still on after pads/rotors | ✅ **2026-10-08 已发** |
 | **19** | brake warning — circle with ! / which symbol | ✅ **2026-09-22 已发** |
@@ -33,15 +33,15 @@
 
 ---
 
-## 2️⃣2️⃣ dashboard warning lights — what they mean / how to act ⬜ 待发
+## 2️⃣2️⃣ dashboard warning lights — what they mean / how to act ✅ 已发（2026-10-19）
 
 **问题：** What are car dashboard warning lights? What do they mean, and how do we act?  
 **链接：** https://www.quora.com/What-are-car-dashboard-warning-lights-What-do-they-mean-and-how-do-we-act  
 **链到：** `dashboard-warning-lights-chart`  
-**动机：** 10-19 GSC — 图页 28d **47/1,572（CTR ~3%）**· 7d **15/572**；词 `visual reference guide` **8/53** · `visual identification guide` **4/130** 已证明「看图识灯」高转化。全站 CTR 仍 0.4%，外链推图页比再推低油/TC 更划算。题仅 1 答，易占位。
+**动机：** 10-19 GSC — 图页 28d **47/1,572（CTR ~3%）**· 7d **15/572**；词 `visual reference guide` **8/53** · `visual identification guide` **4/130** 已证明「看图识灯」高转化。全站 CTR 仍 0.4%，外链推图页比再推低油/TC 更划算。
 
 <details>
-<summary>复制回答</summary>
+<summary>已发回答（备查，勿重复发）</summary>
 
 ```
 Color first, then the icon shape.
@@ -63,7 +63,7 @@ Which light came on for you — red or amber, and roughly what shape?
 
 </details>
 
-**备用（同意图）：** 若上题已有很多新答，可搜 `dashboard warning lights chart` / `red vs yellow dashboard lights` 再换题，仍链图页。
+**备注：** 观察约 1–3 周（至 ~11-09）。
 
 ---
 
