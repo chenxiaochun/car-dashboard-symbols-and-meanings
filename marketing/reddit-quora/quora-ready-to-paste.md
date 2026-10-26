@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-19）：** #1–3、#5–22 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-26）：** #1–3、#5–23 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **23** | dashboard LED / light colors — red amber green blue | ✅ **2026-10-26 已发** |
 | **22** | dashboard warning lights — what they mean / how to act | ✅ **2026-10-19 已发** |
 | **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
 | **20** | brake light still on after pads/rotors | ✅ **2026-10-08 已发** |
@@ -30,6 +31,41 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣3️⃣ dashboard light colors — red / amber / green / blue ✅ 已发（2026-10-26）
+
+**问题：** What are the different colors of LEDs on a car's dashboard, and what do they mean?  
+**链接：** https://www.quora.com/What-are-the-different-colors-of-LEDs-on-a-cars-dashboard-and-what-do-they-mean  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 10-26 GSC — 图页 7d **20/802 周第一**；`with pictures` / visual-guide 词继续吃点。#22 已覆盖「mean / how to act」，本条专打**颜色紧迫度**，与图页 color sections 对齐，不重复同题。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Dashboard “LED” colors are mostly a urgency code — the exact icon still matters, but color is the fastest first filter.
+
+• Red = serious / stop-and-check — oil pressure (oil can), brake (circle with !), coolant overheat (thermometer), battery while driving.
+• Amber / yellow = attention soon — check engine, ABS, TPMS (horseshoe), traction/squiggly lines, low fuel (fuel pump). Drive gently if the car feels normal.
+• Green = a feature is on — turn signals, low beams, cruise, etc. Not usually a fault.
+• Blue = most often high beams. Dip them for oncoming traffic.
+
+30-second habit:
+1. Note color + whether it stayed on after the startup self-check.
+2. Match the picture/shape (oil can ≠ fuel pump ≠ horseshoe ≠ red circle with !).
+3. Red → pull over when safe. Amber → fix the simple thing first, then scan if it stays on.
+
+I keep a printable chart with pictures grouped by those colors here:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Was the light red or amber, and roughly what shape?
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-16）。
 
 ---
 

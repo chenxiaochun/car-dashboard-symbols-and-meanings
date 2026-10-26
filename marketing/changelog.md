@@ -5,6 +5,32 @@
 
 ---
 
+## 2026-10-26
+
+### seo — GSC 自查 + 图页 pictures/printable 强化 + Quora #23 草稿
+
+**全站 28d：** **207 / 4.66万 / 0.4% / 8**（对比 10-19：178 / 4.16万）— 点↑展↑  
+**全站 7d：** **65 / 1.29万 / 0.5% / 8**（对比 10-19：50 / 1.26万 / 0.4%）— 周 CTR 回升
+
+**图页杠杆确认：**
+- 7d **20/802** — **周点击第一**（反超 TC）
+- 28d **58/2,154**；visual reference **17/100**；`with pictures` 词破 0
+
+**低油 title 试点：** 7d **1→9** — **保留，勿回滚**  
+**刹车 / TPMS / 油压：** 持续爬坡
+
+**图页改动：**
+- meta/summary 对齐「car dashboard symbols and meanings with pictures」
+- 新增 with-pictures 三步 section；printable 段强化
+- dateModified / Last updated / sitemap chartLastModified → 2026-10-26
+
+**Quora #23：** ✅ 已发（颜色题 → 图页）
+
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts` · `quora-ready-to-paste.md` · `paste-today.md`  
+**备注：** 观察至 ~11-16；部署后记得 IndexNow 图页。
+
+---
+
 ## 2026-10-19
 
 ### outreach — Quora #22 ✅ 已发（dashboard lights → 图页）

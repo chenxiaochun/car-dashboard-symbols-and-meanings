@@ -20,14 +20,14 @@ const colorAdvice: Record<SymbolColor, string> = {
 export const metadata: Metadata = {
   title: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
   description:
-    "Visual identification guide for common car dashboard warning lights: printable chart with pictures, red/amber meanings, urgency, and first checks.",
+    "Car dashboard symbols and meanings with pictures — printable visual chart by color (red/amber/green/blue), urgency, and first checks.",
   alternates: {
     canonical: "/dashboard-warning-lights-chart/"
   },
   openGraph: {
     title: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
     description:
-      "Create a visual reference for common dashboard car warning lights — printable chart with symbols, colors, and what to do first.",
+      "Printable car dashboard symbols and meanings with pictures — match the icon, note the color, then decide what to do first.",
     url: "/dashboard-warning-lights-chart/",
     siteName: SITE_NAME,
     type: "article"
@@ -39,10 +39,10 @@ const chartJsonLd = {
   "@type": "Article",
   headline: "Dashboard Warning Lights Chart With Pictures — Visual Symbol Guide",
   description:
-    "A visual identification guide and printable chart for common car dashboard warning light symbols by color, meaning, and urgency.",
+    "Car dashboard symbols and meanings with pictures: a printable visual identification chart by color, meaning, and urgency.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-10-19",
+  dateModified: "2026-10-26",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -66,15 +66,15 @@ export default function DashboardWarningLightsChartPage() {
         <p className="eyebrow">Printable visual guide</p>
         <h1>Dashboard Warning Lights Chart With Pictures</h1>
         <p className="article-summary">
-          A visual identification guide for common car dashboard warning lights — printable chart with symbol
-          pictures, color (red / amber / green / blue), urgency, and first checks. Built for drivers, driving
-          schools, and quick roadside lookup.
+          Car dashboard symbols and meanings with pictures — a printable visual chart of common warning lights by
+          color (red / amber / green / blue), urgency, and first checks. Built for drivers, driving schools, and
+          quick roadside lookup.
         </p>
         <div className="chart-actions">
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: October 19, 2026.</p>
+        <p className="updated-note">Last updated: October 26, 2026.</p>
       </header>
 
       <main className="article-body">
@@ -87,6 +87,33 @@ export default function DashboardWarningLightsChartPage() {
               with pictures, start here: match the icon shape and color in the chart below, note the urgency, then
               open the linked guide for causes and what to do first. Color is the fastest filter — red first, then
               amber.
+            </p>
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="content-intro">
+            <p className="eyebrow">With pictures</p>
+            <h2>Car dashboard symbols and meanings with pictures</h2>
+            <p>
+              Most drivers do not need a full repair manual first — they need to match what they see on the cluster.
+              Each row in the chart shows a simplified picture of the light, the plain-English meaning, and whether
+              you can usually keep driving. Treat the pictures as shape + color clues, then confirm in your
+              owner&apos;s manual for your make and year.
+            </p>
+          </div>
+          <div className="check-list">
+            <p>
+              <strong>1. Match the picture:</strong> oil can, fuel pump, horseshoe, engine outline, battery, or red
+              circle with !.
+            </p>
+            <p>
+              <strong>2. Note the color:</strong> red = urgent; amber = inspect soon; green/blue = usually a feature
+              that is on.
+            </p>
+            <p>
+              <strong>3. Use Print chart:</strong> keep a one-page copy in the glovebox for roadside checks when you
+              have no signal.
             </p>
           </div>
         </section>
@@ -195,11 +222,12 @@ export default function DashboardWarningLightsChartPage() {
 
         <section className="content-section split-section">
           <div>
-            <p className="eyebrow">How to use it</p>
-            <h2>Print it or cite it as a quick reference</h2>
+            <p className="eyebrow">Printable chart</p>
+            <h2>Print a dashboard warning lights chart (one page)</h2>
             <p>
-              This page works well as a resource link from driver education pages, basic maintenance checklists, and
-              roadside safety articles. For an interactive lookup, use the homepage finder.
+              Use the <strong>Print chart</strong> button at the top for a clean, printer-friendly layout — handy for
+              driving schools, glovebox checklists, and roadside safety handouts. For interactive lookup on your
+              phone, use the homepage finder instead.
             </p>
           </div>
           <div className="check-list">
