@@ -7,6 +7,16 @@
 
 ## 2026-10-26
 
+### content — 低油页轻补 FAQ（贴 low fuel level 词，title 未改）
+
+- 新增 section：`What does low fuel level mean on the dashboard?`
+- FAQ 新增：`What does low fuel level mean?` · `What does fuel level low mean on the dashboard?`
+- summary / What it means 自然带入 low fuel level
+- **不改** title / meta 主句（10-15 试点 7d 1→9，保留）
+
+**文件：** `lib/guides.ts`  
+**备注：** 对标 10-26 GSC 7d `low fuel level` 0/72 · `fuel level low` 0/68；观察至 ~11-09。
+
 ### seo — GSC 自查 + 图页 pictures/printable 强化 + Quora #23 草稿
 
 **全站 28d：** **207 / 4.66万 / 0.4% / 8**（对比 10-19：178 / 4.16万）— 点↑展↑  

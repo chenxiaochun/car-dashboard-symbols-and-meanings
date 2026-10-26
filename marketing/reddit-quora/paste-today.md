@@ -73,6 +73,7 @@
 | **3** | ✅ Quora #23 草稿 |
 | **4** | 上线 + IndexNow 图页 |
 | **5** | ✅ 发 Quora #23（颜色题 → 图页） |
+| **6** | ✅ 低油 FAQ 贴 `low fuel level` / `fuel level low`（title 未改） |
 
 ---
 

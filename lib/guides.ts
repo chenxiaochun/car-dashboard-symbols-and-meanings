@@ -1034,14 +1034,18 @@ export const guides: SymbolGuide[] = [
     eyebrow: "Fuel warning",
     h1: "Low Fuel Warning Light Meaning",
     summary:
-      "The low fuel warning light means the fuel level is low. Refuel soon — running a tank dry can leave you stranded and, on some vehicles, make restarting harder after refueling.",
+      "Low fuel level on the dash means the tank is getting empty. The amber fuel-pump light is your cue to refuel soon — running dry can leave you stranded and, on some vehicles, make restarting harder after filling up.",
     colorText: "Amber or yellow",
     canDriveText: "Yes, refuel soon",
     urgency: "Low to medium",
     sections: [
       {
         title: "What it means",
-        body: "The low fuel symbol usually looks like a fuel pump. It appears before the tank is completely empty, giving you time to reach a station. Remaining range varies widely by vehicle and driving style."
+        body: "A low fuel level warning usually shows as a fuel-pump icon. It appears before the tank is completely empty, giving you time to reach a station. Remaining range varies widely by vehicle and driving style."
+      },
+      {
+        title: "What does low fuel level mean on the dashboard?",
+        body: "Low fuel level (sometimes worded as “fuel level low” in the cluster message) means the sender estimates the tank is near reserve. It is an amber fuel-pump symbol on most cars — not a red stop-now light. Plan to refuel at the next safe station; do not treat the last miles as guaranteed. If the pump light stays on after a full fill, the fuel-level sender or cluster may be faulty."
       },
       {
         title: "Which symbol warns that you are low on fuel?",
@@ -1076,6 +1080,16 @@ export const guides: SymbolGuide[] = [
       }
     ],
     faqs: [
+      {
+        question: "What does low fuel level mean?",
+        answer:
+          "Low fuel level means the tank is near reserve. On most cars the amber fuel-pump light comes on before the tank is empty so you can reach a station. Refuel soon; remaining miles are not guaranteed."
+      },
+      {
+        question: "What does fuel level low mean on the dashboard?",
+        answer:
+          "“Fuel level low” is the same idea as the low fuel warning: estimated fuel is low. Match the fuel-pump symbol (not the oil can). Drive carefully to the next station and fill up. If it stays on after a full tank, check the fuel-level sender."
+      },
       {
         question: "Which symbol warns that you are low on fuel?",
         answer:
