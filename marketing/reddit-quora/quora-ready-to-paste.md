@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-26）：** #1–3、#5–23 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-27）：** #1–3、#5–23 ✅ · **#24–25 待发（链图页）** · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,8 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **25** | how to identify unknown dashboard symbol | ⏳ **约 11-01 发（链图页）** |
+| **24** | meanings of different dashboard signs | ⏳ **约 10-29 发（链图页）** |
 | **23** | dashboard LED / light colors — red amber green blue | ✅ **2026-10-26 已发** |
 | **22** | dashboard warning lights — what they mean / how to act | ✅ **2026-10-19 已发** |
 | **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
@@ -31,6 +33,64 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣5️⃣ identify unknown dash symbol ⏳ 待发（约 11-01）
+
+**问题：** A symbol showed up on my cars dash, how can I find out what it means?  
+**链接：** https://www.quora.com/A-symbol-showed-up-on-my-cars-dash-how-can-I-find-out-what-it-means  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 认灯意图；与 #22/#23/#24 不重复——教「怎么查」而不是列全表。
+
+**可直接粘贴：**
+
+```
+Fastest path when you don’t know the icon:
+
+1. Note the color — red = treat as urgent; amber = inspect soon; green/blue = often just “feature on.”
+2. Match the shape — oil can ≠ fuel pump ≠ horseshoe (TPMS) ≠ red circle with !.
+3. Check whether it stayed on after the startup self-check (many lights flash briefly at key-on and should go out).
+4. Confirm in the owner’s manual for your make/year — icons vary.
+
+If you need a visual chart with pictures grouped by color to compare against what you see:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+What color is it, and can you describe the shape (or post a dash photo)?
+```
+
+**备注：** 等 #24 发后隔约 2–3 天再发。
+
+---
+
+## 2️⃣4️⃣ meanings of different dashboard signs ⏳ 待发（约 10-29）
+
+**问题：** What are the meanings of the different signs on the dashboard of a car?  
+**链接：** https://www.quora.com/What-are-the-meanings-of-the-different-signs-on-the-dashboard-of-a-car  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 本周图页冲刺；与 #22（how to act）/#23（colors）错开，偏「符号一览 / with pictures」。距 #23 ≥3 天。
+
+**可直接粘贴：**
+
+```
+There isn’t one universal set of icons — make/model/year change the artwork — but most cars share the same color code and a handful of shapes:
+
+• Red (urgent): oil can = oil pressure; thermometer = overheating; circle with ! / BRAKE = brakes; battery = charging fault while driving.
+• Amber (soon): engine outline = check engine; horseshoe with ! = TPMS; ABS; car with squiggly lines = traction/stability; fuel pump = low fuel.
+• Green/blue: usually features on (signals, beams, cruise) — not faults.
+
+When a light appears:
+1. Color first, then shape.
+2. Ignore lights that only flash during the key-on bulb check and go out.
+3. Red + weird noise/steam/soft pedal → stop safely; don’t guess.
+
+I keep a printable chart with pictures of the common symbols here:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Which light showed up for you — red or amber?
+```
+
+**备注：** 发完改 ✅；观察约 1–3 周。
 
 ---
 

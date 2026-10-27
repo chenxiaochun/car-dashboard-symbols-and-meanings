@@ -5,6 +5,19 @@
 
 ---
 
+## 2026-10-27
+
+### docs — 本周图页冲刺计划（10/27–11/02）
+
+- 只押 `dashboard-warning-lights-chart`：Pinterest Pin 7 + Quora #24/#25 + X 短帖
+- 不新开页；#24 约 10-29、#25 约 11-01；11-02 再查 GSC
+- 文案：`paste-today.md` · `quora-ready-to-paste.md` · `pinterest/captions.md` Pin 7
+
+**文件：** `marketing/reddit-quora/paste-today.md` · `quora-ready-to-paste.md` · `pinterest/captions.md`  
+**备注：** Pin 图 ✅ 已生成；**Pinterest Pin 7 ✅ 已发** → https://www.pinterest.com/pin/1055249756460400616/（链图页）。
+
+---
+
 ## 2026-10-26
 
 ### content — 低油页轻补 FAQ（贴 low fuel level 词，title 未改）

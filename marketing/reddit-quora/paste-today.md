@@ -1,3 +1,42 @@
+# 本周冲刺 — 2026-10-27 → 11-02（只押图页）
+
+> **目标 URL：** `https://warninglightfinder.com/dashboard-warning-lights-chart/`  
+> **原则：** 不新开专题页；外链/视觉一律推图页；隔 2–3 天 1 条 Quora，不刷屏。  
+> **成功标准（~11-02 GSC）：** 图页 7d 点击稳 ≥20，或 visual/with-pictures 词展示继续涨。
+
+## 一周日程
+
+| 日 | 日期 | 动作 | 状态 |
+|----|------|------|------|
+| **1** | 10/27–28 | 做图页 Pinterest 竖图 → `marketing/pinterest/pinterest-dashboard-warning-lights-chart.png` | ✅ 已生成 |
+| **2** | 10/28–29 | 发 **Pinterest Pin 7**（文案已备，链图页） | ✅ [pin/1055249756460400616](https://www.pinterest.com/pin/1055249756460400616/) |
+| **3** | **10/29** | 发 **Quora #24**（signs meanings → 图页；距 #23 ≥3 天） | ⏳ 稿已备 |
+| **4** | 10/30 | X 短帖：printable chart with pictures（链图页） | ⏳ 稿见下 |
+| **5** | **11/01** | 发 **Quora #25**（how to identify unknown dash symbol → 图页） | ⏳ 稿已备 |
+| **6** | 11/02 | GSC 自查 7d/28d；记快照；决定是否再加 Pin/Quora | ⏳ |
+
+**本周不做：** 新专题页、改 TC title、再砸低油（FAQ 已上，等数据）。
+
+### X 短帖（10/30 可发）
+
+```
+Need a printable dashboard warning lights chart with pictures?
+
+Match by color first (red = urgent, amber = soon), then the icon shape.
+
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+```
+
+### 发完后记日志
+
+```
+| Quora #24 | signs on dashboard meanings | chart | 10-29 |
+| Pinterest Pin 7 | Dashboard Warning Lights Chart | 10-28 |
+| Quora #25 | identify unknown dash symbol | chart | 11-01 |
+```
+
+---
+
 # 今日待办 — 2026-10-26
 
 > **GSC 自查（浏览器已登录）：** 28d **207 点 / 4.66 万展 / CTR 0.4% / 排名 8**  
@@ -2296,6 +2335,7 @@
 | Reddit #9 | [2014 Cruze Service TC + RPM=0](https://www.reddit.com/r/MechanicAdvice/comments/1uydniv/service_traction_control_light_on_and_rpm_stuck/) | 07-17 |
 | Quora #9 | [squiggly lines / TC](https://www.quora.com/How-do-I-turn-off-the-squiggly-lines-on-my-car) | 07-18 |
 | Pinterest Pin 6 | ABS Warning Light | 07-24 |
+| Pinterest Pin 7 | [Dashboard Warning Lights Chart](https://www.pinterest.com/pin/1055249756460400616/) | chart | 10-27 |
 | Reddit #10 | [Oil Pressure Light that Won’t go Away?](https://www.reddit.com/r/MechanicAdvice/comments/1v4mgl6/oil_pressure_light_that_wont_go_away/) | red-dashboard-lights | 07-24 |
 | Quora #10 | [Honda SRS light](https://www.quora.com/What-does-the-SRS-light-mean-on-my-Honda) | airbag-warning-light | 07-29 |
 | Quora #11 | [coolant temp light on/off](https://www.quora.com/What-does-the-engine-coolant-temp-light-mean-What-if-it-goes-on-and-off) | coolant-temperature-warning-light | 07-31 |

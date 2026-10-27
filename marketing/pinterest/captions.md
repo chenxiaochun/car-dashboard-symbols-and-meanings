@@ -189,6 +189,40 @@ https://warninglightfinder.com/symbols/abs-warning-light/
 
 ---
 
+## Pin 7 — Dashboard Warning Lights Chart ✅ 已发（2026-10-27）
+
+**File:** `pinterest-dashboard-warning-lights-chart.png`  
+**Pin URL:** https://www.pinterest.com/pin/1055249756460400616/  
+**Destination link:** https://warninglightfinder.com/dashboard-warning-lights-chart/  
+**Board:** Car Tips & Dashboard Warning Lights  
+**备注：** 已勾选「标记为 AI 修改」
+
+**Title:**
+```
+Dashboard Warning Lights Chart With Pictures — Printable Guide
+```
+
+**Description:**
+```
+Printable car dashboard symbols and meanings with pictures.
+
+How to use it:
+1. Match the icon shape (oil can, fuel pump, horseshoe, circle with !)
+2. Note the color — red = urgent, amber = inspect soon
+3. Open the linked guide for what to check first
+
+Free visual chart:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Icons vary by make/model — confirm with your owner’s manual.
+
+#dashboardwarninglights #dashboardsymbols #warninglightchart #cartips #carsafety #printable #warninglightfinder
+```
+
+**Board suggestion:** Car Tips & Dashboard Warning Lights
+
+---
+
 ## Posting checklist
 
 1. Pinterest → **Create** → upload image  
