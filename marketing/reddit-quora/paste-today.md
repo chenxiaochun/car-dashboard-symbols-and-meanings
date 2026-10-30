@@ -2,7 +2,8 @@
 
 > **目标 URL：** `https://warninglightfinder.com/dashboard-warning-lights-chart/`  
 > **原则：** 不新开专题页；外链/视觉一律推图页；隔 2–3 天 1 条 Quora，不刷屏。  
-> **成功标准（~11-02 GSC）：** 图页 7d 点击稳 ≥20，或 visual/with-pictures 词展示继续涨。
+> **成功标准（~11-02 GSC）：** 图页 7d 点击稳 ≥20，或 visual/with-pictures 词展示继续涨。  
+> **10-30 中期检查：** ✅ 图页 7d **23/805**（仍第一）；全站 7d **74 / 0.6% / 7.8** — 标准已提前达成。
 
 ## 一周日程
 
@@ -10,10 +11,56 @@
 |----|------|------|------|
 | **1** | 10/27–28 | 做图页 Pinterest 竖图 → `marketing/pinterest/pinterest-dashboard-warning-lights-chart.png` | ✅ 已生成 |
 | **2** | 10/28–29 | 发 **Pinterest Pin 7**（文案已备，链图页） | ✅ [pin/1055249756460400616](https://www.pinterest.com/pin/1055249756460400616/) |
-| **3** | **10/29** | 发 **Quora #24**（signs meanings → 图页；距 #23 ≥3 天） | ⏳ 稿已备 |
+| **3** | **10/29–30** | 发 **Quora #24**（signs meanings → 图页；距 #23 ≥3 天） | ✅ [答案](https://www.quora.com/What-are-the-meanings-of-the-different-signs-on-the-dashboard-of-a-car/answer/Chen-Xiaochun) |
 | **4** | 10/30 | X 短帖：printable chart with pictures（链图页） | ⏳ 稿见下 |
 | **5** | **11/01** | 发 **Quora #25**（how to identify unknown dash symbol → 图页） | ⏳ 稿已备 |
-| **6** | 11/02 | GSC 自查 7d/28d；记快照；决定是否再加 Pin/Quora | ⏳ |
+| **6** | 11/02 | GSC 自查 7d/28d；记快照；决定是否再加 Pin/Quora | ⏳ 10-30 已先查一版 |
+
+---
+
+## GSC 快照（10-30 自查）← 最新
+
+> 来源：chrome-devtools MCP（数据约至 **10/27**，上次更新约 4.5 小时前）。对比 10-26。
+
+### 全站
+
+| 窗口 | 点击 | 展示 | CTR | 排名 | vs 10-26 |
+|------|------|------|-----|------|----------|
+| **28 天** | **218** | **4.83 万** | **0.5%** | 8 | ↑207 / ↑4.66 万 / CTR↑ |
+| **7 天** | **74** | **1.22 万** | **0.6%** | **7.8** | ↑65 / CTR 0.5%→**0.6%** / 排名↑ |
+
+### 页面（7 天）前 10
+
+| 页面 | 点击 | 展示 | vs 10-26 7d |
+|------|------|------|-------------|
+| **图页** | **23** | **805** | ↑20；**仍第一** |
+| TC | 14 | 4,457 | ↓ |
+| **TPMS** | **12** | 1,311 | ↑7 → 明显加速 |
+| 低油 | 7 | 2,401 | ≈9→7 |
+| 刹车 | 4 | 651 | ↑ |
+| 变速箱 | 3 | 468 | ↑ |
+| 首页 | 3 | 247 | ↑ |
+| 油压 / 电瓶 / 助力 | 各 2 | — | — |
+
+### 页面（28 天）前 10
+
+图页 **62**/2,364 · TC 72/21,553 · TPMS **22**/5,309 · 低油 16/7,389 · 变速箱 9 · 刹车 8
+
+### 查询词亮点（7d）
+
+- visual reference **10/35（~29% CTR）** 🎉
+- with pictures **1/55** · visual identification 1/72
+- horseshoe light **1/7** 破 0 · brake light symbol 1/2
+- 低油大词仍崩：`low fuel level` **0/84**
+
+### AI 备忘（10-30）
+
+- 图页策略继续兑现；冲刺成功标准已达成
+- TPMS 成为第二增长点（title + 英式词）
+- 低油 FAQ 尚未打进 `low fuel level` 精确词 — **再观察至 ~11-09，勿再改 title**
+- 今日动作：补发 Quora #24 + 可选 X；站内暂不大改
+
+---
 
 **本周不做：** 新专题页、改 TC title、再砸低油（FAQ 已上，等数据）。
 

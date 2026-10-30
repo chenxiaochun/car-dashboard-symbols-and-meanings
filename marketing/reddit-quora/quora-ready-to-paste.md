@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-27）：** #1–3、#5–23 ✅ · **#24–25 待发（链图页）** · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-10-30）：** #1–3、#5–24 ✅ · **#25 待发（链图页）** · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -10,7 +10,7 @@
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
 | **25** | how to identify unknown dashboard symbol | ⏳ **约 11-01 发（链图页）** |
-| **24** | meanings of different dashboard signs | ⏳ **约 10-29 发（链图页）** |
+| **24** | meanings of different dashboard signs | ✅ **2026-10-30 已发** |
 | **23** | dashboard LED / light colors — red amber green blue | ✅ **2026-10-26 已发** |
 | **22** | dashboard warning lights — what they mean / how to act | ✅ **2026-10-19 已发** |
 | **21** | airbag SRS light on — are bags disabled? | ✅ **2026-10-12 已发** |
@@ -63,14 +63,16 @@ What color is it, and can you describe the shape (or post a dash photo)?
 
 ---
 
-## 2️⃣4️⃣ meanings of different dashboard signs ⏳ 待发（约 10-29）
+## 2️⃣4️⃣ meanings of different dashboard signs ✅ 已发（2026-10-30）
 
 **问题：** What are the meanings of the different signs on the dashboard of a car?  
 **链接：** https://www.quora.com/What-are-the-meanings-of-the-different-signs-on-the-dashboard-of-a-car  
+**答案：** https://www.quora.com/What-are-the-meanings-of-the-different-signs-on-the-dashboard-of-a-car/answer/Chen-Xiaochun  
 **链到：** `dashboard-warning-lights-chart`  
-**动机：** 本周图页冲刺；与 #22（how to act）/#23（colors）错开，偏「符号一览 / with pictures」。距 #23 ≥3 天。
+**动机：** 本周图页冲刺；与 #22（how to act）/#23（colors）错开，偏「符号一览 / with pictures」。
 
-**可直接粘贴：**
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
 ```
 There isn’t one universal set of icons — make/model/year change the artwork — but most cars share the same color code and a handful of shapes:
@@ -90,7 +92,9 @@ https://warninglightfinder.com/dashboard-warning-lights-chart/
 Which light showed up for you — red or amber?
 ```
 
-**备注：** 发完改 ✅；观察约 1–3 周。
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-20）。
 
 ---
 
