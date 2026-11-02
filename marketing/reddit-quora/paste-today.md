@@ -3,7 +3,8 @@
 > **目标 URL：** `https://warninglightfinder.com/dashboard-warning-lights-chart/`  
 > **原则：** 不新开专题页；外链/视觉一律推图页；隔 2–3 天 1 条 Quora，不刷屏。  
 > **成功标准（~11-02 GSC）：** 图页 7d 点击稳 ≥20，或 visual/with-pictures 词展示继续涨。  
-> **10-30 中期检查：** ✅ 图页 7d **23/805**（仍第一）；全站 7d **74 / 0.6% / 7.8** — 标准已提前达成。
+> **10-30 中期检查：** ✅ 图页 7d **23/805**（仍第一）；全站 7d **74 / 0.6% / 7.8** — 标准已提前达成。  
+> **11-02 收官：** 28d 点↑排名↑；7d 滚窗回落但仍图页第一 + 排名 **7.5**。
 
 ## 一周日程
 
@@ -12,13 +13,50 @@
 | **1** | 10/27–28 | 做图页 Pinterest 竖图 → `marketing/pinterest/pinterest-dashboard-warning-lights-chart.png` | ✅ 已生成 |
 | **2** | 10/28–29 | 发 **Pinterest Pin 7**（文案已备，链图页） | ✅ [pin/1055249756460400616](https://www.pinterest.com/pin/1055249756460400616/) |
 | **3** | **10/29–30** | 发 **Quora #24**（signs meanings → 图页；距 #23 ≥3 天） | ✅ [答案](https://www.quora.com/What-are-the-meanings-of-the-different-signs-on-the-dashboard-of-a-car/answer/Chen-Xiaochun) |
-| **4** | 10/30 | X 短帖：printable chart with pictures（链图页） | ⏳ 稿见下 |
-| **5** | **11/01** | 发 **Quora #25**（how to identify unknown dash symbol → 图页） | ⏳ 稿已备 |
-| **6** | 11/02 | GSC 自查 7d/28d；记快照；决定是否再加 Pin/Quora | ⏳ 10-30 已先查一版 |
+| **4** | 10/30 | X 短帖：printable chart with pictures（链图页） | ⛔ 未登录，跳过 |
+| **5** | **11/01–02** | 发 **Quora #25**（how to identify unknown dash symbol → 图页） | ✅ [答案](https://www.quora.com/A-symbol-showed-up-on-my-cars-dash-how-can-I-find-out-what-it-means/answer/Chen-Xiaochun) |
+| **6** | 11/02 | GSC 自查 7d/28d；记快照；决定是否再加 Pin/Quora | ✅ 见下 |
 
 ---
 
-## GSC 快照（10-30 自查）← 最新
+## GSC 快照（11-02 自查）← 最新
+
+> 来源：chrome-devtools MCP（数据约至 **10/30**，上次更新约 4.5 小时前）。对比 10-30。
+
+### 全站
+
+| 窗口 | 点击 | 展示 | CTR | 排名 | vs 10-30 |
+|------|------|------|-----|------|----------|
+| **28 天** | **225** | **4.93 万** | 0.5% | **7.9** | ↑218 / ↑4.83 万 / 排名 8→**7.9** |
+| **7 天** | **61** | **1.19 万** | 0.5% | **7.5** | ↓74（滚窗）；排名再升 |
+
+### 页面（7 天）前 10
+
+| 页面 | 点击 | 展示 | vs 10-30 7d |
+|------|------|------|-------------|
+| **图页** | **20** | **741** | ≈23；**仍第一** |
+| TC | 17 | 4,227 | ↑ |
+| TPMS | 10 | 1,231 | ≈12 |
+| 低油 | **3** | **2,497** | ↓7；展仍高 |
+| 变速箱 | 2 | 557 | ≈ |
+| 首页 | 2 | 270 | ≈ |
+| 刹车 | 1 | 625 | ↓ |
+
+### 查询词（7d）
+
+- visual reference **6/33** · transmission **2/23** · horseshoe **1/3** · brake light symbol **1/4**
+- `low fuel level` **0/101**（展再涨，点仍 0）
+
+### AI 备忘（11-02）
+
+- 冲刺成功：图页稳居周第一；28d 排名进 **7.9**，7d **7.5** 历史较好
+- 7d 点击回落属滚窗正常；不改 TC/低油 title
+- 低油精确词观察窗至 ~11-09；今日发 #25 继续推图页
+- 下一观察 ~11-09
+
+---
+
+## GSC 快照（10-30 自查）· 历史参考
 
 > 来源：chrome-devtools MCP（数据约至 **10/27**，上次更新约 4.5 小时前）。对比 10-26。
 

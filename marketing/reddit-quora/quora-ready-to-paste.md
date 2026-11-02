@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-10-30）：** #1–3、#5–24 ✅ · **#25 待发（链图页）** · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-02）：** #1–3、#5–25 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,7 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
-| **25** | how to identify unknown dashboard symbol | ⏳ **约 11-01 发（链图页）** |
+| **25** | how to identify unknown dashboard symbol | ✅ **2026-11-02 已发** |
 | **24** | meanings of different dashboard signs | ✅ **2026-10-30 已发** |
 | **23** | dashboard LED / light colors — red amber green blue | ✅ **2026-10-26 已发** |
 | **22** | dashboard warning lights — what they mean / how to act | ✅ **2026-10-19 已发** |
@@ -36,14 +36,16 @@
 
 ---
 
-## 2️⃣5️⃣ identify unknown dash symbol ⏳ 待发（约 11-01）
+## 2️⃣5️⃣ identify unknown dash symbol ✅ 已发（2026-11-02）
 
 **问题：** A symbol showed up on my cars dash, how can I find out what it means?  
 **链接：** https://www.quora.com/A-symbol-showed-up-on-my-cars-dash-how-can-I-find-out-what-it-means  
+**答案：** https://www.quora.com/A-symbol-showed-up-on-my-cars-dash-how-can-I-find-out-what-it-means/answer/Chen-Xiaochun  
 **链到：** `dashboard-warning-lights-chart`  
 **动机：** 认灯意图；与 #22/#23/#24 不重复——教「怎么查」而不是列全表。
 
-**可直接粘贴：**
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
 
 ```
 Fastest path when you don’t know the icon:
@@ -59,7 +61,9 @@ https://warninglightfinder.com/dashboard-warning-lights-chart/
 What color is it, and can you describe the shape (or post a dash photo)?
 ```
 
-**备注：** 等 #24 发后隔约 2–3 天再发。
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-23）。
 
 ---
 
