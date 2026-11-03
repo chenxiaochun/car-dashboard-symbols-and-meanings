@@ -1297,11 +1297,11 @@ export const guides: SymbolGuide[] = [
     symbolSlug: "transmission-warning",
     title: "Transmission Warning Light Meaning — Gearbox Fault and Overheat",
     metaDescription:
-      "Transmission warning light meaning: gearbox or AT temperature icon, limp mode, whether you can keep driving, and what to check before a long trip.",
+      "Yellow transmission warning light symbol meaning: gear/AT temperature icon, limp mode, whether you can keep driving, and what to check before a long trip.",
     eyebrow: "Drivetrain warning",
     h1: "Transmission Warning Light Meaning",
     summary:
-      "A transmission warning light — often a gear icon, thermometer in a gear, or an AT/transmission message — means the gearbox control system detected a fault or abnormal temperature. The car may still move, sometimes in limp mode with limited gears. Drive gently and get codes scanned soon.",
+      "A yellow transmission warning light symbol — often a gear icon, thermometer in a gear, or an AT/transmission message — means the gearbox control system detected a fault or abnormal temperature. The car may still move, sometimes in limp mode with limited gears. Drive gently and get codes scanned soon.",
     colorText: "Amber or yellow",
     canDriveText: "Gently, if it still shifts",
     urgency: "Inspect soon",
@@ -1310,6 +1310,11 @@ export const guides: SymbolGuide[] = [
         title: "What it means",
         body:
           "Automatic and dual-clutch gearboxes use sensors for fluid temperature, pressure, and gear position. When a fault is stored, the cluster may show a gear symbol, a temperature-in-gear icon, or a message such as Transmission malfunction. Manual cars rarely have this light; clutch or gearbox issues more often show as feel/noise rather than a dedicated lamp."
+      },
+      {
+        title: "What does a yellow transmission warning light symbol mean?",
+        body:
+          "A yellow (amber) transmission warning light symbol is an inspect-soon alert for the gearbox or AT temperature — not the same urgency as a red oil-pressure or brake light. Match the gear / AT artwork first; do not confuse it with the oil can or a plain check-engine outline. Drive gently, avoid towing or hard acceleration, and scan transmission codes soon. If limp mode, slipping, or an overheat message stays on after a cool-down, minimize driving and consider a tow."
       },
       {
         title: "What to do first",
@@ -1348,6 +1353,11 @@ export const guides: SymbolGuide[] = [
         question: "What does a transmission warning light look like?",
         answer:
           "Common artwork is a gear outline, a thermometer inside a gear, or a dashboard message naming the transmission. Exact icons vary by brand — check the owner's manual if you are unsure."
+      },
+      {
+        question: "What does a yellow transmission warning light symbol mean?",
+        answer:
+          "A yellow (amber) transmission warning light symbol usually means a gearbox fault or abnormal AT temperature — not an immediate “stop now” red light, but you should drive gently and get codes scanned soon. Match a gear / AT icon (not the oil can or check-engine outline). If the car is in limp mode, slips, or the overheat message will not clear, minimize driving and consider a tow."
       },
       {
         question: "Can I drive with the transmission light on?",

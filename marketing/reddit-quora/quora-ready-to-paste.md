@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-02）：** #1–3、#5–25 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-03）：** #1–3、#5–26 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **26** | what do the different dashboard warning lights mean（未答题） | ✅ **2026-11-03 已发** |
 | **25** | how to identify unknown dashboard symbol | ✅ **2026-11-02 已发** |
 | **24** | meanings of different dashboard signs | ✅ **2026-10-30 已发** |
 | **23** | dashboard LED / light colors — red amber green blue | ✅ **2026-10-26 已发** |
@@ -33,6 +34,41 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣6️⃣ different dashboard warning lights mean ✅ 已发（2026-11-03）
+
+**问题：** What do the different dashboard warning lights mean?  
+**链接：** https://www.quora.com/What-do-the-different-dashboard-warning-lights-mean  
+**答案：** https://www.quora.com/What-do-the-different-dashboard-warning-lights-mean/answer/Chen-Xiaochun  
+**链到：** `dashboard-warning-lights-chart`（富链卡片）  
+**动机：** 发现时为 **未答题**；与 #22（how to act）/#24（signs）/#25（identify）错开，偏 color+shape 总览 + printable with pictures。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Most dashboard warning lights share one rule: color first, then shape.
+
+• Red = urgent — oil can (oil pressure), thermometer (overheat), circle with ! / BRAKE, battery while driving.
+• Amber/yellow = inspect soon — check engine outline, horseshoe/TPMS, ABS, car with squiggly lines (traction), fuel pump (low fuel), gear/AT (transmission).
+• Green/blue = usually a feature is on (signals, beams, cruise) — not a fault.
+
+Quick process when one appears:
+1. Ignore lights that only flash during the key-on bulb check and go out.
+2. Match the icon against a picture chart (oil can ≠ fuel pump ≠ horseshoe).
+3. Red + weird noise/steam/soft pedal → stop safely.
+
+I keep a printable chart with pictures of the common symbols here:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Which light is on for you — red or amber — and what shape is it?
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-24）。
 
 ---
 

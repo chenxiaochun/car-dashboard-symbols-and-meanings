@@ -5,6 +5,27 @@
 
 ---
 
+## 2026-11-03
+
+### seo — GSC 自查 + Quora #26 ✅ 已发（链图页）+ 变速箱 yellow 词
+
+**全站 28d：** **234 / 4.97万 / 0.5% / 7.8**（↑ 11-02：225 / 4.93万）  
+**全站 7d：** **63 / 1.19万 / 0.5% / 7.4**（↑61；排名 7.5→**7.4**）  
+数据约至 **10/31**，上次更新约 6 小时前。
+
+**图页 7d：** **23/774** 仍第一 · TC 18 · TPMS 9 · 低油 2/2506 · 变速箱 2/585  
+**词：** visual reference **10/34**（回升）；`low fuel level` 7d **0/104** · 28d **0/333 · 排名 8.9**  
+**10 月月报：** 点 243 / 展 53.8K；图页 **+31** 增速第一；visual reference **27** 点击为月最佳词
+
+**Quora #26：** ✅ 未答题「What do the different dashboard warning lights mean?」→ 图页  
+https://www.quora.com/What-do-the-different-dashboard-warning-lights-mean/answer/Chen-Xiaochun
+
+**站内：** 变速箱页补 yellow transmission warning light symbol section + FAQ + meta（对齐 GSC 破 0 词）  
+**结论：** 图页继续押；低油 title 仍观察到 ~11-09（精确词已在 ~P9）；部署后 IndexNow 变速箱 URL。  
+**文件：** `lib/guides.ts` · `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-02
 
 ### docs — GSC 冲刺收官 + Quora #25 ✅ 已发（链图页）
