@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 
 const siteLastModified = new Date("2026-10-26");
 const aboutLastModified = new Date("2026-07-19");
-const chartLastModified = new Date("2026-10-26");
+const chartLastModified = new Date("2026-11-04");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

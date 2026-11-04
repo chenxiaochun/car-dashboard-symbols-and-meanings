@@ -34,6 +34,24 @@ export const metadata: Metadata = {
   }
 };
 
+const chartFaqs = [
+  {
+    question: "Where can I find a visual reference guide for common dashboard car warning lights?",
+    answer:
+      "Use a printable chart that groups icons by color (red, amber, green, blue) with a simple picture of each symbol, the plain-English meaning, and whether you can usually keep driving. Match shape first, then color urgency, then open a linked guide or your owner’s manual for your make and year."
+  },
+  {
+    question: "What does car dashboard symbols and meanings with pictures mean?",
+    answer:
+      "It means a picture-based chart of common cluster icons — oil can, fuel pump, horseshoe (TPMS), engine outline, battery, circle with ! — so you can match what you see without reading a full repair manual first. Pictures are shape + color clues; confirm exact artwork in the owner’s manual."
+  },
+  {
+    question: "Is there a printable dashboard warning lights chart?",
+    answer:
+      "Yes. Print a one-page chart for the glovebox or driving school handouts: match the icon, note red vs amber urgency, then decide whether to stop or drive gently to a shop. Use Print chart on the page for a clean printer-friendly layout."
+  }
+] as const;
+
 const chartJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -42,12 +60,25 @@ const chartJsonLd = {
     "Car dashboard symbols and meanings with pictures: a printable visual identification chart by color, meaning, and urgency.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-10-26",
+  dateModified: "2026-11-04",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
     url: SITE_URL
   }
+};
+
+const chartFaqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: chartFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer
+    }
+  }))
 };
 
 export default function DashboardWarningLightsChartPage() {
@@ -59,6 +90,7 @@ export default function DashboardWarningLightsChartPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chartJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chartFaqJsonLd) }} />
       <header className="article-header chart-header">
         <Link className="back-link" href="/">
           Back to {SITE_NAME}
@@ -74,7 +106,7 @@ export default function DashboardWarningLightsChartPage() {
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: October 26, 2026.</p>
+        <p className="updated-note">Last updated: November 4, 2026.</p>
       </header>
 
       <main className="article-body">
@@ -244,6 +276,16 @@ export default function DashboardWarningLightsChartPage() {
               or a qualified mechanic.
             </p>
           </div>
+        </section>
+
+        <section className="content-section faq-section">
+          <h2>Dashboard warning lights chart FAQ</h2>
+          {chartFaqs.map((faq) => (
+            <details key={faq.question}>
+              <summary>{faq.question}</summary>
+              <p>{faq.answer}</p>
+            </details>
+          ))}
         </section>
 
         <p className="disclaimer">

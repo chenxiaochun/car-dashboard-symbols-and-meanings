@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-11-04
+
+### seo — GSC 自查 + 图页 FAQ schema + Quora #27 ✅ 已发
+
+**全站 28d：** **242 / 5万 / 0.5% / 7.8**（↑ 11-03：234 / 4.97万）  
+**全站 7d：** **62 / 1.22万 / 0.5% / 7.3**（≈63；排名 7.4→**7.3**）  
+数据约至 **11/01**，上次更新约 6.5 小时前。
+
+**图页 7d：** **23/816** 仍第一 · TC 19 · TPMS 5 · 低油 **4**/2476 · 变速箱 **4**/600  
+**词：** visual reference **11/37**；`fuel level low meaning` **1/6** 破 0 🎉；`low fuel level` 7d 0/102 · 28d **0/343 · 排名 8.8**（↑略）
+
+**站内：** 图页加 FAQ + FAQPage JSON-LD（visual reference / with pictures / printable）；dateModified + sitemap → 11-04  
+**Quora #27：** ✅ signs on a car dashboard → 图页  
+https://www.quora.com/What-are-the-signs-on-a-car-dashboard/answer/Chen-Xiaochun
+
+**结论：** 图页继续押；低油 FAQ 开始兑现变体词，精确词 title 仍观察到 ~11-09。部署后 IndexNow 图页。  
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts` · `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-03
 
 ### seo — GSC 自查 + Quora #26 ✅ 已发（链图页）+ 变速箱 yellow 词

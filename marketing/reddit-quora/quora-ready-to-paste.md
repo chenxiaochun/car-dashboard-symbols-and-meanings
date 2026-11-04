@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-03）：** #1–3、#5–26 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-04）：** #1–3、#5–27 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **27** | what are the signs on a car dashboard | ✅ **2026-11-04 已发** |
 | **26** | what do the different dashboard warning lights mean（未答题） | ✅ **2026-11-03 已发** |
 | **25** | how to identify unknown dashboard symbol | ✅ **2026-11-02 已发** |
 | **24** | meanings of different dashboard signs | ✅ **2026-10-30 已发** |
@@ -34,6 +35,45 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣7️⃣ signs on a car dashboard ✅ 已发（2026-11-04）
+
+**问题：** What are the signs on a car dashboard?  
+**链接：** https://www.quora.com/What-are-the-signs-on-a-car-dashboard  
+**答案：** https://www.quora.com/What-are-the-signs-on-a-car-dashboard/answer/Chen-Xiaochun  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 仅 2 条 6 年前薄答；与 #24（meanings of different signs）/#26（warning lights mean）错开，列常见形状 + printable with pictures。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Dashboard “signs” are mostly warning and status icons — there isn’t one universal set, but most cars share the same shapes and a color code:
+
+Common warning shapes
+• Oil can = oil pressure (usually red — stop safely)
+• Fuel pump = low fuel (amber)
+• Horseshoe with ! = TPMS / tire pressure (amber)
+• Engine outline = check engine (amber)
+• Circle with ! / BRAKE = brakes (often red)
+• Battery = charging system
+• Thermometer = coolant overheat
+• Car with squiggly lines = traction / stability
+• Gear / AT = transmission warning
+
+Color first: red = urgent; amber = inspect soon; green/blue = often just a feature on.
+
+If you want a printable chart with pictures to match what you see:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Which sign lit up — and is it red or amber?
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-25）。下一候选：horseshoe symbol（TPMS 周点回落时可发）。
 
 ---
 
