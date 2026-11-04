@@ -7,6 +7,15 @@
 
 ## 2026-11-04
 
+### content — 图页 / 低油 / TPMS 轻补（对齐 GSC 词）
+
+- **图页：** 「How to match a light against the chart」三步；FAQ 补 `car dashboard lights meaning with pictures`
+- **低油：** section + FAQ 贴 `fuel level low meaning`（**不改 title**）
+- **TPMS：** 「Horseshoe symbol on the dashboard」+ FAQ `horseshoe symbol on dashboard`
+
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `lib/guides.ts`  
+**备注：** 部署后 IndexNow 三 URL；低油精确词 title 仍观察到 ~11-09。
+
 ### seo — GSC 自查 + 图页 FAQ schema + Quora #27 ✅ 已发
 
 **全站 28d：** **242 / 5万 / 0.5% / 7.8**（↑ 11-03：234 / 4.97万）  

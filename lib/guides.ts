@@ -569,6 +569,11 @@ export const guides: SymbolGuide[] = [
           "The tire pressure monitoring system (TPMS) warns when a tire falls below a set threshold or when a sensor stops reporting believable data. On most dashboards the icon looks like a horseshoe, U-shape, or flat tire outline with an exclamation mark in the center — drivers often search for it as the horseshoe light or tyre pressure symbol. Low pressure reduces grip, wears tires faster, and can overheat a tire at highway speed. The light is usually amber or yellow, not red, but you should still check pressures before continuing."
       },
       {
+        title: "Horseshoe symbol on the dashboard",
+        body:
+          "A horseshoe symbol on the dashboard (also described as a U-shape or flat-tire outline with !) is almost always the TPMS tire-pressure warning — amber or yellow, not the red brake circle with !. Match the open U / horseshoe shape first; if you see a full circle with ! or BRAKE text in red, that is the brake system, not tires. When the horseshoe light is on, check cold pressures with a gauge and inflate to the door-jamb placard before assuming a sensor fault."
+      },
+      {
         title: "Flashing vs steady TPMS light",
         body:
           "A steady TPMS light after you have been driving usually means low pressure on one or more tires — including a slow leak or pressure that dropped overnight in cold weather. A TPMS icon that flashes for about 60–90 seconds when you start the car, then stays on solid, often indicates a system or sensor fault rather than a simple low-air event. Some cars also flash briefly during the self-check, then turn off if all sensors read correctly. If yours flashes every startup and never clears, plan on checking pressures first, then scanning for TPMS codes or inspecting sensors."
@@ -622,6 +627,11 @@ export const guides: SymbolGuide[] = [
         question: "What does the horseshoe symbol on the dashboard mean?",
         answer:
           "It is usually the tire pressure monitoring system (TPMS). The horseshoe or U-shape with an exclamation mark means a tire may be low or a sensor fault was detected. Check cold pressures with a gauge and inflate to the door jamb placard value."
+      },
+      {
+        question: "What does horseshoe symbol on dashboard mean?",
+        answer:
+          "Horseshoe symbol on dashboard = TPMS (tire pressure). Amber horseshoe / U-shape with ! means check tire pressures; it is not the red brake circle with !. Inflate to the door-jamb placard when tires are cold. If pressures are correct and the light flashes every startup, suspect a sensor fault."
       },
       {
         question: "Why does my TPMS light flash then stay on?",
@@ -1048,6 +1058,11 @@ export const guides: SymbolGuide[] = [
         body: "Low fuel level (sometimes worded as “fuel level low” in the cluster message) means the sender estimates the tank is near reserve. It is an amber fuel-pump symbol on most cars — not a red stop-now light. Plan to refuel at the next safe station; do not treat the last miles as guaranteed. If the pump light stays on after a full fill, the fuel-level sender or cluster may be faulty."
       },
       {
+        title: "What does fuel level low meaning on the dashboard?",
+        body:
+          "Fuel level low meaning is the same warning as low fuel level: the cluster estimates the tank is near reserve. You will usually see an amber fuel-pump icon, sometimes with a short message such as “Fuel level low.” It is not the oil-can light and not a red stop-now fault. Refuel at the next safe station; remaining range is an estimate, not a guarantee. If the message or pump light stays on after a full fill, have the fuel-level sender checked."
+      },
+      {
         title: "Which symbol warns that you are low on fuel?",
         body: "The low fuel warning is the fuel-pump (gas-station pump) icon on the dashboard, almost always amber or yellow — not red. Many clusters also place a small triangle on the left or right of the pump to show which side the filler door is on. It is not the oil-can light (engine oil) and not the check-engine light. If you are looking at a chart of dashboard symbols, the pump icon is the one that means refuel soon."
       },
@@ -1089,6 +1104,11 @@ export const guides: SymbolGuide[] = [
         question: "What does fuel level low mean on the dashboard?",
         answer:
           "“Fuel level low” is the same idea as the low fuel warning: estimated fuel is low. Match the fuel-pump symbol (not the oil can). Drive carefully to the next station and fill up. If it stays on after a full tank, check the fuel-level sender."
+      },
+      {
+        question: "What does fuel level low meaning on the dashboard?",
+        answer:
+          "Fuel level low meaning on the dashboard = the tank is near reserve. On most cars that shows as an amber fuel-pump light or a “fuel level low” cluster message. Refuel soon; do not treat the last miles as guaranteed. If it stays on after you fill up, the fuel-level sender may be faulty."
       },
       {
         question: "Which symbol warns that you are low on fuel?",

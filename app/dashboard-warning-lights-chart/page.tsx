@@ -49,6 +49,11 @@ const chartFaqs = [
     question: "Is there a printable dashboard warning lights chart?",
     answer:
       "Yes. Print a one-page chart for the glovebox or driving school handouts: match the icon, note red vs amber urgency, then decide whether to stop or drive gently to a shop. Use Print chart on the page for a clean printer-friendly layout."
+  },
+  {
+    question: "Where can I find car dashboard lights meaning with pictures?",
+    answer:
+      "Use a visual chart that pairs each common warning light with a simplified picture, color, and short meaning. Match the shape you see on the cluster, note whether it is red or amber, then open the linked guide for first checks — confirm exact artwork in your owner’s manual for your make and year."
   }
 ] as const;
 
@@ -146,6 +151,32 @@ export default function DashboardWarningLightsChartPage() {
             <p>
               <strong>3. Use Print chart:</strong> keep a one-page copy in the glovebox for roadside checks when you
               have no signal.
+            </p>
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="content-intro">
+            <p className="eyebrow">Quick method</p>
+            <h2>How to match a light against the chart</h2>
+            <p>
+              When a light stays on after the key-on bulb check, use the chart as a visual comparison — not as a
+              diagnosis. Work in this order so you do not confuse look-alike icons (oil can vs fuel pump, horseshoe vs
+              brake circle).
+            </p>
+          </div>
+          <div className="check-list">
+            <p>
+              <strong>1. Color first:</strong> red means treat as urgent; amber means inspect soon; green or blue is
+              often just a feature that is on.
+            </p>
+            <p>
+              <strong>2. Shape next:</strong> find the closest picture in the chart below — oil can, fuel pump,
+              horseshoe, engine outline, battery, thermometer, or circle with !.
+            </p>
+            <p>
+              <strong>3. Open the linked guide:</strong> each row links to first checks and common causes. Confirm the
+              exact icon in your owner&apos;s manual for your make and year before you decide to keep driving.
             </p>
           </div>
         </section>
