@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-04）：** #1–3、#5–27 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-06）：** #1–3、#5–28 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **28** | horse shoe / horseshoe symbol on dashboard（TPMS） | ✅ **2026-11-06 已发** |
 | **27** | what are the signs on a car dashboard | ✅ **2026-11-04 已发** |
 | **26** | what do the different dashboard warning lights mean（未答题） | ✅ **2026-11-03 已发** |
 | **25** | how to identify unknown dashboard symbol | ✅ **2026-11-02 已发** |
@@ -35,6 +36,38 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣8️⃣ horse shoe / horseshoe TPMS ✅ 已发（2026-11-06）
+
+**问题：** What does the horse shoe symbol light on your car’s dashboard mean?  
+**链接：** https://www.quora.com/What-does-the-horse-shoe-symbol-light-on-your-car-s-dashboard-mean  
+**答案：** https://www.quora.com/What-does-the-horse-shoe-symbol-light-on-your-car-s-dashboard-mean/answer/Chen-Xiaochun  
+**链到：** `tire-pressure-warning-light`  
+**动机：** 11-06 GSC — `horseshoe symbol on dashboard` **1/6**；TPMS 周点回落；与刹车圈感叹号区分。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+That “horseshoe” (U-shape with !) is almost always TPMS — tire pressure monitoring. Usually amber/yellow, not the red brake circle with !.
+
+What to do:
+1. Check all four tires cold with a gauge — don’t trust the light alone.
+2. Inflate to the PSI on the driver’s door jamb placard (not the max molded on the tire sidewall).
+3. Drive a few minutes; many systems clear after pressure registers.
+4. If it flashes about 60–90 seconds every startup then stays on, and pressures are correct → often a sensor fault.
+
+It’s a slice-of-tire icon, not a brake warning.
+
+More on the horseshoe / TPMS light:
+https://warninglightfinder.com/symbols/tire-pressure-warning-light/
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-27）。#29 建议回推图页（what does this light mean → chart / Pin 8）。
 
 ---
 

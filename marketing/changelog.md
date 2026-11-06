@@ -5,6 +5,25 @@
 
 ---
 
+## 2026-11-06
+
+### seo — GSC 自查 + Quora #28 ✅ 已发（horseshoe → TPMS）
+
+**全站 28d：** **245 / 5.11万 / 0.5% / 7.9**（↑ 11-04：242 / 5万；排名略回 7.8→7.9）  
+**全站 7d：** **63 / 1.3万 / 0.5% / 7.5**（展↑1.22万→**1.3万**；排名 7.3→7.5）  
+数据约至 **11/03**，上次更新约 4 小时前。
+
+**页面 7d：** TC **27**/5,147 反超第一 · 图页 **18**/847 · 刹车 3 · 变速箱 3 · TPMS 3 · 低油 2/2,419  
+**词：** with pictures **2/134** · horseshoe symbol **1/6** · fuel level low meaning **1/4** · `low fuel level` 0/105 · 28d **0/355 · 排名 8.8**
+
+**Quora #28：** ✅ horse shoe symbol → TPMS  
+https://www.quora.com/What-does-the-horse-shoe-symbol-light-on-your-car-s-dashboard-mean/answer/Chen-Xiaochun
+
+**结论：** 展在涨；图页周点回落需续推（#29 可押「what does this light mean」→ 图页 / Pin 8）；低油 title 仍观察到 **~11-09**。  
+**文件：** `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-04
 
 ### content — 图页 / 低油 / TPMS 轻补（对齐 GSC 词）
