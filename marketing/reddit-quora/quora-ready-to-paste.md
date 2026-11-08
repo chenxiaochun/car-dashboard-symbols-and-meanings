@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-06）：** #1–3、#5–28 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-08）：** #1–3、#5–29 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **29** | warning light on dash / CEL blow up？（图页） | ✅ **2026-11-08 已发** |
 | **28** | horse shoe / horseshoe symbol on dashboard（TPMS） | ✅ **2026-11-06 已发** |
 | **27** | what are the signs on a car dashboard | ✅ **2026-11-04 已发** |
 | **26** | what do the different dashboard warning lights mean（未答题） | ✅ **2026-11-03 已发** |
@@ -36,6 +37,39 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 2️⃣9️⃣ warning light on dash / CEL ✅ 已发（2026-11-08）
+
+**问题：** What does the warning light on my dash mean? What does it mean if the check engine light is on? Is my car going to blow up?  
+**链接：** https://www.quora.com/What-does-the-warning-light-on-my-dash-mean-What-does-it-mean-if-the-check-engine-light-is-on-Is-my-car-going-to-blow-up  
+**答案：** https://www.quora.com/What-does-the-warning-light-on-my-dash-mean-What-does-it-mean-if-the-check-engine-light-is-on-Is-my-car-going-to-blow-up/answer/Chen-Xiaochun  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 11-08 GSC — `what does this light mean on my car` **1/3**；图页周点回升续推；未答题。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+No — a dash warning light almost never means the car will “blow up.” Color and shape tell you how urgent it is.
+
+Quick read:
+• Red (oil can, brake ! in a circle, battery, temp) = stop safely soon — don’t keep driving hard.
+• Amber/yellow (engine outline = check engine, horseshoe/TPMS, ABS, fuel pump, traction squiggles) = get it checked, but usually not an immediate roadside emergency if the car still drives normally.
+• Flashing check-engine = more urgent than a steady one (often misfire) — ease off and get a scan.
+
+Check engine specifically: the computer stored a fault code. It can be a loose gas cap or something that needs a shop. An OBD-II reader (parts-store loaners often work) tells you which code — guessing from the light alone isn’t enough.
+
+If you don’t recognize the icon, match shape + color on a picture chart instead of reading every manual page.
+
+Picture chart of common dashboard warning lights:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~11-29）。低油 title 已贴 `Low Fuel Level`；部署后 IndexNow。
 
 ---
 
@@ -67,7 +101,7 @@ https://warninglightfinder.com/symbols/tire-pressure-warning-light/
 
 </details>
 
-**备注：** 观察约 1–3 周（至 ~11-27）。#29 建议回推图页（what does this light mean → chart / Pin 8）。
+**备注：** 观察约 1–3 周（至 ~11-27）。#29 ✅ 已发（11-08 → 图页）。
 
 ---
 

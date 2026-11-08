@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-11-08
+
+### seo — GSC 自查 + Quora #29 ✅（图页）+ 低油 title 贴 `low fuel level`
+
+**全站 28d：** **250 / 5.23万 / 0.5% / 7.9**（↑ 11-06：245 / 5.11万）  
+**全站 7d：** **72 / 1.46万 / 0.5% / 7.8**（↑63 / ↑1.3万；排名 7.5→**7.8**）  
+数据约至 **11/06**，上次更新约 3 小时前。
+
+**页面 7d：** TC **23**/6,268 · 图页 **19**/962（回升）· 变速箱 **6**/603 · 气囊 **6**/516 · TPMS **5**/1,216 · 刹车 **5**/556 · 油压 3 · 低油 **2**/2,234  
+**词 7d：** with pictures **2/225** · horseshoe **1/7** · what does this light mean **1/3** · fuel level low meaning **1/3** · `low fuel level` **0/73** · 28d **0/331 · 排名 8.8**
+
+**站内：** 低油 title → `Low Fuel Level Light (Fuel Pump Symbol) — How Far Can You Drive?`（观察窗 ~11-09，FAQ 未破精确词 CTR）· sitemap `siteLastModified` → 2026-11-08  
+**Quora #29：** ✅ warning light on dash / CEL → 图页  
+https://www.quora.com/What-does-the-warning-light-on-my-dash-mean-What-does-it-mean-if-the-check-engine-light-is-on-Is-my-car-going-to-blow-up/answer/Chen-Xiaochun
+
+**结论：** 展+点周窗回升；图页继续押；气囊周点抬升可观察；部署后 IndexNow 低油 URL。  
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-06
 
 ### seo — GSC 自查 + Quora #28 ✅ 已发（horseshoe → TPMS）

@@ -1038,9 +1038,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "low-fuel-warning-light",
     symbolSlug: "low-fuel-warning",
-    title: "Low Fuel Light (Fuel Pump Symbol) — How Far Can You Drive?",
+    title: "Low Fuel Level Light (Fuel Pump Symbol) — How Far Can You Drive?",
     metaDescription:
-      "Low fuel level light = amber fuel-pump icon. How far you may still drive, what the symbol looks like, and what to do before the tank runs dry.",
+      "Low fuel level meaning: amber fuel-pump icon when the tank is near reserve. How far you may still drive, what the symbol looks like, and what to do before it runs dry.",
     eyebrow: "Fuel warning",
     h1: "Low Fuel Warning Light Meaning",
     summary:
