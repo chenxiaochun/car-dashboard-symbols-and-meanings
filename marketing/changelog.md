@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-11-12
+
+### seo — GSC 自查 + 冷却液 CTR/FAQ + Quora #30 ✅
+
+**全站 28d：** **257 / 5.38万 / 0.5% / 7.9**（↑ 11-08：250 / 5.23万）  
+**全站 7d：** **57 / 1.52万 / 0.4% / 8.2**（点↓72→57；展↑；排名 7.8→8.2）  
+数据约至 **11/10**，上次更新约 5 小时前。
+
+**页面 7d：** 图页 **16**/1,073（回第一）· TC **13**/6,300 · TPMS **7**/1,351 · 气囊 **6**/650 · 变速箱 5 · 刹车 4 · 油压 3 · 低油 **1**/2,193 · **冷却液 0/649 · 均排 23.5**  
+**词 7d：** with pictures **3/241** · lights meaning with pictures **2/73** · low fuel indicator light **1/7** · `low fuel level` 0/49 · 28d **0/314@8.8**
+
+**站内：** 冷却液 title/meta 贴 thermometer / antifreeze / engine coolant symbol；FAQ 补两条；sitemap → 2026-11-12  
+**Quora #30：** ✅ overheating if coolant light stays on → 冷却液页  
+https://www.quora.com/What-are-the-consequences-of-a-car-overheating-if-the-coolant-light-stays-on/answer/Chen-Xiaochun
+
+**结论：** 图页展续涨但周点回落；冷却液高展零点优先补；低油 title 仍观察（变体 indicator 已破 0）；部署后 IndexNow 冷却液。  
+**文件：** `lib/guides.ts` · `app/sitemap.ts` · `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-08
 
 ### seo — GSC 自查 + Quora #29 ✅（图页）+ 低油 title 贴 `low fuel level`

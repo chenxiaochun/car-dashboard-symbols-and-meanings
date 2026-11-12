@@ -860,13 +860,13 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "coolant-temperature-warning-light",
     symbolSlug: "coolant-temperature-warning",
-    title: "Coolant Temperature Warning Light: Overheating Guide",
+    title: "Coolant Temperature Warning Light Meaning — Thermometer Symbol & When to Stop",
     metaDescription:
-      "Learn what the coolant temperature warning light means, whether you can keep driving, what to check first, and how to avoid engine damage from overheating.",
+      "Coolant warning light / engine coolant symbol (thermometer) usually means overheating risk. Stop safely, cool down, check level — antifreeze light tips included.",
     eyebrow: "Red engine warning",
     h1: "Coolant Temperature Warning Light Meaning",
     summary:
-      "The coolant temperature warning light means the engine may be overheating — or, on some cars, that coolant level is low. Stop safely, let the engine cool, and check level only when it is safe. A light that comes on and off still deserves a cooling-system check.",
+      "The coolant temperature warning light (thermometer / engine coolant symbol) means the engine may be overheating — or, on some cars, that coolant level is low. Drivers also call it the antifreeze light. Stop safely, let the engine cool, and check level only when it is safe. A light that comes on and off still deserves a cooling-system check.",
     colorText: "Red",
     canDriveText: "No. Stop safely.",
     urgency: "High",
@@ -919,6 +919,16 @@ export const guides: SymbolGuide[] = [
         question: "What does the engine coolant temperature light mean?",
         answer:
           "It is an overheating / cooling-system warning. A steady red temperature light while driving means pull over safely, shut the engine off, and let it cool before opening anything in the cooling system. Continuing to drive can damage the head gasket or warp the head within minutes."
+      },
+      {
+        question: "What does the engine coolant symbol on the dashboard mean?",
+        answer:
+          "The engine coolant symbol is usually a thermometer in liquid (or a similar temperature icon). It means the cooling system thinks temperature is too high or — on some cars with a separate reservoir icon — coolant level is low. Treat a red thermometer while driving as stop-safely-soon, not finish-the-trip."
+      },
+      {
+        question: "What does an antifreeze light on the dash mean?",
+        answer:
+          "“Antifreeze light” is a common name for the coolant / temperature warning. Antifreeze is the coolant mix; the light is about cooling-system temperature or level, not a separate fluid brand. Stop safely, let the engine cool, then check the reservoir when cool. If steam appears or the gauge is in the red, tow rather than limp home."
       },
       {
         question: "Can I keep driving with the coolant light on?",

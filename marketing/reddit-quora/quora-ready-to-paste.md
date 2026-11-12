@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-08）：** #1–3、#5–29 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-12）：** #1–3、#5–30 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **30** | overheating if coolant light stays on | ✅ **2026-11-12 已发** |
 | **29** | warning light on dash / CEL blow up？（图页） | ✅ **2026-11-08 已发** |
 | **28** | horse shoe / horseshoe symbol on dashboard（TPMS） | ✅ **2026-11-06 已发** |
 | **27** | what are the signs on a car dashboard | ✅ **2026-11-04 已发** |
@@ -37,6 +38,45 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 3️⃣0️⃣ coolant light stays on / overheating ✅ 已发（2026-11-12）
+
+**问题：** What are the consequences of a car overheating if the coolant light stays on?  
+**链接：** https://www.quora.com/What-are-the-consequences-of-a-car-overheating-if-the-coolant-light-stays-on  
+**答案：** https://www.quora.com/What-are-the-consequences-of-a-car-overheating-if-the-coolant-light-stays-on/answer/Chen-Xiaochun  
+**链到：** `coolant-temperature-warning-light`  
+**动机：** 11-12 GSC — 冷却液 7d **0/649 · 均排 23.5**；词含 antifreeze / engine coolant symbol；未答题。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+If the coolant / temperature light stays on while you’re driving, the engine is telling you it’s too hot (or, on some cars, coolant level is critically low). Keep going and damage can escalate fast.
+
+Likely consequences of ignoring it:
+• Warped cylinder head
+• Blown / leaking head gasket
+• Seized engine in the worst cases
+• Coolant boil-over / steam under the hood (burn risk if you open the cap hot)
+
+What to do instead:
+1. Pull over safely and shut the engine off.
+2. Wait 15–30+ minutes before touching the radiator/reservoir cap.
+3. Look for steam, sweet smell, or puddles under the car.
+4. Check reservoir level only when cool; top up with the correct mix if needed.
+5. If the light returns, the gauge is in the red, or you see steam — tow, don’t limp many miles.
+
+A short move out of a live lane is one thing; finishing a highway trip with a red thermometer light is how expensive engines get made.
+
+More on the coolant temperature / antifreeze warning light:
+https://warninglightfinder.com/symbols/coolant-temperature-warning-light/
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~12-03）。#31 可回推图页（with pictures / Pin 8）。
 
 ---
 
