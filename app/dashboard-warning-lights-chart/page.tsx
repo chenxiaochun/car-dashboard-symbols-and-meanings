@@ -65,7 +65,7 @@ const chartJsonLd = {
     "Car dashboard symbols and meanings with pictures: a printable visual identification chart by color, meaning, and urgency.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-11-04",
+  dateModified: "2026-11-16",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -111,7 +111,7 @@ export default function DashboardWarningLightsChartPage() {
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: November 4, 2026.</p>
+        <p className="updated-note">Last updated: November 16, 2026.</p>
       </header>
 
       <main className="article-body">

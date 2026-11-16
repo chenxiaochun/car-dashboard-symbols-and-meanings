@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-12）：** #1–3、#5–30 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-16）：** #1–3、#5–31 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **31** | why warning lights are pictures not words（图页） | ✅ **2026-11-16 已发** |
 | **30** | overheating if coolant light stays on | ✅ **2026-11-12 已发** |
 | **29** | warning light on dash / CEL blow up？（图页） | ✅ **2026-11-08 已发** |
 | **28** | horse shoe / horseshoe symbol on dashboard（TPMS） | ✅ **2026-11-06 已发** |
@@ -38,6 +39,36 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 3️⃣1️⃣ why pictures not words ✅ 已发（2026-11-16）
+
+**问题：** Why are car warning lights pictures and not words?  
+**链接：** https://www.quora.com/Why-are-car-warning-lights-pictures-and-not-words  
+**答案：** https://www.quora.com/Why-are-car-warning-lights-pictures-and-not-words/answer/Chen-Xiaochun  
+**链到：** `dashboard-warning-lights-chart`  
+**动机：** 11-16 GSC — `with pictures` **5/226** · lights meaning with pictures **2/95**；图页展↑；与 #23–#29 错开讲「为何用图」。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Mostly language + speed.
+
+One instrument cluster ships worldwide. Words would need dozens of translations, different string lengths, and more tooling. ISO-style icons (oil can, fuel pump, horseshoe/TPMS, thermometer, circle with !) travel across markets.
+
+Pictures also read faster at a glance while you’re driving. Color carries urgency: red ≈ stop/check soon; amber ≈ inspect soon; green/blue ≈ info.
+
+Downside: if you never learned the icons, a “picture” is still gibberish. That’s why people search car dashboard symbols and meanings with pictures — match shape + color on a chart, then confirm in the owner’s manual for your make/year.
+
+Printable chart of common dashboard warning lights with pictures:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~12-07）。低油精确词继续观察到 ~11-22；下次可 Pin 8 或动力转向。
 
 ---
 
@@ -76,7 +107,7 @@ https://warninglightfinder.com/symbols/coolant-temperature-warning-light/
 
 </details>
 
-**备注：** 观察约 1–3 周（至 ~12-03）。#31 可回推图页（with pictures / Pin 8）。
+**备注：** 观察约 1–3 周（至 ~12-03）。#31 ✅ 已发（11-16 → 图页 with pictures）。
 
 ---
 

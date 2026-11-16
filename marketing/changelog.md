@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-11-16
+
+### seo — GSC 自查 + 图页日期刷新 + Quora #31 ✅（with pictures）
+
+**全站 28d：** **262 / 5.52万 / 0.5% / 7.9**（↑ 11-12：257 / 5.38万）  
+**全站 7d：** **62 / 1.56万 / 0.4% / 8.2**（↑57；展↑）  
+数据约至 **11/13**，上次更新约 3.5 小时前。
+
+**页面 7d：** TC **19**/5,977 · 图页 **17**/1,290（展↑）· TPMS 6 · **低油 4**/2,253（↑1）· 变速箱 4 · 刹车 3 · 动力转向 **2**/448 · 气囊 1 · **冷却液 1**/589（破 0）  
+**词 7d：** with pictures **5/226** · lights meaning with pictures **2/95** · low fuel warning **1/35** · tyre pressure symbol **1/22** · steering wheel with ! **1/3** · `low fuel level` 28d **0/316@8.9**
+
+**站内：** 图页 `dateModified` / Last updated / sitemap chart → **2026-11-16**  
+**Quora #31：** ✅ why pictures not words → 图页（贴 with pictures）  
+https://www.quora.com/Why-are-car-warning-lights-pictures-and-not-words/answer/Chen-Xiaochun
+
+**结论：** 低油/冷却液变体兑现；图页展继续涨；精确 `low fuel level` 仍观察至 ~11-22；部署后 IndexNow 图页。  
+**文件：** `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts` · `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-12
 
 ### seo — GSC 自查 + 冷却液 CTR/FAQ + Quora #30 ✅

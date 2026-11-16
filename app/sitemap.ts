@@ -5,9 +5,9 @@ import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const siteLastModified = new Date("2026-11-12");
+const siteLastModified = new Date("2026-11-16");
 const aboutLastModified = new Date("2026-07-19");
-const chartLastModified = new Date("2026-11-04");
+const chartLastModified = new Date("2026-11-16");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
