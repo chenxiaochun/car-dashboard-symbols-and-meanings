@@ -10,7 +10,7 @@
 > **11-06：** Quora #28 horseshoe→TPMS；图页周点回落，#29 回推图页。  
 > **11-08：** Quora #29 → 图页；低油 title 贴 `Low Fuel Level`。  
 > **11-12：** 冷却液 title/FAQ + Quora #30；图页周点回落但回第一。  
-> **11-16：** Quora #31 with pictures → 图页；低油/冷却液周点回升。
+> **11-16：** Quora #31 with pictures → 图页；低油/冷却液周点回升；动力转向/图页/冷却液轻补。
 
 ## 一周日程
 

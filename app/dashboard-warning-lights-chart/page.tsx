@@ -54,6 +54,11 @@ const chartFaqs = [
     question: "Where can I find car dashboard lights meaning with pictures?",
     answer:
       "Use a visual chart that pairs each common warning light with a simplified picture, color, and short meaning. Match the shape you see on the cluster, note whether it is red or amber, then open the linked guide for first checks — confirm exact artwork in your owner’s manual for your make and year."
+  },
+  {
+    question: "Why are car warning lights pictures and not words?",
+    answer:
+      "Clusters ship worldwide: one ISO-style icon (oil can, fuel pump, horseshoe, thermometer, circle with !) avoids dozens of translations and fits a small dial. Pictures also read faster while driving; color carries urgency (red vs amber). The downside is unfamiliar icons — use a chart with pictures to match shape and color, then confirm in your owner’s manual."
   }
 ] as const;
 
@@ -279,6 +284,34 @@ export default function DashboardWarningLightsChartPage() {
               <strong>Brake system (red circle with !):</strong> Full circle with an exclamation mark, or the word
               BRAKE — not the horseshoe. Full guide:{" "}
               <Link href="/symbols/brake-warning-light/">brake warning light</Link>.
+            </p>
+            <p>
+              <strong>Power steering (steering wheel with !):</strong> Wheel outline with an exclamation mark (sometimes
+              a short line on the wheel) — assist may be heavy; not the brake circle. Full guide:{" "}
+              <Link href="/symbols/power-steering-warning-light/">power steering warning light</Link>.
+            </p>
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="content-intro">
+            <p className="eyebrow">Why icons</p>
+            <h2>Why warning lights are pictures, not words</h2>
+            <p>
+              Car makers use picture symbols so one instrument cluster can ship worldwide. Words would need many
+              languages, different string lengths, and more tooling. ISO-style icons travel across markets, and color
+              (red / amber / green / blue) signals urgency at a glance while you drive.
+            </p>
+          </div>
+          <div className="check-list">
+            <p>
+              <strong>Trade-off:</strong> if you never learned the icons, a picture can still look like gibberish —
+              that is why people search car dashboard symbols and meanings with pictures and match shape + color on a
+              chart before opening a long repair article.
+            </p>
+            <p>
+              <strong>Next step:</strong> use the chart above for a visual match, then open the linked guide or your
+              owner&apos;s manual for your make and year.
             </p>
           </div>
         </section>

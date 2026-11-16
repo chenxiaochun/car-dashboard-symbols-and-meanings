@@ -949,6 +949,11 @@ export const guides: SymbolGuide[] = [
         question: "Why did the light come on in traffic?",
         answer:
           "Low airflow at idle, a weak fan, low coolant, or a stuck thermostat can trigger overheating in stop-and-go driving. Watch the temperature gauge; if it climbs, pull over and shut the engine off."
+      },
+      {
+        question: "What if the coolant light stays on after I add coolant?",
+        answer:
+          "Topping up the reservoir does not fix a leak, stuck thermostat, failed fan, or bad temperature sensor. If the thermometer / antifreeze light stays on (or returns within a short drive) after you add coolant when cool, stop driving if the gauge climbs or steam appears, and get the cooling system pressure-tested rather than repeatedly topping up."
       }
     ],
     related: [
@@ -1183,6 +1188,16 @@ export const guides: SymbolGuide[] = [
           "Most modern cars use electric power steering (EPS). When the cluster shows a steering-wheel icon with !, assist may be limited or disabled. You can often still drive, but parking-lot turns and low-speed maneuvers need more muscle. This is not the same as the red brake warning (circle with !) — that icon is about the brake system, not steering."
       },
       {
+        title: "Steering wheel with ! vs brake circle with !",
+        body:
+          "Drivers often mix these two “exclamation” icons. A steering-wheel outline with ! (sometimes with a short line through the wheel) is the power-steering / EPS warning — the wheel may feel heavy. A full circle with ! (or the word BRAKE) is the brake-system warning — treat that as brake-related, not assist. The amber horseshoe with ! is TPMS (tire pressure), not steering. Match shape first: wheel vs circle vs U-shape."
+      },
+      {
+        title: "Steering wheel !, ABS, and traction control together",
+        body:
+          "When the steering-wheel-with-! light comes on with ABS, traction control, or a brake warning at the same time, a shared cause is more likely than three separate failures — often low battery voltage, a weak alternator, or a ground / CAN-network glitch after a battery change. EPS, ABS, and stability modules all need stable power and a valid steering-angle signal. Test the charging system first, then scan ABS/EPS modules (an engine-only code reader may miss them)."
+      },
+      {
         title: "Electric (EPS) vs hydraulic power steering",
         body:
           "EPS cars have no traditional power-steering fluid reservoir for assist — the fault is electrical or motor/module related. Older hydraulic systems use a belt-driven pump and fluid; a slipping belt, low fluid, or pump failure can light a steering warning and make the wheel heavy. Check your owner's manual for which system you have before buying fluid."
@@ -1219,6 +1234,16 @@ export const guides: SymbolGuide[] = [
         question: "What does a steering wheel with an exclamation mark mean?",
         answer:
           "It is usually the power steering warning. Assist may be reduced. Drive carefully to a shop, especially if the wheel feels heavy. It is not the red brake circle-with-! light."
+      },
+      {
+        question: "What does a car with a line on the steering wheel mean on the dash?",
+        answer:
+          "Many clusters draw the EPS icon as a steering wheel with a short vertical or diagonal line (sometimes plus !). That still means power-steering assist may be limited — not a lane-keep icon and not the brake circle. If the wheel feels heavy, treat it as an EPS warning and check battery/charging voltage first on electric systems."
+      },
+      {
+        question: "Why would the steering wheel with exclamation, ABS, and traction control come on together?",
+        answer:
+          "Shared power or network issues are common: weak battery, charging fault, or steering-angle sensor / ABS module communication after a jump-start or battery replacement. Confirm you can still brake and steer, then test voltage and scan ABS/EPS — do not assume three unrelated parts failed at once."
       },
       {
         question: "Why is my steering heavy when the power steering light is on?",

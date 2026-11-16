@@ -7,6 +7,15 @@
 
 ## 2026-11-16
 
+### content — 动力转向 / 图页 / 冷却液轻补（对齐 GSC 词）
+
+- **动力转向：** 「steering wheel with ! vs brake」「多灯同亮」两节；FAQ 补 line-on-wheel、ABS/TC 同亮（**不改 title**）
+- **图页：** Quick match 补 EPS；「Why warning lights are pictures」+ FAQ（对齐 #31 / with pictures）
+- **冷却液：** FAQ「stays on after I add coolant」（对齐 #30）
+
+**文件：** `lib/guides.ts` · `app/dashboard-warning-lights-chart/page.tsx`  
+**备注：** 部署后 IndexNow 三 URL；低油精确词仍观察到 ~11-22。
+
 ### seo — GSC 自查 + 图页日期刷新 + Quora #31 ✅（with pictures）
 
 **全站 28d：** **262 / 5.52万 / 0.5% / 7.9**（↑ 11-12：257 / 5.38万）  
