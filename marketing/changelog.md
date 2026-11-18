@@ -5,6 +5,25 @@
 
 ---
 
+## 2026-11-18
+
+### seo — GSC 自查 + Quora #32 ✅（动力转向 / 电池→EPS）
+
+**全站 28d：** **264 / 5.63万 / 0.5% / 7.9**（↑ 11-16：262 / 5.52万）  
+**全站 7d：** **69 / 1.63万 / 0.4% / 8.2**（↑62；展↑）  
+数据约至 **11/15**，上次更新约 3.5 小时前。
+
+**页面 7d：** TC **21**/6,121 · 图页 **17**/1,396 · TPMS **7**/1,653 · **变速箱 5**/693 · 低油 **4**/2,249 · 刹车 3 · **动力转向 3**/542 · 首页 3 · **冷却液 2**/586 · 电瓶 1 · oil-level 1 · 气囊 **0**/688 · 油压 **0**/538  
+**词 7d：** with pictures **4/237** · lights meaning with pictures **2/112** · low fuel warning **1/41** · yellow transmission **1/10** · squiggly lines **1/3** · steering wheel with exclamation **1/2** · `low fuel level` 28d **0/301@8.8**（7d 0/60@9.1）
+
+**Quora #32：** ✅ battery/disconnect → power steering light（链动力转向；对齐 11-16 站内补强）  
+https://www.quora.com/What-causes-the-power-steering-warning-light-to-come-on-in-an-Audi-A4-when-the-battery-is-low-or-has-been-disconnected-Is-there-a-way-to-fix-this-issue/answer/Chen-Xiaochun
+
+**结论：** 动力转向/冷却液/变速箱周点续升；图页稳住；气囊高展零点下次可看 CTR；低油精确词仍观察至 **~11-22**。  
+**文件：** `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-16
 
 ### content — 动力转向 / 图页 / 冷却液轻补（对齐 GSC 词）
