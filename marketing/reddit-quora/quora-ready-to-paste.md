@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-18）：** #1–3、#5–32 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-20）：** #1–3、#5–33 ✅ · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **33** | oil pressure on while driving / dipstick OK（油压） | ✅ **2026-11-20 已发** |
 | **32** | battery/disconnect → power steering light（动力转向） | ✅ **2026-11-18 已发** |
 | **31** | why warning lights are pictures not words（图页） | ✅ **2026-11-16 已发** |
 | **30** | overheating if coolant light stays on | ✅ **2026-11-12 已发** |
@@ -43,6 +44,43 @@
 
 ---
 
+## 3️⃣3️⃣ oil pressure on / dipstick OK ✅ 已发（2026-11-20）
+
+**问题：** What does it mean when your car's oil pressure light comes on while driving, but there’s no sign of low oil in the car or on the dipstick?  
+**链接：** https://www.quora.com/What-does-it-mean-when-your-cars-oil-pressure-light-comes-on-while-driving-but-there-s-no-sign-of-low-oil-in-the-car-or-on-the-dipstick  
+**答案：** https://www.quora.com/What-does-it-mean-when-your-cars-oil-pressure-light-comes-on-while-driving-but-there-s-no-sign-of-low-oil-in-the-car-or-on-the-dipstick/answer/Chen-Xiaochun  
+**链到：** `oil-pressure-warning-light`  
+**动机：** 11-20 GSC — 油压 **0**/702（高展零点）；与 #5/#15/#16 错开讲「满尺仍亮 = 压力≠液位」。
+
+<details>
+<summary>已发回答（备查，勿重复发）</summary>
+
+```
+Dipstick level and oil pressure are different things.
+
+A full dipstick means there is enough oil quantity in the pan. The red oil-can / oil pressure light means measured pressure in the galleries may be too low to protect bearings. You can have “plenty of oil” and still have a real pressure problem.
+
+Treat a red oil pressure light while driving as stop-safely-soon — not keep going because the stick looks fine.
+
+Common causes when level looks OK:
+• Failing oil pump or pickup screen
+• Wrong viscosity / very thin hot oil
+• Worn bearings (pressure bleeds off)
+• Faulty oil pressure sender/switch (less urgent, but prove it with a mechanical gauge)
+• Not the amber “low oil level” reminder on some European cars — that is a different warning
+
+What to do first: pull over safely, shut the engine off, check level when cool if you have not already. If the light returns when you restart, do not limp many miles — tow and verify pressure with a gauge before assuming “just a sensor.”
+
+More on the red oil-can / oil pressure warning:
+https://warninglightfinder.com/symbols/oil-pressure-warning-light/
+```
+
+</details>
+
+**备注：** 观察约 1–3 周（至 ~12-11）。低油精确词继续观察到 ~11-22；下次可刹车 CTR 或 Pin 8。
+
+---
+
 ## 3️⃣2️⃣ battery → power steering light ✅ 已发（2026-11-18）
 
 **问题：** What causes the power steering warning light to come on in an Audi A4 when the battery is low or has been disconnected? Is there a way to fix this issue?  
@@ -73,7 +111,7 @@ https://warninglightfinder.com/symbols/power-steering-warning-light/
 
 </details>
 
-**备注：** 观察约 1–3 周（至 ~12-09）。低油精确词继续观察到 ~11-22；下次可气囊 CTR 或 Pin 8。
+**备注：** 观察约 1–3 周（至 ~12-09）。#33 ✅ 已发（11-20 → 油压）。
 
 ---
 

@@ -5,6 +5,25 @@
 
 ---
 
+## 2026-11-20
+
+### seo — GSC 自查 + Quora #33 ✅（油压 / 满尺仍亮）
+
+**全站 28d：** **277 / 5.83万 / 0.5% / 7.9**（↑ 11-18：264 / 5.63万）  
+**全站 7d：** **83 / 1.79万 / 0.5% / 8.0**（↑69；CTR↑0.4→0.5；排名↑8.2→8.0）  
+数据约至 **11/17**，上次更新约 3.5 小时前。
+
+**页面 7d：** TC **34**/6,843 · 图页 **17**/1,500 · TPMS 6 · **变速箱 6**/763 · **低油 5**/2,320 · 动力转向 3 · **气囊 2**/832（破 0）· 冷却液 2 · oil-level 2 · winter-TPMS 2 · 刹车 1/775 · **油压 0**/702  
+**词 7d：** with pictures **4/263** · squiggly lines **2/3** · lights meaning with pictures **1/136** · yellow transmission **1/8** · steering wheel with ! **1/3** · `low fuel level` 28d **0/304@8.8**
+
+**Quora #33：** ✅ oil pressure on while driving / dipstick OK → 油压（未答题）  
+https://www.quora.com/What-does-it-mean-when-your-cars-oil-pressure-light-comes-on-while-driving-but-there-s-no-sign-of-low-oil-in-the-car-or-on-the-dipstick/answer/Chen-Xiaochun
+
+**结论：** 周窗点/CTR/排名全升；图页稳住；气囊破 0；油压仍高展零点 → #33 回推；低油精确词观察至 **~11-22**。  
+**文件：** `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-18
 
 ### seo — GSC 自查 + Quora #32 ✅（动力转向 / 电池→EPS）
