@@ -140,13 +140,13 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "oil-pressure-warning-light",
     symbolSlug: "oil-pressure-warning",
-    title: "Oil Pressure Light Meaning — Red Oil Can Dashboard Warning",
+    title: "Oil Pressure Light Meaning — Red Oil Can (Stop Even If Dipstick Is Full)",
     metaDescription:
-      "Oil pressure light meaning: a red oil-can dash light that warns engine oil pressure may be too low. Learn what the oil sign in your car means, how it differs from an oil leak indicator, and when to stop driving.",
+      "Red oil-can / oil pressure light on while driving? Stop safely — pressure ≠ dipstick level. Causes when oil looks full, sensor vs real low pressure, and what to check first.",
     eyebrow: "Red engine warning",
     h1: "Oil Pressure Light Meaning",
     summary:
-      "The oil pressure warning light — also called the oil pressure indicator light — is red on most vehicles and shows an oil-can or genie-lamp symbol on the dashboard. It means engine oil pressure may be too low, not simply that an oil change is due, and low pressure can damage the engine within minutes.",
+      "The oil pressure warning light — also called the oil pressure indicator light — is red on most vehicles and shows an oil-can or genie-lamp symbol on the dashboard. It means engine oil pressure may be too low, not simply that an oil change is due. A full dipstick does not clear the warning — pressure and level are different — and low pressure can damage the engine within minutes.",
     colorText: "Red",
     canDriveText: "No. Stop safely.",
     urgency: "High",
@@ -175,6 +175,11 @@ export const guides: SymbolGuide[] = [
           "Look for obvious oil leaks under the car.",
           "Do not keep driving if the light remains on after topping up with the correct oil."
         ]
+      },
+      {
+        title: "Oil pressure light on but dipstick is full",
+        body:
+          "A full dipstick means oil quantity in the pan looks OK — it does not prove oil pressure is OK. The red oil-can light measures (or switches on) gallery pressure. Common causes when level looks fine: failing oil pump or pickup screen, wrong viscosity / very thin hot oil, worn bearings that bleed pressure, or a faulty pressure sender (prove with a mechanical gauge). Do not keep driving just because the stick looks full. If the light returns after a restart, tow and verify real pressure before assuming “just a sensor.” This is also not the amber low-oil-level reminder on some European cars."
       },
       {
         title: "Flickering vs steady oil pressure light",
@@ -213,6 +218,11 @@ export const guides: SymbolGuide[] = [
         question: "Which symbol warns that there is something wrong with your oil pressure?",
         answer:
           "The red oil-can (or dripping-oil / genie-lamp) icon on the dashboard. That is the engine oil pressure warning — not the amber fuel-pump icon and not a yellow oil-level reminder on some cars. When the red oil-can light comes on while driving, pull over, shut off the engine, and check oil level before continuing. On a dashboard symbol chart, look for the oil can in red."
+      },
+      {
+        question: "What does it mean when the oil pressure light is on but the dipstick is full?",
+        answer:
+          "Dipstick level and oil pressure are different. A full stick means quantity looks OK; the red oil-can light means measured pressure may still be too low (pump, pickup, thin oil, worn bearings) or the sender is faulty. Stop safely, shut off, then verify real pressure with a mechanical gauge before assuming it is only a sensor — do not limp many miles because the stick looks fine."
       },
       {
         question: "What does the oil pressure light mean?",
@@ -413,9 +423,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "brake-warning-light",
     symbolSlug: "brake-warning-light",
-    title: "Brake Warning Light Meaning — Red Circle With Exclamation Mark",
+    title: "Brake Warning Light Meaning — Red Circle With ! (BRAKE) & When to Stop",
     metaDescription:
-      "Brake warning light (red circle with ! or BRAKE)? Safe to drive? How it differs from ABS and TPMS, common causes, and what to check first.",
+      "Red circle with ! or BRAKE light? Parking brake, low fluid, or hydraulic fault — how it differs from ABS and TPMS horseshoe, and when not to keep driving.",
     eyebrow: "Brake system warning",
     h1: "Brake Warning Light Meaning",
     summary:
@@ -490,6 +500,11 @@ export const guides: SymbolGuide[] = [
         question: "Which symbol warns that there is something wrong with your brakes?",
         answer:
           "Usually the red circle with an exclamation mark (ISO brake symbol) or red BRAKE text. That warns the parking brake may be on, brake fluid may be low, or the hydraulic system needs attention. It is not the amber ABS letters and not the horseshoe TPMS icon. On a dashboard symbol chart, the red circle-with-! is the brake-system warning."
+      },
+      {
+        question: "Which symbol warns that there is something wrong with your breaks?",
+        answer:
+          "Same answer as “brakes”: the red circle with an exclamation mark (or red BRAKE text) is the brake-system warning. “Breaks” is a common misspelling of brakes. It is not the amber ABS letters and not the amber horseshoe TPMS icon. Release the parking brake first; if the light stays on or the pedal feels soft, do not keep driving."
       },
       {
         question: "What does the brake warning light look like?",

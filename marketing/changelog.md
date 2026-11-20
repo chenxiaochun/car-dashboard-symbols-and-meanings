@@ -7,6 +7,15 @@
 
 ## 2026-11-20
 
+### content — 油压 / 刹车轻补（对齐 GSC 高展低点）
+
+- **油压：** title/meta 贴「dipstick full / stop」；新节「Oil pressure light on but dipstick is full」+ FAQ（对齐 #33）
+- **刹车：** title/meta CTR；FAQ 补常见拼写 `breaks`（对齐 GSC which symbol…breaks）
+- **sitemap** `siteLastModified` → **2026-11-20**
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts`  
+**备注：** 部署后 IndexNow 油压+刹车；低油精确词仍观察至 ~11-22。
+
 ### seo — GSC 自查 + Quora #33 ✅（油压 / 满尺仍亮）
 
 **全站 28d：** **277 / 5.83万 / 0.5% / 7.9**（↑ 11-18：264 / 5.63万）  
