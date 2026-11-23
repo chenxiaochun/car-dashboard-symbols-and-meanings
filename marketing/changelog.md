@@ -5,6 +5,33 @@
 
 ---
 
+## 2026-11-23
+
+### content — 刹车 title 贴 which symbol
+
+- **刹车：** title → `Which Symbol Warns Brake Problems? Red Circle With ! (BRAKE) Meaning`；meta 含 breaks 拼写 + ABS/TPMS 区分
+- **sitemap** `siteLastModified` → **2026-11-23**
+
+**文件：** `lib/guides.ts` · `app/sitemap.ts`  
+**备注：** 对齐 GSC which-symbol 高展零点；部署后 IndexNow 刹车。
+
+### seo — GSC 自查 + Quora #34 ⏳（刹车 / 红感叹号）
+
+**全站 28d：** **271 / 6.2万 / 0.4% / 7.8**（vs 11-20：277 / 5.83万 / 0.5% / 7.9）  
+**全站 7d：** **78 / 1.91万 / 0.4% / 7.5**（vs 83；展↑；排名↑8.0→**7.5**）  
+数据约至 **11/21**，上次更新约 4 小时前。
+
+**页面 7d：** TC **39**/7,854 · 图页 **14**/1,637 · 变速箱 4 · 低油 3/2,251 · TPMS 3 · **气囊 3**/970 · oil-level 3 · 动力转向 2 · 电瓶 2 · **油压 1**/821（破 0）· 冷却液 1 · **刹车 0**/825  
+**词：** with pictures 7d **3/335** · 28d **10/849** · `low fuel level` 28d **0/329@8.6** · 刹车页 which-symbol 簇全 0
+
+**Quora #34：** ⏳ red exclamation point on dashboard → 刹车（待发）  
+https://www.quora.com/Can-any-of-you-boys-help-me-There-is-a-red-exclamation-point-on-my-cars-dashboard-What-does-it-mean
+
+**结论：** 油压破 0；刹车成最大 CTR 坑；低油精确词观察结束停追。  
+**文件：** `paste-today.md` · `quora-ready-to-paste.md`
+
+---
+
 ## 2026-11-20
 
 ### content — 油压 / 刹车轻补（对齐 GSC 高展低点）

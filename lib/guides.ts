@@ -423,9 +423,9 @@ export const guides: SymbolGuide[] = [
   {
     pageSlug: "brake-warning-light",
     symbolSlug: "brake-warning-light",
-    title: "Brake Warning Light Meaning — Red Circle With ! (BRAKE) & When to Stop",
+    title: "Which Symbol Warns Brake Problems? Red Circle With ! (BRAKE) Meaning",
     metaDescription:
-      "Red circle with ! or BRAKE light? Parking brake, low fluid, or hydraulic fault — how it differs from ABS and TPMS horseshoe, and when not to keep driving.",
+      "Which symbol warns something is wrong with your brakes (or “breaks”)? The red circle with ! or BRAKE text — parking brake, low fluid, or hydraulic fault; not ABS or TPMS.",
     eyebrow: "Brake system warning",
     h1: "Brake Warning Light Meaning",
     summary:

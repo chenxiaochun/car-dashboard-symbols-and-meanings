@@ -1,7 +1,7 @@
 # Quora 一键复制 — 问题 + 回答
 
 > 你手动发布即可。建议 **每天 1–2 条**，链接放在文末当 reference，不要每条都带链。  
-> **进度（2026-11-20）：** #1–3、#5–33 ✅ · #4 ⛔ · Reddit #1–10 ✅
+> **进度（2026-11-23）：** #1–3、#5–33 ✅ · **#34 待发** · #4 ⛔ · Reddit #1–10 ✅
 
 ---
 
@@ -9,6 +9,7 @@
 
 | 优先级 | 主题 | 状态 |
 |--------|------|------|
+| **34** | red exclamation point on dashboard（刹车符号） | ⏳ **待发** |
 | **33** | oil pressure on while driving / dipstick OK（油压） | ✅ **2026-11-20 已发** |
 | **32** | battery/disconnect → power steering light（动力转向） | ✅ **2026-11-18 已发** |
 | **31** | why warning lights are pictures not words（图页） | ✅ **2026-11-16 已发** |
@@ -41,6 +42,43 @@
 | 5 | 油压灯（有油还亮） | ✅ 2026-06-11 已发 |
 | 6 | ABS + 刹车灯 | ✅ 2026-06-12 已发 |
 | **8** | 电瓶灯行驶中闪烁 | ✅ 2026-07-06 已发 |
+
+---
+
+## 3️⃣4️⃣ red exclamation point on dashboard ⏳ 待发
+
+**问题：** Can any of you boys help me? There is a red exclamation point on my cars dashboard. What does it mean?  
+**链接：** https://www.quora.com/Can-any-of-you-boys-help-me-There-is-a-red-exclamation-point-on-my-cars-dashboard-What-does-it-mean  
+**链到：** `brake-warning-light`  
+**动机：** 11-23 GSC — 刹车 7d **0**/825；页内 `which symbol…breaks/brakes` **0/74+50** · `brake warning light symbol` **0/55**；与 #19（fluid level）/#20（pads）错开讲「红感叹号 = 哪个符号」。
+
+<details>
+<summary>复制回答</summary>
+
+```
+If it’s a red exclamation mark inside a circle (sometimes with brackets on the sides), or the word BRAKE in red — that is the brake-system warning.
+
+That’s the dashboard symbol that warns something may be wrong with your brakes (or that the parking brake / handbrake is still on). Quiz-style “which symbol warns… brakes/breaks?” questions almost always mean this red circle-with-!, not ABS and not tire pressure.
+
+Check in order:
+1. Parking brake fully released (and the switch under the lever/pedal isn’t stuck).
+2. Brake fluid level when safe — low fluid can mean worn pads or a leak.
+3. Pedal feel — soft, sinking, or longer stopping distance → don’t keep driving; inspect or tow.
+
+Don’t confuse it with:
+• Amber ABS letters → anti-lock may be offline; normal braking often still works
+• Amber horseshoe / U-shape → TPMS tire pressure, not brakes
+• Steering-wheel-with-! → usually electric power steering / voltage, not the main brake light
+
+More on the red circle-with-! / BRAKE warning:
+https://warninglightfinder.com/symbols/brake-warning-light/
+
+Is yours a circle with ! in the middle, or a triangle with ! (general caution — different icon)?
+```
+
+</details>
+
+**备注：** 发后观察约 1–3 周（至 ~12-14）。站内 title 已贴 which symbol；低油精确词观察结束仍 0 → 不再追 title。
 
 ---
 
@@ -77,7 +115,7 @@ https://warninglightfinder.com/symbols/oil-pressure-warning-light/
 
 </details>
 
-**备注：** 观察约 1–3 周（至 ~12-11）。低油精确词继续观察到 ~11-22；下次可刹车 CTR 或 Pin 8。
+**备注：** 观察约 1–3 周（至 ~12-11）。#34 ⏳ 刹车 which-symbol；低油精确词观察结束仍 0@8.6 → 停追 title。
 
 ---
 
