@@ -5,6 +5,20 @@
 
 ---
 
+## 2026-11-24
+
+### content — 刹车 / 气囊 / 图页轻补（对齐 11-23 GSC）
+
+- **刹车：** 新节「parking brake off 仍亮」「行驶中亮灭」；FAQ 补 red exclamation / brake warning light symbol / intermittent
+- **气囊：** 新节「挪座椅 / 换电后亮」；FAQ 补 person-with-airbag 符号
+- **图页：** `dateModified` / Last updated → **11-24**；FAQ 补 circle-with-! vs horseshoe
+- **sitemap** `siteLastModified` + `chartLastModified` → **2026-11-24**
+
+**文件：** `lib/guides.ts` · `app/dashboard-warning-lights-chart/page.tsx` · `app/sitemap.ts`  
+**备注：** 对齐刹车 0/825 + which-symbol 词、气囊周点升、图页展↑点软；部署后 IndexNow 刹车/气囊/图页。Quora #34 仍待发。
+
+---
+
 ## 2026-11-23
 
 ### content — 刹车 title 贴 which symbol

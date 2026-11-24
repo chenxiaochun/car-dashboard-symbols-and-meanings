@@ -488,6 +488,16 @@ export const guides: SymbolGuide[] = [
         title: "Brake warning light still on after new pads or rotors",
         body:
           "Replacing pads and rotors often does not clear a red brake warning by itself. New pads let caliper pistons retract farther, which can drop the reservoir level below the float sensor — top up with the correct DOT fluid to the Max mark if low. Air left in the lines after service can trip a pressure-differential switch (soft pedal is a clue). Also confirm the parking-brake switch is fully released and any pad-wear sensor plugs were reconnected. If the pedal feels normal and fluid is correct but the light stays on, scan for brake/ABS codes rather than guessing."
+      },
+      {
+        title: "Brake light on but parking brake is off",
+        body:
+          "If the red circle-with-! or BRAKE light stays on after you fully released the handbrake / electronic parking brake, treat it as a brake-system warning — not “just the e-brake.” Check fluid level when safe, note whether the pedal feels soft or longer, and look for a stuck parking-brake switch under the lever or pedal. On cars with an EPB button, cycle park → drive → park once after a battery event; a stuck EPB switch or low fluid can keep the same red icon lit."
+      },
+      {
+        title: "Brake warning light comes on and goes off while driving",
+        body:
+          "An intermittent red brake light often means fluid is near the Min mark and sloshes away from the float on turns or hills, a marginal parking-brake switch, or a pressure-differential switch sensing uneven hydraulic circuits. Do not ignore a light that “only flickers.” Top up to Max with the correct DOT fluid if low, confirm the parking brake fully releases, and have the system inspected if the light returns — especially with a soft pedal."
       }
     ],
     faqs: [
@@ -495,6 +505,16 @@ export const guides: SymbolGuide[] = [
         question: "What does the brake warning light mean?",
         answer:
           "The brake warning light — usually a red circle with an exclamation mark, or red BRAKE text — means the parking brake may still be on, brake fluid may be low, or there is a hydraulic brake-system fault. Release the parking brake first. If the light stays on, check fluid when safe and note pedal feel. Soft or sinking pedal means do not keep driving; get the system inspected or towed. It is not the amber ABS letters and not the horseshoe TPMS icon."
+      },
+      {
+        question: "What does a red exclamation point on the dashboard mean?",
+        answer:
+          "If it is a red exclamation mark inside a circle (sometimes with side brackets), or red BRAKE text, it is the brake-system warning — parking brake on, low fluid, or hydraulic fault. That is the symbol quiz questions mean by “which symbol warns something is wrong with your brakes/breaks.” A triangle with ! is often a general caution lamp (different icon). Amber horseshoe with ! is usually TPMS, not brakes."
+      },
+      {
+        question: "What is the dashboard brake warning light symbol?",
+        answer:
+          "The dashboard brake warning light symbol is typically a red circle with an exclamation mark in the center (ISO brake icon), sometimes with curved brackets, or the word BRAKE in red. It is not the amber ABS letters and not the amber horseshoe TPMS icon. Match color (red) and shape (full circle with !) on a symbol chart when identifying it."
       },
       {
         question: "Which symbol warns that there is something wrong with your brakes?",
@@ -555,6 +575,16 @@ export const guides: SymbolGuide[] = [
         question: "Is the brake warning light the same as the ABS light?",
         answer:
           "No. The brake warning light is usually red (circle with ! or BRAKE) and can involve the main hydraulic system or parking brake. The ABS light is usually amber letters and means anti-lock may be offline while normal braking often still works. Both on together raises urgency — inspect before a long trip."
+      },
+      {
+        question: "Why is the brake warning light on with the parking brake off?",
+        answer:
+          "Once the parking brake is fully released, a red circle-with-! or BRAKE light that stays on usually means low brake fluid, a hydraulic imbalance, a stuck parking-brake switch, or another brake-system fault. Check fluid when safe and note pedal feel. Soft or sinking pedal means do not keep driving."
+      },
+      {
+        question: "Why does the brake light come on and go off while driving?",
+        answer:
+          "Intermittent red brake warnings often mean fluid near Min (sloshing on turns), a marginal parking-brake switch, or a pressure-differential switch. Top up to Max with the correct DOT fluid if low, confirm the e-brake fully releases, and get an inspection if it keeps returning — especially with changed pedal feel."
       }
     ],
     related: [
@@ -1027,6 +1057,11 @@ export const guides: SymbolGuide[] = [
           "Often yes for at least part of the system — the module has detected a fault and may inhibit deployment of one or more bags or pretensioners until repaired. It does not always mean every bag is dead, but you should treat protection as unreliable until scanned and fixed. Do not clear the light and ignore it."
       },
       {
+        title: "Airbag light after moving the seats or a battery change",
+        body:
+          "Seat tracks hide occupancy-sensor and pretensioner connectors. Sliding the seat fully forward/back for cleaning, installing covers, or working under the seat can unplug or pinch a connector and set the amber person-with-airbag light. A weak battery or jump-start can also store a temporary SRS code. Reseat connectors under both front seats if you recently moved them, confirm battery voltage is healthy, then scan SRS codes — do not keep clearing the light without a fix."
+      },
+      {
         title: "Why you should not ignore it",
         body: "Unlike an engine maintenance light, an airbag fault affects crash protection. The vehicle may still be drivable, but airbags or pretensioners may not work as designed until the fault is repaired."
       }
@@ -1036,6 +1071,11 @@ export const guides: SymbolGuide[] = [
         question: "What does the airbag warning light mean?",
         answer:
           "It means the supplemental restraint system (SRS) stored a fault — airbags, pretensioners, sensors, clock spring, or wiring. The icon is usually a seated person with an airbag, or SRS / AIR BAG text in amber. The car may still drive, but crash protection may be reduced until diagnosed."
+      },
+      {
+        question: "What does the person with airbag symbol on the dash mean?",
+        answer:
+          "The seated person with a circle (airbag) in front — or SRS / AIR BAG letters — is the restraint-system warning. It means a fault was stored and crash protection may be reduced until scanned and repaired. It is not the red brake circle-with-! and not the check-engine outline."
       },
       {
         question: "If the airbag SRS light is on, does that mean the airbag system is disabled?",
@@ -1056,6 +1096,11 @@ export const guides: SymbolGuide[] = [
         question: "What does the SRS light look like on the dashboard?",
         answer:
           "Usually a seated figure with a round airbag in front, or the letters SRS / AIR BAG. Color is typically amber or yellow. Confirm in your owner's manual — brands vary the artwork slightly."
+      },
+      {
+        question: "Why did the airbag light come on after I moved the seats?",
+        answer:
+          "Occupancy-sensor and pretensioner wiring runs under the seats. Sliding seats fully or working under them can unseat a connector and trigger the amber person-with-airbag / SRS light. Reseat connectors carefully, then get an SRS scan — do not ignore the light even if the car drives normally."
       }
     ],
     related: [

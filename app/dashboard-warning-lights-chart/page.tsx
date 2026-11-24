@@ -59,6 +59,11 @@ const chartFaqs = [
     question: "Why are car warning lights pictures and not words?",
     answer:
       "Clusters ship worldwide: one ISO-style icon (oil can, fuel pump, horseshoe, thermometer, circle with !) avoids dozens of translations and fits a small dial. Pictures also read faster while driving; color carries urgency (red vs amber). The downside is unfamiliar icons — use a chart with pictures to match shape and color, then confirm in your owner’s manual."
+  },
+  {
+    question: "How do I tell brake circle-with-! from TPMS horseshoe on a picture chart?",
+    answer:
+      "On a dashboard symbols chart with pictures: red full circle with ! (or BRAKE text) = brake system / parking brake. Amber U-shape or horseshoe with ! = TPMS tire pressure. Same “exclamation” idea, different outline and usually different color — match shape first, then color, then open the linked guide."
   }
 ] as const;
 
@@ -70,7 +75,7 @@ const chartJsonLd = {
     "Car dashboard symbols and meanings with pictures: a printable visual identification chart by color, meaning, and urgency.",
   url: chartUrl,
   inLanguage: "en-US",
-  dateModified: "2026-11-16",
+  dateModified: "2026-11-24",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -116,7 +121,7 @@ export default function DashboardWarningLightsChartPage() {
           <a href="#chart">View chart</a>
           <PrintButton>Print chart</PrintButton>
         </div>
-        <p className="updated-note">Last updated: November 16, 2026.</p>
+        <p className="updated-note">Last updated: November 24, 2026.</p>
       </header>
 
       <main className="article-body">
