@@ -223,6 +223,38 @@ Icons vary by make/model — confirm with your owner’s manual.
 
 ---
 
+## Pin 8 — Dashboard Chart（with pictures 再推）⏳ 待发
+
+**File:** `pinterest-dashboard-warning-lights-chart.png`（与 Pin 7 同图，可重发）  
+**Destination link:** https://warninglightfinder.com/dashboard-warning-lights-chart/  
+**动机：** 11-26 GSC — 图页 7d **11**/1,745（展↑点软）；`with pictures` 28d **11/943**；距 Pin 7（10-27）约 1 个月。
+
+**Title:**
+```
+Car Dashboard Symbols and Meanings With Pictures — Free Chart
+```
+
+**Description:**
+```
+Need car dashboard symbols and meanings with pictures?
+
+1. Match the shape — oil can ≠ fuel pump ≠ horseshoe ≠ red circle with !
+2. Note color — red = stop/check soon; amber = inspect soon
+3. Print one page for the glovebox
+
+Free printable chart:
+https://warninglightfinder.com/dashboard-warning-lights-chart/
+
+Confirm artwork in your owner’s manual for your make/year.
+
+#dashboardsymbols #withpictures #warninglights #cartips #printablechart #carsafety #warninglightfinder
+```
+
+**Board suggestion:** Car Tips & Dashboard Warning Lights  
+**备注：** 先发 Quora #34（刹车）；本 Pin 可同日或隔 1 天发。
+
+---
+
 ## Posting checklist
 
 1. Pinterest → **Create** → upload image  
