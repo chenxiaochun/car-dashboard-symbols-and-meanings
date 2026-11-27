@@ -7,7 +7,7 @@
 
 ## 2026-11-27
 
-### seo — GSC 自查；#34 仍未发
+### seo — GSC 自查 + Quora #34 ✅（刹车 / 红感叹号）
 
 **全站 28d：** **290 / 6.58万 / 0.4% / 7.7**（↑ 11-26：283 / 6.42万）  
 **全站 7d：** **87 / 1.97万 / 0.4% / 7.2**（≈；展↑）  
@@ -16,8 +16,11 @@
 **页面 7d：** TC 41 · 图页 **13**/1,860（回升）· 变速箱 7 · TPMS 6 · 低油 4 · **冷却液 2**/1,013 · 油压 1 · **刹车 0**/813  
 **刹车页 28d：** 8/2,710@**8.2**；which-symbol / breaks 簇仍 0  
 
-**结论：** 站内不大改；**立刻发 Quora #34**；可选 Pin 8。  
-**文件：** `paste-today.md`
+**Quora #34：** ✅ red exclamation point → 刹车  
+https://www.quora.com/Can-any-of-you-boys-help-me-There-is-a-red-exclamation-point-on-my-cars-dashboard-What-does-it-mean/answer/Chen-Xiaochun
+
+**结论：** #34 已发；观察刹车 which-symbol；下次 Pin 8 或冷却液。  
+**文件：** `paste-today.md` · `quora-ready-to-paste.md`
 
 ---
 
